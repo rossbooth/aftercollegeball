@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import * as d3 from 'd3';
 import { sankey, sankeyLinkHorizontal, SankeyNode as D3SankeyNode, SankeyLink as D3SankeyLink } from 'd3-sankey';
+import { trackCategoryClick, trackBackToOverview, trackFlowHover } from '@/lib/analytics';
 import { colors, bucketLabels, type BucketKey } from '@/lib/colors';
 import type { SankeyData, ViewLevel } from '@/lib/types';
 import CountryBreakdown from './CountryBreakdown';
@@ -272,6 +273,7 @@ export default function SankeyDiagram() {
       .on('click', function (_, d) {
         const targetNode = d.target as SNode;
         if (currentView === 'level1' && CLICKABLE_IDS.has(targetNode.id)) {
+          trackCategoryClick(targetNode.id);
           setCurrentView(targetNode.id as ViewLevel);
         }
       });
@@ -408,6 +410,7 @@ export default function SankeyDiagram() {
   }, [data, dimensions, currentView]);
 
   const handleBack = useCallback(() => {
+    trackBackToOverview();
     setCurrentView('level1');
   }, []);
 

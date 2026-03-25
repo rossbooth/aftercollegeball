@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useEffect, useState, useCallback } from 'react';
+import { trackPlayerTableToggle, trackYearTabClick, trackPlayerSearch, trackPlayerExpand, trackDestinationFilter } from '@/lib/analytics';
 import { colors } from '@/lib/colors';
 import type { ViewLevel } from '@/lib/types';
 
@@ -123,7 +124,10 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
   }, [activeYear, currentView, searchQuery, destFilter, activeFilter]);
 
   const toggleOpen = useCallback(() => {
-    setIsOpen((prev) => !prev);
+    setIsOpen((prev) => {
+      trackPlayerTableToggle(!prev);
+      return !prev;
+    });
   }, []);
 
   // Filter players
@@ -193,7 +197,7 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
             {YEARS.map((year) => (
               <button
                 key={year}
-                onClick={() => setActiveYear(year)}
+                onClick={() => { trackYearTabClick(year); setActiveYear(year); }}
                 className="px-3 sm:px-4 py-2.5 text-xs sm:text-sm font-medium whitespace-nowrap transition-colors min-h-[44px]"
                 style={{
                   color:
@@ -219,7 +223,7 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
             <input
               type="text"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={(e) => { setSearchQuery(e.target.value); if (e.target.value.length === 3) trackPlayerSearch(e.target.value); }}
               placeholder="Search player or school..."
               className="bg-transparent px-3 py-2 rounded-lg text-sm border flex-1 min-w-0 w-full sm:w-auto sm:min-w-[180px]"
               style={{
@@ -231,7 +235,7 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
             {currentView === 'level1' && (
               <select
                 value={destFilter}
-                onChange={(e) => setDestFilter(e.target.value)}
+                onChange={(e) => { trackDestinationFilter(e.target.value); setDestFilter(e.target.value); }}
                 className="bg-transparent px-3 py-2 rounded-lg text-sm border cursor-pointer min-h-[44px]"
                 style={{
                   color: colors.text.primary,
@@ -341,7 +345,7 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
                           style={{
                             borderBottom: expandedPlayer === playerKey ? 'none' : '1px solid rgba(255,255,255,0.03)',
                           }}
-                          onClick={() => setExpandedPlayer(expandedPlayer === playerKey ? null : playerKey)}
+                          onClick={() => { const next = expandedPlayer === playerKey ? null : playerKey; if (next) trackPlayerExpand(player.name); setExpandedPlayer(next); }}
                           onMouseEnter={(e) => {
                             (e.currentTarget as HTMLElement).style.background =
                               colors.bg.hover;

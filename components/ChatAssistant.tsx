@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useRef, useEffect, useCallback } from 'react';
+import { trackChatQuestion, trackChatResponse } from '@/lib/analytics';
 import { colors } from '@/lib/colors';
 import type { ChatStatsData, ChatStatsTopic } from '@/lib/types';
 
@@ -151,10 +152,12 @@ export default function ChatAssistant() {
     async (query: string) => {
       if (!query.trim()) return;
 
-      const userMsg: Message = { role: 'user', content: query.trim() };
+      const trimmed = query.trim();
+      const userMsg: Message = { role: 'user', content: trimmed };
       setMessages(prev => [...prev, userMsg]);
       setInput('');
       setIsTyping(true);
+      trackChatQuestion(trimmed);
 
       try {
         const res = await fetch('/api/chat', {
@@ -165,6 +168,7 @@ export default function ChatAssistant() {
         const data = await res.json();
         const answer = data.answer || data.error || 'Sorry, something went wrong.';
         setMessages(prev => [...prev, { role: 'assistant', content: answer }]);
+        trackChatResponse(trimmed, true);
       } catch {
         // Fallback to local matching
         let answer: string;
@@ -174,6 +178,7 @@ export default function ChatAssistant() {
           answer = 'Unable to connect. Please try again.';
         }
         setMessages(prev => [...prev, { role: 'assistant', content: answer }]);
+        trackChatResponse(trimmed, false);
       } finally {
         setIsTyping(false);
       }
