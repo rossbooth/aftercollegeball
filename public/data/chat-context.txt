@@ -3,207 +3,207 @@ NBA:816(4.4%) avg14.8PPG | G-League:1065(5.7%) avg12.1PPG | Europe:2073(11.1%) a
 Top NBA schools: Kentucky(41) Duke(40) Arizona(20) Kansas(19) Gonzaga(17)
 G-League→NBA:48(4.5%) | G-League→Intl:640(60%) | Europe→NBA:25 | Other Intl→NBA:21
 
-# Top 200 College Scorers (final season) with Pro Destination
-1. Steve Wooten (Tennessee-Martin, 2020-2021): 31.4PPG 11.9RPG 2.6APG → went pro: International, first team: Pioneros del Avila
-2. Chris Clemons (Campbell, 2018-2019): 30.1PPG 5.1RPG 2.8APG → went pro: nba, first team: Houston Rockets
-3. Marcus Keene (Central Michigan, 2016-2017): 30.0PPG 4.5RPG 4.9APG → went pro: International, first team: Reale Mutua Torino
-4. Shaden Knight (Long Beach State, 2024-2025): 29.5PPG 3.5RPG 3.3APG → no pro career
-5. Brian Halums (Ole Miss, 2019-2020): 28.8PPG 8.6RPG 1.9APG → went pro: International, first team: Nadim Souaid Academy
-6. Deshawn Munson (Jackson State, 2019-2020): 28.5PPG 11.4RPG 8.1APG → no pro career
-7. Antoine Davis (Detroit-Mercy, 2022-2023): 28.2PPG 3.0RPG 3.6APG → went pro: G-League, first team: Portland Trail Blazers
-8. Markus Howard (Marquette, 2019-2020): 27.8PPG 3.5RPG 3.3APG → went pro: nba, first team: Denver Nuggets
-9. Dayon Goodman (Utah Valley, 2017-2018): 27.7PPG 8.5RPG 3.2APG → went pro: International, first team: MBK Rieker Komarno
-10. Trae Young (Oklahoma, 2017-2018): 27.4PPG 3.9RPG 8.7APG → went pro: nba, first team: Atlanta Hawks
-11. Mark Gordon (Bethune-Cookman, 2019-2020): 27.4PPG 6.6RPG 3.0APG → no pro career
-12. Marquill Smith (San Francisco, 2018-2019): 27.3PPG 8.7RPG 1.6APG → went pro: G-League, first team: Sioux Falls Skyforce
-13. Justin Wright-Foreman (Hofstra, 2018-2019): 27.1PPG 4.0RPG 2.9APG → went pro: nba, first team: Utah Jazz
-14. Alex Vargo (North Florida, 2023-2024): 26.7PPG 6.1RPG 3.1APG → no pro career
-15. Steven Soukup (Iowa, 2016-2017): 26.4PPG 6.3RPG 2.6APG → no pro career
-16. Jalen Adams (St. Bonaventure, 2017-2018): 26.2PPG 10.7RPG 1.4APG → no pro career
-17. Tiwian Kendley (Morgan State, 2017-2018): 26.1PPG 4.0RPG 2.2APG → went pro: G-League, first team: Washington Wizards
-18. Gage Davis (Fort Wayne, 2018-2019): 26.0PPG 7.5RPG 3.3APG → went pro: G-League, first team: Windy City Bulls
-19. Kendrick Nunn (Oakland, 2017-2018): 25.9PPG 4.7RPG 3.8APG → went pro: nba, first team: Golden State Warriors
-20. Lamine Diane (Cal State Northridge, 2019-2020): 25.6PPG 10.2RPG 2.8APG → went pro: G-League, first team: Philadelphia Sixers
-21. Tray Buchanan (South Dakota State, 2021-2022): 25.6PPG 3.9RPG 3.1APG → went pro: International, first team: Proteas EKA AEL
-22. A.J. Dybantsa (Brigham Young, 2025-2026): 25.5PPG 6.8RPG 3.7APG → went pro: International, first team: Expressions Elite (MA)
-23. Mike Daum (South Dakota State, 2018-2019): 25.3PPG 11.7RPG 1.8APG → went pro: International, first team: Monbus Obradoiro
-24. Peter Kiss (Bryant, 2021-2022): 25.2PPG 5.8RPG 3.2APG → went pro: International, first team: Soles
-25. Zach Edey (Purdue, 2023-2024): 25.2PPG 12.2RPG 2.0APG → went pro: nba, first team: Memphis Grizzlies
-26. Antwan Kimmons (Northern Iowa, 2024-2025): 25.2PPG 6.4RPG 5.7APG → went pro: International, first team: Grand Rapids Gold
-27. Jordan Howard (Central Arkansas, 2017-2018): 25.1PPG 3.6RPG 2.7APG → went pro: G-League, first team: Santa Cruz Warriors
-28. Buddy Hield (Oklahoma, 2015-2016): 25.0PPG 5.7RPG 2.0APG → went pro: nba, first team: New Orleans Pelicans
-29. Jermaine Marrow (Hampton, 2019-2020): 24.8PPG 3.2RPG 6.5APG → went pro: International, first team: Hestia Menorca
-30. Ja Morant (Murray State, 2018-2019): 24.5PPG 5.7RPG 10.0APG → went pro: nba, first team: Memphis Grizzlies
-31. Dante Moses (Radford, 2022-2023): 24.5PPG 6.6RPG 2.1APG → went pro: International, first team: BK Inter Bratislava
-32. Drew Lutz (Incarnate Word, 2023-2024): 24.5PPG 3.9RPG 3.8APG → no pro career
-33. Kay Felder (Oakland, 2015-2016): 24.4PPG 4.3RPG 9.3APG → went pro: nba, first team: Cleveland Cavaliers
-34. Suki Wiggs (Idaho, 2016-2017): 24.4PPG 5.6RPG 2.8APG → went pro: G-League, first team: Westchester Knicks
-35. Charlie Yoder (Abilene Christian, 2024-2025): 24.4PPG 7.9RPG 3.5APG → no pro career
-36. Raysean Scott, Jr. (Florida Gulf Coast, 2019-2020): 24.3PPG 8.0RPG 2.7APG → no pro career
-37. Tre Evans (Fordham, 2018-2019): 24.3PPG 7.4RPG 4.0APG → no pro career
-38. Carsen Edwards (Purdue, 2018-2019): 24.3PPG 3.6RPG 2.9APG → went pro: nba, first team: Boston Celtics
-39. Josh Adams (Wyoming, 2015-2016): 24.2PPG 5.6RPG 4.3APG → went pro: International, first team: Avtodor Saratov
-40. Javonte Douglas (Old Dominion, 2016-2017): 24.2PPG 11.3RPG 1.1APG → went pro: International, first team: Taranaki Mountain Airs
-41. Luka Garza (Iowa, 2020-2021): 24.1PPG 8.7RPG 1.7APG → went pro: nba, first team: Detroit Pistons
-42. Dakari Johnson (Campbell, 2019-2020): 24.1PPG 5.1RPG 3.5APG → no pro career
-43. Taylor Currie (Akron, 2022-2023): 24.0PPG 9.7RPG 0.7APG → went pro: International, first team: Tundja Yambol
-44. Tommy Bruner (Denver, 2023-2024): 24.0PPG 2.8RPG 4.2APG → went pro: G-League, first team: Rip City Remix
-45. Terion Moss (Maine, 2022-2023): 24.0PPG 5.8RPG 4.8APG → no pro career
-46. Dior Johnson (Tarleton State, 2025-2026): 24.0PPG 3.3RPG 1.6APG → no pro career
-47. Dallas Moore (North Florida, 2016-2017): 23.9PPG 3.1RPG 4.0APG → went pro: International, first team: Carpegna Prosciutto Basket Pesaro
-48. Keshawn Liggins (Idaho State, 2017-2018): 23.8PPG 10.4RPG 3.2APG → went pro: International, first team: Grand Rapids Drive
-49. Joe Liedel (Detroit-Mercy, 2024-2025): 23.8PPG 6.6RPG 2.8APG → no pro career
-50. Nick Mayo (Eastern Kentucky, 2018-2019): 23.7PPG 8.7RPG 2.3APG → went pro: International, first team: Chiba Jets
-51. Nate Webb (Brigham Young, 2021-2022): 23.7PPG 7.5RPG 1.2APG → no pro career
-52. Stefan Moody (Ole Miss, 2015-2016): 23.6PPG 3.2RPG 4.3APG → went pro: International, first team: Trabzonspor
-53. Jordan Riley (East Carolina, 2025-2026): 23.6PPG 6.0RPG 2.5APG → no pro career
-54. Cat Barber (NC State, 2015-2016): 23.5PPG 4.6RPG 4.5APG → went pro: nba, first team: Philadelphia Sixers
-55. Jamil Hood (Long Island, 2021-2022): 23.5PPG 6.0RPG 2.1APG → went pro: International, first team: LTHCast Skofja
-56. Jordan Davis (Northern Colorado, 2018-2019): 23.5PPG 4.7RPG 4.7APG → went pro: International, first team: BAXI Manresa
-57. Cameron Young (Quinnipiac, 2018-2019): 23.5PPG 5.1RPG 1.9APG → went pro: International, first team: Acqua San Bernardo Cantu
-58. Keegan Murray (Iowa, 2021-2022): 23.5PPG 8.7RPG 1.5APG → went pro: nba, first team: Sacramento Kings
-59. P.J. Haggerty (Kansas State, 2025-2026): 23.4PPG 5.3RPG 3.8APG → no pro career
-60. Demontrae Jefferson (Texas Southern, 2017-2018): 23.3PPG 3.1RPG 4.6APG → no pro career
-61. Tra'Quan Knight (Detroit-Mercy, 2019-2020): 23.3PPG 7.7RPG 3.4APG → no pro career
-62. Eric Dixon (Villanova, 2024-2025): 23.3PPG 5.1RPG 1.9APG → went pro: G-League, first team: Los Angeles Lakers
-63. Cobie Barnes (SIU-Edwardsville, 2023-2024): 23.3PPG 7.2RPG 2.4APG → no pro career
-64. Daeshun Ruffin (Jackson State, 2025-2026): 23.3PPG 2.8RPG 5.3APG → no pro career
-65. Darius Acuff, Jr. (Arkansas, 2025-2026): 23.3PPG 3.1RPG 6.5APG → went pro: International, first team: The Family (MI)
-66. Markelle Fultz (Washington, 2016-2017): 23.2PPG 5.7RPG 5.9APG → went pro: nba, first team: Philadelphia Sixers
-67. Dominique Daniels, Jr. (California Baptist, 2025-2026): 23.2PPG 3.8RPG 3.2APG → no pro career
-68. Tyler Harvey (Eastern Washington, 2014-2015): 23.1PPG 3.6RPG 2.6APG → went pro: G-League, first team: Erie BayHawks (2008)
-69. Obi Emegano (Oral Roberts, 2015-2016): 23.1PPG 5.1RPG 1.8APG → went pro: International, first team: Novipiu Casale Monferrato
-70. Wayne Arnold (Cal State Fullerton, 2021-2022): 23.1PPG 4.4RPG 1.1APG → went pro: International, first team: KB Kalaja Prizren
-71. Raquan Mitchell (Colorado State, 2019-2020): 23.1PPG 4.6RPG 3.6APG → went pro: International, first team: BC Levski Lukoil
-72. Alec Peters (Valparaiso, 2016-2017): 23.0PPG 10.1RPG 2.2APG → went pro: nba, first team: Phoenix Suns
-73. Aaron Nesmith (Vanderbilt, 2019-2020): 23.0PPG 4.9RPG 0.9APG → went pro: nba, first team: Boston Celtics
-74. Cam Thomas (LSU, 2020-2021): 23.0PPG 3.4RPG 1.4APG → went pro: nba, first team: Brooklyn Nets
-75. Terrence Shannon, Jr. (Illinois, 2023-2024): 23.0PPG 4.0RPG 2.3APG → went pro: nba, first team: Minnesota Timberwolves
-76. Nick Martinelli (Northwestern, 2025-2026): 23.0PPG 6.2RPG 2.0APG → no pro career
-77. Jaizec Lottie (Little Rock, 2021-2022): 22.9PPG 6.6RPG 4.8APG → went pro: International, first team: BBC Monthey
-78. Terryonte Thomas (Sam Houston State, 2021-2022): 22.9PPG 8.0RPG 3.4APG → no pro career
-79. Taylor Stafford (Evansville, 2016-2017): 22.8PPG 5.0RPG 3.5APG → went pro: International, first team: Hottur Egilsstadir
-80. Ronnie Rousseau III (Missouri State, 2019-2020): 22.8PPG 2.4RPG 2.7APG → went pro: International, first team: Mega Tbilisi
-81. Darius McGhee (Liberty, 2022-2023): 22.8PPG 3.3RPG 3.0APG → went pro: G-League, first team: Indiana Pacers
-82. Ebuka Okorie (Stanford, 2025-2026): 22.8PPG 3.7RPG 3.5APG → went pro: International, first team: Rivals Basketball (MA)
-83. Kami Young (Rider, 2024-2025): 22.7PPG 3.3RPG 4.9APG → no pro career
-84. A.J. English III (Iona, 2015-2016): 22.6PPG 5.0RPG 6.2APG → went pro: International, first team: Fraport Skyliners
-85. Bryson Scott (Fort Wayne, 2017-2018): 22.6PPG 4.5RPG 2.6APG → went pro: G-League, first team: Raptors 905
-86. R.J. Barrett (Duke, 2018-2019): 22.6PPG 7.6RPG 4.3APG → went pro: nba, first team: New York Knicks
-87. Zion Williamson (Duke, 2018-2019): 22.6PPG 8.9RPG 2.1APG → went pro: nba, first team: New Orleans Pelicans
-88. Rashawn Thomas (Texas A&M-CC, 2016-2017): 22.5PPG 9.0RPG 2.7APG → went pro: G-League, first team: Oklahoma City Thunder
-89. Andre Spight (Northern Colorado, 2017-2018): 22.5PPG 3.9RPG 3.7APG → went pro: G-League, first team: Wisconsin Herd
-90. Tyler Thomas (Hofstra, 2023-2024): 22.5PPG 5.2RPG 3.3APG → went pro: International, first team: Alba Fehervar
-91. Grant Lozoya (Stetson, 2018-2019): 22.4PPG 6.3RPG 3.6APG → went pro: International, first team: CB L'Hospitalet
-92. Ty Cockfield (Arkansas State, 2018-2019): 22.4PPG 3.6RPG 3.2APG → went pro: International, first team: Charilaos Trikoupis Mesologiou
-93. Cameron Boozer (Duke, 2025-2026): 22.4PPG 10.3RPG 4.2APG → no pro career
-94. Keon Johnson (Winthrop, 2016-2017): 22.3PPG 4.0RPG 2.6APG → went pro: International, first team: Sigal Prishtina
-95. Loren Cristian Jackson (Akron, 2020-2021): 22.3PPG 3.1RPG 6.1APG → went pro: International, first team: Chorale Roanne Basket
-96. Jordan Walker (UAB, 2022-2023): 22.3PPG 2.7RPG 4.2APG → went pro: G-League, first team: Dallas Mavericks
-97. Justin Jones (South Carolina State, 2019-2020): 22.3PPG 3.6RPG 1.8APG → went pro: International, first team: KB Kalaja Prizren
-98. Tyrone Nesby IV (Wagner, 2023-2024): 22.3PPG 5.5RPG 0.6APG → no pro career
-99. Tyler Haws (Brigham Young, 2014-2015): 22.2PPG 4.5RPG 2.4APG → went pro: International, first team: Monbus Obradoiro
-100. Tyler Nelson (Fairfield, 2017-2018): 22.2PPG 4.2RPG 3.3APG → went pro: G-League, first team: Greensboro Swarm
-101. Kevin Punter (Tennessee, 2015-2016): 22.2PPG 3.5RPG 3.5APG → went pro: International, first team: Port of Antwerp Giants
-102. Matt Morgan (Cornell, 2018-2019): 22.2PPG 4.5RPG 3.0APG → went pro: G-League, first team: Toronto Raptors
-103. Yoeli Childs (Brigham Young, 2019-2020): 22.2PPG 9.0RPG 2.1APG → went pro: G-League, first team: Washington Wizards
-104. Xavier Johnson (Southern Illinois, 2023-2024): 22.2PPG 4.1RPG 6.1APG → went pro: International, first team: Gipuzkoa Basket
-105. Trey Freeman (Old Dominion, 2015-2016): 22.1PPG 4.2RPG 3.0APG → went pro: G-League, first team: Detroit Pistons
-106. Jack Gibbs (Davidson, 2016-2017): 22.1PPG 4.0RPG 4.1APG → went pro: International, first team: Proximus Spirou Charleroi
-107. Justin James (Wyoming, 2018-2019): 22.1PPG 8.5RPG 4.4APG → went pro: nba, first team: Sacramento Kings
-108. Justin Brown (UNC Asheville, 2019-2020): 22.1PPG 4.3RPG 1.9APG → no pro career
-109. Taevion Kinsey (Marshall, 2022-2023): 22.1PPG 4.9RPG 5.4APG → went pro: G-League, first team: Utah Jazz
-110. Trenton McLaughlin (Northern Arizona, 2024-2025): 22.1PPG 3.6RPG 3.4APG → went pro: International, first team: Kedainiai Nevezis
-111. Josh Hubbard (Mississippi State, 2025-2026): 22.1PPG 2.5RPG 3.6APG → went pro: International, first team: Team Thad (TN)
-112. Shaun Stewart (Youngstown State, 2016-2017): 22.0PPG 4.7RPG 3.2APG → went pro: International, first team: ADO Basquetebol Sad Ovarense
-113. Junior Robinson (Mount St. Mary's, 2017-2018): 22.0PPG 2.9RPG 4.8APG → went pro: International, first team: Saenz Horeca Araberri
-114. Mark Matthews (UNC Wilmington, 2019-2020): 22.0PPG 7.1RPG 5.2APG → no pro career
-115. Adarius Avery (Loyola (IL), 2018-2019): 22.0PPG 10.4RPG 2.4APG → went pro: International, first team: Arantia Larochette
-116. Tavon Jones (Merrimack College, 2023-2024): 22.0PPG 8.6RPG 4.0APG → no pro career
-117. Jamal Mashburn, Jr. (Temple, 2024-2025): 22.0PPG 3.0RPG 2.2APG → went pro: G-League, first team: Grand Rapids Gold
-118. Mason Jones (Arkansas, 2019-2020): 22.0PPG 5.5RPG 3.4APG → went pro: nba, first team: Houston Rockets
-119. Jake Stephens (Chattanooga, 2022-2023): 22.0PPG 9.8RPG 3.4APG → went pro: G-League, first team: Sacramento Kings
-120. Bryce Lausier (Maine, 2024-2025): 22.0PPG 11.6RPG 3.4APG → no pro career
-121. Justice Ellison (Central Connecticut State, 2024-2025): 22.0PPG 5.2RPG 2.4APG → no pro career
-122. Keenan Palmore (Old Dominion, 2015-2016): 21.9PPG 9.2RPG 6.3APG → went pro: International, first team: Island Storm
-123. Daeshon Francis (Green Bay, 2017-2018): 21.9PPG 8.0RPG 4.0APG → went pro: International, first team: Iowa Wolves
-124. Jordan Roland (Northeastern, 2019-2020): 21.9PPG 3.3RPG 1.8APG → went pro: International, first team: SC Rasta Vechta
-125. Grant Riller (Charleston, 2019-2020): 21.9PPG 5.1RPG 3.9APG → went pro: nba, first team: Charlotte Hornets
-126. Jordan Ford (Saint Mary's, 2019-2020): 21.9PPG 3.0RPG 2.4APG → went pro: nba, first team: Los Angeles Clippers
-127. Kendric Davis (Memphis, 2022-2023): 21.9PPG 3.7RPG 5.4APG → went pro: G-League, first team: Golden State Warriors
-128. Pat Dembley (Boise State, 2019-2020): 21.9PPG 3.6RPG 4.9APG → no pro career
-129. Bryce Hamilton (UNLV, 2021-2022): 21.8PPG 5.0RPG 2.2APG → went pro: G-League, first team: Los Angeles Lakers
-130. David Jones-Garcia (Memphis, 2023-2024): 21.8PPG 7.6RPG 1.8APG → went pro: nba, first team: Philadelphia Sixers
-131. J.T. Toppin (Texas Tech, 2025-2026): 21.8PPG 10.8RPG 2.1APG → no pro career
-132. Niksha Federico (San Diego State, 2017-2018): 21.7PPG 10.4RPG 1.6APG → went pro: International, first team: Saenz Horeca Araberri
-133. Jon Davis (Charlotte, 2018-2019): 21.7PPG 4.5RPG 3.7APG → went pro: G-League, first team: Orlando Magic
-134. Xavier Castaneda (Akron, 2022-2023): 21.7PPG 4.3RPG 2.9APG → went pro: International, first team: GS Lavrio
-135. Marcus Burk (IU Indy, 2020-2021): 21.7PPG 3.7RPG 2.2APG → went pro: G-League, first team: Grand Rapids Gold
-136. Terrell Brown, Jr. (Washington, 2021-2022): 21.7PPG 4.2RPG 4.3APG → went pro: G-League, first team: College Park Skyhawks
-137. T.J. Starks (Cal State Northridge, 2020-2021): 21.7PPG 3.0RPG 3.0APG → went pro: International, first team: Wisconsin Herd
-138. Javon Freeman-Liberty (DePaul, 2021-2022): 21.7PPG 7.3RPG 3.2APG → went pro: nba, first team: Chicago Bulls
-139. Delor Johnson (Southern, 2023-2024): 21.7PPG 4.5RPG 2.0APG → no pro career
-140. Dalton Knecht (Tennessee, 2023-2024): 21.7PPG 4.9RPG 1.8APG → went pro: nba, first team: Los Angeles Lakers
-141. Jack Karasinski (Bellarmine, 2025-2026): 21.7PPG 4.7RPG 1.2APG → no pro career
-142. Robert Franks (Washington State, 2018-2019): 21.6PPG 7.2RPG 2.6APG → went pro: nba, first team: Charlotte Hornets
-143. Jaylin Walker (Kent State, 2018-2019): 21.6PPG 5.7RPG 2.1APG → went pro: International, first team: Riviera Basket
-144. Tre'von Allen (Idaho, 2019-2020): 21.6PPG 4.9RPG 1.7APG → went pro: International, first team: Polpharma Starogard Gdanski
-145. Jalen Harris (Nevada, 2019-2020): 21.6PPG 6.4RPG 3.9APG → went pro: nba, first team: Toronto Raptors
-146. Terry Taylor (Austin Peay, 2020-2021): 21.6PPG 11.1RPG 1.6APG → went pro: nba, first team: Indiana Pacers
-147. Fah'Mir Ali (Charleston, 2022-2023): 21.6PPG 3.9RPG 5.8APG → no pro career
-148. Jadin Booth (Samford, 2025-2026): 21.6PPG 3.7RPG 2.2APG → went pro: International, first team: Omaha Sports (NE)
-149. Malik Brooks (Canisius, 2024-2025): 21.6PPG 5.2RPG 3.5APG → no pro career
-150. Labaron Philon, Jr. (Alabama, 2025-2026): 21.6PPG 3.4RPG 5.0APG → went pro: International, first team: Team Thad (TN)
-151. Denzel Livingston (Incarnate Word, 2014-2015): 21.5PPG 5.9RPG 2.9APG → went pro: G-League, first team: Houston Rockets
-152. Cameron Williams (Eastern Kentucky, 2017-2018): 21.5PPG 3.1RPG 2.6APG → went pro: International, first team: BK Spisska Rytieri
-153. Jordon Varnado (Troy, 2018-2019): 21.5PPG 7.8RPG 2.5APG → went pro: International, first team: Egis Kormend
-154. Justin Jaworski (Lafayette, 2020-2021): 21.5PPG 3.7RPG 2.3APG → went pro: G-League, first team: Oklahoma City Thunder
-155. Saah Nimley (Charleston Southern, 2014-2015): 21.4PPG 4.1RPG 4.1APG → went pro: International, first team: Kedainiai Nevezis
-156. Sindarius Thornwell (South Carolina, 2016-2017): 21.4PPG 7.1RPG 2.8APG → went pro: nba, first team: Los Angeles Clippers
-157. Jonathan Stark (Murray State, 2017-2018): 21.4PPG 2.7RPG 3.9APG → went pro: G-League, first team: Minnesota Timberwolves
-158. Lamond Murray, Jr. (Pepperdine, 2016-2017): 21.4PPG 5.7RPG 1.3APG → went pro: G-League, first team: Maine Red Claws
-159. T.J. Williams (Northeastern, 2016-2017): 21.4PPG 4.7RPG 5.3APG → went pro: G-League, first team: Charlotte Hornets
-160. Cam Shelton (Loyola Marymount, 2022-2023): 21.4PPG 5.4RPG 4.3APG → went pro: International, first team: KK Split
-161. Jaedon LeDee (San Diego State, 2023-2024): 21.4PPG 8.4RPG 1.3APG → went pro: G-League, first team: Minnesota Timberwolves
-162. Jerrick Harding (Weber State, 2018-2019): 21.4PPG 3.4RPG 1.4APG → went pro: International, first team: Weber State
-163. Tavian Dunn-Martin (Florida Gulf Coast, 2021-2022): 21.4PPG 3.1RPG 6.0APG → went pro: International, first team: KK Tajfun Sentjur
-164. Tyshaun Crawford (Georgia Southern, 2022-2023): 21.4PPG 8.0RPG 1.8APG → went pro: International, first team: Mega Tbilisi
-165. Trey Arland (Idaho State, 2024-2025): 21.4PPG 6.1RPG 5.1APG → no pro career
-166. Juke Harris (Wake Forest, 2025-2026): 21.4PPG 6.5RPG 1.9APG → no pro career
-167. Michael James (Mississippi Valley State, 2025-2026): 21.4PPG 3.4RPG 2.8APG → no pro career
-168. Dylan Windler (Belmont, 2018-2019): 21.3PPG 10.8RPG 2.5APG → went pro: nba, first team: Cleveland Cavaliers
-169. Jordan Johnson (New Orleans, 2023-2024): 21.3PPG 3.2RPG 3.8APG → went pro: International, first team: KB Kalaja Prizren
-170. Kollin Tolbert (East Texas A&M, 2024-2025): 21.3PPG 6.6RPG 3.4APG → no pro career
-171. Dewayne Russell (Grand Canyon, 2016-2017): 21.2PPG 3.8RPG 5.4APG → went pro: International, first team: Nancy Basket
-172. Kendrick Ray (Kennesaw State, 2016-2017): 21.2PPG 3.7RPG 3.1APG → went pro: International, first team: CEZ Nymburk
-173. Braylon Rayson (Central Michigan, 2016-2017): 21.2PPG 4.4RPG 3.2APG → went pro: International, first team: Windsor Express
-174. Peyton Aldridge (Davidson, 2017-2018): 21.2PPG 7.6RPG 2.5APG → went pro: International, first team: Vanoli Cremona
-175. Bogdan Bliznyuk (Eastern Washington, 2017-2018): 21.2PPG 6.8RPG 3.9APG → went pro: International, first team: Bnei Herzelia
-176. Kelan Martin (Butler, 2017-2018): 21.2PPG 6.3RPG 2.0APG → went pro: International, first team: MHP Riesen
-177. Drew Timme (Gonzaga, 2022-2023): 21.2PPG 7.5RPG 3.2APG → went pro: nba, first team: Milwaukee Bucks
-178. Santi Aldama (Loyola (MD), 2020-2021): 21.2PPG 10.1RPG 2.3APG → went pro: International, first team: FC Barcelona Regal U18
-179. Jahad Thomas (UMass Lowell, 2017-2018): 21.1PPG 8.4RPG 4.0APG → no pro career
-180. Jeremy Senglin (Weber State, 2016-2017): 21.1PPG 3.9RPG 2.8APG → went pro: G-League, first team: Brooklyn Nets
-181. Ben Bentil (Providence, 2015-2016): 21.1PPG 7.7RPG 1.1APG → went pro: nba, first team: Boston Celtics
-182. Deontae North (Portland State, 2017-2018): 21.1PPG 4.9RPG 2.4APG → went pro: International, first team: UBSC Raiffeisen Graz
-183. Jock Landale (Saint Mary's, 2017-2018): 21.1PPG 10.2RPG 2.0APG → went pro: International, first team: KK Partizan
-184. Donovan Franklin (Indiana State, 2018-2019): 21.1PPG 5.9RPG 2.0APG → no pro career
-185. Keion Brooks, Jr. (Washington, 2023-2024): 21.1PPG 6.8RPG 1.4APG → went pro: nba, first team: New Orleans Pelicans
-186. Tristan Jarrett (Jackson State, 2020-2021): 21.1PPG 5.3RPG 1.4APG → went pro: G-League, first team: Raptors 905
-187. Ty Johnson (UC Davis, 2024-2025): 21.1PPG 4.1RPG 3.0APG → went pro: International, first team: Salon Vilpas
-188. Vonterius Woolbright (Western Carolina, 2023-2024): 21.1PPG 12.0RPG 5.6APG → went pro: International, first team: Delaware Blue Coats
-189. Amere May (Delaware State, 2014-2015): 21.0PPG 4.2RPG 2.7APG → went pro: International, first team: Ferrocarril Oeste Buenos Aires
-190. Nicholas King (Middle Tennessee State, 2017-2018): 21.0PPG 8.4RPG 2.0APG → went pro: G-League, first team: Boston Celtics
-191. Austin McBroom (Eastern Washington, 2015-2016): 21.0PPG 2.5RPG 3.7APG → no pro career
-192. Kahlil Dukes (Niagara, 2017-2018): 21.0PPG 2.2RPG 3.3APG → went pro: International, first team: Veolia Towers Hamburg
-193. Marvin Bagley III (Duke, 2017-2018): 21.0PPG 11.1RPG 1.5APG → went pro: nba, first team: Sacramento Kings
-194. Keith Hayes (UMass Lowell, 2018-2019): 21.0PPG 2.7RPG 2.6APG → no pro career
-195. Bol Bol (Oregon, 2018-2019): 21.0PPG 9.6RPG 1.0APG → went pro: nba, first team: Denver Nuggets
-196. Myles Powell (Seton Hall, 2019-2020): 21.0PPG 4.3RPG 2.9APG → went pro: nba, first team: New York Knicks
-197. Daishon Smith (Louisiana-Monroe, 2018-2019): 21.0PPG 4.5RPG 3.9APG → went pro: G-League, first team: South Bay Lakers
-198. Nate Darling (Delaware, 2019-2020): 21.0PPG 3.9RPG 2.8APG → went pro: nba, first team: Charlotte Hornets
-199. Trey Phipps (Oral Roberts, 2024-2025): 21.0PPG 3.9RPG 2.5APG → went pro: International, first team: Frayles de Guasave
-200. Jimmy Yfantopulos (Colgate, 2018-2019): 21.0PPG 6.0RPG 2.0APG → no pro career
+# Top 200 College Scorers with Full Career Path
+1. Steve Wooten (Tennessee-Martin, 2020-2021): 31.4PPG 11.9RPG 2.6APG | 1yr pro career, started with Pioneros del Avila (Intl), currently playing for Pioneros del Avila (Intl)
+2. Chris Clemons (Campbell, 2018-2019): 30.1PPG 5.1RPG 2.8APG | 7yr pro career, started with Houston Rockets (nba), currently playing for EWE Baskets Oldenburg (Intl)
+3. Marcus Keene (Central Michigan, 2016-2017): 30.0PPG 4.5RPG 4.9APG | 9yr pro career, started with Reale Mutua Torino (Intl), currently playing for Strasbourg IG (Intl)
+4. Shaden Knight (Long Beach State, 2024-2025): 29.5PPG 3.5RPG 3.3APG | no pro career
+5. Brian Halums (Ole Miss, 2019-2020): 28.8PPG 8.6RPG 1.9APG | 3yr pro career, started with Nadim Souaid Academy (Intl), currently playing for Antonine (Intl)
+6. Deshawn Munson (Jackson State, 2019-2020): 28.5PPG 11.4RPG 8.1APG | no pro career
+7. Antoine Davis (Detroit-Mercy, 2022-2023): 28.2PPG 3.0RPG 3.6APG | 3yr pro career, started with Portland Trail Blazers (G-League), currently playing for Stockton Kings (G-League)
+8. Markus Howard (Marquette, 2019-2020): 27.8PPG 3.5RPG 3.3APG | 6yr pro career, started with Denver Nuggets (nba), currently playing for Baskonia (Intl)
+9. Dayon Goodman (Utah Valley, 2017-2018): 27.7PPG 8.5RPG 3.2APG | 2yr pro career, started with MBK Rieker Komarno (Intl), last played 2019-2020 for Windy City Bulls (G-League)
+10. Trae Young (Oklahoma, 2017-2018): 27.4PPG 3.9RPG 8.7APG | 8yr pro career, started with Atlanta Hawks (nba), currently playing for Atlanta Hawks (nba)
+11. Mark Gordon (Bethune-Cookman, 2019-2020): 27.4PPG 6.6RPG 3.0APG | no pro career
+12. Marquill Smith (San Francisco, 2018-2019): 27.3PPG 8.7RPG 1.6APG | 6yr pro career, started with Sioux Falls Skyforce (G-League), currently playing for Kutaisi (Intl)
+13. Justin Wright-Foreman (Hofstra, 2018-2019): 27.1PPG 4.0RPG 2.9APG | 6yr pro career, started with Utah Jazz (nba), currently playing for Iraklis BC (Intl)
+14. Alex Vargo (North Florida, 2023-2024): 26.7PPG 6.1RPG 3.1APG | no pro career
+15. Steven Soukup (Iowa, 2016-2017): 26.4PPG 6.3RPG 2.6APG | no pro career
+16. Jalen Adams (St. Bonaventure, 2017-2018): 26.2PPG 10.7RPG 1.4APG | no pro career
+17. Tiwian Kendley (Morgan State, 2017-2018): 26.1PPG 4.0RPG 2.2APG | 5yr pro career, started with Washington Wizards (G-League), last played 2023-2024 for Freseros Irapuato (Intl)
+18. Gage Davis (Fort Wayne, 2018-2019): 26.0PPG 7.5RPG 3.3APG | 6yr pro career, started with Windy City Bulls (G-League), currently playing for Oroszlanyi Sporteglet E Lions (Intl)
+19. Kendrick Nunn (Oakland, 2017-2018): 25.9PPG 4.7RPG 3.8APG | 8yr pro career, started with Golden State Warriors (nba), currently playing for Panathinaikos (Intl)
+20. Lamine Diane (Cal State Northridge, 2019-2020): 25.6PPG 10.2RPG 2.8APG | 3yr pro career, started with Philadelphia Sixers (G-League), last played 2024-2025 for ASC Ville de Dakar (Intl)
+21. Tray Buchanan (South Dakota State, 2021-2022): 25.6PPG 3.9RPG 3.1APG | 4yr pro career, started with Proteas EKA AEL (Intl), currently playing for MHP Riesen (Intl)
+22. A.J. Dybantsa (Brigham Young, 2025-2026): 25.5PPG 6.8RPG 3.7APG | 1yr pro career, started with Expressions Elite (MA) (Intl), last played 2022-2023 for Expressions Elite (MA) (Intl)
+23. Mike Daum (South Dakota State, 2018-2019): 25.3PPG 11.7RPG 1.8APG | 6yr pro career, started with Monbus Obradoiro (Intl), last played 2024-2025 for KK Crvena Zvezda (Intl)
+24. Peter Kiss (Bryant, 2021-2022): 25.2PPG 5.8RPG 3.2APG | 4yr pro career, started with Soles (Intl), currently playing for CS Valcea 1924 (Intl)
+25. Zach Edey (Purdue, 2023-2024): 25.2PPG 12.2RPG 2.0APG | 2yr pro career, started with Memphis Grizzlies (nba), currently playing for Memphis Grizzlies (nba)
+26. Antwan Kimmons (Northern Iowa, 2024-2025): 25.2PPG 6.4RPG 5.7APG | 1yr pro career, started with Grand Rapids Gold (Intl), currently playing for Grand Rapids Gold (Intl)
+27. Jordan Howard (Central Arkansas, 2017-2018): 25.1PPG 3.6RPG 2.7APG | 8yr pro career, started with Santa Cruz Warriors (G-League), currently playing for Ningbo Rockets (Intl)
+28. Buddy Hield (Oklahoma, 2015-2016): 25.0PPG 5.7RPG 2.0APG | 10yr pro career, started with New Orleans Pelicans (nba), currently playing for Golden State Warriors (nba)
+29. Jermaine Marrow (Hampton, 2019-2020): 24.8PPG 3.2RPG 6.5APG | 4yr pro career, started with Hestia Menorca (Intl), currently playing for KK Danilovgrad (Intl)
+30. Ja Morant (Murray State, 2018-2019): 24.5PPG 5.7RPG 10.0APG | 7yr pro career, started with Memphis Grizzlies (nba), currently playing for Memphis Grizzlies (nba)
+31. Dante Moses (Radford, 2022-2023): 24.5PPG 6.6RPG 2.1APG | 1yr pro career, started with BK Inter Bratislava (Intl), last played 2023-2024 for BK Inter Bratislava (Intl)
+32. Drew Lutz (Incarnate Word, 2023-2024): 24.5PPG 3.9RPG 3.8APG | no pro career
+33. Kay Felder (Oakland, 2015-2016): 24.4PPG 4.3RPG 9.3APG | 10yr pro career, started with Cleveland Cavaliers (nba), currently playing for Carpegna Prosciutto Basket Pesaro (Intl)
+34. Suki Wiggs (Idaho, 2016-2017): 24.4PPG 5.6RPG 2.8APG | 6yr pro career, started with Westchester Knicks (G-League), last played 2023-2024 for Mineros de Zacatecas (Intl)
+35. Charlie Yoder (Abilene Christian, 2024-2025): 24.4PPG 7.9RPG 3.5APG | no pro career
+36. Raysean Scott, Jr. (Florida Gulf Coast, 2019-2020): 24.3PPG 8.0RPG 2.7APG | no pro career
+37. Tre Evans (Fordham, 2018-2019): 24.3PPG 7.4RPG 4.0APG | no pro career
+38. Carsen Edwards (Purdue, 2018-2019): 24.3PPG 3.6RPG 2.9APG | 7yr pro career, started with Boston Celtics (nba), currently playing for Virtus Bologna (Intl)
+39. Josh Adams (Wyoming, 2015-2016): 24.2PPG 5.6RPG 4.3APG | 8yr pro career, started with Avtodor Saratov (Intl), last played 2024-2025 for Maroussi BC (Intl)
+40. Javonte Douglas (Old Dominion, 2016-2017): 24.2PPG 11.3RPG 1.1APG | 7yr pro career, started with Taranaki Mountain Airs (Intl), currently playing for Uralmash (Intl)
+41. Luka Garza (Iowa, 2020-2021): 24.1PPG 8.7RPG 1.7APG | 5yr pro career, started with Detroit Pistons (nba), currently playing for Boston Celtics (nba)
+42. Dakari Johnson (Campbell, 2019-2020): 24.1PPG 5.1RPG 3.5APG | no pro career
+43. Taylor Currie (Akron, 2022-2023): 24.0PPG 9.7RPG 0.7APG | 1yr pro career, started with Tundja Yambol (Intl), last played 2023-2024 for Tundja Yambol (Intl)
+44. Tommy Bruner (Denver, 2023-2024): 24.0PPG 2.8RPG 4.2APG | 2yr pro career, started with Rip City Remix (G-League), currently playing for Oklahoma City Blue (G-League)
+45. Terion Moss (Maine, 2022-2023): 24.0PPG 5.8RPG 4.8APG | no pro career
+46. Dior Johnson (Tarleton State, 2025-2026): 24.0PPG 3.3RPG 1.6APG | no pro career
+47. Dallas Moore (North Florida, 2016-2017): 23.9PPG 3.1RPG 4.0APG | 9yr pro career, started with Carpegna Prosciutto Basket Pesaro (Intl), currently playing for Shandong (Intl)
+48. Keshawn Liggins (Idaho State, 2017-2018): 23.8PPG 10.4RPG 3.2APG | 1yr pro career, started with Grand Rapids Drive (Intl), last played 2018-2019 for Grand Rapids Drive (Intl)
+49. Joe Liedel (Detroit-Mercy, 2024-2025): 23.8PPG 6.6RPG 2.8APG | no pro career
+50. Nick Mayo (Eastern Kentucky, 2018-2019): 23.7PPG 8.7RPG 2.3APG | 7yr pro career, started with Chiba Jets (Intl), currently playing for Hiroshima Dragonflies (Intl)
+51. Nate Webb (Brigham Young, 2021-2022): 23.7PPG 7.5RPG 1.2APG | no pro career
+52. Stefan Moody (Ole Miss, 2015-2016): 23.6PPG 3.2RPG 4.3APG | 10yr pro career, started with Trabzonspor (Intl), currently playing for OpenJobMetis Varese (Intl)
+53. Jordan Riley (East Carolina, 2025-2026): 23.6PPG 6.0RPG 2.5APG | no pro career
+54. Cat Barber (NC State, 2015-2016): 23.5PPG 4.6RPG 4.5APG | 10yr pro career, started with Philadelphia Sixers (nba), currently playing for El Calor de Cancun (Intl)
+55. Jamil Hood (Long Island, 2021-2022): 23.5PPG 6.0RPG 2.1APG | 1yr pro career, started with LTHCast Skofja (Intl), last played 2022-2023 for LTHCast Skofja (Intl)
+56. Jordan Davis (Northern Colorado, 2018-2019): 23.5PPG 4.7RPG 4.7APG | 7yr pro career, started with BAXI Manresa (Intl), currently playing for Odilo FC Cartagena CB (Intl)
+57. Cameron Young (Quinnipiac, 2018-2019): 23.5PPG 5.1RPG 1.9APG | 7yr pro career, started with Acqua San Bernardo Cantu (Intl), currently playing for Pinar Karsiyaka (Intl)
+58. Keegan Murray (Iowa, 2021-2022): 23.5PPG 8.7RPG 1.5APG | 4yr pro career, started with Sacramento Kings (nba), currently playing for Sacramento Kings (nba)
+59. P.J. Haggerty (Kansas State, 2025-2026): 23.4PPG 5.3RPG 3.8APG | no pro career
+60. Demontrae Jefferson (Texas Southern, 2017-2018): 23.3PPG 3.1RPG 4.6APG | no pro career
+61. Tra'Quan Knight (Detroit-Mercy, 2019-2020): 23.3PPG 7.7RPG 3.4APG | no pro career
+62. Eric Dixon (Villanova, 2024-2025): 23.3PPG 5.1RPG 1.9APG | 1yr pro career, started with Los Angeles Lakers (G-League), currently playing for Los Angeles Lakers (G-League)
+63. Cobie Barnes (SIU-Edwardsville, 2023-2024): 23.3PPG 7.2RPG 2.4APG | no pro career
+64. Daeshun Ruffin (Jackson State, 2025-2026): 23.3PPG 2.8RPG 5.3APG | no pro career
+65. Darius Acuff, Jr. (Arkansas, 2025-2026): 23.3PPG 3.1RPG 6.5APG | 2yr pro career, started with The Family (MI) (Intl), last played 2023-2024 for The Family (MI) (Intl)
+66. Markelle Fultz (Washington, 2016-2017): 23.2PPG 5.7RPG 5.9APG | 9yr pro career, started with Philadelphia Sixers (nba), currently playing for Toronto Raptors (G-League)
+67. Dominique Daniels, Jr. (California Baptist, 2025-2026): 23.2PPG 3.8RPG 3.2APG | no pro career
+68. Tyler Harvey (Eastern Washington, 2014-2015): 23.1PPG 3.6RPG 2.6APG | 11yr pro career, started with Erie BayHawks (2008) (G-League), currently playing for Illawarra (Intl)
+69. Obi Emegano (Oral Roberts, 2015-2016): 23.1PPG 5.1RPG 1.8APG | 7yr pro career, started with Novipiu Casale Monferrato (Intl), last played 2023-2024 for Casademont Zaragoza (Intl)
+70. Wayne Arnold (Cal State Fullerton, 2021-2022): 23.1PPG 4.4RPG 1.1APG | 3yr pro career, started with KB Kalaja Prizren (Intl), last played 2024-2025 for KB Kalaja Prizren (Intl)
+71. Raquan Mitchell (Colorado State, 2019-2020): 23.1PPG 4.6RPG 3.6APG | 3yr pro career, started with BC Levski Lukoil (Intl), last played 2022-2023 for Apollon Limassol BC (Intl)
+72. Alec Peters (Valparaiso, 2016-2017): 23.0PPG 10.1RPG 2.2APG | 9yr pro career, started with Phoenix Suns (nba), currently playing for Olympiacos (Intl)
+73. Aaron Nesmith (Vanderbilt, 2019-2020): 23.0PPG 4.9RPG 0.9APG | 6yr pro career, started with Boston Celtics (nba), currently playing for Indiana Pacers (nba)
+74. Cam Thomas (LSU, 2020-2021): 23.0PPG 3.4RPG 1.4APG | 5yr pro career, started with Brooklyn Nets (nba), currently playing for Brooklyn Nets (nba)
+75. Terrence Shannon, Jr. (Illinois, 2023-2024): 23.0PPG 4.0RPG 2.3APG | 2yr pro career, started with Minnesota Timberwolves (nba), currently playing for Minnesota Timberwolves (nba)
+76. Nick Martinelli (Northwestern, 2025-2026): 23.0PPG 6.2RPG 2.0APG | no pro career
+77. Jaizec Lottie (Little Rock, 2021-2022): 22.9PPG 6.6RPG 4.8APG | 4yr pro career, started with BBC Monthey (Intl), currently playing for CSM Oradea (Intl)
+78. Terryonte Thomas (Sam Houston State, 2021-2022): 22.9PPG 8.0RPG 3.4APG | no pro career
+79. Taylor Stafford (Evansville, 2016-2017): 22.8PPG 5.0RPG 3.5APG | 2yr pro career, started with Hottur Egilsstadir (Intl), last played 2018-2019 for Tallinna Ulikool Kalev (Intl)
+80. Ronnie Rousseau III (Missouri State, 2019-2020): 22.8PPG 2.4RPG 2.7APG | 2yr pro career, started with Mega Tbilisi (Intl), last played 2023-2024 for BSW Sixers (Intl)
+81. Darius McGhee (Liberty, 2022-2023): 22.8PPG 3.3RPG 3.0APG | 3yr pro career, started with Indiana Pacers (G-League), currently playing for JL Bourg-en-Bresse (Intl)
+82. Ebuka Okorie (Stanford, 2025-2026): 22.8PPG 3.7RPG 3.5APG | 1yr pro career, started with Rivals Basketball (MA) (Intl), last played 2022-2023 for Rivals Basketball (MA) (Intl)
+83. Kami Young (Rider, 2024-2025): 22.7PPG 3.3RPG 4.9APG | no pro career
+84. A.J. English III (Iona, 2015-2016): 22.6PPG 5.0RPG 6.2APG | 8yr pro career, started with Fraport Skyliners (Intl), currently playing for Beirut Club (Intl)
+85. Bryson Scott (Fort Wayne, 2017-2018): 22.6PPG 4.5RPG 2.6APG | 3yr pro career, started with Raptors 905 (G-League), last played 2020-2021 for BC Vera (Intl)
+86. R.J. Barrett (Duke, 2018-2019): 22.6PPG 7.6RPG 4.3APG | 7yr pro career, started with New York Knicks (nba), currently playing for Toronto Raptors (nba)
+87. Zion Williamson (Duke, 2018-2019): 22.6PPG 8.9RPG 2.1APG | 7yr pro career, started with New Orleans Pelicans (nba), currently playing for New Orleans Pelicans (nba)
+88. Rashawn Thomas (Texas A&M-CC, 2016-2017): 22.5PPG 9.0RPG 2.7APG | 9yr pro career, started with Oklahoma City Thunder (G-League), currently playing for Banco di Sardegna Sassari (Intl)
+89. Andre Spight (Northern Colorado, 2017-2018): 22.5PPG 3.9RPG 3.7APG | 8yr pro career, started with Wisconsin Herd (G-League), currently playing for Spartans de Districto Captital Caracas (Intl)
+90. Tyler Thomas (Hofstra, 2023-2024): 22.5PPG 5.2RPG 3.3APG | 2yr pro career, started with Alba Fehervar (Intl), currently playing for Alba Fehervar (Intl)
+91. Grant Lozoya (Stetson, 2018-2019): 22.4PPG 6.3RPG 3.6APG | 5yr pro career, started with CB L'Hospitalet (Intl), last played 2023-2024 for KB Bashkimi Prizren (Intl)
+92. Ty Cockfield (Arkansas State, 2018-2019): 22.4PPG 3.6RPG 3.2APG | 4yr pro career, started with Charilaos Trikoupis Mesologiou (Intl), last played 2024-2025 for EPG GUARDIANS Koblenz (Intl)
+93. Cameron Boozer (Duke, 2025-2026): 22.4PPG 10.3RPG 4.2APG | no pro career
+94. Keon Johnson (Winthrop, 2016-2017): 22.3PPG 4.0RPG 2.6APG | 1yr pro career, started with Sigal Prishtina (Intl), last played 2017-2018 for Sigal Prishtina (Intl)
+95. Loren Cristian Jackson (Akron, 2020-2021): 22.3PPG 3.1RPG 6.1APG | 4yr pro career, started with Chorale Roanne Basket (Intl), last played 2024-2025 for Icon Sea Czarni Slupsk (Intl)
+96. Jordan Walker (UAB, 2022-2023): 22.3PPG 2.7RPG 4.2APG | 3yr pro career, started with Dallas Mavericks (G-League), currently playing for Maroussi BC (Intl)
+97. Justin Jones (South Carolina State, 2019-2020): 22.3PPG 3.6RPG 1.8APG | 2yr pro career, started with KB Kalaja Prizren (Intl), last played 2021-2022 for KB Kalaja Prizren (Intl)
+98. Tyrone Nesby IV (Wagner, 2023-2024): 22.3PPG 5.5RPG 0.6APG | no pro career
+99. Tyler Haws (Brigham Young, 2014-2015): 22.2PPG 4.5RPG 2.4APG | 5yr pro career, started with Monbus Obradoiro (Intl), last played 2019-2020 for Bilbao Basket (Intl)
+100. Tyler Nelson (Fairfield, 2017-2018): 22.2PPG 4.2RPG 3.3APG | 7yr pro career, started with Greensboro Swarm (G-League), last played 2024-2025 for Rostock Seawolves (Intl)
+101. Kevin Punter (Tennessee, 2015-2016): 22.2PPG 3.5RPG 3.5APG | 10yr pro career, started with Port of Antwerp Giants (Intl), currently playing for Barca (Intl)
+102. Matt Morgan (Cornell, 2018-2019): 22.2PPG 4.5RPG 3.0APG | 7yr pro career, started with Toronto Raptors (G-League), currently playing for Virtus Bologna (Intl)
+103. Yoeli Childs (Brigham Young, 2019-2020): 22.2PPG 9.0RPG 2.1APG | 5yr pro career, started with Washington Wizards (G-League), last played 2024-2025 for Saga Ballooners (Intl)
+104. Xavier Johnson (Southern Illinois, 2023-2024): 22.2PPG 4.1RPG 6.1APG | 2yr pro career, started with Gipuzkoa Basket (Intl), currently playing for Orleans Loiret Basket (Intl)
+105. Trey Freeman (Old Dominion, 2015-2016): 22.1PPG 4.2RPG 3.0APG | 5yr pro career, started with Detroit Pistons (G-League), last played 2022-2023 for FC Arges Pitesti (Intl)
+106. Jack Gibbs (Davidson, 2016-2017): 22.1PPG 4.0RPG 4.1APG | 3yr pro career, started with Proximus Spirou Charleroi (Intl), last played 2019-2020 for Limburg United (Intl)
+107. Justin James (Wyoming, 2018-2019): 22.1PPG 8.5RPG 4.4APG | 4yr pro career, started with Sacramento Kings (nba), last played 2022-2023 for Cleveland Charge (G-League)
+108. Justin Brown (UNC Asheville, 2019-2020): 22.1PPG 4.3RPG 1.9APG | no pro career
+109. Taevion Kinsey (Marshall, 2022-2023): 22.1PPG 4.9RPG 5.4APG | 3yr pro career, started with Utah Jazz (G-League), currently playing for Golden State Warriors (G-League)
+110. Trenton McLaughlin (Northern Arizona, 2024-2025): 22.1PPG 3.6RPG 3.4APG | 1yr pro career, started with Kedainiai Nevezis (Intl), currently playing for Kedainiai Nevezis (Intl)
+111. Josh Hubbard (Mississippi State, 2025-2026): 22.1PPG 2.5RPG 3.6APG | 1yr pro career, started with Team Thad (TN) (Intl), last played 2021-2022 for Team Thad (TN) (Intl)
+112. Shaun Stewart (Youngstown State, 2016-2017): 22.0PPG 4.7RPG 3.2APG | 1yr pro career, started with ADO Basquetebol Sad Ovarense (Intl), last played 2019-2020 for ADO Basquetebol Sad Ovarense (Intl)
+113. Junior Robinson (Mount St. Mary's, 2017-2018): 22.0PPG 2.9RPG 4.8APG | 6yr pro career, started with Saenz Horeca Araberri (Intl), currently playing for BBC Monthey (Intl)
+114. Mark Matthews (UNC Wilmington, 2019-2020): 22.0PPG 7.1RPG 5.2APG | no pro career
+115. Adarius Avery (Loyola (IL), 2018-2019): 22.0PPG 10.4RPG 2.4APG | 2yr pro career, started with Arantia Larochette (Intl), last played 2022-2023 for Oklahoma City Blue (G-League)
+116. Tavon Jones (Merrimack College, 2023-2024): 22.0PPG 8.6RPG 4.0APG | no pro career
+117. Jamal Mashburn, Jr. (Temple, 2024-2025): 22.0PPG 3.0RPG 2.2APG | 1yr pro career, started with Grand Rapids Gold (G-League), currently playing for Grand Rapids Gold (G-League)
+118. Mason Jones (Arkansas, 2019-2020): 22.0PPG 5.5RPG 3.4APG | 6yr pro career, started with Houston Rockets (nba), currently playing for Perth (Intl)
+119. Jake Stephens (Chattanooga, 2022-2023): 22.0PPG 9.8RPG 3.4APG | 3yr pro career, started with Sacramento Kings (G-League), currently playing for KK Split (Intl)
+120. Bryce Lausier (Maine, 2024-2025): 22.0PPG 11.6RPG 3.4APG | no pro career
+121. Justice Ellison (Central Connecticut State, 2024-2025): 22.0PPG 5.2RPG 2.4APG | no pro career
+122. Keenan Palmore (Old Dominion, 2015-2016): 21.9PPG 9.2RPG 6.3APG | 1yr pro career, started with Island Storm (Intl), last played 2019-2020 for Island Storm (Intl)
+123. Daeshon Francis (Green Bay, 2017-2018): 21.9PPG 8.0RPG 4.0APG | 8yr pro career, started with Iowa Wolves (Intl), currently playing for Bnei Herzelia (Intl)
+124. Jordan Roland (Northeastern, 2019-2020): 21.9PPG 3.3RPG 1.8APG | 5yr pro career, started with SC Rasta Vechta (Intl), currently playing for Gladiators Trier (Intl)
+125. Grant Riller (Charleston, 2019-2020): 21.9PPG 5.1RPG 3.9APG | 6yr pro career, started with Charlotte Hornets (nba), currently playing for Beijing BeiKong (Intl)
+126. Jordan Ford (Saint Mary's, 2019-2020): 21.9PPG 3.0RPG 2.4APG | 6yr pro career, started with Los Angeles Clippers (nba), currently playing for 2B Control Trapani (Intl)
+127. Kendric Davis (Memphis, 2022-2023): 21.9PPG 3.7RPG 5.4APG | 3yr pro career, started with Golden State Warriors (G-League), currently playing for Sydney (Intl)
+128. Pat Dembley (Boise State, 2019-2020): 21.9PPG 3.6RPG 4.9APG | no pro career
+129. Bryce Hamilton (UNLV, 2021-2022): 21.8PPG 5.0RPG 2.2APG | 4yr pro career, started with Los Angeles Lakers (G-League), currently playing for Tasmania (Intl)
+130. David Jones-Garcia (Memphis, 2023-2024): 21.8PPG 7.6RPG 1.8APG | 2yr pro career, started with Philadelphia Sixers (nba), currently playing for San Antonio Spurs (nba)
+131. J.T. Toppin (Texas Tech, 2025-2026): 21.8PPG 10.8RPG 2.1APG | no pro career
+132. Niksha Federico (San Diego State, 2017-2018): 21.7PPG 10.4RPG 1.6APG | 2yr pro career, started with Saenz Horeca Araberri (Intl), last played 2019-2020 for UEMC Real Valladolid Baloncesto (Intl)
+133. Jon Davis (Charlotte, 2018-2019): 21.7PPG 4.5RPG 3.7APG | 7yr pro career, started with Orlando Magic (G-League), currently playing for BC Rilski Sportist (Intl)
+134. Xavier Castaneda (Akron, 2022-2023): 21.7PPG 4.3RPG 2.9APG | 3yr pro career, started with GS Lavrio (Intl), currently playing for Unicaja (Intl)
+135. Marcus Burk (IU Indy, 2020-2021): 21.7PPG 3.7RPG 2.2APG | 5yr pro career, started with Grand Rapids Gold (G-League), currently playing for Valley Suns (G-League)
+136. Terrell Brown, Jr. (Washington, 2021-2022): 21.7PPG 4.2RPG 4.3APG | 4yr pro career, started with College Park Skyhawks (G-League), currently playing for Charlotte Hornets (G-League)
+137. T.J. Starks (Cal State Northridge, 2020-2021): 21.7PPG 3.0RPG 3.0APG | 5yr pro career, started with Wisconsin Herd (Intl), currently playing for Tasmania (Intl)
+138. Javon Freeman-Liberty (DePaul, 2021-2022): 21.7PPG 7.3RPG 3.2APG | 4yr pro career, started with Chicago Bulls (nba), currently playing for Long Island Nets (G-League)
+139. Delor Johnson (Southern, 2023-2024): 21.7PPG 4.5RPG 2.0APG | no pro career
+140. Dalton Knecht (Tennessee, 2023-2024): 21.7PPG 4.9RPG 1.8APG | 2yr pro career, started with Los Angeles Lakers (nba), currently playing for Los Angeles Lakers (nba)
+141. Jack Karasinski (Bellarmine, 2025-2026): 21.7PPG 4.7RPG 1.2APG | no pro career
+142. Robert Franks (Washington State, 2018-2019): 21.6PPG 7.2RPG 2.6APG | 7yr pro career, started with Charlotte Hornets (nba), currently playing for Ibaraki Robots (Intl)
+143. Jaylin Walker (Kent State, 2018-2019): 21.6PPG 5.7RPG 2.1APG | 1yr pro career, started with Riviera Basket (Intl), last played 2019-2020 for Riviera Basket (Intl)
+144. Tre'von Allen (Idaho, 2019-2020): 21.6PPG 4.9RPG 1.7APG | 6yr pro career, started with Polpharma Starogard Gdanski (Intl), currently playing for Golden Eagle YLLI (Intl)
+145. Jalen Harris (Nevada, 2019-2020): 21.6PPG 6.4RPG 3.9APG | 5yr pro career, started with Toronto Raptors (nba), last played 2024-2025 for Windy City Bulls (Intl)
+146. Terry Taylor (Austin Peay, 2020-2021): 21.6PPG 11.1RPG 1.6APG | 5yr pro career, started with Indiana Pacers (nba), currently playing for Iowa Wolves (G-League)
+147. Fah'Mir Ali (Charleston, 2022-2023): 21.6PPG 3.9RPG 5.8APG | no pro career
+148. Jadin Booth (Samford, 2025-2026): 21.6PPG 3.7RPG 2.2APG | 1yr pro career, started with Omaha Sports (NE) (Intl), last played 2018-2019 for Omaha Sports (NE) (Intl)
+149. Malik Brooks (Canisius, 2024-2025): 21.6PPG 5.2RPG 3.5APG | no pro career
+150. Labaron Philon, Jr. (Alabama, 2025-2026): 21.6PPG 3.4RPG 5.0APG | 1yr pro career, started with Team Thad (TN) (Intl), last played 2022-2023 for Team Thad (TN) (Intl)
+151. Denzel Livingston (Incarnate Word, 2014-2015): 21.5PPG 5.9RPG 2.9APG | 6yr pro career, started with Houston Rockets (G-League), last played 2023-2024 for TV Ibbenburen (Intl)
+152. Cameron Williams (Eastern Kentucky, 2017-2018): 21.5PPG 3.1RPG 2.6APG | 3yr pro career, started with BK Spisska Rytieri (Intl), last played 2022-2023 for KB Kalaja Prizren (Intl)
+153. Jordon Varnado (Troy, 2018-2019): 21.5PPG 7.8RPG 2.5APG | 6yr pro career, started with Egis Kormend (Intl), currently playing for Bnei Herzelia (Intl)
+154. Justin Jaworski (Lafayette, 2020-2021): 21.5PPG 3.7RPG 2.3APG | 5yr pro career, started with Oklahoma City Thunder (G-League), currently playing for Bilbao Basket (Intl)
+155. Saah Nimley (Charleston Southern, 2014-2015): 21.4PPG 4.1RPG 4.1APG | 4yr pro career, started with Kedainiai Nevezis (Intl), last played 2018-2019 for Siauliai (Intl)
+156. Sindarius Thornwell (South Carolina, 2016-2017): 21.4PPG 7.1RPG 2.8APG | 9yr pro career, started with Los Angeles Clippers (nba), currently playing for Xinjiang Guanghui (Intl)
+157. Jonathan Stark (Murray State, 2017-2018): 21.4PPG 2.7RPG 3.9APG | 6yr pro career, started with Minnesota Timberwolves (G-League), currently playing for CS Dinamo Bucuresti (Intl)
+158. Lamond Murray, Jr. (Pepperdine, 2016-2017): 21.4PPG 5.7RPG 1.3APG | 3yr pro career, started with Maine Red Claws (G-League), last played 2019-2020 for Rethymno (Intl)
+159. T.J. Williams (Northeastern, 2016-2017): 21.4PPG 4.7RPG 5.3APG | 5yr pro career, started with Charlotte Hornets (G-League), last played 2021-2022 for Maccabi Rishon Lezion (Intl)
+160. Cam Shelton (Loyola Marymount, 2022-2023): 21.4PPG 5.4RPG 4.3APG | 3yr pro career, started with KK Split (Intl), currently playing for BK Ventspils (Intl)
+161. Jaedon LeDee (San Diego State, 2023-2024): 21.4PPG 8.4RPG 1.3APG | 2yr pro career, started with Minnesota Timberwolves (G-League), currently playing for Fraport Skyliners (Intl)
+162. Jerrick Harding (Weber State, 2018-2019): 21.4PPG 3.4RPG 1.4APG | 7yr pro career, started with Weber State (Intl), currently playing for Lietuvos Rytas (Intl)
+163. Tavian Dunn-Martin (Florida Gulf Coast, 2021-2022): 21.4PPG 3.1RPG 6.0APG | 4yr pro career, started with KK Tajfun Sentjur (Intl), currently playing for Donar Groningen (Intl)
+164. Tyshaun Crawford (Georgia Southern, 2022-2023): 21.4PPG 8.0RPG 1.8APG | 3yr pro career, started with Mega Tbilisi (Intl), currently playing for Le Portel (Intl)
+165. Trey Arland (Idaho State, 2024-2025): 21.4PPG 6.1RPG 5.1APG | no pro career
+166. Juke Harris (Wake Forest, 2025-2026): 21.4PPG 6.5RPG 1.9APG | no pro career
+167. Michael James (Mississippi Valley State, 2025-2026): 21.4PPG 3.4RPG 2.8APG | no pro career
+168. Dylan Windler (Belmont, 2018-2019): 21.3PPG 10.8RPG 2.5APG | 7yr pro career, started with Cleveland Cavaliers (nba), currently playing for Perth (Intl)
+169. Jordan Johnson (New Orleans, 2023-2024): 21.3PPG 3.2RPG 3.8APG | 2yr pro career, started with KB Kalaja Prizren (Intl), currently playing for Manchester Basketball (Intl)
+170. Kollin Tolbert (East Texas A&M, 2024-2025): 21.3PPG 6.6RPG 3.4APG | no pro career
+171. Dewayne Russell (Grand Canyon, 2016-2017): 21.2PPG 3.8RPG 5.4APG | 9yr pro career, started with Nancy Basket (Intl), currently playing for Rio Breogan (Intl)
+172. Kendrick Ray (Kennesaw State, 2016-2017): 21.2PPG 3.7RPG 3.1APG | 9yr pro career, started with CEZ Nymburk (Intl), currently playing for Mykonos (Intl)
+173. Braylon Rayson (Central Michigan, 2016-2017): 21.2PPG 4.4RPG 3.2APG | 6yr pro career, started with Windsor Express (Intl), last played 2023-2024 for Paulistano (Intl)
+174. Peyton Aldridge (Davidson, 2017-2018): 21.2PPG 7.6RPG 2.5APG | 8yr pro career, started with Vanoli Cremona (Intl), currently playing for Dolomiti Energia Trento (Intl)
+175. Bogdan Bliznyuk (Eastern Washington, 2017-2018): 21.2PPG 6.8RPG 3.9APG | 6yr pro career, started with Bnei Herzelia (Intl), last played 2024-2025 for Jonava Jonavos (Intl)
+176. Kelan Martin (Butler, 2017-2018): 21.2PPG 6.3RPG 2.0APG | 8yr pro career, started with MHP Riesen (Intl), currently playing for UCAM Murcia CB (Intl)
+177. Drew Timme (Gonzaga, 2022-2023): 21.2PPG 7.5RPG 3.2APG | 3yr pro career, started with Milwaukee Bucks (nba), currently playing for Brooklyn Nets (nba)
+178. Santi Aldama (Loyola (MD), 2020-2021): 21.2PPG 10.1RPG 2.3APG | 6yr pro career, started with FC Barcelona Regal U18 (Intl), currently playing for Memphis Grizzlies (nba)
+179. Jahad Thomas (UMass Lowell, 2017-2018): 21.1PPG 8.4RPG 4.0APG | no pro career
+180. Jeremy Senglin (Weber State, 2016-2017): 21.1PPG 3.9RPG 2.8APG | 9yr pro career, started with Brooklyn Nets (G-League), currently playing for Nanterre 92 (Intl)
+181. Ben Bentil (Providence, 2015-2016): 21.1PPG 7.7RPG 1.1APG | 10yr pro career, started with Boston Celtics (nba), currently playing for Mersin BSB (Intl)
+182. Deontae North (Portland State, 2017-2018): 21.1PPG 4.9RPG 2.4APG | 2yr pro career, started with UBSC Raiffeisen Graz (Intl), last played 2020-2021 for UBSC Raiffeisen Graz (Intl)
+183. Jock Landale (Saint Mary's, 2017-2018): 21.1PPG 10.2RPG 2.0APG | 8yr pro career, started with KK Partizan (Intl), currently playing for Houston Rockets (nba)
+184. Donovan Franklin (Indiana State, 2018-2019): 21.1PPG 5.9RPG 2.0APG | no pro career
+185. Keion Brooks, Jr. (Washington, 2023-2024): 21.1PPG 6.8RPG 1.4APG | 2yr pro career, started with New Orleans Pelicans (nba), currently playing for Birmingham Squadron (G-League)
+186. Tristan Jarrett (Jackson State, 2020-2021): 21.1PPG 5.3RPG 1.4APG | 3yr pro career, started with Raptors 905 (G-League), currently playing for Parnu Sadam (Intl)
+187. Ty Johnson (UC Davis, 2024-2025): 21.1PPG 4.1RPG 3.0APG | 1yr pro career, started with Salon Vilpas (Intl), currently playing for Salon Vilpas (Intl)
+188. Vonterius Woolbright (Western Carolina, 2023-2024): 21.1PPG 12.0RPG 5.6APG | 1yr pro career, started with Delaware Blue Coats (Intl), last played 2024-2025 for Delaware Blue Coats (Intl)
+189. Amere May (Delaware State, 2014-2015): 21.0PPG 4.2RPG 2.7APG | 2yr pro career, started with Ferrocarril Oeste Buenos Aires (Intl), last played 2016-2017 for Cleveland Charge (Intl)
+190. Nicholas King (Middle Tennessee State, 2017-2018): 21.0PPG 8.4RPG 2.0APG | 4yr pro career, started with Boston Celtics (G-League), last played 2022-2023 for Windy City Bulls (G-League)
+191. Austin McBroom (Eastern Washington, 2015-2016): 21.0PPG 2.5RPG 3.7APG | no pro career
+192. Kahlil Dukes (Niagara, 2017-2018): 21.0PPG 2.2RPG 3.3APG | 7yr pro career, started with Veolia Towers Hamburg (Intl), currently playing for Sigal Prishtina (Intl)
+193. Marvin Bagley III (Duke, 2017-2018): 21.0PPG 11.1RPG 1.5APG | 8yr pro career, started with Sacramento Kings (nba), currently playing for Washington Wizards (nba)
+194. Keith Hayes (UMass Lowell, 2018-2019): 21.0PPG 2.7RPG 2.6APG | no pro career
+195. Bol Bol (Oregon, 2018-2019): 21.0PPG 9.6RPG 1.0APG | 7yr pro career, started with Denver Nuggets (nba), currently playing for Talk N Text Tropang Texters (Intl)
+196. Myles Powell (Seton Hall, 2019-2020): 21.0PPG 4.3RPG 2.9APG | 6yr pro career, started with New York Knicks (nba), currently playing for Qingdao (Intl)
+197. Daishon Smith (Louisiana-Monroe, 2018-2019): 21.0PPG 4.5RPG 3.9APG | 6yr pro career, started with South Bay Lakers (G-League), currently playing for Diablos Rojos (Intl)
+198. Nate Darling (Delaware, 2019-2020): 21.0PPG 3.9RPG 2.8APG | 6yr pro career, started with Charlotte Hornets (nba), currently playing for Chalon-Sur-Saone (Intl)
+199. Trey Phipps (Oral Roberts, 2024-2025): 21.0PPG 3.9RPG 2.5APG | 1yr pro career, started with Frayles de Guasave (Intl), currently playing for Frayles de Guasave (Intl)
+200. Jimmy Yfantopulos (Colgate, 2018-2019): 21.0PPG 6.0RPG 2.0APG | no pro career
 
 Q: What was the average college PPG for players by pro destination?
 A: Average final-year college PPG by pro destination: NBA players averaged 14.8 PPG, G-League 12.1 PPG, Europe 10.3 PPG, Other International 9.5 PPG, and No Pro Career players averaged 4.8 PPG.
@@ -439,901 +439,901 @@ A: Average final-year college FT% by pro destination: NBA 0%, G-League 0%, Europ
 Q: What was the average games played in final college season by destination?
 A: Average games played in final college season by pro destination: NBA 32.1, G-League 29.9, Europe 27.8, Other International 26.4, No Pro Career 16.7.
 
-# All NBA Players (name|school|class|career|team|active|PPG|RPG|APG)
-A.J. Green|Northern Iowa|2022|3|Milwaukee Bucks|Y|18.8|3.7|2.5
-A.J. Griffin, Jr.|Duke|2022|3|Houston Rockets|Y|10.4|3.9|1.0
-A.J. Hammons|Purdue|2016|2|Dallas Mavericks|N|15.0|8.2|1.1
-A.J. Lawson|South Carolina|2021|4|Toronto Raptors|Y|16.6|4.1|1.2
-Aaron Harrison|Kentucky|2015|10|Halcones Ciudad Obregon|Y|11.0|2.6|1.4
-Aaron Henry|Michigan State|2021|4|Nagoya Diamond Dolphins|Y|15.4|5.6|3.6
-Aaron Holiday|UCLA|2018|7|Houston Rockets|Y|20.3|3.7|5.8
-Aaron Nesmith|Vanderbilt|2020|5|Indiana Pacers|Y|23.0|4.9|0.9
-Aaron Wiggins|Maryland|2021|4|Oklahoma City Thunder|Y|14.5|5.8|2.5
-Ace Bailey|Rutgers|2025|0|Utah Jazz|Y|17.6|7.2|1.3
-Adam Flagler|Baylor|2023|2|San Antonio Spurs|Y|15.6|2.4|4.6
-Adama Sanogo|UConn|2023|2|2B Control Trapani|Y|17.2|7.7|1.3
-Ade Murkey|Denver|2020|4|BC Hallmann Vienna|Y|18.6|6.3|2.1
-Adem Bona|UCLA|2024|1|Philadelphia Sixers|Y|12.4|5.9|1.2
-Admiral Schofield|Tennessee|2019|6|Santeros de Aguada|Y|16.5|6.1|2.0
-Adou Thiero|Arkansas|2025|0|Los Angeles Lakers|Y|15.1|5.8|1.9
-Ajay Mitchell|UC Santa Barbara|2024|1|Oklahoma City Thunder|Y|20.0|4.0|4.0
-Alan Williams|UC Santa Barbara|2015|10|Nagoya Diamond Dolphins|Y|17.3|11.8|1.7
-Alec Peters|Valparaiso|2017|8|Olympiacos|Y|23.0|10.1|2.2
-Alex Caruso|Texas A&M|2016|9|Oklahoma City Thunder|Y|8.1|3.6|5.0
-Alex Ducas|Saint Mary's|2024|1|Brisbane|Y|9.9|5.6|1.9
-Alex Fudge|Florida|2023|2|Sioux Falls Skyforce|Y|5.8|4.5|0.4
-Alex Poythress|Kentucky|2016|9|Zenit Saint Petersburg|Y|10.2|6.0|0.3
-Alijah Martin|Florida|2025|0|Toronto Raptors|Y|14.4|4.5|2.2
-Alize Johnson|Missouri State|2018|7|Minnesota Timberwolves|Y|15.0|11.6|2.8
-Allonzo Trier|Arizona|2018|4|Rio Grande Valley Vipers|Y|18.1|3.0|3.2
-Alondes Williams|Wake Forest|2022|3|Washington Wizards|Y|18.5|6.4|5.2
-Amari Bailey|UCLA|2023|2|Brooklyn Nets|Y|11.2|3.8|2.2
-Amari Williams|Kentucky|2025|0|Boston Celtics|Y|10.9|8.5|3.2
-Amida Brimah|UConn|2017|8|Movistar Estudiantes|Y|7.6|6.1|0.2
-Amile Jefferson|Duke|2017|4|Boston Celtics|N|10.9|8.4|1.5
-Amir Coffey|Minnesota|2019|6|Milwaukee Bucks|Y|16.6|3.6|3.2
-Andersson Garcia|Texas A&M|2025|0|Utah Jazz|Y|6.1|6.2|1.6
-Andre Jackson, Jr.|UConn|2023|2|Milwaukee Bucks|Y|6.7|6.2|4.7
-Andrew Funk|Penn State|2023|2|Port of Antwerp Giants|Y|12.5|3.0|1.1
-Andrew Nembhard|Gonzaga|2022|3|Indiana Pacers|Y|11.8|3.4|5.8
-Andrew White|Syracuse|2017|7|Panteras|Y|18.5|4.6|1.1
-Angel Delgado|Seton Hall|2018|7|Trabzonspor|Y|13.6|11.8|2.8
-Anthony Black|Arkansas|2023|2|Orlando Magic|Y|12.8|5.1|3.9
-Anthony Brown|Stanford|2015|10|Besiktas Icrypex|Y|14.8|6.9|2.5
-Anthony Edwards|Georgia|2020|5|Minnesota Timberwolves|Y|19.1|5.2|2.8
-Anthony Lamb|Vermont|2020|5|Hapoel Bank Yahav Jerusalem|Y|16.7|7.1|2.5
-Anton Watson|Gonzaga|2024|1|Los Angeles Lakers|Y|14.5|7.1|2.6
-Antonio Blakeney|LSU|2017|8|Hapoel Tel Aviv|Y|17.2|4.8|1.7
-Antonio Reeves|Kentucky|2024|1|New Orleans Pelicans|Y|20.2|4.2|1.6
-Antonius Cleveland|Southeast Missouri State|2017|8|CSKA Moscow|Y|16.6|5.1|2.2
-Armoni Brooks|Houston|2019|6|AX Armani Exchange Milan|Y|13.4|6.3|0.9
-Asa Newell|Georgia|2025|0|Atlanta Hawks|Y|15.4|6.9|0.9
-Ashton Hagans|Kentucky|2020|5|Rip City Remix|Y|11.5|3.9|6.4
-Austin Reaves|Oklahoma|2021|4|Los Angeles Lakers|Y|18.3|5.5|4.6
-Ayo Dosunmu|Illinois|2021|4|Chicago Bulls|Y|20.1|6.3|5.3
-B.J. Boston, Jr.|Kentucky|2021|4|Fenerbahce Beko|Y|11.5|4.5|1.6
-B.J. Johnson|La Salle|2018|7|Lokomotiv Kuban|Y|20.8|8.3|0.7
-Bam Adebayo|Kentucky|2017|8|Miami Heat|Y|13.0|8.0|0.8
-Baylor Scheierman|Creighton|2024|1|Boston Celtics|Y|18.5|9.0|3.9
-Ben Bentil|Providence|2016|9|Mersin BSB|Y|21.1|7.7|1.1
-Ben Moore|Southern Methodist|2017|8|PAOK BC|Y|11.4|7.8|2.4
-Ben Sheppard|Belmont|2023|2|Indiana Pacers|Y|18.8|5.2|2.9
-Ben Simmons|LSU|2016|9|Brooklyn Nets|Y|19.2|11.8|4.8
-Bennedict Mathurin|Arizona|2022|3|Indiana Pacers|Y|17.7|5.6|2.5
-Bez Mbeng|Yale|2025|0|Miami Heat|Y|13.0|5.6|5.8
-Blake Hinson|Pittsburgh|2024|1|Utah Jazz|Y|18.5|4.4|0.8
-Blake Wesley|Notre Dame|2022|3|San Antonio Spurs|Y|14.4|3.7|2.4
-Bobby Portis|Arkansas|2015|10|Milwaukee Bucks|Y|17.5|8.9|1.2
-Bobi Klintman|Wake Forest|2023|2|Detroit Pistons|Y|5.3|4.5|0.8
-Bol Bol|Oregon|2019|6|Talk N Text Tropang Texters|Y|21.0|9.6|1.0
-Bones Hyland|VCU|2021|4|Minnesota Timberwolves|Y|19.5|4.7|2.1
-Bonzie Colson, Jr.|Notre Dame|2018|7|Fenerbahce Beko|Y|19.7|10.1|0.9
-Branden Carlson|Utah|2024|1|Oklahoma City Thunder|Y|17.0|6.6|1.6
-Branden Dawson|Michigan State|2015|5|Correcaminos|Y|11.9|9.1|1.7
-Brandin Podziemski|Santa Clara|2023|2|Golden State Warriors|Y|19.9|8.8|3.7
-Brandon Clarke|Gonzaga|2019|6|Memphis Grizzlies|Y|16.9|8.6|1.9
-Brandon Goodwin|Florida Gulf Coast|2018|6|Shanxi Zhongyu|Y|18.6|5.5|4.8
-Brandon Ingram|Duke|2016|9|Toronto Raptors|Y|17.3|6.8|2.0
-Brandon Miller|Alabama|2023|2|Charlotte Hornets|Y|18.8|8.2|2.1
-Brandon Sampson|LSU|2018|6|Trefl Sopot|Y|7.7|2.6|0.8
-Brandon Williams|Arizona|2020|4|Dallas Mavericks|Y|11.4|2.8|3.3
-Brian Bowen II|Louisville|2018|7|Kozuv Gevgelija|Y
-Briante Weber|VCU|2015|10|Universo De'Longhi Treviso|Y|8.1|3.7|4.3
-Brice Johnson|North Carolina|2016|8|KK Feniks 2010|Y|17.0|10.4|1.5
-Brice Sensabaugh|Ohio State|2023|2|Utah Jazz|Y|16.3|5.4|1.2
-Bronny James|USC|2024|1|Los Angeles Lakers|Y|4.8|2.8|2.1
-Brooks Barnhizer|Northwestern|2025|0|Oklahoma City Thunder|Y|17.1|8.8|4.2
-Bruce Brown, Jr.|Miami (FL)|2018|7|Denver Nuggets|Y|11.4|7.1|4.0
-Bruno Fernando|Maryland|2019|6|KK Partizan|Y|13.6|10.6|2.0
-Bryce Dejean-Jones|Iowa State|2015|1|New Orleans Pelicans|N|10.5|4.7|2.1
-Bryce McGowens|Nebraska|2022|3|New Orleans Pelicans|Y|16.8|5.2|1.4
-Bryn Forbes|Michigan State|2016|8|Aris Midea Thessaloniki|Y|14.4|2.1|1.5
-Bub Carrington|Pittsburgh|2024|1|Washington Wizards|Y|13.8|5.2|4.1
-Buddy Boeheim|Syracuse|2022|3|Oklahoma City Thunder|Y|19.2|3.4|3.1
-Buddy Hield|Oklahoma|2016|9|Golden State Warriors|Y|25.0|5.7|2.0
-C.J. Elleby|Washington State|2020|4|Hapoel Beer Sheva|Y|18.4|7.8|1.9
-C.J. Huntley|Appalachian State|2025|0|Phoenix Suns|Y|15.7|8.1|1.1
-Cade Cunningham|Oklahoma State|2021|4|Detroit Pistons|Y|20.1|6.2|3.5
-Caleb Houstan|Michigan|2022|3|Atlanta Hawks|Y|10.1|4.0|1.4
-Caleb Love|Arizona|2025|0|Portland Trail Blazers|Y|17.2|4.4|3.4
-Caleb Martin|Nevada|2019|6|Dallas Mavericks|Y|19.2|5.1|2.8
-Caleb Swanigan|Purdue|2017|3|Sacramento Kings|N|18.5|12.5|3.0
-Cam Reddish|Duke|2019|6|Austin Spurs|Y|13.5|3.7|1.9
-Cam Reynolds|Tulane|2018|7|Maroussi BC|Y|15.1|6.3|2.2
-Cam Spencer|UConn|2024|1|Memphis Grizzlies|Y|14.3|4.9|3.6
-Cam Thomas|LSU|2021|4|Brooklyn Nets|Y|23.0|3.4|1.4
-Cam Whitmore|Villanova|2023|2|Houston Rockets|Y|12.5|5.3|0.7
-Cameron Christie|Minnesota|2024|1|Los Angeles Clippers|Y|11.3|3.6|2.2
-Cameron Johnson|North Carolina|2019|6|Brooklyn Nets|Y|16.9|5.8|2.4
-Cameron Payne|Murray State|2015|10|Indiana Pacers|Y|20.2|3.7|6.0
-Caris LeVert|Michigan|2016|9|Detroit Pistons|Y|16.5|5.3|4.9
-Carlik Jones|Louisville|2021|4|KK Partizan|Y|16.8|4.9|4.5
-Carsen Edwards|Purdue|2019|6|Virtus Bologna|Y|24.3|3.6|2.9
-Carter Bryant|Arizona|2025|0|San Antonio Spurs|Y|6.5|4.1|1.0
-Cason Wallace|Kentucky|2023|2|Oklahoma City Thunder|Y|11.7|3.7|4.3
-Cassius Stanley|Duke|2020|5|Siauliai|Y|12.6|4.9|1.0
-Cassius Winston|Michigan State|2020|5|Hapoel Bank Yahav Jerusalem|Y|18.6|2.5|5.9
-Cedric Coward|Washington State|2025|0|Memphis Grizzlies|Y|17.7|7.0|3.7
-Chandler Hutchison|Boise State|2018|6|Cleveland Charge|Y|20.0|7.7|3.5
-Chaney Johnson|Auburn|2025|0|Cleveland Cavaliers|Y|9.1|4.9|1.3
-Charles Bassey|Western Kentucky|2021|4|Atlanta Hawks|Y|17.6|11.6|0.7
-Charles Cooke|Dayton|2017|4|Maine Celtics|N|15.8|5.1|2.8
-Charlie Brown, Jr.|Saint Joseph's|2019|6|Memphis Grizzlies|Y|19.0|6.2|1.5
-Chasson Randle|Stanford|2016|9|NBA G League Ignite|Y|19.6|3.3|3.0
-Chaundee Brown, Jr.|Michigan|2021|4|London Lions|Y|8.0|3.1|0.6
-Chaz Lanier|Tennessee|2025|0|Detroit Pistons|Y|18.0|3.9|1.1
-Cheick Diallo|Kansas|2016|9|Osos de Manati|Y|3.0|2.5|0.0
-Chet Holmgren|Gonzaga|2022|3|Oklahoma City Thunder|Y|14.1|9.9|1.9
-Chimezie Metu|USC|2018|7|Barca|Y|15.7|7.4|1.6
-Chinanu Onuaku|Louisville|2016|9|Bnei Herzelia|Y|9.9|8.5|1.6
-Chris Boucher|Oregon|2017|8|Boston Celtics|Y|11.8|6.1|0.4
-Chris Chiozza|Florida|2018|7|Pinar Karsiyaka|Y|11.1|4.3|6.1
-Chris Clemons|Campbell|2019|6|EWE Baskets Oldenburg|Y|30.1|5.1|2.8
-Chris Duarte|Oregon|2021|4|Unicaja|Y|17.1|4.6|2.7
-Chris Livingston|Kentucky|2023|2|Milwaukee Bucks|Y|6.3|4.2|0.7
-Chris Manon|Vanderbilt|2025|0|Los Angeles Lakers|Y|6.6|3.7|1.3
-Chris McCullough|Syracuse|2015|6|Lietuvos Rytas|N|9.3|6.9|1.1
-Chris Silva|South Carolina|2019|6|AEK Athens|Y|15.2|7.6|0.9
-Chris Youngblood|Alabama|2025|0|Oklahoma City Thunder|Y|10.3|2.3|0.9
-Christian Braun|Kansas|2022|3|Denver Nuggets|Y|14.1|6.5|2.8
-Christian Koloko|Arizona|2022|3|Los Angeles Lakers|Y|12.6|7.3|1.4
-Christian Wood|UNLV|2015|10|Los Angeles Lakers|Y|15.7|10.0|1.3
-Chucky Hepburn|Louisville|2025|0|Toronto Raptors|Y|16.4|3.5|5.8
-Chuma Okeke|Auburn|2019|6|Real Madrid|Y|12.0|6.8|1.9
-Cliff Alexander|Kansas|2015|11|Guaiqueries|Y|7.1|5.3|0.4
-Coby White|North Carolina|2019|6|Chicago Bulls|Y|16.1|3.5|4.1
-Cody Martin|Nevada|2019|6|Indiana Pacers|Y|12.1|4.5|4.9
-Cody Williams|Colorado|2024|1|Utah Jazz|Y|11.9|3.0|1.6
-Colby Jones|Xavier|2023|2|Detroit Pistons|Y|15.0|5.7|4.4
-Cole Anthony|North Carolina|2020|5|Memphis Grizzlies|Y|18.5|5.7|4.0
-Cole Swider|Syracuse|2022|3|Anadolu Efes|Y|13.9|6.8|1.4
-Colin Castleton|Florida|2023|2|Toronto Raptors|Y|16.0|7.7|2.7
-Collin Gillespie|Villanova|2022|3|Phoenix Suns|Y|15.6|3.8|3.2
-Collin Murray-Boyles|South Carolina|2025|0|Toronto Raptors|Y|16.8|8.3|2.4
-Collin Sexton|Alabama|2018|7|Charlotte Hornets|Y|19.2|3.8|3.6
-Cooper Flagg|Duke|2025|0|Dallas Mavericks|Y|19.2|7.5|4.2
-Corey Kispert|Gonzaga|2021|4|Washington Wizards|Y|18.6|5.0|1.8
-Cormac Ryan|North Carolina|2024|1|Milwaukee Bucks|Y|11.5|2.8|1.2
-Craig Porter, Jr.|Wichita State|2023|2|Cleveland Cavaliers|Y|13.5|6.2|4.9
-Curtis Jones|Iowa State|2025|0|Denver Nuggets|Y|17.4|4.2|2.3
-D'Angelo Russell|Ohio State|2015|10|Dallas Mavericks|Y|19.3|5.7|5.0
-D'Moi Hodge|Missouri|2023|2|Dallas Mavericks|Y|14.7|3.9|1.6
-D.J. Wilson|Michigan|2017|8|Shanghai Dongfang|Y|11.0|5.3|1.3
-DaQuan Jeffries|Tulsa|2019|6|Charlotte Hornets|Y|13.0|5.6|1.8
-DaRon Holmes II|Dayton|2024|1|Denver Nuggets|Y|20.4|8.5|2.6
-Daeqwon Plowden|Bowling Green|2022|3|Atlanta Hawks|Y|15.7|6.8|1.1
-Dalano Banton|Nebraska|2021|4|Dallas Mavericks|Y|9.6|5.9|3.9
-Dalen Terry|Arizona|2022|3|Chicago Bulls|Y|8.0|4.8|3.9
-Dalton Knecht|Tennessee|2024|1|Los Angeles Lakers|Y|21.7|4.9|1.8
-Damian Jones|Vanderbilt|2016|9|Zhejiang Chouzhou|Y|13.9|6.9|1.2
-Damion Baugh|TCU|2023|2|Charlotte Hornets|Y|12.6|4.7|5.8
-Damion Lee|Louisville|2016|9|Ironi Nes Ziona|Y|15.9|3.9|2.0
-Damyean Dotson|Houston|2017|8|Ryukyu Golden Kings|Y|17.4|6.9|1.1
-Daniel Gafford|Arkansas|2019|6|Dallas Mavericks|Y|16.9|8.7|0.7
-Daniel Ochefu|Villanova|2016|7|Blackwater Bossings|Y|10.0|7.5|1.7
-Daniel Oturu|Minnesota|2020|5|Hapoel Tel Aviv|Y|20.1|11.3|1.1
-Daniss Jenkins|St. John's|2024|1|Detroit Pistons|Y|14.9|3.5|5.4
-Danny Wolf|Michigan|2025|0|Brooklyn Nets|Y|13.2|9.7|3.6
-Danuel House|Texas A&M|2016|8|Philadelphia Sixers|N|15.6|4.8|2.1
-Dariq Whitehead|Duke|2023|2|Brooklyn Nets|Y|8.3|2.4|1.0
-Darius Brown II|Utah State|2024|1|Cleveland Cavaliers|Y|12.3|4.3|6.5
-Darius Days|LSU|2022|3|Sanen Neophoenix|Y|13.7|7.8|0.9
-Darius Garland|Vanderbilt|2019|6|Cleveland Cavaliers|Y|16.2|3.8|2.6
-Darrun Hilliard|Villanova|2015|10|Bilbao Basket|Y|14.3|3.1|2.1
-Daryl Macon|Arkansas|2018|7|Maroussi BC|Y|16.8|2.9|3.9
-David Duke|Providence|2021|4|Phoenix Suns|Y|16.8|6.3|4.8
-David Johnson|Louisville|2021|4|Tasmania|Y|12.6|5.8|3.2
-David Jones-Garcia|Memphis|2024|1|San Antonio Spurs|Y|21.8|7.6|1.8
-David Nwaba|Cal Poly|2016|9|Sanen Neophoenix|Y|12.5|6.3|3.5
-David Roddy|Colorado State|2022|3|Houston Rockets|Y|19.2|7.5|2.9
-Davion Mitchell|Baylor|2021|4|Miami Heat|Y|14.0|2.7|5.5
-Davon Reed|Miami (FL)|2017|7|Koshigaya Alphas|Y|14.9|4.8|2.4
-Day'Ron Sharpe|North Carolina|2021|4|Brooklyn Nets|Y|9.5|7.6|1.4
-De'Aaron Fox|Kentucky|2017|8|San Antonio Spurs|Y|16.7|4.0|4.6
-De'Andre Hunter|Virginia|2019|6|Cleveland Cavaliers|Y|15.2|5.1|2.0
-De'Anthony Melton|USC|2017|7|Golden State Warriors|Y|8.3|4.7|3.5
-DeAndre' Bembry|Saint Joseph's|2016|6|Brooklyn Nets|N|17.4|7.8|4.5
-DeJon Jarreau|Houston|2021|3|Memphis Grizzlies|Y|10.6|5.4|4.3
-Dean Wade|Kansas State|2019|6|Cleveland Cavaliers|Y|12.9|6.1|2.8
-Deandre Ayton|Arizona|2018|7|Los Angeles Lakers|Y|20.1|11.6|1.6
-Dejounte Murray|Washington|2016|9|New Orleans Pelicans|Y|16.1|6.0|4.4
-Delon Wright|Utah|2015|10|Indiana Pacers|Y|14.5|4.9|5.1
-Demetrius Jackson|Notre Dame|2016|6|Birmingham Squadron|N|15.8|3.5|4.7
-Deng Adel|Louisville|2018|7|Ottawa Blackjacks|Y|15.0|5.2|2.8
-Dennis Smith|NC State|2017|8|Dallas Mavericks|Y|18.1|4.6|6.2
-Denzel Valentine|Michigan State|2016|9|Umana Venezia|Y|19.2|7.5|7.8
-Dereck Lively II|Duke|2023|2|Dallas Mavericks|Y|5.2|5.4|1.1
-Dereon Seabron|NC State|2022|3|Salt Lake City Stars|Y|17.3|8.2|3.2
-Derrick Jones|UNLV|2016|9|Los Angeles Clippers|Y|11.5|4.5|0.8
-Derrick Walton, Jr.|Michigan|2017|8|Hapoel Unet Holon|Y|15.5|4.8|5.0
-Derrick White|Colorado|2017|8|Boston Celtics|Y|18.1|4.1|4.4
-Desmond Bane|TCU|2020|5|Orlando Magic|Y|16.6|6.3|3.9
-Devin Booker|Kentucky|2015|10|Phoenix Suns|Y|10.0|2.0|1.1
-Devin Cannady|Princeton|2019|6|Mykonos|Y|18.2|5.8|1.7
-Devin Carter|Providence|2024|1|Sacramento Kings|Y|19.1|8.4|3.5
-Devin Robinson|Florida|2017|8|Casademont Zaragoza|Y|11.1|6.1|0.6
-Devin Vassell|Florida State|2020|5|San Antonio Spurs|Y|12.7|5.1|1.6
-Devon Dotson|Kansas|2020|5|Besiktas Icrypex|Y|18.1|4.1|4.0
-Devontae Cacok|UNC Wilmington|2019|6|UCAM Murcia CB|Y|15.2|12.3|0.6
-Devonte' Graham|Kansas|2018|7|KK Crvena Zvezda|Y|17.3|4.0|7.2
-Dewan Hernandez|Miami (FL)|2019|6|Jeonju KCC Egis|Y|11.4|6.7|0.4
-Dexter Dennis|Texas A&M|2023|2|Sacramento Kings|Y|9.5|5.8|1.2
-Deyonta Davis|Michigan State|2016|5|Goyang Sono Skygunners|N|7.5|5.5|0.7
-Diamond Stone|Maryland|2016|9|Marinos|Y|12.5|5.4|0.4
-Dillon Brooks|Oregon|2017|8|Houston Rockets|Y|16.1|3.2|2.7
-Dillon Jones|Weber State|2024|1|Washington Wizards|Y|20.8|9.8|5.2
-Domantas Sabonis|Gonzaga|2016|9|Sacramento Kings|Y|17.6|11.8|1.8
-Donovan Clingan|UConn|2024|1|Portland Trail Blazers|Y|13.0|7.4|1.5
-Donovan Mitchell|Louisville|2017|8|Cleveland Cavaliers|Y|15.6|4.9|2.7
-Donovan Williams|UNLV|2022|3|Westchester Knicks|Y|12.7|3.3|1.1
-Donta Hall|Alabama|2019|6|Baskonia|Y|10.5|8.8|0.5
-Donte DiVincenzo|Villanova|2018|7|Minnesota Timberwolves|Y|13.4|4.8|3.5
-Donte Grantham|Clemson|2018|7|Hitachi Sun Rockers|Y|14.2|6.9|2.4
-Dorian Finney-Smith|Florida|2016|9|Houston Rockets|Y|14.7|8.3|2.1
-Drake Powell|North Carolina|2025|0|Brooklyn Nets|Y|7.4|3.4|1.1
-Drew Eubanks|Oregon State|2018|7|Sacramento Kings|Y|13.2|6.8|1.1
-Drew Peterson|USC|2023|2|Charlotte Hornets|Y|13.9|6.2|4.3
-Drew Timme|Gonzaga|2023|2|Brooklyn Nets|Y|21.2|7.5|3.2
-Dru Smith|Missouri|2021|4|Miami Heat|Y|14.3|3.5|3.8
-Duane Washington, Jr.|Ohio State|2021|4|KK Partizan|Y|16.4|3.4|2.9
-Duje Dukan|Wisconsin|2015|9|BK Klosterneuburg Dukes|N|4.7|2.6|0.6
-Duncan Robinson|Michigan|2018|7|Miami Heat|Y|9.2|2.4|1.1
-Dwayne Bacon|Florida State|2017|8|Dubai|Y|17.2|4.2|1.7
-Dylan Cardwell|Auburn|2025|0|Sacramento Kings|Y|5.0|5.1|1.6
-Dylan Harper|Rutgers|2025|0|San Antonio Spurs|Y|19.4|4.6|4.0
-Dylan Windler|Belmont|2019|6|Perth|Y|21.3|10.8|2.5
-E.J. Liddell|Ohio State|2022|3|Brooklyn Nets|Y|19.4|7.9|2.5
-Edmond Sumner|Xavier|2017|8|Guangdong Dongguan|Y|14.3|4.2|4.8
-Egor Demin|Brigham Young|2025|0|Brooklyn Nets|Y|10.6|3.9|5.5
-Elijah Hughes|Syracuse|2020|5|MHP Riesen|Y|19.0|4.9|3.4
-Emanuel Miller|TCU|2024|1|Chicago Bulls|Y|15.8|6.1|2.6
-Emoni Bates|Eastern Michigan|2023|2|Philadelphia Sixers|Y|19.2|5.8|1.4
-Enrique Freeman|Akron|2024|1|Minnesota Timberwolves|Y|18.6|12.9|1.6
-Eric Paschall|Villanova|2019|5|Georgio Tesi Group Pistoia|Y|16.5|6.1|2.1
-Erik McCree|Louisiana Tech|2017|8|Guaiqueries|Y|17.7|8.9|1.3
-Eugene Omoruyi|Oregon|2021|4|Baskonia|Y|17.1|5.4|2.3
-Evan Mobley|USC|2021|4|Cleveland Cavaliers|Y|16.4|8.7|2.4
-Feron Hunt|Southern Methodist|2021|4|Detroit Pistons|Y|11.1|7.9|0.6
-Frank Jackson|Duke|2017|8|Ningbo Rockets|Y|10.9|2.5|1.7
-Frank Kaminsky|Wisconsin|2015|10|Guangzhou Loong Lions|Y|18.8|8.2|2.6
-Frank Mason|Kansas|2017|8|CSP Limoges|Y|20.9|4.2|5.2
-Franz Wagner|Michigan|2021|4|Orlando Magic|Y|12.5|6.5|3.0
-Fred VanVleet|Wichita State|2016|9|Houston Rockets|Y|12.2|3.2|5.5
-Freddie Gillespie|Baylor|2020|5|Galatasaray|Y|9.6|9.1|0.5
-G.G. Jackson|South Carolina|2023|2|Memphis Grizzlies|Y|15.4|5.9|0.8
-Garrison Mathews|Lipscomb|2019|6|New York Knicks|Y|20.9|5.5|1.9
-Gary Clark|Cincinnati|2018|7|Yokohama B-Corsairs|Y|12.9|8.7|2.1
-Gary Payton II|Oregon State|2016|9|Golden State Warriors|Y|16.0|7.8|5.0
-Gary Trent, Jr.|Duke|2018|7|Milwaukee Bucks|Y|14.5|4.2|1.4
-George King|Colorado|2018|7|Guangzhou Loong Lions|Y|12.9|7.8|1.1
-Georges Niang|Iowa State|2016|9|Atlanta Hawks|Y|20.5|6.2|3.3
-Gradey Dick|Kansas|2023|2|Toronto Raptors|Y|14.1|5.1|1.7
-Grant Nelson|Alabama|2025|0|Brooklyn Nets|Y|11.5|7.6|1.6
-Grant Riller|Charleston|2020|5|Beijing BeiKong|Y|21.9|5.1|3.9
-Grant Williams|Tennessee|2019|6|Charlotte Hornets|Y|18.8|7.5|3.2
-Grayson Allen|Duke|2018|7|Phoenix Suns|Y|15.5|3.3|4.6
-Greg Brown III|Texas|2021|5|AEK Athens|Y|9.3|6.2|0.4
-Hamidou Diallo|Kentucky|2018|7|Baskonia|Y|10.0|3.6|1.2
-Harrison Ingram|North Carolina|2024|1|San Antonio Spurs|Y|12.2|8.8|2.2
-Harry Giles|Duke|2017|7|Jiangsu Kendia|Y|3.9|3.8|0.3
-Henry Ellenson|Marquette|2016|9|Wonju Dongbu Promy|Y|17.0|9.7|1.8
-Herb Jones|Alabama|2021|4|New Orleans Pelicans|Y|11.2|6.6|3.3
-Hunter Dickinson|Kansas|2025|0|New Orleans Pelicans|Y|17.4|10.0|2.1
-Hunter Sallis|Wake Forest|2025|0|Philadelphia Sixers|Y|18.3|5.1|2.8
-Hunter Tyson|Clemson|2023|2|Denver Nuggets|Y|15.3|9.6|1.5
-Ignas Brazdeikis|Michigan|2019|6|Zalgiris|Y|14.8|5.4|0.8
-Ike Anigbogu|UCLA|2017|7|Vanoli Cremona|Y|4.7|4.0|0.2
-Immanuel Quickley|Kentucky|2020|5|Toronto Raptors|Y|16.1|4.2|1.9
-Isaac Humphries|Kentucky|2017|8|Adelaide|Y|2.8|2.8|0.2
-Isaac Jones|Washington State|2024|1|Sacramento Kings|Y|15.3|7.6|1.5
-Isaac Okoro|Auburn|2020|5|Cleveland Cavaliers|Y|12.8|4.4|2.0
-Isaiah Briscoe|Kentucky|2017|7|Fujian|Y|12.1|5.4|4.2
-Isaiah Collier|USC|2024|1|Utah Jazz|Y|16.3|2.9|4.3
-Isaiah Crawford|Louisiana Tech|2024|1|Houston Rockets|Y|16.3|6.2|2.4
-Isaiah Hicks|North Carolina|2017|7|Suwon KT Sonicboom|Y|11.8|5.5|1.4
-Isaiah Jackson|Kentucky|2021|4|Indiana Pacers|Y|8.4|6.6|0.7
-Isaiah Joe|Arkansas|2020|5|Oklahoma City Thunder|Y|16.9|4.1|1.7
-Isaiah Livers|Michigan|2021|3|Phoenix Suns|Y|13.1|6.0|2.0
-Isaiah Mobley|USC|2022|3|Manisa Buyuksehir Belediye|Y|14.2|8.3|3.3
-Isaiah Roby|Nebraska|2019|6|Westchester Knicks|Y|11.8|6.9|1.9
-Isaiah Stevens|Colorado State|2024|1|Sacramento Kings|Y|16.0|3.2|6.8
-Isaiah Stewart II|Washington|2020|5|Detroit Pistons|Y|17.0|8.8|0.8
-Isaiah Taylor|Texas|2016|9|Dubai|Y|15.0|2.8|5.0
-Isaiah Whitehead|Seton Hall|2016|9|Ironi Nes Ziona|Y|18.2|3.6|5.1
-Isaiah Wong|Miami (FL)|2023|2|Zalgiris|Y|16.2|4.3|3.2
-Ivan Rabb|California|2017|4|Delaware Blue Coats|N|14.0|10.5|1.5
-J.D. Davison|Alabama|2022|3|Boston Celtics|Y|8.5|4.8|4.3
-J.J. O'Brien|San Diego State|2015|9|Tofas SC|Y|10.3|5.2|2.4
-J.P. Macura|Xavier|2018|6|ASP Promitheas Patras|Y|12.9|4.5|2.9
-J.T. Thor|Auburn|2021|4|Aris Midea Thessaloniki|Y|9.4|5.0|0.9
-Ja Morant|Murray State|2019|6|Memphis Grizzlies|Y|24.5|5.7|10.0
-Ja'Kobe Walter|Baylor|2024|1|Toronto Raptors|Y|14.5|4.4|1.4
-JaQuori McLaughlin|UC Santa Barbara|2021|3|Valley Suns|Y|16.0|3.5|5.2
-Jabari Bird|California|2017|3|Obera Tenis Club|Y|14.3|4.7|1.0
-Jabari Smith, Jr.|Auburn|2022|3|Houston Rockets|Y|16.9|7.4|2.0
-Jabari Walker|Colorado|2022|3|Philadelphia Sixers|Y|14.6|9.4|1.2
-Jacob Evans|Cincinnati|2018|6|Olomoucko Prostejov|Y|13.0|4.7|3.1
-Jacob Gilyard|Richmond|2022|3|Acqua San Bernardo Cantu|Y|13.3|3.5|5.4
-Jacob Toppin|Kentucky|2023|2|Atlanta Hawks|Y|12.4|6.8|2.2
-Jaden Ivey|Purdue|2022|3|Detroit Pistons|Y|17.3|4.9|3.1
-Jaden McDaniels|Washington|2020|5|Minnesota Timberwolves|Y|13.0|5.8|2.1
-Jaden Springer|Tennessee|2021|4|Utah Jazz|Y|12.5|3.5|2.9
-Jahlil Okafor|Duke|2015|10|Capitanes de Arecibo|Y|17.3|8.5|1.3
-Jahmai Mashack|Tennessee|2025|0|Memphis Grizzlies|Y|6.0|4.2|1.5
-Jahmi'us Ramsey|Texas Tech|2020|5|Pallacanestro Trieste 2004|Y|15.0|4.0|2.2
-Jahmir Young|Maryland|2024|1|Chicago Bulls|Y|20.4|4.9|4.2
-Jahmyl Telfort|Butler|2025|0|Los Angeles Clippers|Y|16.0|4.7|3.4
-Jaime Jaquez, Jr.|UCLA|2023|2|Miami Heat|Y|17.8|8.2|2.4
-Jake LaRavia|Wake Forest|2022|3|Los Angeles Lakers|Y|14.6|6.6|3.7
-Jake Layman|Maryland|2016|9|Aishin Sea Horses|Y|11.6|5.3|1.1
-Jake Wiley|Eastern Washington|2017|8|CB Granada|Y|20.4|9.1|2.4
-Jakob Poeltl|Utah|2016|9|Toronto Raptors|Y|17.2|9.1|1.9
-Jalen Bridges|Baylor|2024|1|Boston Celtics|Y|12.2|5.7|1.4
-Jalen Brunson|Villanova|2018|7|New York Knicks|Y|18.9|3.1|4.6
-Jalen Crutcher|Dayton|2021|4|Orlando Magic|Y|17.6|3.5|4.8
-Jalen Duren|Memphis|2022|3|Detroit Pistons|Y|12.0|8.1|1.3
-Jalen Harris|Nevada|2020|5|Windy City Bulls|Y|21.6|6.4|3.9
-Jalen Hood-Schifino|Indiana|2023|2|Los Angeles Lakers|Y|13.5|4.1|3.7
-Jalen Johnson|Duke|2021|4|Atlanta Hawks|Y|11.2|6.1|2.2
-Jalen Jones|Texas A&M|2016|9|Spartans de Districto Captital Caracas|Y|15.3|7.2|0.6
-Jalen McDaniels|San Diego State|2019|6|New Orleans Pelicans|Y|15.9|8.3|2.1
-Jalen Pickett|Penn State|2023|2|Denver Nuggets|Y|17.7|7.4|6.6
-Jalen Slawson|Furman|2023|2|Indiana Pacers|Y|15.6|7.1|3.2
-Jalen Smith|Maryland|2020|5|Chicago Bulls|Y|15.5|10.5|0.8
-Jalen Suggs|Gonzaga|2021|4|Orlando Magic|Y|14.4|5.3|4.5
-Jalen Williams|Santa Clara|2022|3|Oklahoma City Thunder|Y|18.0|4.4|4.2
-Jalen Wilson|Kansas|2023|2|Brooklyn Nets|Y|20.1|8.3|2.2
-Jamal Cain|Oakland|2022|3|Orlando Magic|Y|19.9|10.2|0.7
-Jamal Murray|Kentucky|2016|9|Denver Nuggets|Y|20.0|5.2|2.2
-Jamal Shead|Houston|2024|1|Toronto Raptors|Y|12.9|3.7|6.3
-Jamaree Bouyea|San Francisco|2022|3|Milwaukee Bucks|Y|17.3|5.0|4.0
-Jameel Warney|Stony Brook|2016|9|Seoul SK|Y|19.8|10.8|1.6
-Jamel Artis|Pittsburgh|2017|7|Mineros de Zacatecas|N|18.2|4.9|3.3
-James Bouknight|UConn|2021|4|Mexico City Capitanes|Y|18.7|5.7|1.8
-James Huff|Virginia|2021|4|Memphis Grizzlies|Y|13.0|7.1|1.0
-James Webb III|Boise State|2016|9|Unicaja|Y|15.8|9.1|1.1
-James Wiseman|Memphis|2020|5|Indiana Pacers|Y|19.7|10.7|0.3
-Jamir Watkins|Florida State|2025|0|Washington Wizards|Y|18.4|5.7|2.4
-Jamison Battle|Ohio State|2024|1|Toronto Raptors|Y|15.3|5.2|1.4
-Jamorko Pickett|Georgetown|2021|4|Nagoya Fighting Eagles|Y|12.2|7.2|2.1
-Jarace Walker|Houston|2023|2|Indiana Pacers|Y|11.2|6.8|1.8
-Jared Butler|Baylor|2021|4|Phoenix Suns|Y|16.7|3.3|4.8
-Jared Harper|Auburn|2019|6|Hapoel Bank Yahav Jerusalem|Y|15.3|2.5|5.8
-Jared McCain|Duke|2024|1|Philadelphia Sixers|Y|14.3|5.0|1.9
-Jared Rhoden|Seton Hall|2022|3|Toronto Raptors|Y|15.5|6.7|1.2
-Jared Terrell|Rhode Island|2018|5|Hapoel Eilat|N|16.8|3.5|2.4
-Jarell Martin|LSU|2015|10|Koshigaya Alphas|Y|16.9|9.2|1.8
-Jaren Jackson, Jr.|Michigan State|2018|7|Memphis Grizzlies|Y|10.9|5.8|1.1
-Jarred Vanderbilt|Kentucky|2018|7|Los Angeles Lakers|Y|5.9|7.9|1.0
-Jarrell Brantley|Charleston|2019|6|Nagasaki Velca|Y|19.4|8.4|2.4
-Jarrett Allen|Texas|2017|8|Cleveland Cavaliers|Y|13.4|8.4|0.8
-Jarrett Culver|Texas Tech|2019|6|Sendai 89ers|Y|18.5|6.4|3.7
-Jarrod Uthoff|Iowa|2016|9|Pallacanestro Trieste 2004|Y|18.9|6.3|1.1
-Jase Richardson|Michigan State|2025|0|Orlando Magic|Y|12.1|3.3|1.9
-Jason Preston|Ohio|2021|4|Los Angeles Clippers|Y|15.7|7.3|7.3
-Javin DeLaurier|Duke|2020|5|Bursaspor|Y|3.5|3.5|0.5
-Javon Freeman-Liberty|DePaul|2022|3|Long Island Nets|Y|21.7|7.3|3.2
-Javon Small|West Virginia|2025|0|Memphis Grizzlies|Y|18.6|4.1|5.6
-Javonte Smart|LSU|2021|4|Orlando Magic|Y|16.0|3.7|4.0
-Jawun Evans|Oklahoma State|2017|8|Pioneros de Los Mochis|Y|19.2|3.4|6.4
-Jaxson Hayes|Texas|2019|6|Los Angeles Lakers|Y|10.0|5.0|0.3
-Jaylen Adams|St. Bonaventure|2018|7|Brisbane|Y|19.1|3.4|5.2
-Jaylen Brown|California|2016|9|Boston Celtics|Y|14.6|5.4|2.0
-Jaylen Clark|UCLA|2023|2|Minnesota Timberwolves|Y|13.0|6.0|1.9
-Jaylen Hoard|Wake Forest|2019|6|Maccabi FOX Tel Aviv|Y|13.1|7.6|1.5
-Jaylen Nowell|Washington|2019|6|Shanxi Zhongyu|Y|16.2|5.3|3.1
-Jaylen Sims|UNC Wilmington|2022|3|Charlotte Hornets|Y|16.4|5.8|2.4
-Jaylen Wells|Washington State|2024|1|Memphis Grizzlies|Y|12.6|4.6|1.2
-Jaylin Williams|Arkansas|2022|3|Oklahoma City Thunder|Y|10.9|9.8|2.6
-Jaylon Tyson|California|2024|1|Cleveland Cavaliers|Y|19.6|6.8|3.5
-Jayson Kent|Texas|2025|0|Portland Trail Blazers|Y|5.6|3.3|0.4
-Jayson Tatum|Duke|2017|8|Boston Celtics|Y|16.8|7.3|2.1
-Jemerrio Jones|New Mexico State|2018|6|KB Rahoveci|Y|11.0|13.2|3.1
-Jeremiah Fears|Oklahoma|2025|0|New Orleans Pelicans|Y|17.1|4.1|4.1
-Jeremiah Martin|Memphis|2019|6|Lokomotiv Kuban|Y|19.7|4.3|4.4
-Jeremiah Robinson-Earl|Villanova|2021|4|Dallas Mavericks|Y|15.7|8.5|2.2
-Jeremy Sochan|Baylor|2022|3|San Antonio Spurs|Y|9.2|6.4|1.8
-Jerian Grant|Notre Dame|2015|10|Panathinaikos|Y|16.5|3.0|6.7
-Jericho Sims|Texas|2021|4|Milwaukee Bucks|Y|9.2|7.2|0.7
-Jerome Robinson|Boston College|2018|7|Galatasaray|Y|20.7|3.6|3.3
-Jesse Edwards|West Virginia|2024|1|Minnesota Timberwolves|Y|15.0|8.0|1.2
-Jett Howard|Michigan|2023|2|Orlando Magic|Y|14.2|2.8|2.0
-Jevon Carter|West Virginia|2018|7|Chicago Bulls|Y|17.3|4.6|6.6
-Joe Chealey|Charleston|2018|6|Juventus|Y|18.0|4.6|3.6
-Joe Wieskamp|Iowa|2021|4|Science City Jena|Y|14.8|6.6|1.7
-Joel Ayayi|Gonzaga|2021|4|Paris Basketball|Y|12.0|6.9|2.7
-Joel Bolomboy|Weber State|2016|9|KK Crvena Zvezda|Y|17.1|12.6|1.1
-John Butler|Florida State|2022|3|Milwaukee Bucks|Y|5.9|3.2|0.7
-John Collins|Wake Forest|2017|8|Utah Jazz|Y|19.2|9.8|0.5
-John Konchar|Fort Wayne|2019|6|Memphis Grizzlies|Y|19.5|8.5|5.4
-John Poulakidas|Yale|2025|0|Los Angeles Clippers|Y|19.4|3.3|1.3
-John Tonje|Wisconsin|2025|0|Utah Jazz|Y|19.6|5.3|1.8
-Johnathan Motley|Baylor|2017|9|Hapoel Tel Aviv|Y|17.3|9.9|2.3
-Johnathan Williams|Gonzaga|2018|7|London Lions|Y|13.4|8.5|1.6
-Johni Broome|Auburn|2025|0|Philadelphia Sixers|Y|18.6|10.8|2.9
-Johnny Davis|Wisconsin|2022|3|Milwaukee Bucks|Y|19.7|8.2|2.1
-Johnny Furphy|Kansas|2024|1|Indiana Pacers|Y|9.0|4.9|1.0
-Johnny Juzang|UCLA|2022|3|Minnesota Timberwolves|Y|15.6|4.7|1.8
-Jon Teske|Michigan|2020|2|Orlando Magic|N|11.6|6.7|1.1
-Jonathan Isaac|Florida State|2017|8|Orlando Magic|Y|12.0|7.8|1.2
-Jonathan Mogbo|San Francisco|2024|1|Toronto Raptors|Y|14.2|10.1|3.6
-Jontay Porter|Missouri|2019|4|Detroit Pistons|N|9.9|6.8|2.2
-Jordan Bell|Oregon|2017|8|Noblesville Boom|Y|10.9|8.8|1.8
-Jordan Bone|Tennessee|2019|5|Hapoel Unet Holon|Y|13.5|3.2|5.8
-Jordan Goodwin|Saint Louis|2021|4|Los Angeles Lakers|Y|14.5|10.1|3.9
-Jordan Hall|Saint Joseph's|2022|3|Texas Legends|Y|14.1|6.7|5.8
-Jordan Hawkins|UConn|2023|2|New Orleans Pelicans|Y|16.2|3.8|1.3
-Jordan McLaughlin|USC|2018|7|San Antonio Spurs|Y|12.8|3.7|7.8
-Jordan Mickey|LSU|2015|10|Qingdao|Y|15.4|9.9|1.3
-Jordan Miller|Miami (FL)|2023|2|Los Angeles Clippers|Y|15.3|6.2|2.7
-Jordan Nwora|Louisville|2020|5|KK Crvena Zvezda|Y|18.0|7.7|1.3
-Jordan Poole|Michigan|2019|6|Washington Wizards|Y|12.8|3.0|2.2
-Jordan Schakel|San Diego State|2021|4|Telenet BC Oostende|Y|14.4|4.4|1.0
-Jordan Walsh|Arkansas|2023|2|Boston Celtics|Y|7.1|3.9|0.9
-Jose Alvarado|Georgia Tech|2021|4|New Orleans Pelicans|Y|15.2|3.5|4.1
-Josh Christopher|Arizona State|2021|4|Sioux Falls Skyforce|Y|14.3|4.7|1.4
-Josh Green|Arizona|2020|5|Charlotte Hornets|Y|12.0|4.6|2.6
-Josh Hart|Villanova|2017|8|New York Knicks|Y|18.7|6.4|2.9
-Josh Jackson|Kansas|2017|6|Toronto Raptors|N|16.3|7.4|3.0
-Josh Minott|Memphis|2022|3|Boston Celtics|Y|6.6|3.8|0.9
-Josh Okogie|Georgia Tech|2018|7|Charlotte Hornets|Y|18.2|6.3|2.5
-Josh Reaves|Penn State|2019|6|Paisas Basketball Club|Y|10.6|5.0|2.9
-Josh Richardson|Tennessee|2015|10|Casademont Zaragoza|Y|16.0|4.5|3.6
-Joshua Primo|Alabama|2021|4|Chicago Bulls|Y|8.1|3.4|0.8
-Jules Bernard|UCLA|2022|3|Minnesota Timberwolves|Y|12.8|4.7|1.7
-Julian Champagnie|St. John's|2022|3|San Antonio Spurs|Y|19.2|6.6|2.0
-Julian Phillips|Tennessee|2023|2|Chicago Bulls|Y|8.3|4.7|1.4
-Julian Reese|Maryland|2025|0|Toronto Raptors|Y|13.3|9.0|1.3
-Julian Strawther|Gonzaga|2023|2|Denver Nuggets|Y|15.2|6.2|1.3
-Justin Anderson|Virginia|2015|10|Dubai|Y|12.2|4.0|1.7
-Justin Champagnie|Pittsburgh|2021|4|Washington Wizards|Y|18.0|11.1|1.6
-Justin Edwards|Kentucky|2024|1|Philadelphia Sixers|Y|8.8|3.4|0.9
-Justin Jackson|North Carolina|2017|7|Minnesota Timberwolves|N|18.3|4.7|2.8
-Justin James|Wyoming|2019|4|Cleveland Charge|N|22.1|8.5|4.4
-Justin Minaya|Providence|2022|3|Orlando Magic|Y|6.5|5.5|1.6
-Justin Patton|Creighton|2017|8|Peristeri Betsson|Y|12.9|6.2|1.2
-Justin Robinson|Virginia Tech|2019|6|Paris Basketball|Y|13.5|3.2|5.0
-Justin Wright-Foreman|Hofstra|2019|5|Iraklis BC|Y|27.1|4.0|2.9
-Justise Winslow|Duke|2015|10|Milwaukee Bucks|Y|12.6|6.5|2.1
-Juwan Morgan|Indiana|2019|6|Buducnost Voli Podgorica|Y|15.5|8.2|1.9
-K.J. Simpson|Colorado|2024|1|Charlotte Hornets|Y|19.7|5.8|4.9
-KZ Okpala|Stanford|2019|4|Sacramento Kings|N|16.8|5.7|2.0
-Kadary Richmond|St. John's|2025|0|Washington Wizards|Y|12.4|6.4|5.3
-Kadeem Allen|Arizona|2017|8|Unieuro Forli|Y|9.8|4.0|3.0
-Kai Jones|Texas|2021|5|Anadolu Efes|Y|8.8|4.8|0.6
-Kaiser Gates|Xavier|2022|3|UCAM Murcia CB|Y|7.2|4.6|0.9
-Kam Jones|Marquette|2025|0|Indiana Pacers|Y|19.2|4.5|5.9
-Karl-Anthony Towns|Kentucky|2015|10|New York Knicks|Y|10.3|6.7|1.1
-Kasparas Jakucionis|Illinois|2025|0|Miami Heat|Y|15.0|5.7|4.7
-Kay Felder|Oakland|2016|9|Carpegna Prosciutto Basket Pesaro|Y|24.4|4.3|9.3
-Keegan Murray|Iowa|2022|3|Sacramento Kings|Y|23.5|8.7|1.5
-Keion Brooks, Jr.|Washington|2024|1|Birmingham Squadron|Y|21.1|6.8|1.4
-Keita Bates-Diop|Ohio State|2018|7|Brooklyn Nets|Y|19.8|8.7|1.6
-Kel'el Ware|Indiana|2024|1|Miami Heat|Y|15.9|9.9|1.5
-Keldon Johnson|Kentucky|2019|6|San Antonio Spurs|Y|13.5|5.9|1.6
-Keljin Blevins|Montana State|2019|5|Sudbury Five|N|11.8|5.9|1.6
-Kelly Oubre, Jr.|Kansas|2015|10|Philadelphia Sixers|Y|9.3|5.0|0.8
-Kendall Brown|Baylor|2022|3|Boston Celtics|Y|9.7|4.9|1.9
-Kendrick Nunn|Oakland|2018|7|Panathinaikos|Y|25.9|4.7|3.8
-Kennedy Chandler|Tennessee|2022|3|Philadelphia Sixers|Y|13.9|3.2|4.7
-Kenny Lofton, Jr.|Louisiana Tech|2022|3|Shanghai Dongfang|Y|16.5|10.5|2.8
-Kenrich Williams|TCU|2018|7|Oklahoma City Thunder|Y|13.2|9.3|3.9
-Keon Ellis|Alabama|2022|3|Sacramento Kings|Y|12.1|6.1|1.8
-Keon Johnson|Tennessee|2021|4|Brooklyn Nets|Y|11.3|3.5|2.5
-Keshad Johnson|Arizona|2024|1|Miami Heat|Y|11.5|5.9|1.8
-Keshon Gilbert|Iowa State|2025|0|Washington Wizards|Y|13.4|3.5|4.1
-Kessler Edwards|Pepperdine|2021|4|Denver Nuggets|Y|17.2|6.8|1.2
-Kevin Huerter|Maryland|2018|7|Chicago Bulls|Y|14.8|5.0|3.4
-Kevin Knox II|Kentucky|2018|7|Chicago Bulls|Y|15.6|5.4|1.4
-Kevin McCullar, Jr.|Kansas|2024|1|New York Knicks|Y|18.3|6.0|4.1
-Kevin Porter, Jr.|USC|2019|6|Milwaukee Bucks|Y|9.5|4.0|1.4
-Kevon Looney|UCLA|2015|10|New Orleans Pelicans|Y|11.6|9.2|1.4
-Keyontae Johnson|Kansas State|2023|2|Charlotte Hornets|Y|17.4|6.8|2.1
-Keyonte George|Baylor|2023|2|Utah Jazz|Y|15.3|4.2|2.8
-Khaman Maluach|Duke|2025|0|Phoenix Suns|Y|8.6|6.6|0.5
-Khyri Thomas|Creighton|2018|7|Mitteldeutscher BC|Y|15.1|4.4|2.8
-Killian Tillie|Gonzaga|2020|4|Unicaja|Y|13.6|5.0|1.9
-Kira Lewis, Jr.|Alabama|2020|5|Wisconsin Herd|Y|18.5|4.8|5.2
-Kobe Brown|Missouri|2023|2|Los Angeles Clippers|Y|15.8|6.4|2.5
-Kobe Bufkin|Michigan|2023|2|Atlanta Hawks|Y|14.0|4.5|2.9
-Kobe Sanders|Nevada|2025|0|Los Angeles Clippers|Y|15.8|3.9|4.5
-Kobi Simmons|Arizona|2017|8|Baskonia|Y|8.7|1.6|2.0
-Koby Brea|Kentucky|2025|0|Phoenix Suns|Y|11.6|3.2|1.3
-Kon Knueppel|Duke|2025|0|Charlotte Hornets|Y|14.4|4.0|2.7
-Kostas Antetokounmpo|Dayton|2018|7|Olympiacos|Y|5.2|2.9|0.4
-Kris Dunn|Providence|2016|9|Los Angeles Clippers|Y|16.4|5.3|6.2
-Kris Murray|Iowa|2023|2|Portland Trail Blazers|Y|20.2|7.9|2.0
-Ky Bowman|Boston College|2019|6|Umana Venezia|Y|19.0|7.5|4.0
-Kyle Alexander|Tennessee|2019|6|Turk Telekom|Y|7.4|6.7|0.5
-Kyle Collinsworth|Brigham Young|2016|7|Sanen Neophoenix|N|15.3|8.2|7.4
-Kyle Filipowski|Duke|2024|1|Utah Jazz|Y|16.4|8.3|2.8
-Kyle Guy|Virginia|2019|5|Indiana Pacers|Y|15.4|4.5|2.1
-Kyle Kuzma|Utah|2017|8|Milwaukee Bucks|Y|16.4|9.3|2.4
-Kyle Wiltjer|Gonzaga|2016|9|Umana Venezia|Y|20.4|6.3|1.5
-Kyshawn George|Miami (FL)|2024|1|Washington Wizards|Y|7.6|3.0|2.2
-L.J. Cryer|Houston|2025|0|Golden State Warriors|Y|15.7|2.4|2.0
-Lamar Stevens|Penn State|2020|5|Paris Basketball|Y|17.6|6.9|2.2
-Landry Shamet|Wichita State|2018|7|New York Knicks|Y|14.9|3.2|5.2
-Larry Nance, Jr.|Wyoming|2015|10|Cleveland Cavaliers|Y|16.1|7.2|2.5
-Lauri Markkanen|Arizona|2017|8|Utah Jazz|Y|15.6|7.2|0.9
-Lawson Lovering|Utah|2025|0|Memphis Grizzlies|Y|8.4|4.9|2.7
-Leaky Black|North Carolina|2023|2|Washington Wizards|Y|7.3|6.5|1.5
-Lester Quinones|Memphis|2022|3|New Orleans Pelicans|Y|10.0|3.5|1.3
-Liam McNeeley|UConn|2025|0|Charlotte Hornets|Y|14.5|6.0|2.3
-Liam Robbins|Vanderbilt|2023|2|Portland Trail Blazers|Y|15.0|6.8|1.0
-Lindy Waters III|Oklahoma State|2020|4|San Antonio Spurs|Y|10.5|4.2|2.4
-London Perrantes|Virginia|2017|8|Maroussi BC|Y|12.7|3.0|3.8
-Lonnie Walker|Miami (FL)|2018|7|Maccabi FOX Tel Aviv|Y|11.5|2.6|1.9
-Lonzo Ball|UCLA|2017|8|Chicago Bulls|Y|14.6|6.0|7.6
-Louis King|Oregon|2019|6|Xinjiang Guanghui|Y|13.5|5.5|1.3
-Luguentz Dort|Arizona State|2019|6|Oklahoma City Thunder|Y|16.1|4.3|2.3
-Luka Garza|Iowa|2021|4|Boston Celtics|Y|24.1|8.7|1.7
-Luke Kennard|Duke|2017|8|Atlanta Hawks|Y|19.5|5.1|2.5
-Luke Kornet|Vanderbilt|2017|8|San Antonio Spurs|Y|13.2|6.2|1.2
-M.J. Walker|Florida State|2021|4|Atlanta Hawks|Y|12.2|2.5|2.5
-Mac McClung|Texas Tech|2021|4|Chicago Bulls|Y|15.5|2.7|2.1
-Malachi Flynn|San Diego State|2020|5|Bahcesehir Koleji|Y|17.6|4.5|5.1
-Malachi Richardson|Syracuse|2016|8|Astros de Jalisco|Y|13.4|4.3|2.1
-Malaki Branham|Ohio State|2022|3|San Antonio Spurs|Y|13.7|3.6|2.0
-Malcolm Brogdon|Virginia|2016|9|New York Knicks|Y|18.2|4.1|3.1
-Malevy Leons|Bradley|2024|1|Oklahoma City Thunder|Y|13.8|7.1|1.3
-Malik Beasley|Florida State|2016|9|KK Partizan|Y|15.6|5.3|1.5
-Malik Fitts|Saint Mary's|2020|5|Boulazac Basket Dordogne|Y|16.5|7.1|1.2
-Malik Monk|Kentucky|2017|8|Sacramento Kings|Y|19.8|2.5|2.3
-Malik Newman|Kansas|2018|7|Avtodor Saratov|Y|14.2|5.0|2.1
-Mamadi Diakite|Virginia|2020|5|Baskonia|Y|13.7|6.8|0.6
-Mangok Mathiang|Louisville|2017|8|Korea Gas Corporation|Y|7.8|6.0|0.7
-Marcus Derrickson|Georgetown|2018|6|Seoul Samsung Thunders|Y|15.9|8.1|1.6
-Marcus Garrett|Kansas|2021|4|Charlotte Hornets|Y|11.0|4.6|3.7
-Marcus Georges-Hunt|Georgia Tech|2016|7|Sichuan Blue Whales|Y|16.7|3.4|3.3
-Marcus Paige|North Carolina|2016|7|Monbus Obradoiro|N|12.6|2.5|3.8
-Marcus Sasser|Houston|2023|2|Detroit Pistons|Y|16.8|2.8|3.1
-Marial Shayok|Iowa State|2019|6|Altiri Chiba|Y|18.7|4.9|2.0
-Mark Sears|Alabama|2025|0|Milwaukee Bucks|Y|18.6|2.9|5.1
-Mark Williams|Duke|2022|3|Phoenix Suns|Y|11.2|7.4|0.9
-Markelle Fultz|Washington|2017|8|Toronto Raptors|Y|23.2|5.7|5.9
-Markquis Nowell|Kansas State|2023|2|Baskonia|Y|17.6|3.5|8.3
-Markus Howard|Marquette|2020|5|Baskonia|Y|27.8|3.5|3.3
-Marques Bolden|Duke|2019|6|Golden State Warriors|Y|5.3|4.5|0.5
-Marquese Chriss|Washington|2016|9|Shandong|Y|13.8|5.4|0.8
-Marshall Plumlee|Duke|2016|2|New York Knicks|N|8.3|8.6|1.1
-Marvin Bagley III|Duke|2018|7|Washington Wizards|Y|21.0|11.1|1.5
-Mason Jones|Arkansas|2020|5|Perth|Y|22.0|5.5|3.4
-Matisse Thybulle|Washington|2019|6|Portland Trail Blazers|Y|9.1|3.1|2.1
-Matt Costello|Michigan State|2016|9|Valencia Basket|Y|10.7|8.2|1.3
-Matt Mooney|Texas Tech|2019|6|Leones de Ponce|Y|11.3|3.1|3.3
-Matt Ryan|Chattanooga|2020|4|New York Knicks|Y|15.4|4.9|1.9
-Matt Williams|UCF|2017|5|Supersonicos de Miranda|N|15.1|4.3|1.9
-Matthew Hurt|Duke|2021|4|2B Control Trapani|Y|18.3|6.1|1.4
-Maurice Ndour|Ohio|2015|10|Gemani Basket Brescia|Y|16.0|8.3|1.7
-Max Christie|Michigan State|2022|3|Dallas Mavericks|Y|9.3|3.5|1.5
-Max Shulga|VCU|2025|0|Boston Celtics|Y|15.0|5.9|4.0
-Max Strus|DePaul|2019|6|Cleveland Cavaliers|Y|20.1|5.9|2.2
-Maxime Raynaud|Stanford|2025|0|Sacramento Kings|Y|20.2|10.6|1.7
-Maxwell Lewis|Pepperdine|2023|2|Tofas SC|Y|17.1|5.7|2.8
-McKinley Wright IV|Colorado|2021|4|Dubai|Y|15.2|4.3|5.7
-Melvin Frazier, Jr.|Tulane|2018|6|Delaware Blue Coats|N|15.9|5.6|2.9
-Mfiondu Kabengele|Florida State|2019|6|Dubai|Y|13.2|5.9|0.3
-Micah Peavy|Georgetown|2025|0|New Orleans Pelicans|Y|17.2|5.8|3.6
-Micah Potter|Wisconsin|2021|4|San Antonio Spurs|Y|12.5|5.9|1.4
-Michael Patrick Gbinije|Syracuse|2016|6|Cape Town Tigers|N|17.5|4.1|4.3
-Michael Porter, Jr.|Missouri|2018|7|Denver Nuggets|Y|10.0|6.7|0.3
-Mikal Bridges|Villanova|2018|7|New York Knicks|Y|17.7|5.3|1.9
-Mike Tobey|Virginia|2016|9|Dreamland Gran Canaria|Y|7.3|4.4|0.4
-Miles Bridges|Michigan State|2018|6|Charlotte Hornets|Y|17.1|7.0|2.7
-Miles Kelly|Auburn|2025|0|Dallas Mavericks|Y|11.3|3.7|1.1
-Miles McBride|West Virginia|2021|4|New York Knicks|Y|15.8|3.9|4.9
-Miles Norris|UC Santa Barbara|2023|2|Boston Celtics|Y|14.1|6.1|1.2
-Milton Doyle|Loyola (IL)|2017|8|Napoli Basket|Y|15.3|5.0|4.4
-Miye Oni|Yale|2019|6|Al Ahly Benghazi|Y|17.1|6.3|3.6
-Mo Bamba|Texas|2018|7|Utah Jazz|Y|12.9|10.5|0.5
-Moe Wagner|Michigan|2018|7|Orlando Magic|Y|14.6|7.1|0.8
-Monte Morris|Iowa State|2017|8|Indiana Pacers|Y|16.4|4.8|6.2
-Montrezl Harrell|Louisville|2015|10|Adelaide|Y|15.7|9.2|1.4
-Moses Brown|UCLA|2019|6|Denver Nuggets|Y|9.7|8.3|0.3
-Moses Moody|Arkansas|2021|4|Golden State Warriors|Y|16.8|5.8|1.6
-Moses Wright|Georgia Tech|2021|5|Barca|Y|17.4|8.0|2.3
-Mouhamadou Gueye|Pittsburgh|2022|3|Chicago Bulls|Y|9.8|6.3|1.1
-Mouhamed Gueye|Washington State|2023|2|Atlanta Hawks|Y|14.3|8.4|1.9
-Moussa Cisse|Memphis|2025|0|Dallas Mavericks|Y|5.7|6.5|0.5
-Moussa Diabate|Michigan|2022|3|Charlotte Hornets|Y|9.0|6.0|0.8
-Myles Powell|Seton Hall|2020|5|Qingdao|Y|21.0|4.3|2.9
-Myles Turner|Texas|2015|10|Milwaukee Bucks|Y|10.1|6.5|0.6
-N'Faly Dante|Oregon|2024|1|Atlanta Hawks|Y|17.0|9.2|1.6
-Nae'qwan Tomlin|Memphis|2024|1|Cleveland Cavaliers|Y|14.0|6.0|0.7
-Naji Marshall|Xavier|2020|5|Dallas Mavericks|Y|16.8|6.3|4.0
-Nassir Little|North Carolina|2019|6|Chiba Jets|Y|9.8|4.6|0.6
-Nate Darling|Delaware|2020|5|Chalon-Sur-Saone|Y|21.0|3.9|2.8
-Nate Mensah|San Diego State|2023|2|U-Banca Transilvania Cluj Napoca|Y|6.0|5.9|0.6
-Nate Williams, Jr.|Buffalo|2022|3|Houston Rockets|Y|19.1|5.0|2.9
-Nathan Knight|William & Mary|2020|5|Goyang Sono Skygunners|Y|20.7|10.5|1.8
-Nathaniel Hinton|Houston|2020|5|Memphis Grizzlies|Y|10.6|8.7|2.0
-Naz Long|Iowa State|2017|8|Napoli Basket|Y|15.1|4.6|2.7
-Naz Reid|LSU|2019|6|Minnesota Timberwolves|Y|13.6|7.2|0.9
-Neemias Queta|Utah State|2021|4|Boston Celtics|Y|14.9|10.1|2.7
-Nick Richards|Kentucky|2020|5|Phoenix Suns|Y|14.0|7.8|0.2
-Nick Smith, Jr.|Arkansas|2023|2|Charlotte Hornets|Y|12.5|1.6|1.7
-Nickeil Alexander-Walker|Virginia Tech|2019|6|Minnesota Timberwolves|Y|16.2|4.1|4.0
-Nico Mannion|Arizona|2020|5|AX Armani Exchange Milan|Y|14.0|2.5|5.3
-Nicolas Claxton|Georgia|2019|6|Brooklyn Nets|Y|13.0|8.6|1.8
-Nigel Hayes-Davis|Wisconsin|2017|8|Phoenix Suns|Y|14.0|6.6|2.7
-Nique Clifford|Colorado State|2025|0|Sacramento Kings|Y|18.9|9.6|4.4
-Noah Clowney|Alabama|2023|2|Brooklyn Nets|Y|9.8|7.9|0.8
-Norchad Omier|Baylor|2025|0|Cleveland Cavaliers|Y|15.7|10.8|1.5
-Norman Powell|UCLA|2015|10|Los Angeles Clippers|Y|16.4|4.7|2.1
-OG Anunoby|Indiana|2017|8|New York Knicks|Y|11.1|5.4|1.4
-Obi Toppin|Dayton|2020|5|Indiana Pacers|Y|20.0|7.5|2.2
-Ochai Agbaji|Kansas|2022|3|Toronto Raptors|Y|18.8|5.1|1.6
-Olivier Sarr|Kentucky|2021|3|Toronto Raptors|Y|10.8|5.2|1.3
-Olivier-Maxence Prosper|Marquette|2023|2|Dallas Mavericks|Y|12.5|4.7|0.7
-Omari Spellman|Villanova|2018|7|Beijing Shougang|Y|10.9|8.0|0.8
-Onyeka Okongwu|USC|2020|5|Atlanta Hawks|Y|16.2|8.6|1.1
-Orlando Robinson|Fresno State|2022|3|Orlando Magic|Y|19.4|8.4|2.9
-Oscar Tshiebwe|Kentucky|2023|2|Utah Jazz|Y|16.5|13.7|1.6
-Oshae Brissett|Syracuse|2019|6|Maccabi FOX Tel Aviv|Y|12.4|7.5|1.8
-Oso Ighodaro|Marquette|2024|1|Phoenix Suns|Y|13.4|6.9|2.9
-P.J. Dozier|South Carolina|2017|8|Anadolu Efes|Y|13.9|4.8|2.8
-P.J. Hall|Clemson|2024|1|Memphis Grizzlies|Y|18.3|6.4|1.4
-P.J. Washington|Kentucky|2019|6|Dallas Mavericks|Y|15.2|7.5|1.8
-Paolo Banchero|Duke|2022|3|Orlando Magic|Y|17.2|7.8|3.2
-Pascal Siakam|New Mexico State|2016|9|Indiana Pacers|Y|20.2|11.6|1.7
-Pat Connaughton|Notre Dame|2015|10|Milwaukee Bucks|Y|12.5|7.4|1.5
-Patricio Garino|George Washington|2016|9|Movistar Estudiantes|Y|14.1|4.2|1.5
-Patrick Baldwin, Jr.|Milwaukee|2022|3|Los Angeles Clippers|Y|12.1|5.8|1.5
-Patrick McCaw|UNLV|2016|9|Raptors 905|Y|14.7|5.1|3.9
-Patrick Williams|Florida State|2020|5|Chicago Bulls|Y|9.2|4.0|1.0
-Paul Reed, Jr.|DePaul|2020|5|Detroit Pistons|Y|15.1|10.7|1.6
-Payton Pritchard|Oregon|2020|5|Boston Celtics|Y|20.5|4.3|5.5
-Payton Sandfort|Iowa|2025|0|Oklahoma City Thunder|Y|16.7|6.0|2.9
-Pelle Larsson|Arizona|2024|1|Miami Heat|Y|12.8|4.1|3.7
-Pete Nance|North Carolina|2023|2|Milwaukee Bucks|Y|10.0|6.0|1.7
-Peyton Watson|UCLA|2022|3|Denver Nuggets|Y|3.3|2.9|0.8
-Precious Achiuwa|Memphis|2020|5|Miami Heat|Y|15.8|10.8|1.0
-Quentin Grimes|Houston|2021|4|Philadelphia Sixers|Y|17.8|5.7|2.0
-Quenton Jackson|Texas A&M|2022|3|Indiana Pacers|Y|14.8|3.5|2.0
-Quincy Olivari|Xavier|2024|1|Detroit Pistons|Y|19.1|5.6|2.1
-Quinn Cook|Duke|2015|10|Fujian|Y|15.3|3.4|2.6
-Quinndary Weatherspoon|Mississippi State|2019|6|Qingdao|Y|18.5|4.7|2.8
-Quinten Post|Boston College|2024|1|Golden State Warriors|Y|17.0|8.1|2.9
-R.J. Barrett|Duke|2019|6|Toronto Raptors|Y|22.6|7.6|4.3
-R.J. Hunter|Georgia State|2015|8|Charlotte Hornets|N|19.7|4.7|3.6
-R.J. Nembhard|TCU|2021|4|Chicago Bulls|Y|15.7|4.3|4.0
-Rakeem Christmas|Syracuse|2015|9|Santos de San Luis Potosi|Y|17.5|9.0|1.5
-Rasheer Fleming|Saint Joseph's|2025|0|Phoenix Suns|Y|14.7|8.5|1.3
-Rawle Alkins|Arizona|2018|7|Aris Midea Thessaloniki|Y|13.1|4.8|2.5
-RayJ Dennis|Baylor|2024|1|Indiana Pacers|Y|13.6|3.9|6.8
-Rayjon Tucker|Little Rock|2019|6|Zhejiang Guangsha|Y|20.3|6.7|1.8
-Raymond Spalding|Louisville|2018|6|Indiana Pacers|Y|12.3|8.7|1.3
-Reece Beekman|Virginia|2024|1|Orlando Magic|Y|14.3|3.6|6.2
-Reed Sheppard|Kentucky|2024|1|Houston Rockets|Y|12.5|4.1|4.5
-Reggie Perry|Mississippi State|2020|5|Beijing BeiKong|Y|17.4|10.1|2.3
-Richaun Holmes|Bowling Green|2015|10|Washington Wizards|Y|14.7|8.0|0.8
-Ricky Council IV|Arkansas|2023|2|Philadelphia Sixers|Y|16.1|3.6|2.3
-Riley Minix|Morehead State|2024|1|San Antonio Spurs|Y|20.9|9.7|2.2
-Rob Dillingham|Kentucky|2024|1|Minnesota Timberwolves|Y|15.2|2.9|3.9
-Robert Franks|Washington State|2019|6|Ibaraki Robots|Y|21.6|7.2|2.6
-Robert Williams|Texas A&M|2018|7|Portland Trail Blazers|Y|10.4|9.2|1.4
-Robert Woodard II|Mississippi State|2020|5|Delaware Blue Coats|Y|11.4|6.5|1.3
-Rodney Purvis|UConn|2017|8|Kozuv Gevgelija|Y|13.8|4.2|2.5
-Romeo Langford|Indiana|2019|6|Westchester Knicks|Y|16.5|5.4|2.3
-Ron Baker|Wichita State|2016|4|CSKA Moscow|N|14.0|4.8|3.2
-Ron Harper|Rutgers|2022|3|Detroit Pistons|Y|15.8|5.9|1.9
-Rondae Hollis-Jefferson|Arizona|2015|9|Talk N Text Tropang Texters|N|11.2|6.8|1.6
-Rui Hachimura|Gonzaga|2019|6|Los Angeles Lakers|Y|19.7|6.5|1.5
-Ryan Arcidiacono|Villanova|2016|9|2B Control Trapani|Y|12.5|2.9|4.2
-Ryan Dunn|Virginia|2024|1|Phoenix Suns|Y|8.1|6.9|0.8
-Ryan Kalkbrenner|Creighton|2025|0|Charlotte Hornets|Y|19.2|8.7|1.5
-Ryan Nembhard|Gonzaga|2025|0|Dallas Mavericks|Y|10.5|3.0|9.8
-Ryan Rollins|Toledo|2022|3|Milwaukee Bucks|Y|18.9|6.0|3.6
-Saben Lee|Vanderbilt|2020|5|Olympiacos|Y|18.6|3.5|4.2
-Saddiq Bey|Villanova|2020|5|Washington Wizards|Y|16.1|4.7|2.4
-Sam Dekker|Wisconsin|2015|10|Joventut Badalona|Y|13.9|5.5|1.2
-Sam Hauser|Virginia|2021|4|Boston Celtics|Y|16.0|6.8|1.8
-Sam Merrill|Utah State|2020|5|Cleveland Cavaliers|Y|19.7|4.1|3.9
-Sandro Mamukelashvili|Seton Hall|2021|4|Toronto Raptors|Y|17.5|7.6|3.2
-Santi Aldama|Loyola (MD)|2021|4|Memphis Grizzlies|Y|21.2|10.1|2.3
-Scottie Barnes|Florida State|2021|4|Toronto Raptors|Y|10.3|4.0|4.1
-Scottie Lewis|Florida|2021|3|Mayrouba|Y|7.9|3.1|1.5
-Scotty Pippen, Jr.|Vanderbilt|2022|3|Memphis Grizzlies|Y|20.4|3.6|4.4
-Sean McDermott|Butler|2020|5|Valley Suns|Y|11.7|6.3|1.0
-Sean Pedulla|Ole Miss|2025|0|Los Angeles Clippers|Y|15.4|3.5|3.8
-Semi Ojeleye|Southern Methodist|2017|8|KK Crvena Zvezda|Y|19.0|6.9|1.5
-Seth Lundy|Penn State|2023|2|Los Angeles Clippers|Y|14.2|6.3|0.9
-Shaedon Sharpe|Kentucky|2022|3|Portland Trail Blazers|Y
-Shai Gilgeous-Alexander|Kentucky|2018|7|Oklahoma City Thunder|Y|14.4|4.1|5.1
-Shake Milton|Southern Methodist|2018|7|Los Angeles Lakers|Y|18.0|4.7|4.4
-Shamorie Ponds|St. John's|2019|5|Dorados de Chihuahua|Y|19.7|4.1|5.1
-Sharife Cooper|Auburn|2021|4|Washington Wizards|Y|20.2|4.3|8.1
-Shawn Long|Louisiana|2016|9|Jeonju KCC Egis|Y|18.9|12.1|1.4
-Sheldon Mac|Miami (FL)|2016|7|Gladiadores de Anzoategui|N|16.3|3.2|1.6
-Sindarius Thornwell|South Carolina|2017|8|Xinjiang Guanghui|Y|21.4|7.1|2.8
-Sion James|Duke|2025|0|Charlotte Hornets|Y|8.6|4.2|2.9
-Skal Labissiere|Kentucky|2016|9|Washington Wizards|Y|6.6|3.1|0.3
-Skylar Mays|LSU|2020|5|Buducnost Voli Podgorica|Y|16.7|5.0|3.2
-Spencer Jones|Stanford|2024|1|Denver Nuggets|Y|11.7|4.1|2.0
-Stanley Johnson|Arizona|2015|10|Nagasaki Velca|Y|13.8|6.5|1.7
-Stanley Umude|Arkansas|2022|3|San Antonio Spurs|Y|11.9|4.6|1.1
-Stephen Zimmerman|UNLV|2016|7|Austin Spurs|N|10.5|8.7|0.8
-Stephon Castle|UConn|2024|1|San Antonio Spurs|Y|11.1|4.7|2.9
-Sterling Brown|Southern Methodist|2017|8|KK Partizan|Y|13.4|6.5|3.0
-Svi Mykhailiuk|Kansas|2018|7|Utah Jazz|Y|14.6|3.9|2.7
-T.J. Leaf|UCLA|2017|8|Maccabi FOX Tel Aviv|Y|16.3|8.2|2.4
-T.J. McConnell|Arizona|2015|10|Indiana Pacers|Y|10.4|3.8|6.3
-Tacko Fall|UCF|2019|6|New Zealand|Y|11.1|7.6|0.5
-Taelon Peter|Liberty|2025|0|Indiana Pacers|Y|13.7|4.0|1.0
-Talen Horton-Tucker|Iowa State|2019|6|Fenerbahce Beko|Y|11.8|4.9|2.3
-Tari Eason|LSU|2022|3|Houston Rockets|Y|16.9|6.6|1.0
-Tariq Owens|Texas Tech|2019|5|JDA Dijon Basket|Y|8.7|5.8|0.7
-Taurean Prince|Baylor|2016|9|Milwaukee Bucks|Y|15.9|6.1|2.3
-Taylor Hendricks|UCF|2023|2|Utah Jazz|Y|15.1|7.0|1.4
-Terance Mann|Florida State|2019|6|Atlanta Hawks|Y|11.4|6.5|2.5
-Terence Davis|Ole Miss|2019|6|Sacramento Kings|Y|15.2|5.8|3.5
-Terquavion Smith|NC State|2023|2|Shenzhen|Y|17.9|3.6|4.1
-Terrence Shannon, Jr.|Illinois|2024|1|Minnesota Timberwolves|Y|23.0|4.0|2.3
-Terry Rozier|Louisville|2015|10|Miami Heat|Y|17.1|5.6|3.0
-Terry Taylor|Austin Peay|2021|4|Iowa Wolves|Y|21.6|11.1|1.6
-Thomas Bryant|Indiana|2017|8|Cleveland Cavaliers|Y|12.6|6.6|1.5
-Thomas Welsh|UCLA|2018|5|Hitachi Sun Rockers|Y|12.6|10.8|1.4
-Timmy Allen|Texas|2023|2|2B Control Trapani|Y|10.5|5.6|3.5
-Tolu Smith|Mississippi State|2024|1|Detroit Pistons|Y|15.0|8.1|1.3
-Tony Bradley|North Carolina|2017|8|Indiana Pacers|Y|7.1|5.1|0.6
-Tosan Evbuomwan|Princeton|2023|2|Brooklyn Nets|Y|15.1|6.3|4.9
-Toumani Camara|Dayton|2023|2|Portland Trail Blazers|Y|13.9|8.6|1.7
-Trae Young|Oklahoma|2018|7|Atlanta Hawks|Y|27.4|3.9|8.7
-Trayce Jackson-Davis|Indiana|2023|2|Golden State Warriors|Y|20.9|10.8|4.0
-Tre Johnson|Texas|2025|0|Washington Wizards|Y|19.9|3.1|2.7
-Tre Jones|Duke|2020|5|Chicago Bulls|Y|16.2|4.2|6.4
-Tre Mann|Florida|2021|4|Charlotte Hornets|Y|16.0|5.6|3.5
-Tremont Waters|LSU|2019|6|Shanghai Dongfang|Y|15.3|2.8|5.8
-Trendon Watford|LSU|2021|4|Philadelphia Sixers|Y|16.3|7.4|2.9
-Trent Forrest|Florida State|2020|5|Baskonia|Y|11.6|4.4|4.0
-Trevelin Queen|New Mexico State|2020|5|Guangdong Dongguan|Y|13.2|5.2|2.4
-Treveon Graham|VCU|2015|9|Motor City Cruise|N|16.2|7.1|1.6
-Trevon Duval|Duke|2018|7|Greensboro Swarm|Y|10.3|2.0|5.6
-Trevor Keels|Duke|2022|3|Miami Heat|Y|11.5|3.4|2.7
-Trey Alexander|Creighton|2024|1|New Orleans Pelicans|Y|17.6|5.7|4.7
-Trey Jemison|UAB|2023|2|Los Angeles Lakers|Y|9.1|8.4|0.5
-Trey Lyles|Kentucky|2015|10|Real Madrid|Y|8.7|5.2|1.1
-Trey Murphy III|Virginia|2021|4|New Orleans Pelicans|Y|11.3|3.4|1.2
-Tristan Da Silva|Colorado|2024|1|Orlando Magic|Y|16.0|5.1|2.4
-Tristan Enaruna|Cleveland State|2024|1|Cleveland Cavaliers|Y|19.6|6.5|2.7
-Tristen Newton|UConn|2024|1|Minnesota Timberwolves|Y|15.1|6.6|6.2
-Troy Brown, Jr.|Oregon|2018|7|Cangrejeros de Santurce|Y|11.3|6.2|3.2
-Troy Caupain|Cincinnati|2017|8|Grissin Bon Reggio Emilia|Y|10.5|4.6|4.4
-Ty Jerome|Virginia|2019|6|Memphis Grizzlies|Y|13.6|4.2|5.5
-Ty-Shon Alexander|Creighton|2020|5|Paisas Basketball Club|Y|16.9|5.0|2.3
-TyTy Washington, Jr.|Kentucky|2022|3|Los Angeles Clippers|Y|12.5|3.5|3.9
-Tyler Cavanaugh|George Washington|2017|8|Bahcesehir Koleji|Y|18.3|8.4|2.0
-Tyler Cook|Iowa|2019|6|Ibaraki Robots|Y|14.5|7.6|2.4
-Tyler Davis|Texas A&M|2018|6|Osos de Manati|Y|14.9|8.9|1.3
-Tyler Dorsey|Oregon|2017|8|Olympiacos|Y|14.6|3.5|1.7
-Tyler Herro|Kentucky|2019|6|Miami Heat|Y|14.0|4.5|2.5
-Tyler Kolek|Marquette|2024|1|New York Knicks|Y|15.3|4.9|7.7
-Tyler Lydon|Syracuse|2017|3|Sacramento Kings|N|13.2|8.6|2.1
-Tyler Ulis|Kentucky|2016|5|Santa Cruz Warriors|N|17.3|3.0|7.0
-Tyrell Terry|Stanford|2020|4|CSP Limoges|Y|14.6|4.5|3.2
-Tyrese Haliburton|Iowa State|2020|5|Indiana Pacers|Y|15.2|5.9|6.5
-Tyrese Martin|UConn|2022|3|Brooklyn Nets|Y|13.6|7.5|1.9
-Tyrese Maxey|Kentucky|2020|5|Philadelphia Sixers|Y|14.0|4.3|3.2
-Tyrese Proctor|Duke|2025|0|Cleveland Cavaliers|Y|12.4|3.0|2.2
-Tyus Jones|Duke|2015|10|Orlando Magic|Y|11.8|3.5|5.6
-Udoka Azubuike|Kansas|2020|5|Ironi Nes Ziona|Y|13.7|10.5|0.9
-V.J. Edgecombe|Baylor|2025|0|Philadelphia Sixers|Y|15.0|5.6|3.2
-Vernon Carey, Jr.|Duke|2020|4|Houston Rockets|Y|17.8|8.8|1.0
-Vic Law|Northwestern|2019|6|Ryukyu Golden Kings|Y|15.0|6.4|3.0
-Vince Edwards|Purdue|2018|7|Pioneros de Los Mochis|Y|14.6|7.4|2.9
-Vince Hunter|UTEP|2015|9|Lokomotiv Kuban|Y|14.9|9.2|1.7
-Vincent Williams, Jr.|VCU|2022|3|Memphis Grizzlies|Y|14.1|6.0|3.0
-Vladislav Goldin|Michigan|2025|0|Miami Heat|Y|16.6|7.0|1.1
-Wade Baldwin IV|Vanderbilt|2016|10|Fenerbahce Beko|Y|14.1|4.0|5.2
-Walker Kessler|Auburn|2022|3|Utah Jazz|Y|11.4|8.1|0.9
-Walter Clayton, Jr.|Florida|2025|0|Utah Jazz|Y|18.3|3.7|4.2
-Wayne Selden|Kansas|2016|8|Chorale Roanne Basket|N|13.8|3.4|2.6
-Wendell Carter, Jr.|Duke|2018|7|Orlando Magic|Y|13.5|9.1|2.0
-Wendell Moore, Jr.|Duke|2022|3|Boston Celtics|Y|13.4|5.3|4.4
-Wenyen Gabriel|Kentucky|2018|7|Bayern Munich|Y|6.8|5.4|0.6
-Wesley Iwundu|Kansas State|2017|8|South East Melbourne|Y|13.0|6.3|3.5
-Will Richard|Florida|2025|0|Golden State Warriors|Y|13.3|4.6|1.9
-Will Riley|Illinois|2025|0|Washington Wizards|Y|12.6|4.1|2.2
-Willie Cauley-Stein|Kentucky|2015|10|Nanjing Tongxi Monkey King|Y|8.9|6.4|1.0
-Xavier Rathan-Mayes|Florida State|2017|8|Bayern Munich|Y|10.6|3.2|4.8
-Xavier Sneed|Kansas State|2020|5|Acqua San Bernardo Cantu|Y|14.2|4.8|1.7
-Xavier Tillman, Sr.|Michigan State|2020|5|Boston Celtics|Y|13.7|10.3|3.0
-Yanic Konan Niederhauser|Penn State|2025|0|Los Angeles Clippers|Y|12.9|6.3|0.8
-Yante Maten|Georgia|2018|7|Sanen Neophoenix|Y|19.3|8.6|1.5
-Yogi Ferrell|Indiana|2016|9|Buducnost Voli Podgorica|Y|17.3|3.8|5.6
-Yuri Collins|Saint Louis|2023|2|Brooklyn Nets|Y|11.2|3.3|10.1
-Yuta Watanabe|George Washington|2018|7|Chiba Jets|Y|16.3|6.1|1.6
-Yves Missi|Baylor|2024|1|New Orleans Pelicans|Y|10.7|5.6|0.4
-Yves Pons|Tennessee|2021|4|MoraBanc Andorra|Y|8.7|5.3|0.7
-Zach Collins|Gonzaga|2017|8|Chicago Bulls|Y|10.0|5.9|0.4
-Zach Edey|Purdue|2024|1|Memphis Grizzlies|Y|25.2|12.2|2.0
-Zach Lofton|New Mexico State|2018|5|Homenetmen Beirut|Y|20.1|5.0|1.7
-Zach Norvell|Gonzaga|2019|2|Chicago Bulls|N|14.9|4.3|3.1
-Zeke Nnaji|Arizona|2020|5|Denver Nuggets|Y|16.1|8.6|0.8
-Zhaire Smith|Texas Tech|2018|5|Dallas Mavericks|Y|11.3|5.0|1.8
-Ziaire Williams|Stanford|2021|4|Brooklyn Nets|Y|10.7|4.6|2.2
-Zion Williamson|Duke|2019|6|New Orleans Pelicans|Y|22.6|8.9|2.1
-Zylan Cheatham|Arizona State|2019|6|Adelaide|Y|12.1|10.3|3.2
-Zyon Pullin|Florida|2024|1|Memphis Grizzlies|Y|15.5|3.9|4.9
+# All NBA Players (name|school|yr|career|team|status|PPG)
+A.J. Green|Northern Iowa|2022|3|Milwaukee Bucks|A
+A.J. Griffin, Jr.|Duke|2022|3|Houston Rockets|A
+A.J. Hammons|Purdue|2016|2|Dallas Mavericks|X
+A.J. Lawson|South Carolina|2021|4|Toronto Raptors|A
+Aaron Harrison|Kentucky|2015|10|Halcones Ciudad Obregon|A
+Aaron Henry|Michigan State|2021|4|Nagoya Diamond Dolphins|A
+Aaron Holiday|UCLA|2018|7|Houston Rockets|A
+Aaron Nesmith|Vanderbilt|2020|5|Indiana Pacers|A
+Aaron Wiggins|Maryland|2021|4|Oklahoma City Thunder|A
+Ace Bailey|Rutgers|2025|0|Utah Jazz|A
+Adam Flagler|Baylor|2023|2|San Antonio Spurs|A
+Adama Sanogo|UConn|2023|2|2B Control Trapani|A
+Ade Murkey|Denver|2020|4|BC Hallmann Vienna|A
+Adem Bona|UCLA|2024|1|Philadelphia Sixers|A
+Admiral Schofield|Tennessee|2019|6|Santeros de Aguada|A
+Adou Thiero|Arkansas|2025|0|Los Angeles Lakers|A
+Ajay Mitchell|UC Santa Barbara|2024|1|Oklahoma City Thunder|A
+Alan Williams|UC Santa Barbara|2015|10|Nagoya Diamond Dolphins|A
+Alec Peters|Valparaiso|2017|8|Olympiacos|A
+Alex Caruso|Texas A&M|2016|9|Oklahoma City Thunder|A
+Alex Ducas|Saint Mary's|2024|1|Brisbane|A
+Alex Fudge|Florida|2023|2|Sioux Falls Skyforce|A
+Alex Poythress|Kentucky|2016|9|Zenit Saint Petersburg|A
+Alijah Martin|Florida|2025|0|Toronto Raptors|A
+Alize Johnson|Missouri State|2018|7|Minnesota Timberwolves|A
+Allonzo Trier|Arizona|2018|4|Rio Grande Valley Vipers|A
+Alondes Williams|Wake Forest|2022|3|Washington Wizards|A
+Amari Bailey|UCLA|2023|2|Brooklyn Nets|A
+Amari Williams|Kentucky|2025|0|Boston Celtics|A
+Amida Brimah|UConn|2017|8|Movistar Estudiantes|A
+Amile Jefferson|Duke|2017|4|Boston Celtics|X
+Amir Coffey|Minnesota|2019|6|Milwaukee Bucks|A
+Andersson Garcia|Texas A&M|2025|0|Utah Jazz|A
+Andre Jackson, Jr.|UConn|2023|2|Milwaukee Bucks|A
+Andrew Funk|Penn State|2023|2|Port of Antwerp Giants|A
+Andrew Nembhard|Gonzaga|2022|3|Indiana Pacers|A
+Andrew White|Syracuse|2017|7|Panteras|A
+Angel Delgado|Seton Hall|2018|7|Trabzonspor|A
+Anthony Black|Arkansas|2023|2|Orlando Magic|A
+Anthony Brown|Stanford|2015|10|Besiktas Icrypex|A
+Anthony Edwards|Georgia|2020|5|Minnesota Timberwolves|A
+Anthony Lamb|Vermont|2020|5|Hapoel Bank Yahav Jerusalem|A
+Anton Watson|Gonzaga|2024|1|Los Angeles Lakers|A
+Antonio Blakeney|LSU|2017|8|Hapoel Tel Aviv|A
+Antonio Reeves|Kentucky|2024|1|New Orleans Pelicans|A
+Antonius Cleveland|Southeast Missouri State|2017|8|CSKA Moscow|A
+Armoni Brooks|Houston|2019|6|AX Armani Exchange Milan|A
+Asa Newell|Georgia|2025|0|Atlanta Hawks|A
+Ashton Hagans|Kentucky|2020|5|Rip City Remix|A
+Austin Reaves|Oklahoma|2021|4|Los Angeles Lakers|A
+Ayo Dosunmu|Illinois|2021|4|Chicago Bulls|A
+B.J. Boston, Jr.|Kentucky|2021|4|Fenerbahce Beko|A
+B.J. Johnson|La Salle|2018|7|Lokomotiv Kuban|A
+Bam Adebayo|Kentucky|2017|8|Miami Heat|A
+Baylor Scheierman|Creighton|2024|1|Boston Celtics|A
+Ben Bentil|Providence|2016|9|Mersin BSB|A
+Ben Moore|Southern Methodist|2017|8|PAOK BC|A
+Ben Sheppard|Belmont|2023|2|Indiana Pacers|A
+Ben Simmons|LSU|2016|9|Brooklyn Nets|A
+Bennedict Mathurin|Arizona|2022|3|Indiana Pacers|A
+Bez Mbeng|Yale|2025|0|Miami Heat|A
+Blake Hinson|Pittsburgh|2024|1|Utah Jazz|A
+Blake Wesley|Notre Dame|2022|3|San Antonio Spurs|A
+Bobby Portis|Arkansas|2015|10|Milwaukee Bucks|A
+Bobi Klintman|Wake Forest|2023|2|Detroit Pistons|A
+Bol Bol|Oregon|2019|6|Talk N Text Tropang Texters|A
+Bones Hyland|VCU|2021|4|Minnesota Timberwolves|A
+Bonzie Colson, Jr.|Notre Dame|2018|7|Fenerbahce Beko|A
+Branden Carlson|Utah|2024|1|Oklahoma City Thunder|A
+Branden Dawson|Michigan State|2015|5|Correcaminos|A
+Brandin Podziemski|Santa Clara|2023|2|Golden State Warriors|A
+Brandon Clarke|Gonzaga|2019|6|Memphis Grizzlies|A
+Brandon Goodwin|Florida Gulf Coast|2018|6|Shanxi Zhongyu|A
+Brandon Ingram|Duke|2016|9|Toronto Raptors|A
+Brandon Miller|Alabama|2023|2|Charlotte Hornets|A
+Brandon Sampson|LSU|2018|6|Trefl Sopot|A
+Brandon Williams|Arizona|2020|4|Dallas Mavericks|A
+Brian Bowen II|Louisville|2018|7|Kozuv Gevgelija|A
+Briante Weber|VCU|2015|10|Universo De'Longhi Treviso|A
+Brice Johnson|North Carolina|2016|8|KK Feniks 2010|A
+Brice Sensabaugh|Ohio State|2023|2|Utah Jazz|A
+Bronny James|USC|2024|1|Los Angeles Lakers|A
+Brooks Barnhizer|Northwestern|2025|0|Oklahoma City Thunder|A
+Bruce Brown, Jr.|Miami (FL)|2018|7|Denver Nuggets|A
+Bruno Fernando|Maryland|2019|6|KK Partizan|A
+Bryce Dejean-Jones|Iowa State|2015|1|New Orleans Pelicans|X
+Bryce McGowens|Nebraska|2022|3|New Orleans Pelicans|A
+Bryn Forbes|Michigan State|2016|8|Aris Midea Thessaloniki|A
+Bub Carrington|Pittsburgh|2024|1|Washington Wizards|A
+Buddy Boeheim|Syracuse|2022|3|Oklahoma City Thunder|A
+Buddy Hield|Oklahoma|2016|9|Golden State Warriors|A
+C.J. Elleby|Washington State|2020|4|Hapoel Beer Sheva|A
+C.J. Huntley|Appalachian State|2025|0|Phoenix Suns|A
+Cade Cunningham|Oklahoma State|2021|4|Detroit Pistons|A
+Caleb Houstan|Michigan|2022|3|Atlanta Hawks|A
+Caleb Love|Arizona|2025|0|Portland Trail Blazers|A
+Caleb Martin|Nevada|2019|6|Dallas Mavericks|A
+Caleb Swanigan|Purdue|2017|3|Sacramento Kings|X
+Cam Reddish|Duke|2019|6|Austin Spurs|A
+Cam Reynolds|Tulane|2018|7|Maroussi BC|A
+Cam Spencer|UConn|2024|1|Memphis Grizzlies|A
+Cam Thomas|LSU|2021|4|Brooklyn Nets|A
+Cam Whitmore|Villanova|2023|2|Houston Rockets|A
+Cameron Christie|Minnesota|2024|1|Los Angeles Clippers|A
+Cameron Johnson|North Carolina|2019|6|Brooklyn Nets|A
+Cameron Payne|Murray State|2015|10|Indiana Pacers|A
+Caris LeVert|Michigan|2016|9|Detroit Pistons|A
+Carlik Jones|Louisville|2021|4|KK Partizan|A
+Carsen Edwards|Purdue|2019|6|Virtus Bologna|A
+Carter Bryant|Arizona|2025|0|San Antonio Spurs|A
+Cason Wallace|Kentucky|2023|2|Oklahoma City Thunder|A
+Cassius Stanley|Duke|2020|5|Siauliai|A
+Cassius Winston|Michigan State|2020|5|Hapoel Bank Yahav Jerusalem|A
+Cedric Coward|Washington State|2025|0|Memphis Grizzlies|A
+Chandler Hutchison|Boise State|2018|6|Cleveland Charge|A
+Chaney Johnson|Auburn|2025|0|Cleveland Cavaliers|A
+Charles Bassey|Western Kentucky|2021|4|Atlanta Hawks|A
+Charles Cooke|Dayton|2017|4|Maine Celtics|X
+Charlie Brown, Jr.|Saint Joseph's|2019|6|Memphis Grizzlies|A
+Chasson Randle|Stanford|2016|9|NBA G League Ignite|A
+Chaundee Brown, Jr.|Michigan|2021|4|London Lions|A
+Chaz Lanier|Tennessee|2025|0|Detroit Pistons|A
+Cheick Diallo|Kansas|2016|9|Osos de Manati|A
+Chet Holmgren|Gonzaga|2022|3|Oklahoma City Thunder|A
+Chimezie Metu|USC|2018|7|Barca|A
+Chinanu Onuaku|Louisville|2016|9|Bnei Herzelia|A
+Chris Boucher|Oregon|2017|8|Boston Celtics|A
+Chris Chiozza|Florida|2018|7|Pinar Karsiyaka|A
+Chris Clemons|Campbell|2019|6|EWE Baskets Oldenburg|A
+Chris Duarte|Oregon|2021|4|Unicaja|A
+Chris Livingston|Kentucky|2023|2|Milwaukee Bucks|A
+Chris Manon|Vanderbilt|2025|0|Los Angeles Lakers|A
+Chris McCullough|Syracuse|2015|6|Lietuvos Rytas|X
+Chris Silva|South Carolina|2019|6|AEK Athens|A
+Chris Youngblood|Alabama|2025|0|Oklahoma City Thunder|A
+Christian Braun|Kansas|2022|3|Denver Nuggets|A
+Christian Koloko|Arizona|2022|3|Los Angeles Lakers|A
+Christian Wood|UNLV|2015|10|Los Angeles Lakers|A
+Chucky Hepburn|Louisville|2025|0|Toronto Raptors|A
+Chuma Okeke|Auburn|2019|6|Real Madrid|A
+Cliff Alexander|Kansas|2015|11|Guaiqueries|A
+Coby White|North Carolina|2019|6|Chicago Bulls|A
+Cody Martin|Nevada|2019|6|Indiana Pacers|A
+Cody Williams|Colorado|2024|1|Utah Jazz|A
+Colby Jones|Xavier|2023|2|Detroit Pistons|A
+Cole Anthony|North Carolina|2020|5|Memphis Grizzlies|A
+Cole Swider|Syracuse|2022|3|Anadolu Efes|A
+Colin Castleton|Florida|2023|2|Toronto Raptors|A
+Collin Gillespie|Villanova|2022|3|Phoenix Suns|A
+Collin Murray-Boyles|South Carolina|2025|0|Toronto Raptors|A
+Collin Sexton|Alabama|2018|7|Charlotte Hornets|A
+Cooper Flagg|Duke|2025|0|Dallas Mavericks|A
+Corey Kispert|Gonzaga|2021|4|Washington Wizards|A
+Cormac Ryan|North Carolina|2024|1|Milwaukee Bucks|A
+Craig Porter, Jr.|Wichita State|2023|2|Cleveland Cavaliers|A
+Curtis Jones|Iowa State|2025|0|Denver Nuggets|A
+D'Angelo Russell|Ohio State|2015|10|Dallas Mavericks|A
+D'Moi Hodge|Missouri|2023|2|Dallas Mavericks|A
+D.J. Wilson|Michigan|2017|8|Shanghai Dongfang|A
+DaQuan Jeffries|Tulsa|2019|6|Charlotte Hornets|A
+DaRon Holmes II|Dayton|2024|1|Denver Nuggets|A
+Daeqwon Plowden|Bowling Green|2022|3|Atlanta Hawks|A
+Dalano Banton|Nebraska|2021|4|Dallas Mavericks|A
+Dalen Terry|Arizona|2022|3|Chicago Bulls|A
+Dalton Knecht|Tennessee|2024|1|Los Angeles Lakers|A
+Damian Jones|Vanderbilt|2016|9|Zhejiang Chouzhou|A
+Damion Baugh|TCU|2023|2|Charlotte Hornets|A
+Damion Lee|Louisville|2016|9|Ironi Nes Ziona|A
+Damyean Dotson|Houston|2017|8|Ryukyu Golden Kings|A
+Daniel Gafford|Arkansas|2019|6|Dallas Mavericks|A
+Daniel Ochefu|Villanova|2016|7|Blackwater Bossings|A
+Daniel Oturu|Minnesota|2020|5|Hapoel Tel Aviv|A
+Daniss Jenkins|St. John's|2024|1|Detroit Pistons|A
+Danny Wolf|Michigan|2025|0|Brooklyn Nets|A
+Danuel House|Texas A&M|2016|8|Philadelphia Sixers|X
+Dariq Whitehead|Duke|2023|2|Brooklyn Nets|A
+Darius Brown II|Utah State|2024|1|Cleveland Cavaliers|A
+Darius Days|LSU|2022|3|Sanen Neophoenix|A
+Darius Garland|Vanderbilt|2019|6|Cleveland Cavaliers|A
+Darrun Hilliard|Villanova|2015|10|Bilbao Basket|A
+Daryl Macon|Arkansas|2018|7|Maroussi BC|A
+David Duke|Providence|2021|4|Phoenix Suns|A
+David Johnson|Louisville|2021|4|Tasmania|A
+David Jones-Garcia|Memphis|2024|1|San Antonio Spurs|A
+David Nwaba|Cal Poly|2016|9|Sanen Neophoenix|A
+David Roddy|Colorado State|2022|3|Houston Rockets|A
+Davion Mitchell|Baylor|2021|4|Miami Heat|A
+Davon Reed|Miami (FL)|2017|7|Koshigaya Alphas|A
+Day'Ron Sharpe|North Carolina|2021|4|Brooklyn Nets|A
+De'Aaron Fox|Kentucky|2017|8|San Antonio Spurs|A
+De'Andre Hunter|Virginia|2019|6|Cleveland Cavaliers|A
+De'Anthony Melton|USC|2017|7|Golden State Warriors|A
+DeAndre' Bembry|Saint Joseph's|2016|6|Brooklyn Nets|X
+DeJon Jarreau|Houston|2021|3|Memphis Grizzlies|A
+Dean Wade|Kansas State|2019|6|Cleveland Cavaliers|A
+Deandre Ayton|Arizona|2018|7|Los Angeles Lakers|A
+Dejounte Murray|Washington|2016|9|New Orleans Pelicans|A
+Delon Wright|Utah|2015|10|Indiana Pacers|A
+Demetrius Jackson|Notre Dame|2016|6|Birmingham Squadron|X
+Deng Adel|Louisville|2018|7|Ottawa Blackjacks|A
+Dennis Smith|NC State|2017|8|Dallas Mavericks|A
+Denzel Valentine|Michigan State|2016|9|Umana Venezia|A
+Dereck Lively II|Duke|2023|2|Dallas Mavericks|A
+Dereon Seabron|NC State|2022|3|Salt Lake City Stars|A
+Derrick Jones|UNLV|2016|9|Los Angeles Clippers|A
+Derrick Walton, Jr.|Michigan|2017|8|Hapoel Unet Holon|A
+Derrick White|Colorado|2017|8|Boston Celtics|A
+Desmond Bane|TCU|2020|5|Orlando Magic|A
+Devin Booker|Kentucky|2015|10|Phoenix Suns|A
+Devin Cannady|Princeton|2019|6|Mykonos|A
+Devin Carter|Providence|2024|1|Sacramento Kings|A
+Devin Robinson|Florida|2017|8|Casademont Zaragoza|A
+Devin Vassell|Florida State|2020|5|San Antonio Spurs|A
+Devon Dotson|Kansas|2020|5|Besiktas Icrypex|A
+Devontae Cacok|UNC Wilmington|2019|6|UCAM Murcia CB|A
+Devonte' Graham|Kansas|2018|7|KK Crvena Zvezda|A
+Dewan Hernandez|Miami (FL)|2019|6|Jeonju KCC Egis|A
+Dexter Dennis|Texas A&M|2023|2|Sacramento Kings|A
+Deyonta Davis|Michigan State|2016|5|Goyang Sono Skygunners|X
+Diamond Stone|Maryland|2016|9|Marinos|A
+Dillon Brooks|Oregon|2017|8|Houston Rockets|A
+Dillon Jones|Weber State|2024|1|Washington Wizards|A
+Domantas Sabonis|Gonzaga|2016|9|Sacramento Kings|A
+Donovan Clingan|UConn|2024|1|Portland Trail Blazers|A
+Donovan Mitchell|Louisville|2017|8|Cleveland Cavaliers|A
+Donovan Williams|UNLV|2022|3|Westchester Knicks|A
+Donta Hall|Alabama|2019|6|Baskonia|A
+Donte DiVincenzo|Villanova|2018|7|Minnesota Timberwolves|A
+Donte Grantham|Clemson|2018|7|Hitachi Sun Rockers|A
+Dorian Finney-Smith|Florida|2016|9|Houston Rockets|A
+Drake Powell|North Carolina|2025|0|Brooklyn Nets|A
+Drew Eubanks|Oregon State|2018|7|Sacramento Kings|A
+Drew Peterson|USC|2023|2|Charlotte Hornets|A
+Drew Timme|Gonzaga|2023|2|Brooklyn Nets|A
+Dru Smith|Missouri|2021|4|Miami Heat|A
+Duane Washington, Jr.|Ohio State|2021|4|KK Partizan|A
+Duje Dukan|Wisconsin|2015|9|BK Klosterneuburg Dukes|X
+Duncan Robinson|Michigan|2018|7|Miami Heat|A
+Dwayne Bacon|Florida State|2017|8|Dubai|A
+Dylan Cardwell|Auburn|2025|0|Sacramento Kings|A
+Dylan Harper|Rutgers|2025|0|San Antonio Spurs|A
+Dylan Windler|Belmont|2019|6|Perth|A
+E.J. Liddell|Ohio State|2022|3|Brooklyn Nets|A
+Edmond Sumner|Xavier|2017|8|Guangdong Dongguan|A
+Egor Demin|Brigham Young|2025|0|Brooklyn Nets|A
+Elijah Hughes|Syracuse|2020|5|MHP Riesen|A
+Emanuel Miller|TCU|2024|1|Chicago Bulls|A
+Emoni Bates|Eastern Michigan|2023|2|Philadelphia Sixers|A
+Enrique Freeman|Akron|2024|1|Minnesota Timberwolves|A
+Eric Paschall|Villanova|2019|5|Georgio Tesi Group Pistoia|A
+Erik McCree|Louisiana Tech|2017|8|Guaiqueries|A
+Eugene Omoruyi|Oregon|2021|4|Baskonia|A
+Evan Mobley|USC|2021|4|Cleveland Cavaliers|A
+Feron Hunt|Southern Methodist|2021|4|Detroit Pistons|A
+Frank Jackson|Duke|2017|8|Ningbo Rockets|A
+Frank Kaminsky|Wisconsin|2015|10|Guangzhou Loong Lions|A
+Frank Mason|Kansas|2017|8|CSP Limoges|A
+Franz Wagner|Michigan|2021|4|Orlando Magic|A
+Fred VanVleet|Wichita State|2016|9|Houston Rockets|A
+Freddie Gillespie|Baylor|2020|5|Galatasaray|A
+G.G. Jackson|South Carolina|2023|2|Memphis Grizzlies|A
+Garrison Mathews|Lipscomb|2019|6|New York Knicks|A
+Gary Clark|Cincinnati|2018|7|Yokohama B-Corsairs|A
+Gary Payton II|Oregon State|2016|9|Golden State Warriors|A
+Gary Trent, Jr.|Duke|2018|7|Milwaukee Bucks|A
+George King|Colorado|2018|7|Guangzhou Loong Lions|A
+Georges Niang|Iowa State|2016|9|Atlanta Hawks|A
+Gradey Dick|Kansas|2023|2|Toronto Raptors|A
+Grant Nelson|Alabama|2025|0|Brooklyn Nets|A
+Grant Riller|Charleston|2020|5|Beijing BeiKong|A
+Grant Williams|Tennessee|2019|6|Charlotte Hornets|A
+Grayson Allen|Duke|2018|7|Phoenix Suns|A
+Greg Brown III|Texas|2021|5|AEK Athens|A
+Hamidou Diallo|Kentucky|2018|7|Baskonia|A
+Harrison Ingram|North Carolina|2024|1|San Antonio Spurs|A
+Harry Giles|Duke|2017|7|Jiangsu Kendia|A
+Henry Ellenson|Marquette|2016|9|Wonju Dongbu Promy|A
+Herb Jones|Alabama|2021|4|New Orleans Pelicans|A
+Hunter Dickinson|Kansas|2025|0|New Orleans Pelicans|A
+Hunter Sallis|Wake Forest|2025|0|Philadelphia Sixers|A
+Hunter Tyson|Clemson|2023|2|Denver Nuggets|A
+Ignas Brazdeikis|Michigan|2019|6|Zalgiris|A
+Ike Anigbogu|UCLA|2017|7|Vanoli Cremona|A
+Immanuel Quickley|Kentucky|2020|5|Toronto Raptors|A
+Isaac Humphries|Kentucky|2017|8|Adelaide|A
+Isaac Jones|Washington State|2024|1|Sacramento Kings|A
+Isaac Okoro|Auburn|2020|5|Cleveland Cavaliers|A
+Isaiah Briscoe|Kentucky|2017|7|Fujian|A
+Isaiah Collier|USC|2024|1|Utah Jazz|A
+Isaiah Crawford|Louisiana Tech|2024|1|Houston Rockets|A
+Isaiah Hicks|North Carolina|2017|7|Suwon KT Sonicboom|A
+Isaiah Jackson|Kentucky|2021|4|Indiana Pacers|A
+Isaiah Joe|Arkansas|2020|5|Oklahoma City Thunder|A
+Isaiah Livers|Michigan|2021|3|Phoenix Suns|A
+Isaiah Mobley|USC|2022|3|Manisa Buyuksehir Belediye|A
+Isaiah Roby|Nebraska|2019|6|Westchester Knicks|A
+Isaiah Stevens|Colorado State|2024|1|Sacramento Kings|A
+Isaiah Stewart II|Washington|2020|5|Detroit Pistons|A
+Isaiah Taylor|Texas|2016|9|Dubai|A
+Isaiah Whitehead|Seton Hall|2016|9|Ironi Nes Ziona|A
+Isaiah Wong|Miami (FL)|2023|2|Zalgiris|A
+Ivan Rabb|California|2017|4|Delaware Blue Coats|X
+J.D. Davison|Alabama|2022|3|Boston Celtics|A
+J.J. O'Brien|San Diego State|2015|9|Tofas SC|A
+J.P. Macura|Xavier|2018|6|ASP Promitheas Patras|A
+J.T. Thor|Auburn|2021|4|Aris Midea Thessaloniki|A
+Ja Morant|Murray State|2019|6|Memphis Grizzlies|A
+Ja'Kobe Walter|Baylor|2024|1|Toronto Raptors|A
+JaQuori McLaughlin|UC Santa Barbara|2021|3|Valley Suns|A
+Jabari Bird|California|2017|3|Obera Tenis Club|A
+Jabari Smith, Jr.|Auburn|2022|3|Houston Rockets|A
+Jabari Walker|Colorado|2022|3|Philadelphia Sixers|A
+Jacob Evans|Cincinnati|2018|6|Olomoucko Prostejov|A
+Jacob Gilyard|Richmond|2022|3|Acqua San Bernardo Cantu|A
+Jacob Toppin|Kentucky|2023|2|Atlanta Hawks|A
+Jaden Ivey|Purdue|2022|3|Detroit Pistons|A
+Jaden McDaniels|Washington|2020|5|Minnesota Timberwolves|A
+Jaden Springer|Tennessee|2021|4|Utah Jazz|A
+Jahlil Okafor|Duke|2015|10|Capitanes de Arecibo|A
+Jahmai Mashack|Tennessee|2025|0|Memphis Grizzlies|A
+Jahmi'us Ramsey|Texas Tech|2020|5|Pallacanestro Trieste 2004|A
+Jahmir Young|Maryland|2024|1|Chicago Bulls|A
+Jahmyl Telfort|Butler|2025|0|Los Angeles Clippers|A
+Jaime Jaquez, Jr.|UCLA|2023|2|Miami Heat|A
+Jake LaRavia|Wake Forest|2022|3|Los Angeles Lakers|A
+Jake Layman|Maryland|2016|9|Aishin Sea Horses|A
+Jake Wiley|Eastern Washington|2017|8|CB Granada|A
+Jakob Poeltl|Utah|2016|9|Toronto Raptors|A
+Jalen Bridges|Baylor|2024|1|Boston Celtics|A
+Jalen Brunson|Villanova|2018|7|New York Knicks|A
+Jalen Crutcher|Dayton|2021|4|Orlando Magic|A
+Jalen Duren|Memphis|2022|3|Detroit Pistons|A
+Jalen Harris|Nevada|2020|5|Windy City Bulls|A
+Jalen Hood-Schifino|Indiana|2023|2|Los Angeles Lakers|A
+Jalen Johnson|Duke|2021|4|Atlanta Hawks|A
+Jalen Jones|Texas A&M|2016|9|Spartans de Districto Captital Caracas|A
+Jalen McDaniels|San Diego State|2019|6|New Orleans Pelicans|A
+Jalen Pickett|Penn State|2023|2|Denver Nuggets|A
+Jalen Slawson|Furman|2023|2|Indiana Pacers|A
+Jalen Smith|Maryland|2020|5|Chicago Bulls|A
+Jalen Suggs|Gonzaga|2021|4|Orlando Magic|A
+Jalen Williams|Santa Clara|2022|3|Oklahoma City Thunder|A
+Jalen Wilson|Kansas|2023|2|Brooklyn Nets|A
+Jamal Cain|Oakland|2022|3|Orlando Magic|A
+Jamal Murray|Kentucky|2016|9|Denver Nuggets|A
+Jamal Shead|Houston|2024|1|Toronto Raptors|A
+Jamaree Bouyea|San Francisco|2022|3|Milwaukee Bucks|A
+Jameel Warney|Stony Brook|2016|9|Seoul SK|A
+Jamel Artis|Pittsburgh|2017|7|Mineros de Zacatecas|X
+James Bouknight|UConn|2021|4|Mexico City Capitanes|A
+James Huff|Virginia|2021|4|Memphis Grizzlies|A
+James Webb III|Boise State|2016|9|Unicaja|A
+James Wiseman|Memphis|2020|5|Indiana Pacers|A
+Jamir Watkins|Florida State|2025|0|Washington Wizards|A
+Jamison Battle|Ohio State|2024|1|Toronto Raptors|A
+Jamorko Pickett|Georgetown|2021|4|Nagoya Fighting Eagles|A
+Jarace Walker|Houston|2023|2|Indiana Pacers|A
+Jared Butler|Baylor|2021|4|Phoenix Suns|A
+Jared Harper|Auburn|2019|6|Hapoel Bank Yahav Jerusalem|A
+Jared McCain|Duke|2024|1|Philadelphia Sixers|A
+Jared Rhoden|Seton Hall|2022|3|Toronto Raptors|A
+Jared Terrell|Rhode Island|2018|5|Hapoel Eilat|X
+Jarell Martin|LSU|2015|10|Koshigaya Alphas|A
+Jaren Jackson, Jr.|Michigan State|2018|7|Memphis Grizzlies|A
+Jarred Vanderbilt|Kentucky|2018|7|Los Angeles Lakers|A
+Jarrell Brantley|Charleston|2019|6|Nagasaki Velca|A
+Jarrett Allen|Texas|2017|8|Cleveland Cavaliers|A
+Jarrett Culver|Texas Tech|2019|6|Sendai 89ers|A
+Jarrod Uthoff|Iowa|2016|9|Pallacanestro Trieste 2004|A
+Jase Richardson|Michigan State|2025|0|Orlando Magic|A
+Jason Preston|Ohio|2021|4|Los Angeles Clippers|A
+Javin DeLaurier|Duke|2020|5|Bursaspor|A
+Javon Freeman-Liberty|DePaul|2022|3|Long Island Nets|A
+Javon Small|West Virginia|2025|0|Memphis Grizzlies|A
+Javonte Smart|LSU|2021|4|Orlando Magic|A
+Jawun Evans|Oklahoma State|2017|8|Pioneros de Los Mochis|A
+Jaxson Hayes|Texas|2019|6|Los Angeles Lakers|A
+Jaylen Adams|St. Bonaventure|2018|7|Brisbane|A
+Jaylen Brown|California|2016|9|Boston Celtics|A
+Jaylen Clark|UCLA|2023|2|Minnesota Timberwolves|A
+Jaylen Hoard|Wake Forest|2019|6|Maccabi FOX Tel Aviv|A
+Jaylen Nowell|Washington|2019|6|Shanxi Zhongyu|A
+Jaylen Sims|UNC Wilmington|2022|3|Charlotte Hornets|A
+Jaylen Wells|Washington State|2024|1|Memphis Grizzlies|A
+Jaylin Williams|Arkansas|2022|3|Oklahoma City Thunder|A
+Jaylon Tyson|California|2024|1|Cleveland Cavaliers|A
+Jayson Kent|Texas|2025|0|Portland Trail Blazers|A
+Jayson Tatum|Duke|2017|8|Boston Celtics|A
+Jemerrio Jones|New Mexico State|2018|6|KB Rahoveci|A
+Jeremiah Fears|Oklahoma|2025|0|New Orleans Pelicans|A
+Jeremiah Martin|Memphis|2019|6|Lokomotiv Kuban|A
+Jeremiah Robinson-Earl|Villanova|2021|4|Dallas Mavericks|A
+Jeremy Sochan|Baylor|2022|3|San Antonio Spurs|A
+Jerian Grant|Notre Dame|2015|10|Panathinaikos|A
+Jericho Sims|Texas|2021|4|Milwaukee Bucks|A
+Jerome Robinson|Boston College|2018|7|Galatasaray|A
+Jesse Edwards|West Virginia|2024|1|Minnesota Timberwolves|A
+Jett Howard|Michigan|2023|2|Orlando Magic|A
+Jevon Carter|West Virginia|2018|7|Chicago Bulls|A
+Joe Chealey|Charleston|2018|6|Juventus|A
+Joe Wieskamp|Iowa|2021|4|Science City Jena|A
+Joel Ayayi|Gonzaga|2021|4|Paris Basketball|A
+Joel Bolomboy|Weber State|2016|9|KK Crvena Zvezda|A
+John Butler|Florida State|2022|3|Milwaukee Bucks|A
+John Collins|Wake Forest|2017|8|Utah Jazz|A
+John Konchar|Fort Wayne|2019|6|Memphis Grizzlies|A
+John Poulakidas|Yale|2025|0|Los Angeles Clippers|A
+John Tonje|Wisconsin|2025|0|Utah Jazz|A
+Johnathan Motley|Baylor|2017|9|Hapoel Tel Aviv|A
+Johnathan Williams|Gonzaga|2018|7|London Lions|A
+Johni Broome|Auburn|2025|0|Philadelphia Sixers|A
+Johnny Davis|Wisconsin|2022|3|Milwaukee Bucks|A
+Johnny Furphy|Kansas|2024|1|Indiana Pacers|A
+Johnny Juzang|UCLA|2022|3|Minnesota Timberwolves|A
+Jon Teske|Michigan|2020|2|Orlando Magic|X
+Jonathan Isaac|Florida State|2017|8|Orlando Magic|A
+Jonathan Mogbo|San Francisco|2024|1|Toronto Raptors|A
+Jontay Porter|Missouri|2019|4|Detroit Pistons|X
+Jordan Bell|Oregon|2017|8|Noblesville Boom|A
+Jordan Bone|Tennessee|2019|5|Hapoel Unet Holon|A
+Jordan Goodwin|Saint Louis|2021|4|Los Angeles Lakers|A
+Jordan Hall|Saint Joseph's|2022|3|Texas Legends|A
+Jordan Hawkins|UConn|2023|2|New Orleans Pelicans|A
+Jordan McLaughlin|USC|2018|7|San Antonio Spurs|A
+Jordan Mickey|LSU|2015|10|Qingdao|A
+Jordan Miller|Miami (FL)|2023|2|Los Angeles Clippers|A
+Jordan Nwora|Louisville|2020|5|KK Crvena Zvezda|A
+Jordan Poole|Michigan|2019|6|Washington Wizards|A
+Jordan Schakel|San Diego State|2021|4|Telenet BC Oostende|A
+Jordan Walsh|Arkansas|2023|2|Boston Celtics|A
+Jose Alvarado|Georgia Tech|2021|4|New Orleans Pelicans|A
+Josh Christopher|Arizona State|2021|4|Sioux Falls Skyforce|A
+Josh Green|Arizona|2020|5|Charlotte Hornets|A
+Josh Hart|Villanova|2017|8|New York Knicks|A
+Josh Jackson|Kansas|2017|6|Toronto Raptors|X
+Josh Minott|Memphis|2022|3|Boston Celtics|A
+Josh Okogie|Georgia Tech|2018|7|Charlotte Hornets|A
+Josh Reaves|Penn State|2019|6|Paisas Basketball Club|A
+Josh Richardson|Tennessee|2015|10|Casademont Zaragoza|A
+Joshua Primo|Alabama|2021|4|Chicago Bulls|A
+Jules Bernard|UCLA|2022|3|Minnesota Timberwolves|A
+Julian Champagnie|St. John's|2022|3|San Antonio Spurs|A
+Julian Phillips|Tennessee|2023|2|Chicago Bulls|A
+Julian Reese|Maryland|2025|0|Toronto Raptors|A
+Julian Strawther|Gonzaga|2023|2|Denver Nuggets|A
+Justin Anderson|Virginia|2015|10|Dubai|A
+Justin Champagnie|Pittsburgh|2021|4|Washington Wizards|A
+Justin Edwards|Kentucky|2024|1|Philadelphia Sixers|A
+Justin Jackson|North Carolina|2017|7|Minnesota Timberwolves|X
+Justin James|Wyoming|2019|4|Cleveland Charge|X
+Justin Minaya|Providence|2022|3|Orlando Magic|A
+Justin Patton|Creighton|2017|8|Peristeri Betsson|A
+Justin Robinson|Virginia Tech|2019|6|Paris Basketball|A
+Justin Wright-Foreman|Hofstra|2019|5|Iraklis BC|A
+Justise Winslow|Duke|2015|10|Milwaukee Bucks|A
+Juwan Morgan|Indiana|2019|6|Buducnost Voli Podgorica|A
+K.J. Simpson|Colorado|2024|1|Charlotte Hornets|A
+KZ Okpala|Stanford|2019|4|Sacramento Kings|X
+Kadary Richmond|St. John's|2025|0|Washington Wizards|A
+Kadeem Allen|Arizona|2017|8|Unieuro Forli|A
+Kai Jones|Texas|2021|5|Anadolu Efes|A
+Kaiser Gates|Xavier|2022|3|UCAM Murcia CB|A
+Kam Jones|Marquette|2025|0|Indiana Pacers|A
+Karl-Anthony Towns|Kentucky|2015|10|New York Knicks|A
+Kasparas Jakucionis|Illinois|2025|0|Miami Heat|A
+Kay Felder|Oakland|2016|9|Carpegna Prosciutto Basket Pesaro|A
+Keegan Murray|Iowa|2022|3|Sacramento Kings|A
+Keion Brooks, Jr.|Washington|2024|1|Birmingham Squadron|A
+Keita Bates-Diop|Ohio State|2018|7|Brooklyn Nets|A
+Kel'el Ware|Indiana|2024|1|Miami Heat|A
+Keldon Johnson|Kentucky|2019|6|San Antonio Spurs|A
+Keljin Blevins|Montana State|2019|5|Sudbury Five|X
+Kelly Oubre, Jr.|Kansas|2015|10|Philadelphia Sixers|A
+Kendall Brown|Baylor|2022|3|Boston Celtics|A
+Kendrick Nunn|Oakland|2018|7|Panathinaikos|A
+Kennedy Chandler|Tennessee|2022|3|Philadelphia Sixers|A
+Kenny Lofton, Jr.|Louisiana Tech|2022|3|Shanghai Dongfang|A
+Kenrich Williams|TCU|2018|7|Oklahoma City Thunder|A
+Keon Ellis|Alabama|2022|3|Sacramento Kings|A
+Keon Johnson|Tennessee|2021|4|Brooklyn Nets|A
+Keshad Johnson|Arizona|2024|1|Miami Heat|A
+Keshon Gilbert|Iowa State|2025|0|Washington Wizards|A
+Kessler Edwards|Pepperdine|2021|4|Denver Nuggets|A
+Kevin Huerter|Maryland|2018|7|Chicago Bulls|A
+Kevin Knox II|Kentucky|2018|7|Chicago Bulls|A
+Kevin McCullar, Jr.|Kansas|2024|1|New York Knicks|A
+Kevin Porter, Jr.|USC|2019|6|Milwaukee Bucks|A
+Kevon Looney|UCLA|2015|10|New Orleans Pelicans|A
+Keyontae Johnson|Kansas State|2023|2|Charlotte Hornets|A
+Keyonte George|Baylor|2023|2|Utah Jazz|A
+Khaman Maluach|Duke|2025|0|Phoenix Suns|A
+Khyri Thomas|Creighton|2018|7|Mitteldeutscher BC|A
+Killian Tillie|Gonzaga|2020|4|Unicaja|A
+Kira Lewis, Jr.|Alabama|2020|5|Wisconsin Herd|A
+Kobe Brown|Missouri|2023|2|Los Angeles Clippers|A
+Kobe Bufkin|Michigan|2023|2|Atlanta Hawks|A
+Kobe Sanders|Nevada|2025|0|Los Angeles Clippers|A
+Kobi Simmons|Arizona|2017|8|Baskonia|A
+Koby Brea|Kentucky|2025|0|Phoenix Suns|A
+Kon Knueppel|Duke|2025|0|Charlotte Hornets|A
+Kostas Antetokounmpo|Dayton|2018|7|Olympiacos|A
+Kris Dunn|Providence|2016|9|Los Angeles Clippers|A
+Kris Murray|Iowa|2023|2|Portland Trail Blazers|A
+Ky Bowman|Boston College|2019|6|Umana Venezia|A
+Kyle Alexander|Tennessee|2019|6|Turk Telekom|A
+Kyle Collinsworth|Brigham Young|2016|7|Sanen Neophoenix|X
+Kyle Filipowski|Duke|2024|1|Utah Jazz|A
+Kyle Guy|Virginia|2019|5|Indiana Pacers|A
+Kyle Kuzma|Utah|2017|8|Milwaukee Bucks|A
+Kyle Wiltjer|Gonzaga|2016|9|Umana Venezia|A
+Kyshawn George|Miami (FL)|2024|1|Washington Wizards|A
+L.J. Cryer|Houston|2025|0|Golden State Warriors|A
+Lamar Stevens|Penn State|2020|5|Paris Basketball|A
+Landry Shamet|Wichita State|2018|7|New York Knicks|A
+Larry Nance, Jr.|Wyoming|2015|10|Cleveland Cavaliers|A
+Lauri Markkanen|Arizona|2017|8|Utah Jazz|A
+Lawson Lovering|Utah|2025|0|Memphis Grizzlies|A
+Leaky Black|North Carolina|2023|2|Washington Wizards|A
+Lester Quinones|Memphis|2022|3|New Orleans Pelicans|A
+Liam McNeeley|UConn|2025|0|Charlotte Hornets|A
+Liam Robbins|Vanderbilt|2023|2|Portland Trail Blazers|A
+Lindy Waters III|Oklahoma State|2020|4|San Antonio Spurs|A
+London Perrantes|Virginia|2017|8|Maroussi BC|A
+Lonnie Walker|Miami (FL)|2018|7|Maccabi FOX Tel Aviv|A
+Lonzo Ball|UCLA|2017|8|Chicago Bulls|A
+Louis King|Oregon|2019|6|Xinjiang Guanghui|A
+Luguentz Dort|Arizona State|2019|6|Oklahoma City Thunder|A
+Luka Garza|Iowa|2021|4|Boston Celtics|A
+Luke Kennard|Duke|2017|8|Atlanta Hawks|A
+Luke Kornet|Vanderbilt|2017|8|San Antonio Spurs|A
+M.J. Walker|Florida State|2021|4|Atlanta Hawks|A
+Mac McClung|Texas Tech|2021|4|Chicago Bulls|A
+Malachi Flynn|San Diego State|2020|5|Bahcesehir Koleji|A
+Malachi Richardson|Syracuse|2016|8|Astros de Jalisco|A
+Malaki Branham|Ohio State|2022|3|San Antonio Spurs|A
+Malcolm Brogdon|Virginia|2016|9|New York Knicks|A
+Malevy Leons|Bradley|2024|1|Oklahoma City Thunder|A
+Malik Beasley|Florida State|2016|9|KK Partizan|A
+Malik Fitts|Saint Mary's|2020|5|Boulazac Basket Dordogne|A
+Malik Monk|Kentucky|2017|8|Sacramento Kings|A
+Malik Newman|Kansas|2018|7|Avtodor Saratov|A
+Mamadi Diakite|Virginia|2020|5|Baskonia|A
+Mangok Mathiang|Louisville|2017|8|Korea Gas Corporation|A
+Marcus Derrickson|Georgetown|2018|6|Seoul Samsung Thunders|A
+Marcus Garrett|Kansas|2021|4|Charlotte Hornets|A
+Marcus Georges-Hunt|Georgia Tech|2016|7|Sichuan Blue Whales|A
+Marcus Paige|North Carolina|2016|7|Monbus Obradoiro|X
+Marcus Sasser|Houston|2023|2|Detroit Pistons|A
+Marial Shayok|Iowa State|2019|6|Altiri Chiba|A
+Mark Sears|Alabama|2025|0|Milwaukee Bucks|A
+Mark Williams|Duke|2022|3|Phoenix Suns|A
+Markelle Fultz|Washington|2017|8|Toronto Raptors|A
+Markquis Nowell|Kansas State|2023|2|Baskonia|A
+Markus Howard|Marquette|2020|5|Baskonia|A
+Marques Bolden|Duke|2019|6|Golden State Warriors|A
+Marquese Chriss|Washington|2016|9|Shandong|A
+Marshall Plumlee|Duke|2016|2|New York Knicks|X
+Marvin Bagley III|Duke|2018|7|Washington Wizards|A
+Mason Jones|Arkansas|2020|5|Perth|A
+Matisse Thybulle|Washington|2019|6|Portland Trail Blazers|A
+Matt Costello|Michigan State|2016|9|Valencia Basket|A
+Matt Mooney|Texas Tech|2019|6|Leones de Ponce|A
+Matt Ryan|Chattanooga|2020|4|New York Knicks|A
+Matt Williams|UCF|2017|5|Supersonicos de Miranda|X
+Matthew Hurt|Duke|2021|4|2B Control Trapani|A
+Maurice Ndour|Ohio|2015|10|Gemani Basket Brescia|A
+Max Christie|Michigan State|2022|3|Dallas Mavericks|A
+Max Shulga|VCU|2025|0|Boston Celtics|A
+Max Strus|DePaul|2019|6|Cleveland Cavaliers|A
+Maxime Raynaud|Stanford|2025|0|Sacramento Kings|A
+Maxwell Lewis|Pepperdine|2023|2|Tofas SC|A
+McKinley Wright IV|Colorado|2021|4|Dubai|A
+Melvin Frazier, Jr.|Tulane|2018|6|Delaware Blue Coats|X
+Mfiondu Kabengele|Florida State|2019|6|Dubai|A
+Micah Peavy|Georgetown|2025|0|New Orleans Pelicans|A
+Micah Potter|Wisconsin|2021|4|San Antonio Spurs|A
+Michael Patrick Gbinije|Syracuse|2016|6|Cape Town Tigers|X
+Michael Porter, Jr.|Missouri|2018|7|Denver Nuggets|A
+Mikal Bridges|Villanova|2018|7|New York Knicks|A
+Mike Tobey|Virginia|2016|9|Dreamland Gran Canaria|A
+Miles Bridges|Michigan State|2018|6|Charlotte Hornets|A
+Miles Kelly|Auburn|2025|0|Dallas Mavericks|A
+Miles McBride|West Virginia|2021|4|New York Knicks|A
+Miles Norris|UC Santa Barbara|2023|2|Boston Celtics|A
+Milton Doyle|Loyola (IL)|2017|8|Napoli Basket|A
+Miye Oni|Yale|2019|6|Al Ahly Benghazi|A
+Mo Bamba|Texas|2018|7|Utah Jazz|A
+Moe Wagner|Michigan|2018|7|Orlando Magic|A
+Monte Morris|Iowa State|2017|8|Indiana Pacers|A
+Montrezl Harrell|Louisville|2015|10|Adelaide|A
+Moses Brown|UCLA|2019|6|Denver Nuggets|A
+Moses Moody|Arkansas|2021|4|Golden State Warriors|A
+Moses Wright|Georgia Tech|2021|5|Barca|A
+Mouhamadou Gueye|Pittsburgh|2022|3|Chicago Bulls|A
+Mouhamed Gueye|Washington State|2023|2|Atlanta Hawks|A
+Moussa Cisse|Memphis|2025|0|Dallas Mavericks|A
+Moussa Diabate|Michigan|2022|3|Charlotte Hornets|A
+Myles Powell|Seton Hall|2020|5|Qingdao|A
+Myles Turner|Texas|2015|10|Milwaukee Bucks|A
+N'Faly Dante|Oregon|2024|1|Atlanta Hawks|A
+Nae'qwan Tomlin|Memphis|2024|1|Cleveland Cavaliers|A
+Naji Marshall|Xavier|2020|5|Dallas Mavericks|A
+Nassir Little|North Carolina|2019|6|Chiba Jets|A
+Nate Darling|Delaware|2020|5|Chalon-Sur-Saone|A
+Nate Mensah|San Diego State|2023|2|U-Banca Transilvania Cluj Napoca|A
+Nate Williams, Jr.|Buffalo|2022|3|Houston Rockets|A
+Nathan Knight|William & Mary|2020|5|Goyang Sono Skygunners|A
+Nathaniel Hinton|Houston|2020|5|Memphis Grizzlies|A
+Naz Long|Iowa State|2017|8|Napoli Basket|A
+Naz Reid|LSU|2019|6|Minnesota Timberwolves|A
+Neemias Queta|Utah State|2021|4|Boston Celtics|A
+Nick Richards|Kentucky|2020|5|Phoenix Suns|A
+Nick Smith, Jr.|Arkansas|2023|2|Charlotte Hornets|A
+Nickeil Alexander-Walker|Virginia Tech|2019|6|Minnesota Timberwolves|A
+Nico Mannion|Arizona|2020|5|AX Armani Exchange Milan|A
+Nicolas Claxton|Georgia|2019|6|Brooklyn Nets|A
+Nigel Hayes-Davis|Wisconsin|2017|8|Phoenix Suns|A
+Nique Clifford|Colorado State|2025|0|Sacramento Kings|A
+Noah Clowney|Alabama|2023|2|Brooklyn Nets|A
+Norchad Omier|Baylor|2025|0|Cleveland Cavaliers|A
+Norman Powell|UCLA|2015|10|Los Angeles Clippers|A
+OG Anunoby|Indiana|2017|8|New York Knicks|A
+Obi Toppin|Dayton|2020|5|Indiana Pacers|A
+Ochai Agbaji|Kansas|2022|3|Toronto Raptors|A
+Olivier Sarr|Kentucky|2021|3|Toronto Raptors|A
+Olivier-Maxence Prosper|Marquette|2023|2|Dallas Mavericks|A
+Omari Spellman|Villanova|2018|7|Beijing Shougang|A
+Onyeka Okongwu|USC|2020|5|Atlanta Hawks|A
+Orlando Robinson|Fresno State|2022|3|Orlando Magic|A
+Oscar Tshiebwe|Kentucky|2023|2|Utah Jazz|A
+Oshae Brissett|Syracuse|2019|6|Maccabi FOX Tel Aviv|A
+Oso Ighodaro|Marquette|2024|1|Phoenix Suns|A
+P.J. Dozier|South Carolina|2017|8|Anadolu Efes|A
+P.J. Hall|Clemson|2024|1|Memphis Grizzlies|A
+P.J. Washington|Kentucky|2019|6|Dallas Mavericks|A
+Paolo Banchero|Duke|2022|3|Orlando Magic|A
+Pascal Siakam|New Mexico State|2016|9|Indiana Pacers|A
+Pat Connaughton|Notre Dame|2015|10|Milwaukee Bucks|A
+Patricio Garino|George Washington|2016|9|Movistar Estudiantes|A
+Patrick Baldwin, Jr.|Milwaukee|2022|3|Los Angeles Clippers|A
+Patrick McCaw|UNLV|2016|9|Raptors 905|A
+Patrick Williams|Florida State|2020|5|Chicago Bulls|A
+Paul Reed, Jr.|DePaul|2020|5|Detroit Pistons|A
+Payton Pritchard|Oregon|2020|5|Boston Celtics|A
+Payton Sandfort|Iowa|2025|0|Oklahoma City Thunder|A
+Pelle Larsson|Arizona|2024|1|Miami Heat|A
+Pete Nance|North Carolina|2023|2|Milwaukee Bucks|A
+Peyton Watson|UCLA|2022|3|Denver Nuggets|A
+Precious Achiuwa|Memphis|2020|5|Miami Heat|A
+Quentin Grimes|Houston|2021|4|Philadelphia Sixers|A
+Quenton Jackson|Texas A&M|2022|3|Indiana Pacers|A
+Quincy Olivari|Xavier|2024|1|Detroit Pistons|A
+Quinn Cook|Duke|2015|10|Fujian|A
+Quinndary Weatherspoon|Mississippi State|2019|6|Qingdao|A
+Quinten Post|Boston College|2024|1|Golden State Warriors|A
+R.J. Barrett|Duke|2019|6|Toronto Raptors|A
+R.J. Hunter|Georgia State|2015|8|Charlotte Hornets|X
+R.J. Nembhard|TCU|2021|4|Chicago Bulls|A
+Rakeem Christmas|Syracuse|2015|9|Santos de San Luis Potosi|A
+Rasheer Fleming|Saint Joseph's|2025|0|Phoenix Suns|A
+Rawle Alkins|Arizona|2018|7|Aris Midea Thessaloniki|A
+RayJ Dennis|Baylor|2024|1|Indiana Pacers|A
+Rayjon Tucker|Little Rock|2019|6|Zhejiang Guangsha|A
+Raymond Spalding|Louisville|2018|6|Indiana Pacers|A
+Reece Beekman|Virginia|2024|1|Orlando Magic|A
+Reed Sheppard|Kentucky|2024|1|Houston Rockets|A
+Reggie Perry|Mississippi State|2020|5|Beijing BeiKong|A
+Richaun Holmes|Bowling Green|2015|10|Washington Wizards|A
+Ricky Council IV|Arkansas|2023|2|Philadelphia Sixers|A
+Riley Minix|Morehead State|2024|1|San Antonio Spurs|A
+Rob Dillingham|Kentucky|2024|1|Minnesota Timberwolves|A
+Robert Franks|Washington State|2019|6|Ibaraki Robots|A
+Robert Williams|Texas A&M|2018|7|Portland Trail Blazers|A
+Robert Woodard II|Mississippi State|2020|5|Delaware Blue Coats|A
+Rodney Purvis|UConn|2017|8|Kozuv Gevgelija|A
+Romeo Langford|Indiana|2019|6|Westchester Knicks|A
+Ron Baker|Wichita State|2016|4|CSKA Moscow|X
+Ron Harper|Rutgers|2022|3|Detroit Pistons|A
+Rondae Hollis-Jefferson|Arizona|2015|9|Talk N Text Tropang Texters|X
+Rui Hachimura|Gonzaga|2019|6|Los Angeles Lakers|A
+Ryan Arcidiacono|Villanova|2016|9|2B Control Trapani|A
+Ryan Dunn|Virginia|2024|1|Phoenix Suns|A
+Ryan Kalkbrenner|Creighton|2025|0|Charlotte Hornets|A
+Ryan Nembhard|Gonzaga|2025|0|Dallas Mavericks|A
+Ryan Rollins|Toledo|2022|3|Milwaukee Bucks|A
+Saben Lee|Vanderbilt|2020|5|Olympiacos|A
+Saddiq Bey|Villanova|2020|5|Washington Wizards|A
+Sam Dekker|Wisconsin|2015|10|Joventut Badalona|A
+Sam Hauser|Virginia|2021|4|Boston Celtics|A
+Sam Merrill|Utah State|2020|5|Cleveland Cavaliers|A
+Sandro Mamukelashvili|Seton Hall|2021|4|Toronto Raptors|A
+Santi Aldama|Loyola (MD)|2021|4|Memphis Grizzlies|A
+Scottie Barnes|Florida State|2021|4|Toronto Raptors|A
+Scottie Lewis|Florida|2021|3|Mayrouba|A
+Scotty Pippen, Jr.|Vanderbilt|2022|3|Memphis Grizzlies|A
+Sean McDermott|Butler|2020|5|Valley Suns|A
+Sean Pedulla|Ole Miss|2025|0|Los Angeles Clippers|A
+Semi Ojeleye|Southern Methodist|2017|8|KK Crvena Zvezda|A
+Seth Lundy|Penn State|2023|2|Los Angeles Clippers|A
+Shaedon Sharpe|Kentucky|2022|3|Portland Trail Blazers|A
+Shai Gilgeous-Alexander|Kentucky|2018|7|Oklahoma City Thunder|A
+Shake Milton|Southern Methodist|2018|7|Los Angeles Lakers|A
+Shamorie Ponds|St. John's|2019|5|Dorados de Chihuahua|A
+Sharife Cooper|Auburn|2021|4|Washington Wizards|A
+Shawn Long|Louisiana|2016|9|Jeonju KCC Egis|A
+Sheldon Mac|Miami (FL)|2016|7|Gladiadores de Anzoategui|X
+Sindarius Thornwell|South Carolina|2017|8|Xinjiang Guanghui|A
+Sion James|Duke|2025|0|Charlotte Hornets|A
+Skal Labissiere|Kentucky|2016|9|Washington Wizards|A
+Skylar Mays|LSU|2020|5|Buducnost Voli Podgorica|A
+Spencer Jones|Stanford|2024|1|Denver Nuggets|A
+Stanley Johnson|Arizona|2015|10|Nagasaki Velca|A
+Stanley Umude|Arkansas|2022|3|San Antonio Spurs|A
+Stephen Zimmerman|UNLV|2016|7|Austin Spurs|X
+Stephon Castle|UConn|2024|1|San Antonio Spurs|A
+Sterling Brown|Southern Methodist|2017|8|KK Partizan|A
+Svi Mykhailiuk|Kansas|2018|7|Utah Jazz|A
+T.J. Leaf|UCLA|2017|8|Maccabi FOX Tel Aviv|A
+T.J. McConnell|Arizona|2015|10|Indiana Pacers|A
+Tacko Fall|UCF|2019|6|New Zealand|A
+Taelon Peter|Liberty|2025|0|Indiana Pacers|A
+Talen Horton-Tucker|Iowa State|2019|6|Fenerbahce Beko|A
+Tari Eason|LSU|2022|3|Houston Rockets|A
+Tariq Owens|Texas Tech|2019|5|JDA Dijon Basket|A
+Taurean Prince|Baylor|2016|9|Milwaukee Bucks|A
+Taylor Hendricks|UCF|2023|2|Utah Jazz|A
+Terance Mann|Florida State|2019|6|Atlanta Hawks|A
+Terence Davis|Ole Miss|2019|6|Sacramento Kings|A
+Terquavion Smith|NC State|2023|2|Shenzhen|A
+Terrence Shannon, Jr.|Illinois|2024|1|Minnesota Timberwolves|A
+Terry Rozier|Louisville|2015|10|Miami Heat|A
+Terry Taylor|Austin Peay|2021|4|Iowa Wolves|A
+Thomas Bryant|Indiana|2017|8|Cleveland Cavaliers|A
+Thomas Welsh|UCLA|2018|5|Hitachi Sun Rockers|A
+Timmy Allen|Texas|2023|2|2B Control Trapani|A
+Tolu Smith|Mississippi State|2024|1|Detroit Pistons|A
+Tony Bradley|North Carolina|2017|8|Indiana Pacers|A
+Tosan Evbuomwan|Princeton|2023|2|Brooklyn Nets|A
+Toumani Camara|Dayton|2023|2|Portland Trail Blazers|A
+Trae Young|Oklahoma|2018|7|Atlanta Hawks|A
+Trayce Jackson-Davis|Indiana|2023|2|Golden State Warriors|A
+Tre Johnson|Texas|2025|0|Washington Wizards|A
+Tre Jones|Duke|2020|5|Chicago Bulls|A
+Tre Mann|Florida|2021|4|Charlotte Hornets|A
+Tremont Waters|LSU|2019|6|Shanghai Dongfang|A
+Trendon Watford|LSU|2021|4|Philadelphia Sixers|A
+Trent Forrest|Florida State|2020|5|Baskonia|A
+Trevelin Queen|New Mexico State|2020|5|Guangdong Dongguan|A
+Treveon Graham|VCU|2015|9|Motor City Cruise|X
+Trevon Duval|Duke|2018|7|Greensboro Swarm|A
+Trevor Keels|Duke|2022|3|Miami Heat|A
+Trey Alexander|Creighton|2024|1|New Orleans Pelicans|A
+Trey Jemison|UAB|2023|2|Los Angeles Lakers|A
+Trey Lyles|Kentucky|2015|10|Real Madrid|A
+Trey Murphy III|Virginia|2021|4|New Orleans Pelicans|A
+Tristan Da Silva|Colorado|2024|1|Orlando Magic|A
+Tristan Enaruna|Cleveland State|2024|1|Cleveland Cavaliers|A
+Tristen Newton|UConn|2024|1|Minnesota Timberwolves|A
+Troy Brown, Jr.|Oregon|2018|7|Cangrejeros de Santurce|A
+Troy Caupain|Cincinnati|2017|8|Grissin Bon Reggio Emilia|A
+Ty Jerome|Virginia|2019|6|Memphis Grizzlies|A
+Ty-Shon Alexander|Creighton|2020|5|Paisas Basketball Club|A
+TyTy Washington, Jr.|Kentucky|2022|3|Los Angeles Clippers|A
+Tyler Cavanaugh|George Washington|2017|8|Bahcesehir Koleji|A
+Tyler Cook|Iowa|2019|6|Ibaraki Robots|A
+Tyler Davis|Texas A&M|2018|6|Osos de Manati|A
+Tyler Dorsey|Oregon|2017|8|Olympiacos|A
+Tyler Herro|Kentucky|2019|6|Miami Heat|A
+Tyler Kolek|Marquette|2024|1|New York Knicks|A
+Tyler Lydon|Syracuse|2017|3|Sacramento Kings|X
+Tyler Ulis|Kentucky|2016|5|Santa Cruz Warriors|X
+Tyrell Terry|Stanford|2020|4|CSP Limoges|A
+Tyrese Haliburton|Iowa State|2020|5|Indiana Pacers|A
+Tyrese Martin|UConn|2022|3|Brooklyn Nets|A
+Tyrese Maxey|Kentucky|2020|5|Philadelphia Sixers|A
+Tyrese Proctor|Duke|2025|0|Cleveland Cavaliers|A
+Tyus Jones|Duke|2015|10|Orlando Magic|A
+Udoka Azubuike|Kansas|2020|5|Ironi Nes Ziona|A
+V.J. Edgecombe|Baylor|2025|0|Philadelphia Sixers|A
+Vernon Carey, Jr.|Duke|2020|4|Houston Rockets|A
+Vic Law|Northwestern|2019|6|Ryukyu Golden Kings|A
+Vince Edwards|Purdue|2018|7|Pioneros de Los Mochis|A
+Vince Hunter|UTEP|2015|9|Lokomotiv Kuban|A
+Vincent Williams, Jr.|VCU|2022|3|Memphis Grizzlies|A
+Vladislav Goldin|Michigan|2025|0|Miami Heat|A
+Wade Baldwin IV|Vanderbilt|2016|10|Fenerbahce Beko|A
+Walker Kessler|Auburn|2022|3|Utah Jazz|A
+Walter Clayton, Jr.|Florida|2025|0|Utah Jazz|A
+Wayne Selden|Kansas|2016|8|Chorale Roanne Basket|X
+Wendell Carter, Jr.|Duke|2018|7|Orlando Magic|A
+Wendell Moore, Jr.|Duke|2022|3|Boston Celtics|A
+Wenyen Gabriel|Kentucky|2018|7|Bayern Munich|A
+Wesley Iwundu|Kansas State|2017|8|South East Melbourne|A
+Will Richard|Florida|2025|0|Golden State Warriors|A
+Will Riley|Illinois|2025|0|Washington Wizards|A
+Willie Cauley-Stein|Kentucky|2015|10|Nanjing Tongxi Monkey King|A
+Xavier Rathan-Mayes|Florida State|2017|8|Bayern Munich|A
+Xavier Sneed|Kansas State|2020|5|Acqua San Bernardo Cantu|A
+Xavier Tillman, Sr.|Michigan State|2020|5|Boston Celtics|A
+Yanic Konan Niederhauser|Penn State|2025|0|Los Angeles Clippers|A
+Yante Maten|Georgia|2018|7|Sanen Neophoenix|A
+Yogi Ferrell|Indiana|2016|9|Buducnost Voli Podgorica|A
+Yuri Collins|Saint Louis|2023|2|Brooklyn Nets|A
+Yuta Watanabe|George Washington|2018|7|Chiba Jets|A
+Yves Missi|Baylor|2024|1|New Orleans Pelicans|A
+Yves Pons|Tennessee|2021|4|MoraBanc Andorra|A
+Zach Collins|Gonzaga|2017|8|Chicago Bulls|A
+Zach Edey|Purdue|2024|1|Memphis Grizzlies|A
+Zach Lofton|New Mexico State|2018|5|Homenetmen Beirut|A
+Zach Norvell|Gonzaga|2019|2|Chicago Bulls|X
+Zeke Nnaji|Arizona|2020|5|Denver Nuggets|A
+Zhaire Smith|Texas Tech|2018|5|Dallas Mavericks|A
+Ziaire Williams|Stanford|2021|4|Brooklyn Nets|A
+Zion Williamson|Duke|2019|6|New Orleans Pelicans|A
+Zylan Cheatham|Arizona State|2019|6|Adelaide|A
+Zyon Pullin|Florida|2024|1|Memphis Grizzlies|A
 
 # Top G-League Careers
-Wesley Saunders|Harvard|11yr|Marinos|16.6PPG
-Amir Williams|Ohio State|10yr|Piratas de La Guaira|6.4PPG
-Andrew Harrison|Kentucky|10yr|Pioneros del Avila|9.3PPG
-Askia Booker|Colorado|10yr|Shenzhen|17.2PPG
-Charles Jackson|Tennessee Tech|10yr|Kyoto Hannaryz|12.9PPG
-Chris Walker|Florida|10yr|Osceola Magic|4.7PPG
-Corey Walden|Eastern Kentucky|10yr|Forca Lleida CE|18.6PPG
-Darion Atkins|Virginia|10yr|Ironi Ramat Gan|7.6PPG
-Derek Cooke, Jr.|Wyoming|10yr|Al Ahly Benghazi|8.1PPG
-Dez Wells|Maryland|10yr|Liaoning|15.1PPG
-J.P. Tokoto|North Carolina|10yr|Veolia Towers Hamburg|8.3PPG
-Johnathan Jordan|Texas A&M-CC|10yr|Al Ahly Benghazi|15.6PPG
-Levi Randolph|Alabama|10yr|Zenit Saint Petersburg|15.4PPG
-Marcus Thornton|William & Mary|10yr|FC Arges Pitesti|20.0PPG
-Michale Kyser|Louisiana Tech|10yr|EWE Baskets Oldenburg|8.6PPG
-Ryan Boatright|UConn|10yr|Brillantes de Maracaibo|17.4PPG
-Shannon Scott|Ohio State|10yr|Brisbane|8.5PPG
-Speedy Smith|Louisiana Tech|10yr|Merkezefendi Belediyesi Denizli Basket|6.4PPG
-Travis Trice|Michigan State|10yr|Fujian|15.3PPG
-Tyler Harvey|Eastern Washington|10yr|Illawarra|23.1PPG
-Will Cummings|Temple|10yr|Galatasaray|14.8PPG
-Alex Hamilton|Louisiana Tech|9yr|Avtodor Saratov|19.9PPG
-Anthony Walker|Texas-Arlington|9yr|El Calor de Cancun|4.4PPG
-Avry Holmes|Clemson|9yr|Spartans de Districto Captital Caracas|10.3PPG
-Cat Barber|NC State|9yr|El Calor de Cancun|23.5PPG
+Wesley Saunders | Harvard | 11yr | Marinos, 16.6PPG
+Amir Williams | Ohio State | 10yr | Piratas de La Guaira, 6.4PPG
+Andrew Harrison | Kentucky | 10yr | Pioneros del Avila, 9.3PPG
+Askia Booker | Colorado | 10yr | Shenzhen, 17.2PPG
+Charles Jackson | Tennessee Tech | 10yr | Kyoto Hannaryz, 12.9PPG
+Chris Walker | Florida | 10yr | Osceola Magic, 4.7PPG
+Corey Walden | Eastern Kentucky | 10yr | Forca Lleida CE, 18.6PPG
+Darion Atkins | Virginia | 10yr | Ironi Ramat Gan, 7.6PPG
+Derek Cooke, Jr. | Wyoming | 10yr | Al Ahly Benghazi, 8.1PPG
+Dez Wells | Maryland | 10yr | Liaoning, 15.1PPG
+J.P. Tokoto | North Carolina | 10yr | Veolia Towers Hamburg, 8.3PPG
+Johnathan Jordan | Texas A&M-CC | 10yr | Al Ahly Benghazi, 15.6PPG
+Levi Randolph | Alabama | 10yr | Zenit Saint Petersburg, 15.4PPG
+Marcus Thornton | William & Mary | 10yr | FC Arges Pitesti, 20.0PPG
+Michale Kyser | Louisiana Tech | 10yr | EWE Baskets Oldenburg, 8.6PPG
+Ryan Boatright | UConn | 10yr | Brillantes de Maracaibo, 17.4PPG
+Shannon Scott | Ohio State | 10yr | Brisbane, 8.5PPG
+Speedy Smith | Louisiana Tech | 10yr | Merkezefendi Belediyesi Denizli Basket, 6.4PPG
+Travis Trice | Michigan State | 10yr | Fujian, 15.3PPG
+Tyler Harvey | Eastern Washington | 10yr | Illawarra, 23.1PPG
+Will Cummings | Temple | 10yr | Galatasaray, 14.8PPG
+Alex Hamilton | Louisiana Tech | 9yr | Avtodor Saratov, 19.9PPG
+Anthony Walker | Texas-Arlington | 9yr | El Calor de Cancun, 4.4PPG
+Avry Holmes | Clemson | 9yr | Spartans de Districto Captital Caracas, 10.3PPG
+Cat Barber | NC State | 9yr | El Calor de Cancun, 23.5PPG
 
 # Top Europe Careers
-Anthony Hickey|Oklahoma State|10yr|Old Wild West Udine|9.8PPG
-Auston Barnes|Bradley|10yr|Szolnoki Olaj|9.8PPG
-Chavaughn Lewis|Marist|10yr|Brillantes de Maracaibo|20.6PPG
-Daniel Bejerano|Colorado State|10yr|Fuerza Regia|11.4PPG
-David Kravish|California|10yr|Unicaja|11.3PPG
-Gabriel Olaseni|Iowa|10yr|Mersin BSB|8.1PPG
-Georgios Tsalmpouris|Iowa State|10yr|Panionios BC|1.4PPG
-J.J. Avila|Colorado State|10yr|Astros de Jalisco|16.7PPG
-Janari Joesaar|Texas-RGV|10yr|KK Bosna|16.9PPG
-Jonathan Fairell|Murray State|10yr|Paisas Basketball Club|5.4PPG
-Jordan Parks|North Carolina Central|10yr|Umana Venezia|15.6PPG
-Jordan Williams|North Texas|10yr|Trotamundos|14.7PPG
-Karam Mashour|Morehead State|10yr|Ironi Ramat Gan|10.9PPG
-Kevin Pangos|Gonzaga|10yr|Esenler Erokspor|11.6PPG
-Lee Skinner|Wofford|10yr|CSO Voluntari|9.9PPG
-Martin Hermannsson|Long Island|10yr|ALBA Berlin|10.1PPG
-Max DiLeo|Monmouth|10yr|EWE Baskets Oldenburg|6.4PPG
-Mike Myers|Maryland-Eastern Shore|10yr|Dorados de Chihuahua|15.8PPG
-Mike Scott|Idaho|10yr|Euroins Cherno More|14.0PPG
-Nemanja Djurisic|Georgia|10yr|Mitteldeutscher BC|11.0PPG
-Olivier Hanlan|Boston College|10yr|KK Spartak Subotica|19.5PPG
-Ousmane Drame|Quinnipiac|10yr|CS Dinamo Bucuresti|14.9PPG
-Patrick Heckmann|Boston College|10yr|Brose Baskets Bamberg|8.4PPG
-Reigarvius Williams|Murray State|10yr|Zeus Energy Group Rieti|15.7PPG
-Royce O'Neale|Baylor|10yr|Phoenix Suns|10.1PPG
+Anthony Hickey | Oklahoma State | 10yr | Old Wild West Udine, 9.8PPG
+Auston Barnes | Bradley | 10yr | Szolnoki Olaj, 9.8PPG
+Chavaughn Lewis | Marist | 10yr | Brillantes de Maracaibo, 20.6PPG
+Daniel Bejerano | Colorado State | 10yr | Fuerza Regia, 11.4PPG
+David Kravish | California | 10yr | Unicaja, 11.3PPG
+Gabriel Olaseni | Iowa | 10yr | Mersin BSB, 8.1PPG
+Georgios Tsalmpouris | Iowa State | 10yr | Panionios BC, 1.4PPG
+J.J. Avila | Colorado State | 10yr | Astros de Jalisco, 16.7PPG
+Janari Joesaar | Texas-RGV | 10yr | KK Bosna, 16.9PPG
+Jonathan Fairell | Murray State | 10yr | Paisas Basketball Club, 5.4PPG
+Jordan Parks | North Carolina Central | 10yr | Umana Venezia, 15.6PPG
+Jordan Williams | North Texas | 10yr | Trotamundos, 14.7PPG
+Karam Mashour | Morehead State | 10yr | Ironi Ramat Gan, 10.9PPG
+Kevin Pangos | Gonzaga | 10yr | Esenler Erokspor, 11.6PPG
+Lee Skinner | Wofford | 10yr | CSO Voluntari, 9.9PPG
+Martin Hermannsson | Long Island | 10yr | ALBA Berlin, 10.1PPG
+Max DiLeo | Monmouth | 10yr | EWE Baskets Oldenburg, 6.4PPG
+Mike Myers | Maryland-Eastern Shore | 10yr | Dorados de Chihuahua, 15.8PPG
+Mike Scott | Idaho | 10yr | Euroins Cherno More, 14.0PPG
+Nemanja Djurisic | Georgia | 10yr | Mitteldeutscher BC, 11.0PPG
+Olivier Hanlan | Boston College | 10yr | KK Spartak Subotica, 19.5PPG
+Ousmane Drame | Quinnipiac | 10yr | CS Dinamo Bucuresti, 14.9PPG
+Patrick Heckmann | Boston College | 10yr | Brose Baskets Bamberg, 8.4PPG
+Reigarvius Williams | Murray State | 10yr | Zeus Energy Group Rieti, 15.7PPG
+Royce O'Neale | Baylor | 10yr | Phoenix Suns, 10.1PPG
 
 # Top Other Intl Careers
-Aaron Jones|Ole Miss|10yr|Zalakeramia-ZTE KK|3.0PPG
-Alfonzo McKinnie|Green Bay|10yr|Jeonju KCC Egis|8.0PPG
-Andrew Smith|Liberty|10yr|Alba Fehervar|9.6PPG
-Angel Matias|Georgia Southern|10yr|Cangrejeros de Santurce|8.2PPG
-Anthony Lee|Ohio State|10yr|KW Titans|3.4PPG
-Brandon Taylor|Utah|10yr|Virtus Bologna|10.6PPG
-D'Angelo Harrison|St. John's|10yr|Blu Basket Gruppo Remer Treviglio|17.5PPG
-D.J. Newbill|Penn State|10yr|Link Tochigi Brex|20.7PPG
-Darious Moten|Mercer|10yr|Trefl Sopot|11.4PPG
-Derek Jackson|Kent State|10yr|Delikatesas Joniskis|10.6PPG
-Derrick Marks|Boise State|10yr|CS Dinamo Bucuresti|19.4PPG
-Devante Wallace|High Point|10yr|Gambusinos|10.3PPG
-Devonte Upson|Southeastern Louisiana|10yr|Panathinaikos|10.8PPG
-Dustin Hogue|Iowa State|10yr|Blu Basket Gruppo Remer Treviglio|9.3PPG
-Gabas Maldunas|Dartmouth|10yr|7Bet-Lietkabelis Panevezys|11.2PPG
-Javonte Green|Radford|10yr|Detroit Pistons|15.4PPG
-Juan Toscano-Anderson|Marquette|10yr|Pallacanestro Trieste 2004|8.3PPG
-Keifer Sykes|Green Bay|10yr|OpenJobMetis Varese|18.6PPG
-Kruize Pinkins|San Francisco|10yr|Universo De'Longhi Treviso|13.9PPG
-Kyan Anderson|TCU|10yr|KB Bashkimi Prizren|13.4PPG
-Matt Lopez|Rider|10yr|Piratas de Quebradillas|12.3PPG
-Michael Carrera|South Carolina|10yr|Spartans de Districto Captital Caracas|14.5PPG
-Moussa Kone|Hofstra|10yr|Braga|8.8PPG
-Negus Webster-Chan|Hawaii|10yr|Piratas de La Guaira|8.3PPG
-Ricky Tarrant|Memphis|10yr|Piratas de La Guaira|11.7PPG
+Aaron Jones | Ole Miss | 10yr | Zalakeramia-ZTE KK, 3.0PPG
+Alfonzo McKinnie | Green Bay | 10yr | Jeonju KCC Egis, 8.0PPG
+Andrew Smith | Liberty | 10yr | Alba Fehervar, 9.6PPG
+Angel Matias | Georgia Southern | 10yr | Cangrejeros de Santurce, 8.2PPG
+Anthony Lee | Ohio State | 10yr | KW Titans, 3.4PPG
+Brandon Taylor | Utah | 10yr | Virtus Bologna, 10.6PPG
+D'Angelo Harrison | St. John's | 10yr | Blu Basket Gruppo Remer Treviglio, 17.5PPG
+D.J. Newbill | Penn State | 10yr | Link Tochigi Brex, 20.7PPG
+Darious Moten | Mercer | 10yr | Trefl Sopot, 11.4PPG
+Derek Jackson | Kent State | 10yr | Delikatesas Joniskis, 10.6PPG
+Derrick Marks | Boise State | 10yr | CS Dinamo Bucuresti, 19.4PPG
+Devante Wallace | High Point | 10yr | Gambusinos, 10.3PPG
+Devonte Upson | Southeastern Louisiana | 10yr | Panathinaikos, 10.8PPG
+Dustin Hogue | Iowa State | 10yr | Blu Basket Gruppo Remer Treviglio, 9.3PPG
+Gabas Maldunas | Dartmouth | 10yr | 7Bet-Lietkabelis Panevezys, 11.2PPG
+Javonte Green | Radford | 10yr | Detroit Pistons, 15.4PPG
+Juan Toscano-Anderson | Marquette | 10yr | Pallacanestro Trieste 2004, 8.3PPG
+Keifer Sykes | Green Bay | 10yr | OpenJobMetis Varese, 18.6PPG
+Kruize Pinkins | San Francisco | 10yr | Universo De'Longhi Treviso, 13.9PPG
+Kyan Anderson | TCU | 10yr | KB Bashkimi Prizren, 13.4PPG
+Matt Lopez | Rider | 10yr | Piratas de Quebradillas, 12.3PPG
+Michael Carrera | South Carolina | 10yr | Spartans de Districto Captital Caracas, 14.5PPG
+Moussa Kone | Hofstra | 10yr | Braga, 8.8PPG
+Negus Webster-Chan | Hawaii | 10yr | Piratas de La Guaira, 8.3PPG
+Ricky Tarrant | Memphis | 10yr | Piratas de La Guaira, 11.7PPG
