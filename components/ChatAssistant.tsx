@@ -152,12 +152,18 @@ export default function ChatAssistant() {
     }
   }, [messages]);
 
+  // Keep a ref to messages so we always have the latest history
+  const messagesRef = useRef<Message[]>([]);
+  useEffect(() => { messagesRef.current = messages; }, [messages]);
+
   const handleSubmit = useCallback(
     async (query: string) => {
       if (!query.trim()) return;
 
       const trimmed = query.trim();
       const userMsg: Message = { role: 'user', content: trimmed };
+      // Capture current history BEFORE adding the new message
+      const currentHistory = [...messagesRef.current];
       setMessages(prev => [...prev, userMsg]);
       setInput('');
       setIsTyping(true);
@@ -169,7 +175,7 @@ export default function ChatAssistant() {
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
             message: trimmed,
-            history: messages, // Send conversation history for context
+            history: currentHistory, // Full conversation history including all prior exchanges
           }),
         });
         const data = await res.json();
