@@ -9,45 +9,48 @@ if (process.env.NODE_ENV === 'development') statsContext = null;
 function getStatsContext(): string {
   if (statsContext) return statsContext;
 
-  // Try multiple possible paths
-  const candidates = [
-    join(process.cwd(), 'public', 'data', 'chat-stats.json'),
-    join(process.cwd(), 'website', 'public', 'data', 'chat-stats.json'),
-    '/Users/rjb/Desktop/Hoop Research/d1-basketball-outcomes/website/public/data/chat-stats.json',
+  // Try the comprehensive context file first, then fall back to chat-stats.json
+  const contextCandidates = [
+    join(process.cwd(), 'public', 'data', 'chat-context.txt'),
+    '/Users/rjb/Desktop/Hoop Research/d1-basketball-outcomes/website/public/data/chat-context.txt',
   ];
 
-  let data: any = null;
-  for (const p of candidates) {
+  for (const p of contextCandidates) {
     if (existsSync(p)) {
       try {
-        data = JSON.parse(readFileSync(p, 'utf-8'));
-        break;
+        statsContext = readFileSync(p, 'utf-8');
+        return statsContext;
       } catch {}
     }
   }
 
-  if (!data || !data.topics) {
-    statsContext = 'No stats data available.';
-    return statsContext;
+  // Fallback to chat-stats.json
+  const jsonCandidates = [
+    join(process.cwd(), 'public', 'data', 'chat-stats.json'),
+    '/Users/rjb/Desktop/Hoop Research/d1-basketball-outcomes/website/public/data/chat-stats.json',
+  ];
+
+  for (const p of jsonCandidates) {
+    if (existsSync(p)) {
+      try {
+        const data = JSON.parse(readFileSync(p, 'utf-8'));
+        const lines: string[] = [];
+        const topics = data.topics;
+        if (typeof topics === 'object' && !Array.isArray(topics)) {
+          for (const [key, topic] of Object.entries(topics)) {
+            const t = topic as any;
+            lines.push(`## ${t.question || key}`);
+            lines.push(t.template || '');
+            lines.push('');
+          }
+        }
+        statsContext = lines.join('\n');
+        return statsContext;
+      } catch {}
+    }
   }
 
-  const lines: string[] = [];
-  const topics = data.topics;
-  if (typeof topics === 'object' && !Array.isArray(topics)) {
-    for (const [key, topic] of Object.entries(topics)) {
-      const t = topic as any;
-      lines.push(`## ${t.question || key}`);
-      lines.push(t.template || '');
-      lines.push('');
-    }
-  } else if (Array.isArray(topics)) {
-    for (const topic of topics) {
-      lines.push(`## ${topic.question}`);
-      lines.push(topic.template);
-      lines.push('');
-    }
-  }
-  statsContext = lines.join('\n');
+  statsContext = 'No stats data available.';
   return statsContext;
 }
 
@@ -67,7 +70,7 @@ export async function POST(req: Request) {
     const context = getStatsContext();
 
     // Truncate context if too long for Groq (keep under ~25K chars)
-    const maxContext = 25000;
+    const maxContext = 90000;
     const trimmedContext = context.length > maxContext
       ? context.substring(0, maxContext) + '\n\n[... additional data truncated for length]'
       : context;
