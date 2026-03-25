@@ -218,51 +218,54 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
           </div>
 
           {/* Filters row */}
-          <div className="flex flex-wrap items-center gap-2 sm:gap-3 px-3 sm:px-4 py-3 border-b" style={{ borderColor: 'rgba(255,255,255,0.06)' }}>
-            {/* Search */}
+          <div className="flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-2 sm:gap-3 px-3 sm:px-4 py-3 border-b" style={{ borderColor: 'rgba(255,255,255,0.06)' }}>
+            {/* Search — full width on mobile */}
             <input
               type="text"
               value={searchQuery}
               onChange={(e) => { setSearchQuery(e.target.value); if (e.target.value.length === 3) trackPlayerSearch(e.target.value); }}
               placeholder="Search player or school..."
-              className="bg-transparent px-3 py-2 rounded-lg text-sm border flex-1 min-w-0 w-full sm:w-auto sm:min-w-[180px]"
+              className="bg-transparent px-3 py-3 sm:py-2 rounded-lg text-base sm:text-sm border w-full sm:w-auto sm:flex-1 sm:min-w-[180px] min-h-[48px] sm:min-h-0"
               style={{
                 color: colors.text.primary,
                 borderColor: 'rgba(255,255,255,0.08)',
               }}
             />
-            {/* Destination filter — only show on level1 view */}
-            {currentView === 'level1' && (
+            {/* Filter dropdowns — row on mobile below search */}
+            <div className="flex gap-2 w-full sm:w-auto">
+              {/* Destination filter — only show on level1 view */}
+              {currentView === 'level1' && (
+                <select
+                  value={destFilter}
+                  onChange={(e) => { trackDestinationFilter(e.target.value); setDestFilter(e.target.value); }}
+                  className="bg-transparent px-3 py-2 rounded-lg text-sm border cursor-pointer min-h-[44px] flex-1 sm:flex-none"
+                  style={{
+                    color: colors.text.primary,
+                    borderColor: 'rgba(255,255,255,0.08)',
+                    background: colors.bg.tertiary,
+                  }}
+                >
+                  {Object.entries(DEST_LABELS).map(([val, label]) => (
+                    <option key={val} value={val} style={{ background: '#1a1a2e' }}>{label}</option>
+                  ))}
+                </select>
+              )}
+              {/* Active/inactive filter */}
               <select
-                value={destFilter}
-                onChange={(e) => { trackDestinationFilter(e.target.value); setDestFilter(e.target.value); }}
-                className="bg-transparent px-3 py-2 rounded-lg text-sm border cursor-pointer min-h-[44px]"
+                value={activeFilter}
+                onChange={(e) => setActiveFilter(e.target.value)}
+                className="bg-transparent px-3 py-2 rounded-lg text-sm border cursor-pointer min-h-[44px] flex-1 sm:flex-none"
                 style={{
                   color: colors.text.primary,
                   borderColor: 'rgba(255,255,255,0.08)',
                   background: colors.bg.tertiary,
                 }}
               >
-                {Object.entries(DEST_LABELS).map(([val, label]) => (
+                {Object.entries(ACTIVE_LABELS).map(([val, label]) => (
                   <option key={val} value={val} style={{ background: '#1a1a2e' }}>{label}</option>
                 ))}
               </select>
-            )}
-            {/* Active/inactive filter */}
-            <select
-              value={activeFilter}
-              onChange={(e) => setActiveFilter(e.target.value)}
-              className="bg-transparent px-3 py-2 rounded-lg text-sm border cursor-pointer min-h-[44px]"
-              style={{
-                color: colors.text.primary,
-                borderColor: 'rgba(255,255,255,0.08)',
-                background: colors.bg.tertiary,
-              }}
-            >
-              {Object.entries(ACTIVE_LABELS).map(([val, label]) => (
-                <option key={val} value={val} style={{ background: '#1a1a2e' }}>{label}</option>
-              ))}
-            </select>
+            </div>
             {/* Result count */}
             <span className="text-xs" style={{ color: colors.text.muted }}>
               {filteredPlayers.length} players
@@ -291,8 +294,8 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
           {/* Table */}
           {!loading && !error && (
             <>
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm min-w-[700px]">
+              <div className="overflow-x-auto" style={{ WebkitOverflowScrolling: 'touch' }}>
+                <table className="w-full text-sm min-w-[600px]">
                   <thead>
                     <tr
                       style={{

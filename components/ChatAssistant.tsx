@@ -237,7 +237,7 @@ export default function ChatAssistant() {
           )}
 
           {/* Input */}
-          <div className="p-2 sm:p-3 flex gap-2">
+          <div className="p-2 sm:p-3 flex flex-col sm:flex-row gap-2">
             <input
               type="text"
               value={input}
@@ -249,8 +249,8 @@ export default function ChatAssistant() {
                 }
               }}
               onFocus={() => setIsOpen(true)}
-              placeholder='Ask about player stats, careers, or destinations...'
-              className="chat-input flex-1 bg-transparent px-3 sm:px-4 py-2.5 rounded-xl text-sm border min-w-0"
+              placeholder='Ask about stats, careers, or destinations...'
+              className="chat-input flex-1 bg-transparent px-3 sm:px-4 py-2.5 rounded-xl text-sm border min-w-0 w-full"
               style={{
                 color: colors.text.primary,
                 borderColor: 'rgba(255,255,255,0.08)',
@@ -261,7 +261,7 @@ export default function ChatAssistant() {
                 setIsOpen(true);
                 handleSubmit(input);
               }}
-              className="px-4 py-2.5 rounded-xl text-sm font-medium transition-all hover:opacity-80 flex-shrink-0"
+              className="px-4 py-2.5 rounded-xl text-sm font-medium transition-all hover:opacity-80 flex-shrink-0 w-full sm:w-auto"
               style={{ background: '#d4a04a', color: '#fff' }}
             >
               Ask

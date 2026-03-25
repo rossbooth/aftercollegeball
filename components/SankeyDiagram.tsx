@@ -116,14 +116,18 @@ export default function SankeyDiagram() {
       .catch(console.error);
   }, [currentView]);
 
-  // Responsive sizing — on mobile, use a fixed minimum so the diagram is scrollable
+  // Responsive sizing — on mobile, fit within viewport; no horizontal scroll
   useEffect(() => {
     if (!containerRef.current) return;
     const observer = new ResizeObserver(entries => {
       const containerWidth = entries[0].contentRect.width;
-      // On small screens, render at 700px min and let container scroll
-      const svgWidth = containerWidth < 600 ? 700 : Math.max(700, containerWidth);
-      const svgHeight = containerWidth < 600 ? 380 : Math.max(320, Math.min(550, containerWidth * 0.5));
+      // On small screens, fit the diagram within the container width (no scroll)
+      const svgWidth = containerWidth < 600
+        ? Math.max(320, containerWidth)
+        : Math.max(700, containerWidth);
+      const svgHeight = containerWidth < 600
+        ? Math.max(260, containerWidth * 0.75)
+        : Math.max(320, Math.min(550, containerWidth * 0.5));
       setDimensions({ width: svgWidth, height: svgHeight });
     });
     observer.observe(containerRef.current);
@@ -139,7 +143,7 @@ export default function SankeyDiagram() {
     // Responsive margins
     const isMobile = width < 600;
     const MARGIN = isMobile
-      ? { top: 20, right: 120, bottom: 15, left: 10 }
+      ? { top: 15, right: 90, bottom: 10, left: 8 }
       : DEFAULT_MARGIN;
 
     svg.selectAll('*').remove();
@@ -340,12 +344,12 @@ export default function SankeyDiagram() {
         return isSource ? 'end' : 'start';
       })
       .style('fill', colors.text.primary)
-      .style('font-size', isMobile ? '10px' : '13px')
+      .style('font-size', isMobile ? '8px' : '13px')
       .style('font-weight', '600')
       .style('pointer-events', 'none')
       .each(function (d) {
         const el = d3.select(this);
-        const label = isMobile ? (d.label.length > 16 ? d.label.slice(0, 14) + '…' : d.label) : d.label;
+        const label = isMobile ? (d.label.length > 14 ? d.label.slice(0, 12) + '…' : d.label) : d.label;
         // Split source node labels with parenthetical onto two lines
         const match = label.match(/^(.+?)(\s*\(.+\))$/);
         if (match) {
@@ -356,7 +360,7 @@ export default function SankeyDiagram() {
             .attr('dy', '1.2em')
             .text(match[2].trim())
             .style('font-weight', '400')
-            .style('font-size', isMobile ? '9px' : '11px');
+            .style('font-size', isMobile ? '7px' : '11px');
         } else {
           el.text(label);
         }
@@ -390,7 +394,7 @@ export default function SankeyDiagram() {
         return `${d.count.toLocaleString()} players${pct}`;
       })
       .style('fill', colors.text.muted)
-      .style('font-size', isMobile ? '9px' : '11px')
+      .style('font-size', isMobile ? '7px' : '11px')
       .style('font-weight', '400')
       .style('pointer-events', 'none');
 
@@ -454,12 +458,14 @@ export default function SankeyDiagram() {
         </div>
 
         {/* Diagram */}
-        <div className="overflow-x-auto scrollbar-hide -mx-2 px-2 sm:mx-0 sm:px-0" style={{ WebkitOverflowScrolling: 'touch' }}>
+        <div className="flex justify-center overflow-hidden -mx-2 px-2 sm:mx-0 sm:px-0">
           <svg
             ref={svgRef}
+            className="w-full h-auto max-w-full sm:w-auto sm:h-auto sm:max-w-none"
             width={dimensions.width}
             height={dimensions.height}
             viewBox={`0 0 ${dimensions.width} ${dimensions.height}`}
+            preserveAspectRatio="xMidYMid meet"
             style={{ display: 'block', overflow: 'hidden' }}
           />
         </div>
