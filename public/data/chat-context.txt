@@ -1,9 +1,7 @@
 # D1 Basketball Career Outcomes (18,688 players, 2015-2025)
 NBA:816(4.4%) avg14.8PPG | G-League:1065(5.7%) avg12.1PPG | Europe:2073(11.1%) avg10.3PPG | Other Intl:3168(17%) avg9.5PPG | No Pro:11566(61.9%) avg4.8PPG
-Top NBA schools: Kentucky(41) Duke(40) Arizona(20) Kansas(19) Gonzaga(17) UCLA(15) UNC(14) Villanova(13) Michigan St(12) Louisville(11)
-G-League→NBA:48(4.5%) | G-League→Intl:640(60%) | Avg G-League career before overseas:1.4yr | Europe→NBA:25 | Other Intl→NBA:21
-NBA career avg:4.2yr | G-League avg:1.8yr | Europe avg:2.4yr | Other Intl avg:2.1yr
-55% of pro players lasted only 1 year | Only 182 players had 10+ year pro careers
+Top NBA schools: Kentucky(41) Duke(40) Arizona(20) Kansas(19) Gonzaga(17)
+G-League→NBA:48(4.5%) | G-League→Intl:640(60%) | Europe→NBA:25 | Other Intl→NBA:21
 
 Q: What was the average college PPG for players by pro destination?
 A: Average final-year college PPG by pro destination: NBA players averaged 14.8 PPG, G-League 12.1 PPG, Europe 10.3 PPG, Other International 9.5 PPG, and No Pro Career players averaged 4.8 PPG.
@@ -238,3 +236,902 @@ A: Average final-year college FT% by pro destination: NBA 0%, G-League 0%, Europ
 
 Q: What was the average games played in final college season by destination?
 A: Average games played in final college season by pro destination: NBA 32.1, G-League 29.9, Europe 27.8, Other International 26.4, No Pro Career 16.7.
+
+# All NBA Players (name|school|class|career_yrs|team|active)
+A.J. Green|Northern Iowa|2022|3|Milwaukee Bucks|Y
+A.J. Griffin, Jr.|Duke|2022|3|Houston Rockets|Y
+A.J. Hammons|Purdue|2016|2|Dallas Mavericks|N
+A.J. Lawson|South Carolina|2021|4|Toronto Raptors|Y
+Aaron Harrison|Kentucky|2015|10|Halcones Ciudad Obregon|Y
+Aaron Henry|Michigan State|2021|4|Nagoya Diamond Dolphins|Y
+Aaron Holiday|UCLA|2018|7|Houston Rockets|Y
+Aaron Nesmith|Vanderbilt|2020|5|Indiana Pacers|Y
+Aaron Wiggins|Maryland|2021|4|Oklahoma City Thunder|Y
+Ace Bailey|Rutgers|2025|0|Utah Jazz|Y
+Adam Flagler|Baylor|2023|2|San Antonio Spurs|Y
+Adama Sanogo|UConn|2023|2|2B Control Trapani|Y
+Ade Murkey|Denver|2020|4|BC Hallmann Vienna|Y
+Adem Bona|UCLA|2024|1|Philadelphia Sixers|Y
+Admiral Schofield|Tennessee|2019|6|Santeros de Aguada|Y
+Adou Thiero|Arkansas|2025|0|Los Angeles Lakers|Y
+Ajay Mitchell|UC Santa Barbara|2024|1|Oklahoma City Thunder|Y
+Alan Williams|UC Santa Barbara|2015|10|Nagoya Diamond Dolphins|Y
+Alec Peters|Valparaiso|2017|8|Olympiacos|Y
+Alex Caruso|Texas A&M|2016|9|Oklahoma City Thunder|Y
+Alex Ducas|Saint Mary's|2024|1|Brisbane|Y
+Alex Fudge|Florida|2023|2|Sioux Falls Skyforce|Y
+Alex Poythress|Kentucky|2016|9|Zenit Saint Petersburg|Y
+Alijah Martin|Florida|2025|0|Toronto Raptors|Y
+Alize Johnson|Missouri State|2018|7|Minnesota Timberwolves|Y
+Allonzo Trier|Arizona|2018|4|Rio Grande Valley Vipers|Y
+Alondes Williams|Wake Forest|2022|3|Washington Wizards|Y
+Amari Bailey|UCLA|2023|2|Brooklyn Nets|Y
+Amari Williams|Kentucky|2025|0|Boston Celtics|Y
+Amida Brimah|UConn|2017|8|Movistar Estudiantes|Y
+Amile Jefferson|Duke|2017|4|Boston Celtics|N
+Amir Coffey|Minnesota|2019|6|Milwaukee Bucks|Y
+Andersson Garcia|Texas A&M|2025|0|Utah Jazz|Y
+Andre Jackson, Jr.|UConn|2023|2|Milwaukee Bucks|Y
+Andrew Funk|Penn State|2023|2|Port of Antwerp Giants|Y
+Andrew Nembhard|Gonzaga|2022|3|Indiana Pacers|Y
+Andrew White|Syracuse|2017|7|Panteras|Y
+Angel Delgado|Seton Hall|2018|7|Trabzonspor|Y
+Anthony Black|Arkansas|2023|2|Orlando Magic|Y
+Anthony Brown|Stanford|2015|10|Besiktas Icrypex|Y
+Anthony Edwards|Georgia|2020|5|Minnesota Timberwolves|Y
+Anthony Lamb|Vermont|2020|5|Hapoel Bank Yahav Jerusalem|Y
+Anton Watson|Gonzaga|2024|1|Los Angeles Lakers|Y
+Antonio Blakeney|LSU|2017|8|Hapoel Tel Aviv|Y
+Antonio Reeves|Kentucky|2024|1|New Orleans Pelicans|Y
+Antonius Cleveland|Southeast Missouri State|2017|8|CSKA Moscow|Y
+Armoni Brooks|Houston|2019|6|AX Armani Exchange Milan|Y
+Asa Newell|Georgia|2025|0|Atlanta Hawks|Y
+Ashton Hagans|Kentucky|2020|5|Rip City Remix|Y
+Austin Reaves|Oklahoma|2021|4|Los Angeles Lakers|Y
+Ayo Dosunmu|Illinois|2021|4|Chicago Bulls|Y
+B.J. Boston, Jr.|Kentucky|2021|4|Fenerbahce Beko|Y
+B.J. Johnson|La Salle|2018|7|Lokomotiv Kuban|Y
+Bam Adebayo|Kentucky|2017|8|Miami Heat|Y
+Baylor Scheierman|Creighton|2024|1|Boston Celtics|Y
+Ben Bentil|Providence|2016|9|Mersin BSB|Y
+Ben Moore|Southern Methodist|2017|8|PAOK BC|Y
+Ben Sheppard|Belmont|2023|2|Indiana Pacers|Y
+Ben Simmons|LSU|2016|9|Brooklyn Nets|Y
+Bennedict Mathurin|Arizona|2022|3|Indiana Pacers|Y
+Bez Mbeng|Yale|2025|0|Miami Heat|Y
+Blake Hinson|Pittsburgh|2024|1|Utah Jazz|Y
+Blake Wesley|Notre Dame|2022|3|San Antonio Spurs|Y
+Bobby Portis|Arkansas|2015|10|Milwaukee Bucks|Y
+Bobi Klintman|Wake Forest|2023|2|Detroit Pistons|Y
+Bol Bol|Oregon|2019|6|Talk N Text Tropang Texters|Y
+Bones Hyland|VCU|2021|4|Minnesota Timberwolves|Y
+Bonzie Colson, Jr.|Notre Dame|2018|7|Fenerbahce Beko|Y
+Branden Carlson|Utah|2024|1|Oklahoma City Thunder|Y
+Branden Dawson|Michigan State|2015|5|Correcaminos|Y
+Brandin Podziemski|Santa Clara|2023|2|Golden State Warriors|Y
+Brandon Clarke|Gonzaga|2019|6|Memphis Grizzlies|Y
+Brandon Goodwin|Florida Gulf Coast|2018|6|Shanxi Zhongyu|Y
+Brandon Ingram|Duke|2016|9|Toronto Raptors|Y
+Brandon Miller|Alabama|2023|2|Charlotte Hornets|Y
+Brandon Sampson|LSU|2018|6|Trefl Sopot|Y
+Brandon Williams|Arizona|2020|4|Dallas Mavericks|Y
+Brian Bowen II|Louisville|2018|7|Kozuv Gevgelija|Y
+Briante Weber|VCU|2015|10|Universo De'Longhi Treviso|Y
+Brice Johnson|North Carolina|2016|8|KK Feniks 2010|Y
+Brice Sensabaugh|Ohio State|2023|2|Utah Jazz|Y
+Bronny James|USC|2024|1|Los Angeles Lakers|Y
+Brooks Barnhizer|Northwestern|2025|0|Oklahoma City Thunder|Y
+Bruce Brown, Jr.|Miami (FL)|2018|7|Denver Nuggets|Y
+Bruno Fernando|Maryland|2019|6|KK Partizan|Y
+Bryce Dejean-Jones|Iowa State|2015|1|New Orleans Pelicans|N
+Bryce McGowens|Nebraska|2022|3|New Orleans Pelicans|Y
+Bryn Forbes|Michigan State|2016|8|Aris Midea Thessaloniki|Y
+Bub Carrington|Pittsburgh|2024|1|Washington Wizards|Y
+Buddy Boeheim|Syracuse|2022|3|Oklahoma City Thunder|Y
+Buddy Hield|Oklahoma|2016|9|Golden State Warriors|Y
+C.J. Elleby|Washington State|2020|4|Hapoel Beer Sheva|Y
+C.J. Huntley|Appalachian State|2025|0|Phoenix Suns|Y
+Cade Cunningham|Oklahoma State|2021|4|Detroit Pistons|Y
+Caleb Houstan|Michigan|2022|3|Atlanta Hawks|Y
+Caleb Love|Arizona|2025|0|Portland Trail Blazers|Y
+Caleb Martin|Nevada|2019|6|Dallas Mavericks|Y
+Caleb Swanigan|Purdue|2017|3|Sacramento Kings|N
+Cam Reddish|Duke|2019|6|Austin Spurs|Y
+Cam Reynolds|Tulane|2018|7|Maroussi BC|Y
+Cam Spencer|UConn|2024|1|Memphis Grizzlies|Y
+Cam Thomas|LSU|2021|4|Brooklyn Nets|Y
+Cam Whitmore|Villanova|2023|2|Houston Rockets|Y
+Cameron Christie|Minnesota|2024|1|Los Angeles Clippers|Y
+Cameron Johnson|North Carolina|2019|6|Brooklyn Nets|Y
+Cameron Payne|Murray State|2015|10|Indiana Pacers|Y
+Caris LeVert|Michigan|2016|9|Detroit Pistons|Y
+Carlik Jones|Louisville|2021|4|KK Partizan|Y
+Carsen Edwards|Purdue|2019|6|Virtus Bologna|Y
+Carter Bryant|Arizona|2025|0|San Antonio Spurs|Y
+Cason Wallace|Kentucky|2023|2|Oklahoma City Thunder|Y
+Cassius Stanley|Duke|2020|5|Siauliai|Y
+Cassius Winston|Michigan State|2020|5|Hapoel Bank Yahav Jerusalem|Y
+Cedric Coward|Washington State|2025|0|Memphis Grizzlies|Y
+Chandler Hutchison|Boise State|2018|6|Cleveland Charge|Y
+Chaney Johnson|Auburn|2025|0|Cleveland Cavaliers|Y
+Charles Bassey|Western Kentucky|2021|4|Atlanta Hawks|Y
+Charles Cooke|Dayton|2017|4|Maine Celtics|N
+Charlie Brown, Jr.|Saint Joseph's|2019|6|Memphis Grizzlies|Y
+Chasson Randle|Stanford|2016|9|NBA G League Ignite|Y
+Chaundee Brown, Jr.|Michigan|2021|4|London Lions|Y
+Chaz Lanier|Tennessee|2025|0|Detroit Pistons|Y
+Cheick Diallo|Kansas|2016|9|Osos de Manati|Y
+Chet Holmgren|Gonzaga|2022|3|Oklahoma City Thunder|Y
+Chimezie Metu|USC|2018|7|Barca|Y
+Chinanu Onuaku|Louisville|2016|9|Bnei Herzelia|Y
+Chris Boucher|Oregon|2017|8|Boston Celtics|Y
+Chris Chiozza|Florida|2018|7|Pinar Karsiyaka|Y
+Chris Clemons|Campbell|2019|6|EWE Baskets Oldenburg|Y
+Chris Duarte|Oregon|2021|4|Unicaja|Y
+Chris Livingston|Kentucky|2023|2|Milwaukee Bucks|Y
+Chris Manon|Vanderbilt|2025|0|Los Angeles Lakers|Y
+Chris McCullough|Syracuse|2015|6|Lietuvos Rytas|N
+Chris Silva|South Carolina|2019|6|AEK Athens|Y
+Chris Youngblood|Alabama|2025|0|Oklahoma City Thunder|Y
+Christian Braun|Kansas|2022|3|Denver Nuggets|Y
+Christian Koloko|Arizona|2022|3|Los Angeles Lakers|Y
+Christian Wood|UNLV|2015|10|Los Angeles Lakers|Y
+Chucky Hepburn|Louisville|2025|0|Toronto Raptors|Y
+Chuma Okeke|Auburn|2019|6|Real Madrid|Y
+Cliff Alexander|Kansas|2015|11|Guaiqueries|Y
+Coby White|North Carolina|2019|6|Chicago Bulls|Y
+Cody Martin|Nevada|2019|6|Indiana Pacers|Y
+Cody Williams|Colorado|2024|1|Utah Jazz|Y
+Colby Jones|Xavier|2023|2|Detroit Pistons|Y
+Cole Anthony|North Carolina|2020|5|Memphis Grizzlies|Y
+Cole Swider|Syracuse|2022|3|Anadolu Efes|Y
+Colin Castleton|Florida|2023|2|Toronto Raptors|Y
+Collin Gillespie|Villanova|2022|3|Phoenix Suns|Y
+Collin Murray-Boyles|South Carolina|2025|0|Toronto Raptors|Y
+Collin Sexton|Alabama|2018|7|Charlotte Hornets|Y
+Cooper Flagg|Duke|2025|0|Dallas Mavericks|Y
+Corey Kispert|Gonzaga|2021|4|Washington Wizards|Y
+Cormac Ryan|North Carolina|2024|1|Milwaukee Bucks|Y
+Craig Porter, Jr.|Wichita State|2023|2|Cleveland Cavaliers|Y
+Curtis Jones|Iowa State|2025|0|Denver Nuggets|Y
+D'Angelo Russell|Ohio State|2015|10|Dallas Mavericks|Y
+D'Moi Hodge|Missouri|2023|2|Dallas Mavericks|Y
+D.J. Wilson|Michigan|2017|8|Shanghai Dongfang|Y
+DaQuan Jeffries|Tulsa|2019|6|Charlotte Hornets|Y
+DaRon Holmes II|Dayton|2024|1|Denver Nuggets|Y
+Daeqwon Plowden|Bowling Green|2022|3|Atlanta Hawks|Y
+Dalano Banton|Nebraska|2021|4|Dallas Mavericks|Y
+Dalen Terry|Arizona|2022|3|Chicago Bulls|Y
+Dalton Knecht|Tennessee|2024|1|Los Angeles Lakers|Y
+Damian Jones|Vanderbilt|2016|9|Zhejiang Chouzhou|Y
+Damion Baugh|TCU|2023|2|Charlotte Hornets|Y
+Damion Lee|Louisville|2016|9|Ironi Nes Ziona|Y
+Damyean Dotson|Houston|2017|8|Ryukyu Golden Kings|Y
+Daniel Gafford|Arkansas|2019|6|Dallas Mavericks|Y
+Daniel Ochefu|Villanova|2016|7|Blackwater Bossings|Y
+Daniel Oturu|Minnesota|2020|5|Hapoel Tel Aviv|Y
+Daniss Jenkins|St. John's|2024|1|Detroit Pistons|Y
+Danny Wolf|Michigan|2025|0|Brooklyn Nets|Y
+Danuel House|Texas A&M|2016|8|Philadelphia Sixers|N
+Dariq Whitehead|Duke|2023|2|Brooklyn Nets|Y
+Darius Brown II|Utah State|2024|1|Cleveland Cavaliers|Y
+Darius Days|LSU|2022|3|Sanen Neophoenix|Y
+Darius Garland|Vanderbilt|2019|6|Cleveland Cavaliers|Y
+Darrun Hilliard|Villanova|2015|10|Bilbao Basket|Y
+Daryl Macon|Arkansas|2018|7|Maroussi BC|Y
+David Duke|Providence|2021|4|Phoenix Suns|Y
+David Johnson|Louisville|2021|4|Tasmania|Y
+David Jones-Garcia|Memphis|2024|1|San Antonio Spurs|Y
+David Nwaba|Cal Poly|2016|9|Sanen Neophoenix|Y
+David Roddy|Colorado State|2022|3|Houston Rockets|Y
+Davion Mitchell|Baylor|2021|4|Miami Heat|Y
+Davon Reed|Miami (FL)|2017|7|Koshigaya Alphas|Y
+Day'Ron Sharpe|North Carolina|2021|4|Brooklyn Nets|Y
+De'Aaron Fox|Kentucky|2017|8|San Antonio Spurs|Y
+De'Andre Hunter|Virginia|2019|6|Cleveland Cavaliers|Y
+De'Anthony Melton|USC|2017|7|Golden State Warriors|Y
+DeAndre' Bembry|Saint Joseph's|2016|6|Brooklyn Nets|N
+DeJon Jarreau|Houston|2021|3|Memphis Grizzlies|Y
+Dean Wade|Kansas State|2019|6|Cleveland Cavaliers|Y
+Deandre Ayton|Arizona|2018|7|Los Angeles Lakers|Y
+Dejounte Murray|Washington|2016|9|New Orleans Pelicans|Y
+Delon Wright|Utah|2015|10|Indiana Pacers|Y
+Demetrius Jackson|Notre Dame|2016|6|Birmingham Squadron|N
+Deng Adel|Louisville|2018|7|Ottawa Blackjacks|Y
+Dennis Smith|NC State|2017|8|Dallas Mavericks|Y
+Denzel Valentine|Michigan State|2016|9|Umana Venezia|Y
+Dereck Lively II|Duke|2023|2|Dallas Mavericks|Y
+Dereon Seabron|NC State|2022|3|Salt Lake City Stars|Y
+Derrick Jones|UNLV|2016|9|Los Angeles Clippers|Y
+Derrick Walton, Jr.|Michigan|2017|8|Hapoel Unet Holon|Y
+Derrick White|Colorado|2017|8|Boston Celtics|Y
+Desmond Bane|TCU|2020|5|Orlando Magic|Y
+Devin Booker|Kentucky|2015|10|Phoenix Suns|Y
+Devin Cannady|Princeton|2019|6|Mykonos|Y
+Devin Carter|Providence|2024|1|Sacramento Kings|Y
+Devin Robinson|Florida|2017|8|Casademont Zaragoza|Y
+Devin Vassell|Florida State|2020|5|San Antonio Spurs|Y
+Devon Dotson|Kansas|2020|5|Besiktas Icrypex|Y
+Devontae Cacok|UNC Wilmington|2019|6|UCAM Murcia CB|Y
+Devonte' Graham|Kansas|2018|7|KK Crvena Zvezda|Y
+Dewan Hernandez|Miami (FL)|2019|6|Jeonju KCC Egis|Y
+Dexter Dennis|Texas A&M|2023|2|Sacramento Kings|Y
+Deyonta Davis|Michigan State|2016|5|Goyang Sono Skygunners|N
+Diamond Stone|Maryland|2016|9|Marinos|Y
+Dillon Brooks|Oregon|2017|8|Houston Rockets|Y
+Dillon Jones|Weber State|2024|1|Washington Wizards|Y
+Domantas Sabonis|Gonzaga|2016|9|Sacramento Kings|Y
+Donovan Clingan|UConn|2024|1|Portland Trail Blazers|Y
+Donovan Mitchell|Louisville|2017|8|Cleveland Cavaliers|Y
+Donovan Williams|UNLV|2022|3|Westchester Knicks|Y
+Donta Hall|Alabama|2019|6|Baskonia|Y
+Donte DiVincenzo|Villanova|2018|7|Minnesota Timberwolves|Y
+Donte Grantham|Clemson|2018|7|Hitachi Sun Rockers|Y
+Dorian Finney-Smith|Florida|2016|9|Houston Rockets|Y
+Drake Powell|North Carolina|2025|0|Brooklyn Nets|Y
+Drew Eubanks|Oregon State|2018|7|Sacramento Kings|Y
+Drew Peterson|USC|2023|2|Charlotte Hornets|Y
+Drew Timme|Gonzaga|2023|2|Brooklyn Nets|Y
+Dru Smith|Missouri|2021|4|Miami Heat|Y
+Duane Washington, Jr.|Ohio State|2021|4|KK Partizan|Y
+Duje Dukan|Wisconsin|2015|9|BK Klosterneuburg Dukes|N
+Duncan Robinson|Michigan|2018|7|Miami Heat|Y
+Dwayne Bacon|Florida State|2017|8|Dubai|Y
+Dylan Cardwell|Auburn|2025|0|Sacramento Kings|Y
+Dylan Harper|Rutgers|2025|0|San Antonio Spurs|Y
+Dylan Windler|Belmont|2019|6|Perth|Y
+E.J. Liddell|Ohio State|2022|3|Brooklyn Nets|Y
+Edmond Sumner|Xavier|2017|8|Guangdong Dongguan|Y
+Egor Demin|Brigham Young|2025|0|Brooklyn Nets|Y
+Elijah Hughes|Syracuse|2020|5|MHP Riesen|Y
+Emanuel Miller|TCU|2024|1|Chicago Bulls|Y
+Emoni Bates|Eastern Michigan|2023|2|Philadelphia Sixers|Y
+Enrique Freeman|Akron|2024|1|Minnesota Timberwolves|Y
+Eric Paschall|Villanova|2019|5|Georgio Tesi Group Pistoia|Y
+Erik McCree|Louisiana Tech|2017|8|Guaiqueries|Y
+Eugene Omoruyi|Oregon|2021|4|Baskonia|Y
+Evan Mobley|USC|2021|4|Cleveland Cavaliers|Y
+Feron Hunt|Southern Methodist|2021|4|Detroit Pistons|Y
+Frank Jackson|Duke|2017|8|Ningbo Rockets|Y
+Frank Kaminsky|Wisconsin|2015|10|Guangzhou Loong Lions|Y
+Frank Mason|Kansas|2017|8|CSP Limoges|Y
+Franz Wagner|Michigan|2021|4|Orlando Magic|Y
+Fred VanVleet|Wichita State|2016|9|Houston Rockets|Y
+Freddie Gillespie|Baylor|2020|5|Galatasaray|Y
+G.G. Jackson|South Carolina|2023|2|Memphis Grizzlies|Y
+Garrison Mathews|Lipscomb|2019|6|New York Knicks|Y
+Gary Clark|Cincinnati|2018|7|Yokohama B-Corsairs|Y
+Gary Payton II|Oregon State|2016|9|Golden State Warriors|Y
+Gary Trent, Jr.|Duke|2018|7|Milwaukee Bucks|Y
+George King|Colorado|2018|7|Guangzhou Loong Lions|Y
+Georges Niang|Iowa State|2016|9|Atlanta Hawks|Y
+Gradey Dick|Kansas|2023|2|Toronto Raptors|Y
+Grant Nelson|Alabama|2025|0|Brooklyn Nets|Y
+Grant Riller|Charleston|2020|5|Beijing BeiKong|Y
+Grant Williams|Tennessee|2019|6|Charlotte Hornets|Y
+Grayson Allen|Duke|2018|7|Phoenix Suns|Y
+Greg Brown III|Texas|2021|5|AEK Athens|Y
+Hamidou Diallo|Kentucky|2018|7|Baskonia|Y
+Harrison Ingram|North Carolina|2024|1|San Antonio Spurs|Y
+Harry Giles|Duke|2017|7|Jiangsu Kendia|Y
+Henry Ellenson|Marquette|2016|9|Wonju Dongbu Promy|Y
+Herb Jones|Alabama|2021|4|New Orleans Pelicans|Y
+Hunter Dickinson|Kansas|2025|0|New Orleans Pelicans|Y
+Hunter Sallis|Wake Forest|2025|0|Philadelphia Sixers|Y
+Hunter Tyson|Clemson|2023|2|Denver Nuggets|Y
+Ignas Brazdeikis|Michigan|2019|6|Zalgiris|Y
+Ike Anigbogu|UCLA|2017|7|Vanoli Cremona|Y
+Immanuel Quickley|Kentucky|2020|5|Toronto Raptors|Y
+Isaac Humphries|Kentucky|2017|8|Adelaide|Y
+Isaac Jones|Washington State|2024|1|Sacramento Kings|Y
+Isaac Okoro|Auburn|2020|5|Cleveland Cavaliers|Y
+Isaiah Briscoe|Kentucky|2017|7|Fujian|Y
+Isaiah Collier|USC|2024|1|Utah Jazz|Y
+Isaiah Crawford|Louisiana Tech|2024|1|Houston Rockets|Y
+Isaiah Hicks|North Carolina|2017|7|Suwon KT Sonicboom|Y
+Isaiah Jackson|Kentucky|2021|4|Indiana Pacers|Y
+Isaiah Joe|Arkansas|2020|5|Oklahoma City Thunder|Y
+Isaiah Livers|Michigan|2021|3|Phoenix Suns|Y
+Isaiah Mobley|USC|2022|3|Manisa Buyuksehir Belediye|Y
+Isaiah Roby|Nebraska|2019|6|Westchester Knicks|Y
+Isaiah Stevens|Colorado State|2024|1|Sacramento Kings|Y
+Isaiah Stewart II|Washington|2020|5|Detroit Pistons|Y
+Isaiah Taylor|Texas|2016|9|Dubai|Y
+Isaiah Whitehead|Seton Hall|2016|9|Ironi Nes Ziona|Y
+Isaiah Wong|Miami (FL)|2023|2|Zalgiris|Y
+Ivan Rabb|California|2017|4|Delaware Blue Coats|N
+J.D. Davison|Alabama|2022|3|Boston Celtics|Y
+J.J. O'Brien|San Diego State|2015|9|Tofas SC|Y
+J.P. Macura|Xavier|2018|6|ASP Promitheas Patras|Y
+J.T. Thor|Auburn|2021|4|Aris Midea Thessaloniki|Y
+Ja Morant|Murray State|2019|6|Memphis Grizzlies|Y
+Ja'Kobe Walter|Baylor|2024|1|Toronto Raptors|Y
+JaQuori McLaughlin|UC Santa Barbara|2021|3|Valley Suns|Y
+Jabari Bird|California|2017|3|Obera Tenis Club|Y
+Jabari Smith, Jr.|Auburn|2022|3|Houston Rockets|Y
+Jabari Walker|Colorado|2022|3|Philadelphia Sixers|Y
+Jacob Evans|Cincinnati|2018|6|Olomoucko Prostejov|Y
+Jacob Gilyard|Richmond|2022|3|Acqua San Bernardo Cantu|Y
+Jacob Toppin|Kentucky|2023|2|Atlanta Hawks|Y
+Jaden Ivey|Purdue|2022|3|Detroit Pistons|Y
+Jaden McDaniels|Washington|2020|5|Minnesota Timberwolves|Y
+Jaden Springer|Tennessee|2021|4|Utah Jazz|Y
+Jahlil Okafor|Duke|2015|10|Capitanes de Arecibo|Y
+Jahmai Mashack|Tennessee|2025|0|Memphis Grizzlies|Y
+Jahmi'us Ramsey|Texas Tech|2020|5|Pallacanestro Trieste 2004|Y
+Jahmir Young|Maryland|2024|1|Chicago Bulls|Y
+Jahmyl Telfort|Butler|2025|0|Los Angeles Clippers|Y
+Jaime Jaquez, Jr.|UCLA|2023|2|Miami Heat|Y
+Jake LaRavia|Wake Forest|2022|3|Los Angeles Lakers|Y
+Jake Layman|Maryland|2016|9|Aishin Sea Horses|Y
+Jake Wiley|Eastern Washington|2017|8|CB Granada|Y
+Jakob Poeltl|Utah|2016|9|Toronto Raptors|Y
+Jalen Bridges|Baylor|2024|1|Boston Celtics|Y
+Jalen Brunson|Villanova|2018|7|New York Knicks|Y
+Jalen Crutcher|Dayton|2021|4|Orlando Magic|Y
+Jalen Duren|Memphis|2022|3|Detroit Pistons|Y
+Jalen Harris|Nevada|2020|5|Windy City Bulls|Y
+Jalen Hood-Schifino|Indiana|2023|2|Los Angeles Lakers|Y
+Jalen Johnson|Duke|2021|4|Atlanta Hawks|Y
+Jalen Jones|Texas A&M|2016|9|Spartans de Districto Captital Caracas|Y
+Jalen McDaniels|San Diego State|2019|6|New Orleans Pelicans|Y
+Jalen Pickett|Penn State|2023|2|Denver Nuggets|Y
+Jalen Slawson|Furman|2023|2|Indiana Pacers|Y
+Jalen Smith|Maryland|2020|5|Chicago Bulls|Y
+Jalen Suggs|Gonzaga|2021|4|Orlando Magic|Y
+Jalen Williams|Santa Clara|2022|3|Oklahoma City Thunder|Y
+Jalen Wilson|Kansas|2023|2|Brooklyn Nets|Y
+Jamal Cain|Oakland|2022|3|Orlando Magic|Y
+Jamal Murray|Kentucky|2016|9|Denver Nuggets|Y
+Jamal Shead|Houston|2024|1|Toronto Raptors|Y
+Jamaree Bouyea|San Francisco|2022|3|Milwaukee Bucks|Y
+Jameel Warney|Stony Brook|2016|9|Seoul SK|Y
+Jamel Artis|Pittsburgh|2017|7|Mineros de Zacatecas|N
+James Bouknight|UConn|2021|4|Mexico City Capitanes|Y
+James Huff|Virginia|2021|4|Memphis Grizzlies|Y
+James Webb III|Boise State|2016|9|Unicaja|Y
+James Wiseman|Memphis|2020|5|Indiana Pacers|Y
+Jamir Watkins|Florida State|2025|0|Washington Wizards|Y
+Jamison Battle|Ohio State|2024|1|Toronto Raptors|Y
+Jamorko Pickett|Georgetown|2021|4|Nagoya Fighting Eagles|Y
+Jarace Walker|Houston|2023|2|Indiana Pacers|Y
+Jared Butler|Baylor|2021|4|Phoenix Suns|Y
+Jared Harper|Auburn|2019|6|Hapoel Bank Yahav Jerusalem|Y
+Jared McCain|Duke|2024|1|Philadelphia Sixers|Y
+Jared Rhoden|Seton Hall|2022|3|Toronto Raptors|Y
+Jared Terrell|Rhode Island|2018|5|Hapoel Eilat|N
+Jarell Martin|LSU|2015|10|Koshigaya Alphas|Y
+Jaren Jackson, Jr.|Michigan State|2018|7|Memphis Grizzlies|Y
+Jarred Vanderbilt|Kentucky|2018|7|Los Angeles Lakers|Y
+Jarrell Brantley|Charleston|2019|6|Nagasaki Velca|Y
+Jarrett Allen|Texas|2017|8|Cleveland Cavaliers|Y
+Jarrett Culver|Texas Tech|2019|6|Sendai 89ers|Y
+Jarrod Uthoff|Iowa|2016|9|Pallacanestro Trieste 2004|Y
+Jase Richardson|Michigan State|2025|0|Orlando Magic|Y
+Jason Preston|Ohio|2021|4|Los Angeles Clippers|Y
+Javin DeLaurier|Duke|2020|5|Bursaspor|Y
+Javon Freeman-Liberty|DePaul|2022|3|Long Island Nets|Y
+Javon Small|West Virginia|2025|0|Memphis Grizzlies|Y
+Javonte Smart|LSU|2021|4|Orlando Magic|Y
+Jawun Evans|Oklahoma State|2017|8|Pioneros de Los Mochis|Y
+Jaxson Hayes|Texas|2019|6|Los Angeles Lakers|Y
+Jaylen Adams|St. Bonaventure|2018|7|Brisbane|Y
+Jaylen Brown|California|2016|9|Boston Celtics|Y
+Jaylen Clark|UCLA|2023|2|Minnesota Timberwolves|Y
+Jaylen Hoard|Wake Forest|2019|6|Maccabi FOX Tel Aviv|Y
+Jaylen Nowell|Washington|2019|6|Shanxi Zhongyu|Y
+Jaylen Sims|UNC Wilmington|2022|3|Charlotte Hornets|Y
+Jaylen Wells|Washington State|2024|1|Memphis Grizzlies|Y
+Jaylin Williams|Arkansas|2022|3|Oklahoma City Thunder|Y
+Jaylon Tyson|California|2024|1|Cleveland Cavaliers|Y
+Jayson Kent|Texas|2025|0|Portland Trail Blazers|Y
+Jayson Tatum|Duke|2017|8|Boston Celtics|Y
+Jemerrio Jones|New Mexico State|2018|6|KB Rahoveci|Y
+Jeremiah Fears|Oklahoma|2025|0|New Orleans Pelicans|Y
+Jeremiah Martin|Memphis|2019|6|Lokomotiv Kuban|Y
+Jeremiah Robinson-Earl|Villanova|2021|4|Dallas Mavericks|Y
+Jeremy Sochan|Baylor|2022|3|San Antonio Spurs|Y
+Jerian Grant|Notre Dame|2015|10|Panathinaikos|Y
+Jericho Sims|Texas|2021|4|Milwaukee Bucks|Y
+Jerome Robinson|Boston College|2018|7|Galatasaray|Y
+Jesse Edwards|West Virginia|2024|1|Minnesota Timberwolves|Y
+Jett Howard|Michigan|2023|2|Orlando Magic|Y
+Jevon Carter|West Virginia|2018|7|Chicago Bulls|Y
+Joe Chealey|Charleston|2018|6|Juventus|Y
+Joe Wieskamp|Iowa|2021|4|Science City Jena|Y
+Joel Ayayi|Gonzaga|2021|4|Paris Basketball|Y
+Joel Bolomboy|Weber State|2016|9|KK Crvena Zvezda|Y
+John Butler|Florida State|2022|3|Milwaukee Bucks|Y
+John Collins|Wake Forest|2017|8|Utah Jazz|Y
+John Konchar|Fort Wayne|2019|6|Memphis Grizzlies|Y
+John Poulakidas|Yale|2025|0|Los Angeles Clippers|Y
+John Tonje|Wisconsin|2025|0|Utah Jazz|Y
+Johnathan Motley|Baylor|2017|9|Hapoel Tel Aviv|Y
+Johnathan Williams|Gonzaga|2018|7|London Lions|Y
+Johni Broome|Auburn|2025|0|Philadelphia Sixers|Y
+Johnny Davis|Wisconsin|2022|3|Milwaukee Bucks|Y
+Johnny Furphy|Kansas|2024|1|Indiana Pacers|Y
+Johnny Juzang|UCLA|2022|3|Minnesota Timberwolves|Y
+Jon Teske|Michigan|2020|2|Orlando Magic|N
+Jonathan Isaac|Florida State|2017|8|Orlando Magic|Y
+Jonathan Mogbo|San Francisco|2024|1|Toronto Raptors|Y
+Jontay Porter|Missouri|2019|4|Detroit Pistons|N
+Jordan Bell|Oregon|2017|8|Noblesville Boom|Y
+Jordan Bone|Tennessee|2019|5|Hapoel Unet Holon|Y
+Jordan Goodwin|Saint Louis|2021|4|Los Angeles Lakers|Y
+Jordan Hall|Saint Joseph's|2022|3|Texas Legends|Y
+Jordan Hawkins|UConn|2023|2|New Orleans Pelicans|Y
+Jordan McLaughlin|USC|2018|7|San Antonio Spurs|Y
+Jordan Mickey|LSU|2015|10|Qingdao|Y
+Jordan Miller|Miami (FL)|2023|2|Los Angeles Clippers|Y
+Jordan Nwora|Louisville|2020|5|KK Crvena Zvezda|Y
+Jordan Poole|Michigan|2019|6|Washington Wizards|Y
+Jordan Schakel|San Diego State|2021|4|Telenet BC Oostende|Y
+Jordan Walsh|Arkansas|2023|2|Boston Celtics|Y
+Jose Alvarado|Georgia Tech|2021|4|New Orleans Pelicans|Y
+Josh Christopher|Arizona State|2021|4|Sioux Falls Skyforce|Y
+Josh Green|Arizona|2020|5|Charlotte Hornets|Y
+Josh Hart|Villanova|2017|8|New York Knicks|Y
+Josh Jackson|Kansas|2017|6|Toronto Raptors|N
+Josh Minott|Memphis|2022|3|Boston Celtics|Y
+Josh Okogie|Georgia Tech|2018|7|Charlotte Hornets|Y
+Josh Reaves|Penn State|2019|6|Paisas Basketball Club|Y
+Josh Richardson|Tennessee|2015|10|Casademont Zaragoza|Y
+Joshua Primo|Alabama|2021|4|Chicago Bulls|Y
+Jules Bernard|UCLA|2022|3|Minnesota Timberwolves|Y
+Julian Champagnie|St. John's|2022|3|San Antonio Spurs|Y
+Julian Phillips|Tennessee|2023|2|Chicago Bulls|Y
+Julian Reese|Maryland|2025|0|Toronto Raptors|Y
+Julian Strawther|Gonzaga|2023|2|Denver Nuggets|Y
+Justin Anderson|Virginia|2015|10|Dubai|Y
+Justin Champagnie|Pittsburgh|2021|4|Washington Wizards|Y
+Justin Edwards|Kentucky|2024|1|Philadelphia Sixers|Y
+Justin Jackson|North Carolina|2017|7|Minnesota Timberwolves|N
+Justin James|Wyoming|2019|4|Cleveland Charge|N
+Justin Minaya|Providence|2022|3|Orlando Magic|Y
+Justin Patton|Creighton|2017|8|Peristeri Betsson|Y
+Justin Robinson|Virginia Tech|2019|6|Paris Basketball|Y
+Justin Wright-Foreman|Hofstra|2019|5|Iraklis BC|Y
+Justise Winslow|Duke|2015|10|Milwaukee Bucks|Y
+Juwan Morgan|Indiana|2019|6|Buducnost Voli Podgorica|Y
+K.J. Simpson|Colorado|2024|1|Charlotte Hornets|Y
+KZ Okpala|Stanford|2019|4|Sacramento Kings|N
+Kadary Richmond|St. John's|2025|0|Washington Wizards|Y
+Kadeem Allen|Arizona|2017|8|Unieuro Forli|Y
+Kai Jones|Texas|2021|5|Anadolu Efes|Y
+Kaiser Gates|Xavier|2022|3|UCAM Murcia CB|Y
+Kam Jones|Marquette|2025|0|Indiana Pacers|Y
+Karl-Anthony Towns|Kentucky|2015|10|New York Knicks|Y
+Kasparas Jakucionis|Illinois|2025|0|Miami Heat|Y
+Kay Felder|Oakland|2016|9|Carpegna Prosciutto Basket Pesaro|Y
+Keegan Murray|Iowa|2022|3|Sacramento Kings|Y
+Keion Brooks, Jr.|Washington|2024|1|Birmingham Squadron|Y
+Keita Bates-Diop|Ohio State|2018|7|Brooklyn Nets|Y
+Kel'el Ware|Indiana|2024|1|Miami Heat|Y
+Keldon Johnson|Kentucky|2019|6|San Antonio Spurs|Y
+Keljin Blevins|Montana State|2019|5|Sudbury Five|N
+Kelly Oubre, Jr.|Kansas|2015|10|Philadelphia Sixers|Y
+Kendall Brown|Baylor|2022|3|Boston Celtics|Y
+Kendrick Nunn|Oakland|2018|7|Panathinaikos|Y
+Kennedy Chandler|Tennessee|2022|3|Philadelphia Sixers|Y
+Kenny Lofton, Jr.|Louisiana Tech|2022|3|Shanghai Dongfang|Y
+Kenrich Williams|TCU|2018|7|Oklahoma City Thunder|Y
+Keon Ellis|Alabama|2022|3|Sacramento Kings|Y
+Keon Johnson|Tennessee|2021|4|Brooklyn Nets|Y
+Keshad Johnson|Arizona|2024|1|Miami Heat|Y
+Keshon Gilbert|Iowa State|2025|0|Washington Wizards|Y
+Kessler Edwards|Pepperdine|2021|4|Denver Nuggets|Y
+Kevin Huerter|Maryland|2018|7|Chicago Bulls|Y
+Kevin Knox II|Kentucky|2018|7|Chicago Bulls|Y
+Kevin McCullar, Jr.|Kansas|2024|1|New York Knicks|Y
+Kevin Porter, Jr.|USC|2019|6|Milwaukee Bucks|Y
+Kevon Looney|UCLA|2015|10|New Orleans Pelicans|Y
+Keyontae Johnson|Kansas State|2023|2|Charlotte Hornets|Y
+Keyonte George|Baylor|2023|2|Utah Jazz|Y
+Khaman Maluach|Duke|2025|0|Phoenix Suns|Y
+Khyri Thomas|Creighton|2018|7|Mitteldeutscher BC|Y
+Killian Tillie|Gonzaga|2020|4|Unicaja|Y
+Kira Lewis, Jr.|Alabama|2020|5|Wisconsin Herd|Y
+Kobe Brown|Missouri|2023|2|Los Angeles Clippers|Y
+Kobe Bufkin|Michigan|2023|2|Atlanta Hawks|Y
+Kobe Sanders|Nevada|2025|0|Los Angeles Clippers|Y
+Kobi Simmons|Arizona|2017|8|Baskonia|Y
+Koby Brea|Kentucky|2025|0|Phoenix Suns|Y
+Kon Knueppel|Duke|2025|0|Charlotte Hornets|Y
+Kostas Antetokounmpo|Dayton|2018|7|Olympiacos|Y
+Kris Dunn|Providence|2016|9|Los Angeles Clippers|Y
+Kris Murray|Iowa|2023|2|Portland Trail Blazers|Y
+Ky Bowman|Boston College|2019|6|Umana Venezia|Y
+Kyle Alexander|Tennessee|2019|6|Turk Telekom|Y
+Kyle Collinsworth|Brigham Young|2016|7|Sanen Neophoenix|N
+Kyle Filipowski|Duke|2024|1|Utah Jazz|Y
+Kyle Guy|Virginia|2019|5|Indiana Pacers|Y
+Kyle Kuzma|Utah|2017|8|Milwaukee Bucks|Y
+Kyle Wiltjer|Gonzaga|2016|9|Umana Venezia|Y
+Kyshawn George|Miami (FL)|2024|1|Washington Wizards|Y
+L.J. Cryer|Houston|2025|0|Golden State Warriors|Y
+Lamar Stevens|Penn State|2020|5|Paris Basketball|Y
+Landry Shamet|Wichita State|2018|7|New York Knicks|Y
+Larry Nance, Jr.|Wyoming|2015|10|Cleveland Cavaliers|Y
+Lauri Markkanen|Arizona|2017|8|Utah Jazz|Y
+Lawson Lovering|Utah|2025|0|Memphis Grizzlies|Y
+Leaky Black|North Carolina|2023|2|Washington Wizards|Y
+Lester Quinones|Memphis|2022|3|New Orleans Pelicans|Y
+Liam McNeeley|UConn|2025|0|Charlotte Hornets|Y
+Liam Robbins|Vanderbilt|2023|2|Portland Trail Blazers|Y
+Lindy Waters III|Oklahoma State|2020|4|San Antonio Spurs|Y
+London Perrantes|Virginia|2017|8|Maroussi BC|Y
+Lonnie Walker|Miami (FL)|2018|7|Maccabi FOX Tel Aviv|Y
+Lonzo Ball|UCLA|2017|8|Chicago Bulls|Y
+Louis King|Oregon|2019|6|Xinjiang Guanghui|Y
+Luguentz Dort|Arizona State|2019|6|Oklahoma City Thunder|Y
+Luka Garza|Iowa|2021|4|Boston Celtics|Y
+Luke Kennard|Duke|2017|8|Atlanta Hawks|Y
+Luke Kornet|Vanderbilt|2017|8|San Antonio Spurs|Y
+M.J. Walker|Florida State|2021|4|Atlanta Hawks|Y
+Mac McClung|Texas Tech|2021|4|Chicago Bulls|Y
+Malachi Flynn|San Diego State|2020|5|Bahcesehir Koleji|Y
+Malachi Richardson|Syracuse|2016|8|Astros de Jalisco|Y
+Malaki Branham|Ohio State|2022|3|San Antonio Spurs|Y
+Malcolm Brogdon|Virginia|2016|9|New York Knicks|Y
+Malevy Leons|Bradley|2024|1|Oklahoma City Thunder|Y
+Malik Beasley|Florida State|2016|9|KK Partizan|Y
+Malik Fitts|Saint Mary's|2020|5|Boulazac Basket Dordogne|Y
+Malik Monk|Kentucky|2017|8|Sacramento Kings|Y
+Malik Newman|Kansas|2018|7|Avtodor Saratov|Y
+Mamadi Diakite|Virginia|2020|5|Baskonia|Y
+Mangok Mathiang|Louisville|2017|8|Korea Gas Corporation|Y
+Marcus Derrickson|Georgetown|2018|6|Seoul Samsung Thunders|Y
+Marcus Garrett|Kansas|2021|4|Charlotte Hornets|Y
+Marcus Georges-Hunt|Georgia Tech|2016|7|Sichuan Blue Whales|Y
+Marcus Paige|North Carolina|2016|7|Monbus Obradoiro|N
+Marcus Sasser|Houston|2023|2|Detroit Pistons|Y
+Marial Shayok|Iowa State|2019|6|Altiri Chiba|Y
+Mark Sears|Alabama|2025|0|Milwaukee Bucks|Y
+Mark Williams|Duke|2022|3|Phoenix Suns|Y
+Markelle Fultz|Washington|2017|8|Toronto Raptors|Y
+Markquis Nowell|Kansas State|2023|2|Baskonia|Y
+Markus Howard|Marquette|2020|5|Baskonia|Y
+Marques Bolden|Duke|2019|6|Golden State Warriors|Y
+Marquese Chriss|Washington|2016|9|Shandong|Y
+Marshall Plumlee|Duke|2016|2|New York Knicks|N
+Marvin Bagley III|Duke|2018|7|Washington Wizards|Y
+Mason Jones|Arkansas|2020|5|Perth|Y
+Matisse Thybulle|Washington|2019|6|Portland Trail Blazers|Y
+Matt Costello|Michigan State|2016|9|Valencia Basket|Y
+Matt Mooney|Texas Tech|2019|6|Leones de Ponce|Y
+Matt Ryan|Chattanooga|2020|4|New York Knicks|Y
+Matt Williams|UCF|2017|5|Supersonicos de Miranda|N
+Matthew Hurt|Duke|2021|4|2B Control Trapani|Y
+Maurice Ndour|Ohio|2015|10|Gemani Basket Brescia|Y
+Max Christie|Michigan State|2022|3|Dallas Mavericks|Y
+Max Shulga|VCU|2025|0|Boston Celtics|Y
+Max Strus|DePaul|2019|6|Cleveland Cavaliers|Y
+Maxime Raynaud|Stanford|2025|0|Sacramento Kings|Y
+Maxwell Lewis|Pepperdine|2023|2|Tofas SC|Y
+McKinley Wright IV|Colorado|2021|4|Dubai|Y
+Melvin Frazier, Jr.|Tulane|2018|6|Delaware Blue Coats|N
+Mfiondu Kabengele|Florida State|2019|6|Dubai|Y
+Micah Peavy|Georgetown|2025|0|New Orleans Pelicans|Y
+Micah Potter|Wisconsin|2021|4|San Antonio Spurs|Y
+Michael Patrick Gbinije|Syracuse|2016|6|Cape Town Tigers|N
+Michael Porter, Jr.|Missouri|2018|7|Denver Nuggets|Y
+Mikal Bridges|Villanova|2018|7|New York Knicks|Y
+Mike Tobey|Virginia|2016|9|Dreamland Gran Canaria|Y
+Miles Bridges|Michigan State|2018|6|Charlotte Hornets|Y
+Miles Kelly|Auburn|2025|0|Dallas Mavericks|Y
+Miles McBride|West Virginia|2021|4|New York Knicks|Y
+Miles Norris|UC Santa Barbara|2023|2|Boston Celtics|Y
+Milton Doyle|Loyola (IL)|2017|8|Napoli Basket|Y
+Miye Oni|Yale|2019|6|Al Ahly Benghazi|Y
+Mo Bamba|Texas|2018|7|Utah Jazz|Y
+Moe Wagner|Michigan|2018|7|Orlando Magic|Y
+Monte Morris|Iowa State|2017|8|Indiana Pacers|Y
+Montrezl Harrell|Louisville|2015|10|Adelaide|Y
+Moses Brown|UCLA|2019|6|Denver Nuggets|Y
+Moses Moody|Arkansas|2021|4|Golden State Warriors|Y
+Moses Wright|Georgia Tech|2021|5|Barca|Y
+Mouhamadou Gueye|Pittsburgh|2022|3|Chicago Bulls|Y
+Mouhamed Gueye|Washington State|2023|2|Atlanta Hawks|Y
+Moussa Cisse|Memphis|2025|0|Dallas Mavericks|Y
+Moussa Diabate|Michigan|2022|3|Charlotte Hornets|Y
+Myles Powell|Seton Hall|2020|5|Qingdao|Y
+Myles Turner|Texas|2015|10|Milwaukee Bucks|Y
+N'Faly Dante|Oregon|2024|1|Atlanta Hawks|Y
+Nae'qwan Tomlin|Memphis|2024|1|Cleveland Cavaliers|Y
+Naji Marshall|Xavier|2020|5|Dallas Mavericks|Y
+Nassir Little|North Carolina|2019|6|Chiba Jets|Y
+Nate Darling|Delaware|2020|5|Chalon-Sur-Saone|Y
+Nate Mensah|San Diego State|2023|2|U-Banca Transilvania Cluj Napoca|Y
+Nate Williams, Jr.|Buffalo|2022|3|Houston Rockets|Y
+Nathan Knight|William & Mary|2020|5|Goyang Sono Skygunners|Y
+Nathaniel Hinton|Houston|2020|5|Memphis Grizzlies|Y
+Naz Long|Iowa State|2017|8|Napoli Basket|Y
+Naz Reid|LSU|2019|6|Minnesota Timberwolves|Y
+Neemias Queta|Utah State|2021|4|Boston Celtics|Y
+Nick Richards|Kentucky|2020|5|Phoenix Suns|Y
+Nick Smith, Jr.|Arkansas|2023|2|Charlotte Hornets|Y
+Nickeil Alexander-Walker|Virginia Tech|2019|6|Minnesota Timberwolves|Y
+Nico Mannion|Arizona|2020|5|AX Armani Exchange Milan|Y
+Nicolas Claxton|Georgia|2019|6|Brooklyn Nets|Y
+Nigel Hayes-Davis|Wisconsin|2017|8|Phoenix Suns|Y
+Nique Clifford|Colorado State|2025|0|Sacramento Kings|Y
+Noah Clowney|Alabama|2023|2|Brooklyn Nets|Y
+Norchad Omier|Baylor|2025|0|Cleveland Cavaliers|Y
+Norman Powell|UCLA|2015|10|Los Angeles Clippers|Y
+OG Anunoby|Indiana|2017|8|New York Knicks|Y
+Obi Toppin|Dayton|2020|5|Indiana Pacers|Y
+Ochai Agbaji|Kansas|2022|3|Toronto Raptors|Y
+Olivier Sarr|Kentucky|2021|3|Toronto Raptors|Y
+Olivier-Maxence Prosper|Marquette|2023|2|Dallas Mavericks|Y
+Omari Spellman|Villanova|2018|7|Beijing Shougang|Y
+Onyeka Okongwu|USC|2020|5|Atlanta Hawks|Y
+Orlando Robinson|Fresno State|2022|3|Orlando Magic|Y
+Oscar Tshiebwe|Kentucky|2023|2|Utah Jazz|Y
+Oshae Brissett|Syracuse|2019|6|Maccabi FOX Tel Aviv|Y
+Oso Ighodaro|Marquette|2024|1|Phoenix Suns|Y
+P.J. Dozier|South Carolina|2017|8|Anadolu Efes|Y
+P.J. Hall|Clemson|2024|1|Memphis Grizzlies|Y
+P.J. Washington|Kentucky|2019|6|Dallas Mavericks|Y
+Paolo Banchero|Duke|2022|3|Orlando Magic|Y
+Pascal Siakam|New Mexico State|2016|9|Indiana Pacers|Y
+Pat Connaughton|Notre Dame|2015|10|Milwaukee Bucks|Y
+Patricio Garino|George Washington|2016|9|Movistar Estudiantes|Y
+Patrick Baldwin, Jr.|Milwaukee|2022|3|Los Angeles Clippers|Y
+Patrick McCaw|UNLV|2016|9|Raptors 905|Y
+Patrick Williams|Florida State|2020|5|Chicago Bulls|Y
+Paul Reed, Jr.|DePaul|2020|5|Detroit Pistons|Y
+Payton Pritchard|Oregon|2020|5|Boston Celtics|Y
+Payton Sandfort|Iowa|2025|0|Oklahoma City Thunder|Y
+Pelle Larsson|Arizona|2024|1|Miami Heat|Y
+Pete Nance|North Carolina|2023|2|Milwaukee Bucks|Y
+Peyton Watson|UCLA|2022|3|Denver Nuggets|Y
+Precious Achiuwa|Memphis|2020|5|Miami Heat|Y
+Quentin Grimes|Houston|2021|4|Philadelphia Sixers|Y
+Quenton Jackson|Texas A&M|2022|3|Indiana Pacers|Y
+Quincy Olivari|Xavier|2024|1|Detroit Pistons|Y
+Quinn Cook|Duke|2015|10|Fujian|Y
+Quinndary Weatherspoon|Mississippi State|2019|6|Qingdao|Y
+Quinten Post|Boston College|2024|1|Golden State Warriors|Y
+R.J. Barrett|Duke|2019|6|Toronto Raptors|Y
+R.J. Hunter|Georgia State|2015|8|Charlotte Hornets|N
+R.J. Nembhard|TCU|2021|4|Chicago Bulls|Y
+Rakeem Christmas|Syracuse|2015|9|Santos de San Luis Potosi|Y
+Rasheer Fleming|Saint Joseph's|2025|0|Phoenix Suns|Y
+Rawle Alkins|Arizona|2018|7|Aris Midea Thessaloniki|Y
+RayJ Dennis|Baylor|2024|1|Indiana Pacers|Y
+Rayjon Tucker|Little Rock|2019|6|Zhejiang Guangsha|Y
+Raymond Spalding|Louisville|2018|6|Indiana Pacers|Y
+Reece Beekman|Virginia|2024|1|Orlando Magic|Y
+Reed Sheppard|Kentucky|2024|1|Houston Rockets|Y
+Reggie Perry|Mississippi State|2020|5|Beijing BeiKong|Y
+Richaun Holmes|Bowling Green|2015|10|Washington Wizards|Y
+Ricky Council IV|Arkansas|2023|2|Philadelphia Sixers|Y
+Riley Minix|Morehead State|2024|1|San Antonio Spurs|Y
+Rob Dillingham|Kentucky|2024|1|Minnesota Timberwolves|Y
+Robert Franks|Washington State|2019|6|Ibaraki Robots|Y
+Robert Williams|Texas A&M|2018|7|Portland Trail Blazers|Y
+Robert Woodard II|Mississippi State|2020|5|Delaware Blue Coats|Y
+Rodney Purvis|UConn|2017|8|Kozuv Gevgelija|Y
+Romeo Langford|Indiana|2019|6|Westchester Knicks|Y
+Ron Baker|Wichita State|2016|4|CSKA Moscow|N
+Ron Harper|Rutgers|2022|3|Detroit Pistons|Y
+Rondae Hollis-Jefferson|Arizona|2015|9|Talk N Text Tropang Texters|N
+Rui Hachimura|Gonzaga|2019|6|Los Angeles Lakers|Y
+Ryan Arcidiacono|Villanova|2016|9|2B Control Trapani|Y
+Ryan Dunn|Virginia|2024|1|Phoenix Suns|Y
+Ryan Kalkbrenner|Creighton|2025|0|Charlotte Hornets|Y
+Ryan Nembhard|Gonzaga|2025|0|Dallas Mavericks|Y
+Ryan Rollins|Toledo|2022|3|Milwaukee Bucks|Y
+Saben Lee|Vanderbilt|2020|5|Olympiacos|Y
+Saddiq Bey|Villanova|2020|5|Washington Wizards|Y
+Sam Dekker|Wisconsin|2015|10|Joventut Badalona|Y
+Sam Hauser|Virginia|2021|4|Boston Celtics|Y
+Sam Merrill|Utah State|2020|5|Cleveland Cavaliers|Y
+Sandro Mamukelashvili|Seton Hall|2021|4|Toronto Raptors|Y
+Santi Aldama|Loyola (MD)|2021|4|Memphis Grizzlies|Y
+Scottie Barnes|Florida State|2021|4|Toronto Raptors|Y
+Scottie Lewis|Florida|2021|3|Mayrouba|Y
+Scotty Pippen, Jr.|Vanderbilt|2022|3|Memphis Grizzlies|Y
+Sean McDermott|Butler|2020|5|Valley Suns|Y
+Sean Pedulla|Ole Miss|2025|0|Los Angeles Clippers|Y
+Semi Ojeleye|Southern Methodist|2017|8|KK Crvena Zvezda|Y
+Seth Lundy|Penn State|2023|2|Los Angeles Clippers|Y
+Shaedon Sharpe|Kentucky|2022|3|Portland Trail Blazers|Y
+Shai Gilgeous-Alexander|Kentucky|2018|7|Oklahoma City Thunder|Y
+Shake Milton|Southern Methodist|2018|7|Los Angeles Lakers|Y
+Shamorie Ponds|St. John's|2019|5|Dorados de Chihuahua|Y
+Sharife Cooper|Auburn|2021|4|Washington Wizards|Y
+Shawn Long|Louisiana|2016|9|Jeonju KCC Egis|Y
+Sheldon Mac|Miami (FL)|2016|7|Gladiadores de Anzoategui|N
+Sindarius Thornwell|South Carolina|2017|8|Xinjiang Guanghui|Y
+Sion James|Duke|2025|0|Charlotte Hornets|Y
+Skal Labissiere|Kentucky|2016|9|Washington Wizards|Y
+Skylar Mays|LSU|2020|5|Buducnost Voli Podgorica|Y
+Spencer Jones|Stanford|2024|1|Denver Nuggets|Y
+Stanley Johnson|Arizona|2015|10|Nagasaki Velca|Y
+Stanley Umude|Arkansas|2022|3|San Antonio Spurs|Y
+Stephen Zimmerman|UNLV|2016|7|Austin Spurs|N
+Stephon Castle|UConn|2024|1|San Antonio Spurs|Y
+Sterling Brown|Southern Methodist|2017|8|KK Partizan|Y
+Svi Mykhailiuk|Kansas|2018|7|Utah Jazz|Y
+T.J. Leaf|UCLA|2017|8|Maccabi FOX Tel Aviv|Y
+T.J. McConnell|Arizona|2015|10|Indiana Pacers|Y
+Tacko Fall|UCF|2019|6|New Zealand|Y
+Taelon Peter|Liberty|2025|0|Indiana Pacers|Y
+Talen Horton-Tucker|Iowa State|2019|6|Fenerbahce Beko|Y
+Tari Eason|LSU|2022|3|Houston Rockets|Y
+Tariq Owens|Texas Tech|2019|5|JDA Dijon Basket|Y
+Taurean Prince|Baylor|2016|9|Milwaukee Bucks|Y
+Taylor Hendricks|UCF|2023|2|Utah Jazz|Y
+Terance Mann|Florida State|2019|6|Atlanta Hawks|Y
+Terence Davis|Ole Miss|2019|6|Sacramento Kings|Y
+Terquavion Smith|NC State|2023|2|Shenzhen|Y
+Terrence Shannon, Jr.|Illinois|2024|1|Minnesota Timberwolves|Y
+Terry Rozier|Louisville|2015|10|Miami Heat|Y
+Terry Taylor|Austin Peay|2021|4|Iowa Wolves|Y
+Thomas Bryant|Indiana|2017|8|Cleveland Cavaliers|Y
+Thomas Welsh|UCLA|2018|5|Hitachi Sun Rockers|Y
+Timmy Allen|Texas|2023|2|2B Control Trapani|Y
+Tolu Smith|Mississippi State|2024|1|Detroit Pistons|Y
+Tony Bradley|North Carolina|2017|8|Indiana Pacers|Y
+Tosan Evbuomwan|Princeton|2023|2|Brooklyn Nets|Y
+Toumani Camara|Dayton|2023|2|Portland Trail Blazers|Y
+Trae Young|Oklahoma|2018|7|Atlanta Hawks|Y
+Trayce Jackson-Davis|Indiana|2023|2|Golden State Warriors|Y
+Tre Johnson|Texas|2025|0|Washington Wizards|Y
+Tre Jones|Duke|2020|5|Chicago Bulls|Y
+Tre Mann|Florida|2021|4|Charlotte Hornets|Y
+Tremont Waters|LSU|2019|6|Shanghai Dongfang|Y
+Trendon Watford|LSU|2021|4|Philadelphia Sixers|Y
+Trent Forrest|Florida State|2020|5|Baskonia|Y
+Trevelin Queen|New Mexico State|2020|5|Guangdong Dongguan|Y
+Treveon Graham|VCU|2015|9|Motor City Cruise|N
+Trevon Duval|Duke|2018|7|Greensboro Swarm|Y
+Trevor Keels|Duke|2022|3|Miami Heat|Y
+Trey Alexander|Creighton|2024|1|New Orleans Pelicans|Y
+Trey Jemison|UAB|2023|2|Los Angeles Lakers|Y
+Trey Lyles|Kentucky|2015|10|Real Madrid|Y
+Trey Murphy III|Virginia|2021|4|New Orleans Pelicans|Y
+Tristan Da Silva|Colorado|2024|1|Orlando Magic|Y
+Tristan Enaruna|Cleveland State|2024|1|Cleveland Cavaliers|Y
+Tristen Newton|UConn|2024|1|Minnesota Timberwolves|Y
+Troy Brown, Jr.|Oregon|2018|7|Cangrejeros de Santurce|Y
+Troy Caupain|Cincinnati|2017|8|Grissin Bon Reggio Emilia|Y
+Ty Jerome|Virginia|2019|6|Memphis Grizzlies|Y
+Ty-Shon Alexander|Creighton|2020|5|Paisas Basketball Club|Y
+TyTy Washington, Jr.|Kentucky|2022|3|Los Angeles Clippers|Y
+Tyler Cavanaugh|George Washington|2017|8|Bahcesehir Koleji|Y
+Tyler Cook|Iowa|2019|6|Ibaraki Robots|Y
+Tyler Davis|Texas A&M|2018|6|Osos de Manati|Y
+Tyler Dorsey|Oregon|2017|8|Olympiacos|Y
+Tyler Herro|Kentucky|2019|6|Miami Heat|Y
+Tyler Kolek|Marquette|2024|1|New York Knicks|Y
+Tyler Lydon|Syracuse|2017|3|Sacramento Kings|N
+Tyler Ulis|Kentucky|2016|5|Santa Cruz Warriors|N
+Tyrell Terry|Stanford|2020|4|CSP Limoges|Y
+Tyrese Haliburton|Iowa State|2020|5|Indiana Pacers|Y
+Tyrese Martin|UConn|2022|3|Brooklyn Nets|Y
+Tyrese Maxey|Kentucky|2020|5|Philadelphia Sixers|Y
+Tyrese Proctor|Duke|2025|0|Cleveland Cavaliers|Y
+Tyus Jones|Duke|2015|10|Orlando Magic|Y
+Udoka Azubuike|Kansas|2020|5|Ironi Nes Ziona|Y
+V.J. Edgecombe|Baylor|2025|0|Philadelphia Sixers|Y
+Vernon Carey, Jr.|Duke|2020|4|Houston Rockets|Y
+Vic Law|Northwestern|2019|6|Ryukyu Golden Kings|Y
+Vince Edwards|Purdue|2018|7|Pioneros de Los Mochis|Y
+Vince Hunter|UTEP|2015|9|Lokomotiv Kuban|Y
+Vincent Williams, Jr.|VCU|2022|3|Memphis Grizzlies|Y
+Vladislav Goldin|Michigan|2025|0|Miami Heat|Y
+Wade Baldwin IV|Vanderbilt|2016|10|Fenerbahce Beko|Y
+Walker Kessler|Auburn|2022|3|Utah Jazz|Y
+Walter Clayton, Jr.|Florida|2025|0|Utah Jazz|Y
+Wayne Selden|Kansas|2016|8|Chorale Roanne Basket|N
+Wendell Carter, Jr.|Duke|2018|7|Orlando Magic|Y
+Wendell Moore, Jr.|Duke|2022|3|Boston Celtics|Y
+Wenyen Gabriel|Kentucky|2018|7|Bayern Munich|Y
+Wesley Iwundu|Kansas State|2017|8|South East Melbourne|Y
+Will Richard|Florida|2025|0|Golden State Warriors|Y
+Will Riley|Illinois|2025|0|Washington Wizards|Y
+Willie Cauley-Stein|Kentucky|2015|10|Nanjing Tongxi Monkey King|Y
+Xavier Rathan-Mayes|Florida State|2017|8|Bayern Munich|Y
+Xavier Sneed|Kansas State|2020|5|Acqua San Bernardo Cantu|Y
+Xavier Tillman, Sr.|Michigan State|2020|5|Boston Celtics|Y
+Yanic Konan Niederhauser|Penn State|2025|0|Los Angeles Clippers|Y
+Yante Maten|Georgia|2018|7|Sanen Neophoenix|Y
+Yogi Ferrell|Indiana|2016|9|Buducnost Voli Podgorica|Y
+Yuri Collins|Saint Louis|2023|2|Brooklyn Nets|Y
+Yuta Watanabe|George Washington|2018|7|Chiba Jets|Y
+Yves Missi|Baylor|2024|1|New Orleans Pelicans|Y
+Yves Pons|Tennessee|2021|4|MoraBanc Andorra|Y
+Zach Collins|Gonzaga|2017|8|Chicago Bulls|Y
+Zach Edey|Purdue|2024|1|Memphis Grizzlies|Y
+Zach Lofton|New Mexico State|2018|5|Homenetmen Beirut|Y
+Zach Norvell|Gonzaga|2019|2|Chicago Bulls|N
+Zeke Nnaji|Arizona|2020|5|Denver Nuggets|Y
+Zhaire Smith|Texas Tech|2018|5|Dallas Mavericks|Y
+Ziaire Williams|Stanford|2021|4|Brooklyn Nets|Y
+Zion Williamson|Duke|2019|6|New Orleans Pelicans|Y
+Zylan Cheatham|Arizona State|2019|6|Adelaide|Y
+Zyon Pullin|Florida|2024|1|Memphis Grizzlies|Y
+
+# Top G-League Careers
+Wesley Saunders|Harvard|11yr|Marinos
+Amir Williams|Ohio State|10yr|Piratas de La Guaira
+Andrew Harrison|Kentucky|10yr|Pioneros del Avila
+Askia Booker|Colorado|10yr|Shenzhen
+Charles Jackson|Tennessee Tech|10yr|Kyoto Hannaryz
+Chris Walker|Florida|10yr|Osceola Magic
+Corey Walden|Eastern Kentucky|10yr|Forca Lleida CE
+Darion Atkins|Virginia|10yr|Ironi Ramat Gan
+Derek Cooke, Jr.|Wyoming|10yr|Al Ahly Benghazi
+Dez Wells|Maryland|10yr|Liaoning
+J.P. Tokoto|North Carolina|10yr|Veolia Towers Hamburg
+Johnathan Jordan|Texas A&M-CC|10yr|Al Ahly Benghazi
+Levi Randolph|Alabama|10yr|Zenit Saint Petersburg
+Marcus Thornton|William & Mary|10yr|FC Arges Pitesti
+Michale Kyser|Louisiana Tech|10yr|EWE Baskets Oldenburg
+Ryan Boatright|UConn|10yr|Brillantes de Maracaibo
+Shannon Scott|Ohio State|10yr|Brisbane
+Speedy Smith|Louisiana Tech|10yr|Merkezefendi Belediyesi Denizli Basket
+Travis Trice|Michigan State|10yr|Fujian
+Tyler Harvey|Eastern Washington|10yr|Illawarra
+Will Cummings|Temple|10yr|Galatasaray
+Alex Hamilton|Louisiana Tech|9yr|Avtodor Saratov
+Anthony Walker|Texas-Arlington|9yr|El Calor de Cancun
+Avry Holmes|Clemson|9yr|Spartans de Districto Captital Caracas
+Cat Barber|NC State|9yr|El Calor de Cancun
+
+# Top Europe Careers
+Anthony Hickey|Oklahoma State|10yr|Old Wild West Udine
+Auston Barnes|Bradley|10yr|Szolnoki Olaj
+Chavaughn Lewis|Marist|10yr|Brillantes de Maracaibo
+Daniel Bejerano|Colorado State|10yr|Fuerza Regia
+David Kravish|California|10yr|Unicaja
+Gabriel Olaseni|Iowa|10yr|Mersin BSB
+Georgios Tsalmpouris|Iowa State|10yr|Panionios BC
+J.J. Avila|Colorado State|10yr|Astros de Jalisco
+Janari Joesaar|Texas-RGV|10yr|KK Bosna
+Jonathan Fairell|Murray State|10yr|Paisas Basketball Club
+Jordan Parks|North Carolina Central|10yr|Umana Venezia
+Jordan Williams|North Texas|10yr|Trotamundos
+Karam Mashour|Morehead State|10yr|Ironi Ramat Gan
+Kevin Pangos|Gonzaga|10yr|Esenler Erokspor
+Lee Skinner|Wofford|10yr|CSO Voluntari
+Martin Hermannsson|Long Island|10yr|ALBA Berlin
+Max DiLeo|Monmouth|10yr|EWE Baskets Oldenburg
+Mike Myers|Maryland-Eastern Shore|10yr|Dorados de Chihuahua
+Mike Scott|Idaho|10yr|Euroins Cherno More
+Nemanja Djurisic|Georgia|10yr|Mitteldeutscher BC
+Olivier Hanlan|Boston College|10yr|KK Spartak Subotica
+Ousmane Drame|Quinnipiac|10yr|CS Dinamo Bucuresti
+Patrick Heckmann|Boston College|10yr|Brose Baskets Bamberg
+Reigarvius Williams|Murray State|10yr|Zeus Energy Group Rieti
+Royce O'Neale|Baylor|10yr|Phoenix Suns
+
+# Top Other Intl Careers
+Aaron Jones|Ole Miss|10yr|Zalakeramia-ZTE KK
+Alfonzo McKinnie|Green Bay|10yr|Jeonju KCC Egis
+Andrew Smith|Liberty|10yr|Alba Fehervar
+Angel Matias|Georgia Southern|10yr|Cangrejeros de Santurce
+Anthony Lee|Ohio State|10yr|KW Titans
+Brandon Taylor|Utah|10yr|Virtus Bologna
+D'Angelo Harrison|St. John's|10yr|Blu Basket Gruppo Remer Treviglio
+D.J. Newbill|Penn State|10yr|Link Tochigi Brex
+Darious Moten|Mercer|10yr|Trefl Sopot
+Derek Jackson|Kent State|10yr|Delikatesas Joniskis
+Derrick Marks|Boise State|10yr|CS Dinamo Bucuresti
+Devante Wallace|High Point|10yr|Gambusinos
+Devonte Upson|Southeastern Louisiana|10yr|Panathinaikos
+Dustin Hogue|Iowa State|10yr|Blu Basket Gruppo Remer Treviglio
+Gabas Maldunas|Dartmouth|10yr|7Bet-Lietkabelis Panevezys
+Javonte Green|Radford|10yr|Detroit Pistons
+Juan Toscano-Anderson|Marquette|10yr|Pallacanestro Trieste 2004
+Keifer Sykes|Green Bay|10yr|OpenJobMetis Varese
+Kruize Pinkins|San Francisco|10yr|Universo De'Longhi Treviso
+Kyan Anderson|TCU|10yr|KB Bashkimi Prizren
+Matt Lopez|Rider|10yr|Piratas de Quebradillas
+Michael Carrera|South Carolina|10yr|Spartans de Districto Captital Caracas
+Moussa Kone|Hofstra|10yr|Braga
+Negus Webster-Chan|Hawaii|10yr|Piratas de La Guaira
+Ricky Tarrant|Memphis|10yr|Piratas de La Guaira
