@@ -1,1299 +1,240 @@
-# NCAA D1 Basketball Career Outcomes Database
-Total players: 18688
-Years covered: 2015-2025
+# D1 Basketball Career Outcomes (18,688 players, 2015-2025)
+NBA:816(4.4%) avg14.8PPG | G-League:1065(5.7%) avg12.1PPG | Europe:2073(11.1%) avg10.3PPG | Other Intl:3168(17%) avg9.5PPG | No Pro:11566(61.9%) avg4.8PPG
+Top NBA schools: Kentucky(41) Duke(40) Arizona(20) Kansas(19) Gonzaga(17) UCLA(15) UNC(14) Villanova(13) Michigan St(12) Louisville(11)
+G-League→NBA:48(4.5%) | G-League→Intl:640(60%) | Avg G-League career before overseas:1.4yr | Europe→NBA:25 | Other Intl→NBA:21
+NBA career avg:4.2yr | G-League avg:1.8yr | Europe avg:2.4yr | Other Intl avg:2.1yr
+55% of pro players lasted only 1 year | Only 182 players had 10+ year pro careers
 
-## What was the average college PPG for players by pro destination?
-Average final-year college PPG by pro destination: NBA players averaged 14.8 PPG, G-League 12.1 PPG, Europe 10.3 PPG, Other International 9.5 PPG, and No Pro Career players averaged 4.8 PPG.
+Q: What was the average college PPG for players by pro destination?
+A: Average final-year college PPG by pro destination: NBA players averaged 14.8 PPG, G-League 12.1 PPG, Europe 10.3 PPG, Other International 9.5 PPG, and No Pro Career players averaged 4.8 PPG.
 
-## What was the average college RPG for players by pro destination?
-Average final-year college RPG by pro destination: NBA 5.9, G-League 4.7, Europe 4.3, Other International 4.1, No Pro Career 2.2.
+Q: What was the average college RPG for players by pro destination?
+A: Average final-year college RPG by pro destination: NBA 5.9, G-League 4.7, Europe 4.3, Other International 4.1, No Pro Career 2.2.
 
-## What was the average college APG for players by pro destination?
-Average final-year college APG by pro destination: NBA 2.6, G-League 2.1, Europe 1.8, Other International 1.6, No Pro Career 0.9.
+Q: What was the average college APG for players by pro destination?
+A: Average final-year college APG by pro destination: NBA 2.6, G-League 2.1, Europe 1.8, Other International 1.6, No Pro Career 0.9.
 
-## What were the average steals per game in college by pro destination?
-Average final-year college SPG by pro destination: NBA 1.1, G-League 1.0, Europe 0.8, Other International 0.8, No Pro Career 0.5.
+Q: What were the average steals per game in college by pro destination?
+A: Average final-year college SPG by pro destination: NBA 1.1, G-League 1.0, Europe 0.8, Other International 0.8, No Pro Career 0.5.
 
-## What were the average blocks per game in college by pro destination?
-Average final-year college BPG by pro destination: NBA 0.8, G-League 0.5, Europe 0.5, Other International 0.4, No Pro Career 0.2.
+Q: What were the average blocks per game in college by pro destination?
+A: Average final-year college BPG by pro destination: NBA 0.8, G-League 0.5, Europe 0.5, Other International 0.4, No Pro Career 0.2.
 
-## What is the average height for each pro destination?
-Average height by pro destination: NBA 6-6, G-League 6-6, Europe 6-6, Other International 6-6, No Pro Career 6-4.
+Q: What is the average height for each pro destination?
+A: Average height by pro destination: NBA 6-6, G-League 6-6, Europe 6-6, Other International 6-6, No Pro Career 6-4.
 
-## What was the average college EFG% by pro destination?
-Average final-year college EFG% by pro destination: NBA 54.4%, G-League 51.7%, Europe 50.1%, Other International 49.0%, No Pro Career 39.1%.
+Q: What was the average college EFG% by pro destination?
+A: Average final-year college EFG% by pro destination: NBA 54.4%, G-League 51.7%, Europe 50.1%, Other International 49.0%, No Pro Career 39.1%.
 
-## What was the average college TS% by pro destination?
-Average final-year college TS% by pro destination: NBA 57.9%, G-League 55.1%, Europe 53.3%, Other International 52.2%, No Pro Career 42.1%.
+Q: What was the average college TS% by pro destination?
+A: Average final-year college TS% by pro destination: NBA 57.9%, G-League 55.1%, Europe 53.3%, Other International 52.2%, No Pro Career 42.1%.
 
-## What was the average college 3PT% by pro destination?
-Average final-year college 3PT% by pro destination: NBA 0.3%, G-League 0.3%, Europe 0.3%, Other International 0.3%, No Pro Career 0.2%.
+Q: What was the average college 3PT% by pro destination?
+A: Average final-year college 3PT% by pro destination: NBA 0.3%, G-League 0.3%, Europe 0.3%, Other International 0.3%, No Pro Career 0.2%.
 
-## What was the average college BPM (Box Plus/Minus) by pro destination?
-Average final-year college BPM by pro destination: NBA 30.6, G-League 27.7, Europe 24.3, Other International 22.4, No Pro Career 11.6.
+Q: What was the average college BPM (Box Plus/Minus) by pro destination?
+A: Average final-year college BPM by pro destination: NBA 30.6, G-League 27.7, Europe 24.3, Other International 22.4, No Pro Career 11.6.
 
-## What was the average college minutes share by pro destination?
-Average final-year college minutes percentage by pro destination: NBA 72.4%, G-League 65.0%, Europe 56.7%, Other International 51.3%, No Pro Career 22.3%.
+Q: What was the average college minutes share by pro destination?
+A: Average final-year college minutes percentage by pro destination: NBA 72.4%, G-League 65.0%, Europe 56.7%, Other International 51.3%, No Pro Career 22.3%.
 
-## How many D1 players were analyzed?
-We analyzed 18,688 D1 players whose last college season was between 2014-15 and 2024-25. Of these, 816 (4.4%) reached the NBA, 1,065 (5.7%) went to the G-League, 2,073 (11.1%) played in Europe, 3,168 (17.0%) played in other international leagues, and 11,566 (61.9%) had no recorded pro career.
+Q: How many D1 players were analyzed?
+A: We analyzed 18,688 D1 players whose last college season was between 2014-15 and 2024-25. Of these, 816 (4.4%) reached the NBA, 1,065 (5.7%) went to the G-League, 2,073 (11.1%) played in Europe, 3,168 (17.0%) played in other international leagues, and 11,566 (61.9%) had no recorded pro career.
 
-## What percentage of D1 players go pro?
-38.1% of D1 players in our dataset went on to play some form of professional basketball. Only 4.4% made the NBA with real regular-season playing time. 5.7% went to the G-League, 11.1% to Europe, and 17.0% to other international leagues.
+Q: What percentage of D1 players go pro?
+A: 38.1% of D1 players in our dataset went on to play some form of professional basketball. Only 4.4% made the NBA with real regular-season playing time. 5.7% went to the G-League, 11.1% to Europe, and 17.0% to other international leagues.
 
-## Which schools produce the most NBA players?
-Top NBA-producing schools (2015-2025): Kentucky (41), Duke (40), Arizona (20), Kansas (19), Gonzaga (17). The top 20 also includes: Michigan (17), UCLA (15), North Carolina (15), Baylor (15), Virginia (13).
+Q: Which schools produce the most NBA players?
+A: Top NBA-producing schools (2015-2025): Kentucky (41), Duke (40), Arizona (20), Kansas (19), Gonzaga (17). The top 20 also includes: Michigan (17), UCLA (15), North Carolina (15), Baylor (15), Virginia (13).
 
-## Which schools produce the most G-League players?
-Top G-League-producing schools (2015-2025): Georgetown (13), Texas (13), Washington (13), LSU (13), Villanova (12). The top 20 also includes: Oregon (12), Texas Tech (12), West Virginia (11), UNLV (11), Arkansas (11).
+Q: Which schools produce the most G-League players?
+A: Top G-League-producing schools (2015-2025): Georgetown (13), Texas (13), Washington (13), LSU (13), Villanova (12). The top 20 also includes: Oregon (12), Texas Tech (12), West Virginia (11), UNLV (11), Arkansas (11).
 
-## Which schools produce the most Europe players?
-Top Europe-producing schools (2015-2025): Colorado State (15), Loyola Marymount (14), Gonzaga (13), Oklahoma State (13), UC Irvine (13). The top 20 also includes: Duquesne (13), Georgia Tech (12), Xavier (12), Iona (12), Fordham (12).
+Q: Which schools produce the most Europe players?
+A: Top Europe-producing schools (2015-2025): Colorado State (15), Loyola Marymount (14), Gonzaga (13), Oklahoma State (13), UC Irvine (13). The top 20 also includes: Duquesne (13), Georgia Tech (12), Xavier (12), Iona (12), Fordham (12).
 
-## Which schools produce the most Other International players?
-Top Other International-producing schools (2015-2025): New Mexico State (23), Tennessee State (22), Cal State Fullerton (21), Prairie View A&M (21), Hawaii (20). The top 20 also includes: Youngstown State (20), Seattle (19), Western Kentucky (19), St. Francis (NY) (19), Portland State (19).
+Q: Which schools produce the most Other International players?
+A: Top Other International-producing schools (2015-2025): New Mexico State (23), Tennessee State (22), Cal State Fullerton (21), Prairie View A&M (21), Hawaii (20). The top 20 also includes: Youngstown State (20), Seattle (19), Western Kentucky (19), St. Francis (NY) (19), Portland State (19).
 
-## Which schools produce the most total pro players?
-Top schools by total pro players (any destination, 2015-2025): Kentucky (57), Duke (48), Arizona (41), Arkansas (41), Gonzaga (39), Texas (38), New Mexico State (38), Iowa State (36), Texas Tech (36), Auburn (36).
+Q: Which schools produce the most total pro players?
+A: Top schools by total pro players (any destination, 2015-2025): Kentucky (57), Duke (48), Arizona (41), Arkansas (41), Gonzaga (39), Texas (38), New Mexico State (38), Iowa State (36), Texas Tech (36), Auburn (36).
 
-## Which conferences produce the most NBA players?
-Top conferences by NBA production: SEC (135), ACC (126), P12 (85), B10 (82), B12 (75), BE (61), Amer (28), WCC (26), A10 (21), MWC (20).
+Q: Which conferences produce the most NBA players?
+A: Top conferences by NBA production: SEC (135), ACC (126), P12 (85), B10 (82), B12 (75), BE (61), Amer (28), WCC (26), A10 (21), MWC (20).
 
-## Which conferences produce the most total pro players?
-Top conferences by total pro production: SEC (397), ACC (391), B10 (325), B12 (308), P12 (276), BE (271), A10 (254), Amer (238), WCC (224), SB (221).
+Q: Which conferences produce the most total pro players?
+A: Top conferences by total pro production: SEC (397), ACC (391), B10 (325), B12 (308), P12 (276), BE (271), A10 (254), Amer (238), WCC (224), SB (221).
 
-## Which conferences have the highest pro player rate?
-Top conferences by pro player rate (min 50 players): B12 (67.4%), BE (65.8%), SEC (62.9%), P12 (59.7%), ACC (58.7%), B10 (57.2%), Amer (52.3%), WCC (49.1%).
+Q: Which conferences have the highest pro player rate?
+A: Top conferences by pro player rate (min 50 players): B12 (67.4%), BE (65.8%), SEC (62.9%), P12 (59.7%), ACC (58.7%), B10 (57.2%), Amer (52.3%), WCC (49.1%).
 
-## How many players transitioned between pro levels?
-Career transitions: NBA-first players: 293 went international, 150 to G-League. G-League-first: 48 made the NBA, 672 went international. Europe-first: 25 made the NBA, 133 came to G-League. Other International-first: 21 made the NBA, 170 to G-League.
+Q: How many players transitioned between pro levels?
+A: Career transitions: NBA-first players: 293 went international, 150 to G-League. G-League-first: 48 made the NBA, 672 went international. Europe-first: 25 made the NBA, 133 came to G-League. Other International-first: 21 made the NBA, 170 to G-League.
 
-## How many G-League players eventually made the NBA?
-Of 1,065 players whose first pro destination was the G-League, 48 (4.5%) eventually earned real NBA playing time, averaging 2.8 years after leaving college to reach the NBA.
+Q: How many G-League players eventually made the NBA?
+A: Of 1,065 players whose first pro destination was the G-League, 48 (4.5%) eventually earned real NBA playing time, averaging 2.8 years after leaving college to reach the NBA.
 
-## How many European players eventually made the NBA?
-Of 2,073 players who first went to Europe, 25 (1.2%) eventually made it to the NBA.
+Q: How many European players eventually made the NBA?
+A: Of 2,073 players who first went to Europe, 25 (1.2%) eventually made it to the NBA.
 
-## How many Other International players eventually made the NBA?
-Of 3,168 players who first went to other international leagues, 21 (0.7%) eventually made it to the NBA.
+Q: How many Other International players eventually made the NBA?
+A: Of 3,168 players who first went to other international leagues, 21 (0.7%) eventually made it to the NBA.
 
-## What is the average pro career length by first destination?
-Average pro career length by first destination: NBA-first 5.6 seasons, G-League-first 4.0 seasons, Europe-first 3.5 seasons, Other International-first 3.0 seasons.
+Q: What is the average pro career length by first destination?
+A: Average pro career length by first destination: NBA-first 5.6 seasons, G-League-first 4.0 seasons, Europe-first 3.5 seasons, Other International-first 3.0 seasons.
 
-## What is the career length distribution for NBA-first players?
-Career length distribution for NBA-first players: 1 season: 74, 2 seasons: 80, 3 seasons: 74, 4 seasons: 90, 5 seasons: 86, 6 seasons: 84, 7 seasons: 98, 8+ seasons: 230. Average: 5.6 seasons.
+Q: What is the career length distribution for NBA-first players?
+A: Career length distribution for NBA-first players: 1 season: 74, 2 seasons: 80, 3 seasons: 74, 4 seasons: 90, 5 seasons: 86, 6 seasons: 84, 7 seasons: 98, 8+ seasons: 230. Average: 5.6 seasons.
 
-## What is the career length distribution for G-League-first players?
-Career length distribution for G-League-first players: 1 season: 235, 2 seasons: 170, 3 seasons: 149, 4 seasons: 110, 5 seasons: 97, 6 seasons: 83, 7 seasons: 69, 8+ seasons: 152. Average: 4.0 seasons.
+Q: What is the career length distribution for G-League-first players?
+A: Career length distribution for G-League-first players: 1 season: 235, 2 seasons: 170, 3 seasons: 149, 4 seasons: 110, 5 seasons: 97, 6 seasons: 83, 7 seasons: 69, 8+ seasons: 152. Average: 4.0 seasons.
 
-## What is the career length distribution for Europe-first players?
-Career length distribution for Europe-first players: 1 season: 620, 2 seasons: 364, 3 seasons: 289, 4 seasons: 209, 5 seasons: 137, 6 seasons: 133, 7 seasons: 104, 8+ seasons: 217. Average: 3.5 seasons.
+Q: What is the career length distribution for Europe-first players?
+A: Career length distribution for Europe-first players: 1 season: 620, 2 seasons: 364, 3 seasons: 289, 4 seasons: 209, 5 seasons: 137, 6 seasons: 133, 7 seasons: 104, 8+ seasons: 217. Average: 3.5 seasons.
 
-## What is the career length distribution for Other International-first players?
-Career length distribution for Other International-first players: 1 season: 1151, 2 seasons: 621, 3 seasons: 407, 4 seasons: 252, 5 seasons: 213, 6 seasons: 159, 7 seasons: 155, 8+ seasons: 210. Average: 3.0 seasons.
+Q: What is the career length distribution for Other International-first players?
+A: Career length distribution for Other International-first players: 1 season: 1151, 2 seasons: 621, 3 seasons: 407, 4 seasons: 252, 5 seasons: 213, 6 seasons: 159, 7 seasons: 155, 8+ seasons: 210. Average: 3.0 seasons.
 
-## What percentage of NBA players have long careers (5+ years)?
-Of 816 players who reached the NBA, 498 (61.0%) had careers of 5 or more seasons. These long-career players averaged 15.1 PPG in their final college season, vs 14.4 for those with shorter NBA stints.
+Q: What percentage of NBA players have long careers (5+ years)?
+A: Of 816 players who reached the NBA, 498 (61.0%) had careers of 5 or more seasons. These long-career players averaged 15.1 PPG in their final college season, vs 14.4 for those with shorter NBA stints.
 
-## What happens to NBA players who don't last 5 years?
-Of NBA players with shorter careers (<5 years): 22 transitioned to international basketball, 19 moved to the G-League, and 277 left professional basketball entirely.
+Q: What happens to NBA players who don't last 5 years?
+A: Of NBA players with shorter careers (<5 years): 22 transitioned to international basketball, 19 moved to the G-League, and 277 left professional basketball entirely.
 
-## How has the NBA rate changed year over year?
-NBA percentage by graduation year: 2015: 3.4%, 2016: 4.3%, 2017: 4.5%, 2018: 4.4%, 2019: 5.2%, 2020: 4.2%, 2021: 7.3%, 2022: 4.1%, 2023: 4.1%, 2024: 4.2%.
+Q: How has the NBA rate changed year over year?
+A: NBA percentage by graduation year: 2015: 3.4%, 2016: 4.3%, 2017: 4.5%, 2018: 4.4%, 2019: 5.2%, 2020: 4.2%, 2021: 7.3%, 2022: 4.1%, 2023: 4.1%, 2024: 4.2%.
 
-## How has the G-League rate changed year over year?
-G-League percentage by graduation year: 2015: 7.0%, 2016: 5.6%, 2017: 6.8%, 2018: 6.5%, 2019: 6.4%, 2020: 3.5%, 2021: 6.3%, 2022: 4.8%, 2023: 5.3%, 2024: 5.2%.
+Q: How has the G-League rate changed year over year?
+A: G-League percentage by graduation year: 2015: 7.0%, 2016: 5.6%, 2017: 6.8%, 2018: 6.5%, 2019: 6.4%, 2020: 3.5%, 2021: 6.3%, 2022: 4.8%, 2023: 5.3%, 2024: 5.2%.
 
-## How has the Europe rate changed year over year?
-Europe percentage by graduation year: 2015: 12.6%, 2016: 11.6%, 2017: 10.8%, 2018: 11.0%, 2019: 10.6%, 2020: 11.9%, 2021: 7.2%, 2022: 11.7%, 2023: 12.1%, 2024: 10.5%.
+Q: How has the Europe rate changed year over year?
+A: Europe percentage by graduation year: 2015: 12.6%, 2016: 11.6%, 2017: 10.8%, 2018: 11.0%, 2019: 10.6%, 2020: 11.9%, 2021: 7.2%, 2022: 11.7%, 2023: 12.1%, 2024: 10.5%.
 
-## How has the Other International rate changed year over year?
-Other International percentage by graduation year: 2015: 18.5%, 2016: 17.2%, 2017: 15.7%, 2018: 17.9%, 2019: 18.0%, 2020: 19.0%, 2021: 11.9%, 2022: 15.4%, 2023: 19.0%, 2024: 18.8%.
+Q: How has the Other International rate changed year over year?
+A: Other International percentage by graduation year: 2015: 18.5%, 2016: 17.2%, 2017: 15.7%, 2018: 17.9%, 2019: 18.0%, 2020: 19.0%, 2021: 11.9%, 2022: 15.4%, 2023: 19.0%, 2024: 18.8%.
 
-## How has the overall pro rate changed year over year?
-Overall pro rate by graduation year: 2015: 41.5%, 2016: 38.7%, 2017: 37.7%, 2018: 39.8%, 2019: 40.2%, 2020: 38.6%, 2021: 32.7%, 2022: 36.0%, 2023: 40.6%, 2024: 38.7%.
+Q: How has the overall pro rate changed year over year?
+A: Overall pro rate by graduation year: 2015: 41.5%, 2016: 38.7%, 2017: 37.7%, 2018: 39.8%, 2019: 40.2%, 2020: 38.6%, 2021: 32.7%, 2022: 36.0%, 2023: 40.6%, 2024: 38.7%.
 
-## What positions are most common among NBA players?
-Position breakdown for NBA players: F: 144 (17.6%), G: 133 (16.3%), SG: 118 (14.5%), SF: 110 (13.5%), PF: 103 (12.6%), PG: 97 (11.9%), C: 75 (9.2%), GF: 29 (3.6%), FC: 7 (0.9%).
+Q: What positions are most common among NBA players?
+A: Position breakdown for NBA players: F: 144 (17.6%), G: 133 (16.3%), SG: 118 (14.5%), SF: 110 (13.5%), PF: 103 (12.6%), PG: 97 (11.9%), C: 75 (9.2%), GF: 29 (3.6%), FC: 7 (0.9%).
 
-## What positions are most common among G-League players?
-Position breakdown for G-League players: G: 299 (28.1%), F: 175 (16.4%), SG: 146 (13.7%), SF: 120 (11.3%), PG: 88 (8.3%), PF: 87 (8.2%), C: 79 (7.4%), GF: 60 (5.6%), FC: 11 (1.0%).
+Q: What positions are most common among G-League players?
+A: Position breakdown for G-League players: G: 299 (28.1%), F: 175 (16.4%), SG: 146 (13.7%), SF: 120 (11.3%), PG: 88 (8.3%), PF: 87 (8.2%), C: 79 (7.4%), GF: 60 (5.6%), FC: 11 (1.0%).
 
-## What positions are most common among Europe players?
-Position breakdown for Europe players: G: 577 (27.8%), F: 469 (22.6%), PG: 213 (10.3%), C: 188 (9.1%), PF: 164 (7.9%), SG: 162 (7.8%), SF: 138 (6.7%), GF: 103 (5.0%), FC: 59 (2.8%).
+Q: What positions are most common among Europe players?
+A: Position breakdown for Europe players: G: 577 (27.8%), F: 469 (22.6%), PG: 213 (10.3%), C: 188 (9.1%), PF: 164 (7.9%), SG: 162 (7.8%), SF: 138 (6.7%), GF: 103 (5.0%), FC: 59 (2.8%).
 
-## What positions are most common among Other International players?
-Position breakdown for Other International players: G: 894 (28.2%), F: 802 (25.3%), C: 272 (8.6%), PF: 269 (8.5%), SG: 247 (7.8%), PG: 226 (7.1%), SF: 219 (6.9%), GF: 157 (5.0%), FC: 82 (2.6%).
+Q: What positions are most common among Other International players?
+A: Position breakdown for Other International players: G: 894 (28.2%), F: 802 (25.3%), C: 272 (8.6%), PF: 269 (8.5%), SG: 247 (7.8%), PG: 226 (7.1%), SF: 219 (6.9%), GF: 157 (5.0%), FC: 82 (2.6%).
 
-## What positions are most common among No Pro Career players?
-Position breakdown for No Pro Career players: G: 5173 (44.7%), F: 2655 (23.0%), C: 728 (6.3%), SG: 660 (5.7%), PG: 656 (5.7%), GF: 585 (5.1%), PF: 491 (4.2%), SF: 444 (3.8%), FC: 170 (1.5%).
+Q: What positions are most common among No Pro Career players?
+A: Position breakdown for No Pro Career players: G: 5173 (44.7%), F: 2655 (23.0%), C: 728 (6.3%), SG: 660 (5.7%), PG: 656 (5.7%), GF: 585 (5.1%), PF: 491 (4.2%), SF: 444 (3.8%), FC: 170 (1.5%).
 
-## How many years did players spend in college before going pro?
-Average NCAA seasons before turning pro: NBA 3.0, G-League 4.3, Europe 4.3, Other International 4.3, No Pro Career 3.7.
+Q: How many years did players spend in college before going pro?
+A: Average NCAA seasons before turning pro: NBA 3.0, G-League 4.3, Europe 4.3, Other International 4.3, No Pro Career 3.7.
 
-## What class year are most NBA players when they leave college?
-Class year breakdown for NBA players: Sr: 365 (44.8%), Fr: 192 (23.6%), Jr: 131 (16.1%), So: 124 (15.2%), Fr (Ineligible): 1 (0.1%), RS-So: 1 (0.1%).
+Q: What class year are most NBA players when they leave college?
+A: Class year breakdown for NBA players: Sr: 365 (44.8%), Fr: 192 (23.6%), Jr: 131 (16.1%), So: 124 (15.2%), Fr (Ineligible): 1 (0.1%), RS-So: 1 (0.1%).
 
-## What class year are most G-League players when they leave college?
-Class year breakdown for G-League players: Sr: 924 (86.8%), Jr: 79 (7.4%), So: 49 (4.6%), Fr: 7 (0.7%), RS-So: 3 (0.3%), RS-Sr: 2 (0.2%).
+Q: What class year are most G-League players when they leave college?
+A: Class year breakdown for G-League players: Sr: 924 (86.8%), Jr: 79 (7.4%), So: 49 (4.6%), Fr: 7 (0.7%), RS-So: 3 (0.3%), RS-Sr: 2 (0.2%).
 
-## What class year are most Europe players when they leave college?
-Class year breakdown for Europe players: Sr: 1767 (85.5%), Jr: 129 (6.2%), Fr: 79 (3.8%), So: 79 (3.8%), RS-Sr: 6 (0.3%), RS-So: 6 (0.3%).
+Q: What class year are most Europe players when they leave college?
+A: Class year breakdown for Europe players: Sr: 1767 (85.5%), Jr: 129 (6.2%), Fr: 79 (3.8%), So: 79 (3.8%), RS-Sr: 6 (0.3%), RS-So: 6 (0.3%).
 
-## What class year are most Other International players when they leave college?
-Class year breakdown for Other International players: Sr: 2545 (80.9%), Jr: 284 (9.0%), So: 166 (5.3%), Fr: 116 (3.7%), RS-Jr: 20 (0.6%), RS-Sr: 13 (0.4%).
+Q: What class year are most Other International players when they leave college?
+A: Class year breakdown for Other International players: Sr: 2545 (80.9%), Jr: 284 (9.0%), So: 166 (5.3%), Fr: 116 (3.7%), RS-Jr: 20 (0.6%), RS-Sr: 13 (0.4%).
 
-## Which players had the longest pro careers?
-Players with the longest pro careers in our dataset: Wesley Saunders (Harvard, 12 seasons), Cliff Alexander (Kansas, 12 seasons), Anthony Brown (Stanford, 11 seasons), Jerian Grant (Notre Dame, 11 seasons), Scott Eatherton (Northeastern, 11 seasons).
+Q: Which players had the longest pro careers?
+A: Players with the longest pro careers in our dataset: Wesley Saunders (Harvard, 12 seasons), Cliff Alexander (Kansas, 12 seasons), Anthony Brown (Stanford, 11 seasons), Jerian Grant (Notre Dame, 11 seasons), Scott Eatherton (Northeastern, 11 seasons).
 
-## What are the most common international destinations?
-Most common international team/league destinations: MHP Riesen (84), Leicester Riders (83), London Lightning (78), New Zealand (78), Veolia Towers Hamburg (77), Canada (75), Pioneros de Los Mochis (72), Puerto Rico (71), Atleticos de San German (69), Golden Eagle YLLI (68).
+Q: What are the most common international destinations?
+A: Most common international team/league destinations: MHP Riesen (84), Leicester Riders (83), London Lightning (78), New Zealand (78), Veolia Towers Hamburg (77), Canada (75), Pioneros de Los Mochis (72), Puerto Rico (71), Atleticos de San German (69), Golden Eagle YLLI (68).
 
-## How do top schools compare in pro production?
-Top school comparison (NBA count / total players / NBA rate): Kentucky: 42/234 (17.9%); Duke: 40/60 (66.7%); Kansas: 37/328 (11.3%); Arizona: 23/173 (13.3%); Virginia: 19/178 (10.7%); Gonzaga: 17/54 (31.5%); North Carolina: 15/204 (7.4%); UCLA: 15/48 (31.2%); Villanova: 13/44 (29.5%); Michigan State: 12/44 (27.3%).
+Q: How do top schools compare in pro production?
+A: Top school comparison (NBA count / total players / NBA rate): Kentucky: 42/234 (17.9%); Duke: 40/60 (66.7%); Kansas: 37/328 (11.3%); Arizona: 23/173 (13.3%); Virginia: 19/178 (10.7%); Gonzaga: 17/54 (31.5%); North Carolina: 15/204 (7.4%); UCLA: 15/48 (31.2%); Villanova: 13/44 (29.5%); Michigan State: 12/44 (27.3%).
 
-## What are the pro outcomes for Kentucky players?
-Kentucky pro outcomes (2015-2025): 234 players total. 42 NBA (17.9%), 13 G-League, 18 Europe, 41 Other International, 120 No Pro. Average final-year PPG: 8.1. Overall pro rate: 48.7%.
+Q: What are the pro outcomes for Kentucky players?
+A: Kentucky pro outcomes (2015-2025): 234 players total. 42 NBA (17.9%), 13 G-League, 18 Europe, 41 Other International, 120 No Pro. Average final-year PPG: 8.1. Overall pro rate: 48.7%.
 
-## What are the pro outcomes for Duke players?
-Duke pro outcomes (2015-2025): 60 players total. 40 NBA (66.7%), 3 G-League, 3 Europe, 2 Other International, 12 No Pro. Average final-year PPG: 9.9. Overall pro rate: 80.0%.
+Q: What are the pro outcomes for Duke players?
+A: Duke pro outcomes (2015-2025): 60 players total. 40 NBA (66.7%), 3 G-League, 3 Europe, 2 Other International, 12 No Pro. Average final-year PPG: 9.9. Overall pro rate: 80.0%.
 
-## What are the pro outcomes for Kansas players?
-Kansas pro outcomes (2015-2025): 328 players total. 37 NBA (11.3%), 21 G-League, 38 Europe, 43 Other International, 189 No Pro. Average final-year PPG: 7.0. Overall pro rate: 42.4%.
+Q: What are the pro outcomes for Kansas players?
+A: Kansas pro outcomes (2015-2025): 328 players total. 37 NBA (11.3%), 21 G-League, 38 Europe, 43 Other International, 189 No Pro. Average final-year PPG: 7.0. Overall pro rate: 42.4%.
 
-## What are the pro outcomes for North Carolina players?
-North Carolina pro outcomes (2015-2025): 204 players total. 15 NBA (7.4%), 9 G-League, 21 Europe, 25 Other International, 134 No Pro. Average final-year PPG: 6.6. Overall pro rate: 34.3%.
+Q: What are the pro outcomes for North Carolina players?
+A: North Carolina pro outcomes (2015-2025): 204 players total. 15 NBA (7.4%), 9 G-League, 21 Europe, 25 Other International, 134 No Pro. Average final-year PPG: 6.6. Overall pro rate: 34.3%.
 
-## What are the pro outcomes for Gonzaga players?
-Gonzaga pro outcomes (2015-2025): 54 players total. 17 NBA (31.5%), 6 G-League, 13 Europe, 3 Other International, 15 No Pro. Average final-year PPG: 10.1. Overall pro rate: 72.2%.
+Q: What are the pro outcomes for Gonzaga players?
+A: Gonzaga pro outcomes (2015-2025): 54 players total. 17 NBA (31.5%), 6 G-League, 13 Europe, 3 Other International, 15 No Pro. Average final-year PPG: 10.1. Overall pro rate: 72.2%.
 
-## What are the pro outcomes for Virginia players?
-Virginia pro outcomes (2015-2025): 178 players total. 19 NBA (10.7%), 23 G-League, 19 Europe, 28 Other International, 89 No Pro. Average final-year PPG: 6.9. Overall pro rate: 50.0%.
+Q: What are the pro outcomes for Virginia players?
+A: Virginia pro outcomes (2015-2025): 178 players total. 19 NBA (10.7%), 23 G-League, 19 Europe, 28 Other International, 89 No Pro. Average final-year PPG: 6.9. Overall pro rate: 50.0%.
 
-## What are the pro outcomes for Villanova players?
-Villanova pro outcomes (2015-2025): 44 players total. 13 NBA (29.5%), 12 G-League, 2 Europe, 3 Other International, 14 No Pro. Average final-year PPG: 8.9. Overall pro rate: 68.2%.
+Q: What are the pro outcomes for Villanova players?
+A: Villanova pro outcomes (2015-2025): 44 players total. 13 NBA (29.5%), 12 G-League, 2 Europe, 3 Other International, 14 No Pro. Average final-year PPG: 8.9. Overall pro rate: 68.2%.
 
-## What are the pro outcomes for Arizona players?
-Arizona pro outcomes (2015-2025): 173 players total. 23 NBA (13.3%), 15 G-League, 17 Europe, 30 Other International, 88 No Pro. Average final-year PPG: 7.6. Overall pro rate: 49.1%.
+Q: What are the pro outcomes for Arizona players?
+A: Arizona pro outcomes (2015-2025): 173 players total. 23 NBA (13.3%), 15 G-League, 17 Europe, 30 Other International, 88 No Pro. Average final-year PPG: 7.6. Overall pro rate: 49.1%.
 
-## What are the pro outcomes for Michigan State players?
-Michigan State pro outcomes (2015-2025): 44 players total. 12 NBA (27.3%), 9 G-League, 5 Europe, 2 Other International, 16 No Pro. Average final-year PPG: 8.3. Overall pro rate: 63.6%.
+Q: What are the pro outcomes for Michigan State players?
+A: Michigan State pro outcomes (2015-2025): 44 players total. 12 NBA (27.3%), 9 G-League, 5 Europe, 2 Other International, 16 No Pro. Average final-year PPG: 8.3. Overall pro rate: 63.6%.
 
-## What are the pro outcomes for UCLA players?
-UCLA pro outcomes (2015-2025): 48 players total. 15 NBA (31.2%), 10 G-League, 6 Europe, 1 Other International, 16 No Pro. Average final-year PPG: 8.4. Overall pro rate: 66.7%.
+Q: What are the pro outcomes for UCLA players?
+A: UCLA pro outcomes (2015-2025): 48 players total. 15 NBA (31.2%), 10 G-League, 6 Europe, 1 Other International, 16 No Pro. Average final-year PPG: 8.4. Overall pro rate: 66.7%.
 
-## What are the stats of players who never went pro?
-Players with no recorded pro career averaged 4.8 PPG, 2.2 RPG, 0.9 APG in their final college season. Average height: 6-4. This group represents 61.9% of all D1 players (11,566 players).
+Q: What are the stats of players who never went pro?
+A: Players with no recorded pro career averaged 4.8 PPG, 2.2 RPG, 0.9 APG in their final college season. Average height: 6-4. This group represents 61.9% of all D1 players (11,566 players).
 
-## What does the typical NBA player's college profile look like?
-The typical NBA player's final college season: 14.8 PPG, 5.9 RPG, 2.6 APG. Average height: 6-6. EFG%: 54.4%, TS%: 57.9%. They spent an average of 3.0 seasons in college.
+Q: What does the typical NBA player's college profile look like?
+A: The typical NBA player's final college season: 14.8 PPG, 5.9 RPG, 2.6 APG. Average height: 6-6. EFG%: 54.4%, TS%: 57.9%. They spent an average of 3.0 seasons in college.
 
-## What does the typical G-League player's college profile look like?
-The typical G-League player's final college season: 12.1 PPG, 4.7 RPG, 2.1 APG. Average height: 6-6. EFG%: 51.7%. They spent 4.3 seasons in college.
+Q: What does the typical G-League player's college profile look like?
+A: The typical G-League player's final college season: 12.1 PPG, 4.7 RPG, 2.1 APG. Average height: 6-6. EFG%: 51.7%. They spent 4.3 seasons in college.
 
-## What does the typical Europe-bound player's college profile look like?
-The typical Europe-bound player's final college season: 10.3 PPG, 4.3 RPG, 1.8 APG. Average height: 6-6. EFG%: 50.1%. They spent 4.3 seasons in college.
+Q: What does the typical Europe-bound player's college profile look like?
+A: The typical Europe-bound player's final college season: 10.3 PPG, 4.3 RPG, 1.8 APG. Average height: 6-6. EFG%: 50.1%. They spent 4.3 seasons in college.
 
-## What does the typical Other International player's college profile look like?
-The typical Other International player's final college season: 9.5 PPG, 4.1 RPG, 1.6 APG. Average height: 6-6. EFG%: 49.0%.
-
-## How many Europe players had long careers (5+ seasons)?
-Of 2,073 Europe-first players, 591 (28.5%) had careers of 5+ pro seasons.
-
-## How many Other International players had long careers (5+ seasons)?
-Of 3,168 Other International-first players, 737 (23.3%) had careers of 5+ pro seasons.
-
-## How does scoring in college correlate with going pro?
-Pro rates by college PPG threshold: 5+ PPG: 60.2% went pro, 8.2% NBA (9813 players); 10+ PPG: 72.5% went pro, 13.3% NBA (5414 players); 15+ PPG: 82.6% went pro, 22.6% NBA (1843 players); 20+ PPG: 86.0% went pro, 25.9% NBA (278 players).
-
-## How does height correlate with going pro?
-Pro rates by height: 6-3+: 42.3% went pro, 5.2% NBA (13735 players); 6-6+: 46.7% went pro, 5.7% NBA (8122 players); 6-9+: 52.4% went pro, 6.7% NBA (2929 players); 7-0+: 55.7% went pro, 11.1% NBA (368 players).
-
-## How do one-year pro players compare to multi-year?
-Of players who went pro, 2,080 had just 1 season and 5,042 had 2+ seasons. One-year pros averaged 9.6 college PPG vs 11.2 for multi-year pros.
-
-## Give me an overview of NBA outcomes.
-NBA Overview: 816 players (4.4% of D1 graduates) reached the NBA. 498 (61.0%) had 5+ year careers. 293 transitioned to international basketball after the NBA. Average career: 5.6 seasons.
-
-## Give me an overview of G-League outcomes.
-G-League Overview: 1065 players (5.7% of D1 graduates). 48 (4.5%) eventually made the NBA. 672 went international. Average career: 4.0 seasons.
-
-## Give me an overview of European basketball outcomes.
-Europe Overview: 2073 players (11.1% of D1 graduates) went to Europe. 25 (1.2%) eventually made the NBA. Average career: 3.5 seasons. 591 (28.5%) had 5+ year careers.
-
-## Give me an overview of Other International outcomes.
-Other International Overview: 3168 players (17.0% of D1 graduates). 21 (0.7%) eventually made the NBA. Average career: 3.0 seasons. 737 (23.3%) had 5+ year careers.
-
-## What is the average weight for each pro destination?
-Average weight by pro destination: NBA 213.2 lbs, G-League 206.4 lbs, Europe 208.0 lbs, Other International 207.9 lbs, No Pro Career 198.7 lbs.
-
-## What is the Torvik PPG by destination?
-Barttorvik final-year college PPG by pro destination: NBA 14.7, G-League 11.8, Europe 9.7, Other International 8.6, No Pro Career 3.4.
-
-## What was the average college FT% by pro destination?
-Average final-year college FT% by pro destination: NBA 0%, G-League 0%, Europe 0%, Other International 0%, No Pro Career 0%.
-
-## What was the average games played in final college season by destination?
-Average games played in final college season by pro destination: NBA 32.1, G-League 29.9, Europe 27.8, Other International 26.4, No Pro Career 16.7.
-
-
-# Notable Players by Destination
-
-## Top NBA Players (by career length)
-- Cliff Alexander (Kansas, class of 2015): 11 yr career, Guaiqueries (Active)
-- Aaron Harrison (Kentucky, class of 2015): 10 yr career, Halcones Ciudad Obregon (Active)
-- Alan Williams (UC Santa Barbara, class of 2015): 10 yr career, Nagoya Diamond Dolphins (Active)
-- Anthony Brown (Stanford, class of 2015): 10 yr career, Besiktas Icrypex (Active)
-- Bobby Portis (Arkansas, class of 2015): 10 yr career, Milwaukee Bucks (Active)
-- Briante Weber (VCU, class of 2015): 10 yr career, Universo De'Longhi Treviso (Active)
-- Cameron Payne (Murray State, class of 2015): 10 yr career, Indiana Pacers (Active)
-- Christian Wood (UNLV, class of 2015): 10 yr career, Los Angeles Lakers (Active)
-- D'Angelo Russell (Ohio State, class of 2015): 10 yr career, Dallas Mavericks (Active)
-- Darrun Hilliard (Villanova, class of 2015): 10 yr career, Bilbao Basket (Active)
-- Delon Wright (Utah, class of 2015): 10 yr career, Indiana Pacers (Active)
-- Devin Booker (Kentucky, class of 2015): 10 yr career, Phoenix Suns (Active)
-- Frank Kaminsky (Wisconsin, class of 2015): 10 yr career, Guangzhou Loong Lions (Active)
-- Jahlil Okafor (Duke, class of 2015): 10 yr career, Capitanes de Arecibo (Active)
-- Jarell Martin (LSU, class of 2015): 10 yr career, Koshigaya Alphas (Active)
-- Jerian Grant (Notre Dame, class of 2015): 10 yr career, Panathinaikos (Active)
-- Jordan Mickey (LSU, class of 2015): 10 yr career, Qingdao (Active)
-- Josh Richardson (Tennessee, class of 2015): 10 yr career, Casademont Zaragoza (Active)
-- Justin Anderson (Virginia, class of 2015): 10 yr career, Dubai (Active)
-- Justise Winslow (Duke, class of 2015): 10 yr career, Milwaukee Bucks (Active)
-- Karl-Anthony Towns (Kentucky, class of 2015): 10 yr career, New York Knicks (Active)
-- Kelly Oubre, Jr. (Kansas, class of 2015): 10 yr career, Philadelphia Sixers (Active)
-- Kevon Looney (UCLA, class of 2015): 10 yr career, New Orleans Pelicans (Active)
-- Larry Nance, Jr. (Wyoming, class of 2015): 10 yr career, Cleveland Cavaliers (Active)
-- Maurice Ndour (Ohio, class of 2015): 10 yr career, Gemani Basket Brescia (Active)
-- Montrezl Harrell (Louisville, class of 2015): 10 yr career, Adelaide (Active)
-- Myles Turner (Texas, class of 2015): 10 yr career, Milwaukee Bucks (Active)
-- Norman Powell (UCLA, class of 2015): 10 yr career, Los Angeles Clippers (Active)
-- Pat Connaughton (Notre Dame, class of 2015): 10 yr career, Milwaukee Bucks (Active)
-- Quinn Cook (Duke, class of 2015): 10 yr career, Fujian (Active)
-
-## Top G-League Players (by career length)
-- Wesley Saunders (Harvard, class of 2015): 11 yr career, Marinos (Active)
-- Amir Williams (Ohio State, class of 2015): 10 yr career, Piratas de La Guaira (Active)
-- Andrew Harrison (Kentucky, class of 2015): 10 yr career, Pioneros del Avila (Active)
-- Askia Booker (Colorado, class of 2015): 10 yr career, Shenzhen (Active)
-- Charles Jackson (Tennessee Tech, class of 2015): 10 yr career, Kyoto Hannaryz (Active)
-- Chris Walker (Florida, class of 2015): 10 yr career, Osceola Magic (Active)
-- Corey Walden (Eastern Kentucky, class of 2015): 10 yr career, Forca Lleida CE (Active)
-- Darion Atkins (Virginia, class of 2015): 10 yr career, Ironi Ramat Gan (Active)
-- Derek Cooke, Jr. (Wyoming, class of 2015): 10 yr career, Al Ahly Benghazi (Active)
-- Dez Wells (Maryland, class of 2015): 10 yr career, Liaoning (Active)
-- J.P. Tokoto (North Carolina, class of 2015): 10 yr career, Veolia Towers Hamburg (Active)
-- Johnathan Jordan (Texas A&M-CC, class of 2015): 10 yr career, Al Ahly Benghazi (Active)
-- Levi Randolph (Alabama, class of 2015): 10 yr career, Zenit Saint Petersburg (Active)
-- Marcus Thornton (William & Mary, class of 2015): 10 yr career, FC Arges Pitesti (Active)
-- Michale Kyser (Louisiana Tech, class of 2015): 10 yr career, EWE Baskets Oldenburg (Active)
-- Ryan Boatright (UConn, class of 2015): 10 yr career, Brillantes de Maracaibo (Active)
-- Shannon Scott (Ohio State, class of 2015): 10 yr career, Brisbane (Active)
-- Speedy Smith (Louisiana Tech, class of 2015): 10 yr career, Merkezefendi Belediyesi Denizli Basket (Active)
-- Travis Trice (Michigan State, class of 2015): 10 yr career, Fujian (Active)
-- Tyler Harvey (Eastern Washington, class of 2015): 10 yr career, Illawarra (Active)
-- Will Cummings (Temple, class of 2015): 10 yr career, Galatasaray (Active)
-- Alex Hamilton (Louisiana Tech, class of 2016): 9 yr career, Avtodor Saratov (Active)
-- Anthony Walker (Texas-Arlington, class of 2015): 9 yr career, El Calor de Cancun (Active)
-- Avry Holmes (Clemson, class of 2017): 9 yr career, Spartans de Districto Captital Caracas (Active)
-- Cat Barber (NC State, class of 2016): 9 yr career, El Calor de Cancun (Active)
-- Chris Horton (Austin Peay, class of 2016): 9 yr career, Umana Venezia (Active)
-- Dakari Johnson (Kentucky, class of 2015): 9 yr career, Zhejiang Chouzhou (Active)
-- Daniel Hamilton (UConn, class of 2016): 9 yr career, Beirut Club (Active)
-- Dom Pointer (St. John's, class of 2015): 9 yr career, APOEL Nicosia (Active)
-- Egidijus Mockevicius (Evansville, class of 2016): 9 yr career, Neptunas (Active)
-
-## Top Europe Players (by career length)
-- Anthony Hickey (Oklahoma State, class of 2015): 10 yr career, Old Wild West Udine (Active)
-- Auston Barnes (Bradley, class of 2015): 10 yr career, Szolnoki Olaj (Active)
-- Chavaughn Lewis (Marist, class of 2015): 10 yr career, Brillantes de Maracaibo (Active)
-- Daniel Bejerano (Colorado State, class of 2015): 10 yr career, Fuerza Regia (Active)
-- David Kravish (California, class of 2015): 10 yr career, Unicaja (Active)
-- Gabriel Olaseni (Iowa, class of 2015): 10 yr career, Mersin BSB (Active)
-- Georgios Tsalmpouris (Iowa State, class of 2015): 10 yr career, Panionios BC (Active)
-- J.J. Avila (Colorado State, class of 2015): 10 yr career, Astros de Jalisco (Active)
-- Janari Joesaar (Texas-RGV, class of 2015): 10 yr career, KK Bosna (Active)
-- Jonathan Fairell (Murray State, class of 2015): 10 yr career, Paisas Basketball Club (Active)
-- Jordan Parks (North Carolina Central, class of 2015): 10 yr career, Umana Venezia (Active)
-- Jordan Williams (North Texas, class of 2015): 10 yr career, Trotamundos (Active)
-- Karam Mashour (Morehead State, class of 2015): 10 yr career, Ironi Ramat Gan (Active)
-- Kevin Pangos (Gonzaga, class of 2015): 10 yr career, Esenler Erokspor (Active)
-- Lee Skinner (Wofford, class of 2015): 10 yr career, CSO Voluntari (Active)
-- Martin Hermannsson (Long Island, class of 2015): 10 yr career, ALBA Berlin (Active)
-- Max DiLeo (Monmouth, class of 2015): 10 yr career, EWE Baskets Oldenburg (Active)
-- Mike Myers (Maryland-Eastern Shore, class of 2015): 10 yr career, Dorados de Chihuahua (Active)
-- Mike Scott (Idaho, class of 2015): 10 yr career, Euroins Cherno More (Active)
-- Nemanja Djurisic (Georgia, class of 2015): 10 yr career, Mitteldeutscher BC (Active)
-- Olivier Hanlan (Boston College, class of 2015): 10 yr career, KK Spartak Subotica (Active)
-- Ousmane Drame (Quinnipiac, class of 2015): 10 yr career, CS Dinamo Bucuresti (Active)
-- Patrick Heckmann (Boston College, class of 2015): 10 yr career, Brose Baskets Bamberg (Active)
-- Reigarvius Williams (Murray State, class of 2015): 10 yr career, Zeus Energy Group Rieti (Active)
-- Royce O'Neale (Baylor, class of 2015): 10 yr career, Phoenix Suns (Active)
-- Seth Hinrichs (Lafayette, class of 2015): 10 yr career, EWE Baskets Oldenburg (Active)
-- Shaquielle McKissic (Arizona State, class of 2015): 10 yr career, Olympiacos (Active)
-- Sullivan Hernandez (Savannah State, class of 2015): 10 yr career, Aurore de Vitre (Active)
-- TaShawn Thomas (Oklahoma, class of 2015): 10 yr career, Le Mans Sarthe Basket (Active)
-- Tekele Cotton (Wichita State, class of 2015): 10 yr career, BC Hallmann Vienna (Active)
-
-## Top Other International Players (by career length)
-- Aaron Jones (Ole Miss, class of 2015): 10 yr career, Zalakeramia-ZTE KK (Active)
-- Alfonzo McKinnie (Green Bay, class of 2015): 10 yr career, Jeonju KCC Egis (Active)
-- Andrew Smith (Liberty, class of 2015): 10 yr career, Alba Fehervar (Active)
-- Angel Matias (Georgia Southern, class of 2015): 10 yr career, Cangrejeros de Santurce (Active)
-- Anthony Lee (Ohio State, class of 2015): 10 yr career, KW Titans (Active)
-- Brandon Taylor (Utah, class of 2015): 10 yr career, Virtus Bologna (Active)
-- D'Angelo Harrison (St. John's, class of 2015): 10 yr career, Blu Basket Gruppo Remer Treviglio (Active)
-- D.J. Newbill (Penn State, class of 2015): 10 yr career, Link Tochigi Brex (Active)
-- Darious Moten (Mercer, class of 2015): 10 yr career, Trefl Sopot (Active)
-- Derek Jackson (Kent State, class of 2015): 10 yr career, Delikatesas Joniskis (Active)
-- Derrick Marks (Boise State, class of 2015): 10 yr career, CS Dinamo Bucuresti (Active)
-- Devante Wallace (High Point, class of 2015): 10 yr career, Gambusinos (Active)
-- Devonte Upson (Southeastern Louisiana, class of 2015): 10 yr career, Panathinaikos (Active)
-- Dustin Hogue (Iowa State, class of 2015): 10 yr career, Blu Basket Gruppo Remer Treviglio (Active)
-- Gabas Maldunas (Dartmouth, class of 2015): 10 yr career, 7Bet-Lietkabelis Panevezys (Active)
-- Javonte Green (Radford, class of 2015): 10 yr career, Detroit Pistons (Active)
-- Juan Toscano-Anderson (Marquette, class of 2015): 10 yr career, Pallacanestro Trieste 2004 (Active)
-- Keifer Sykes (Green Bay, class of 2015): 10 yr career, OpenJobMetis Varese (Active)
-- Kruize Pinkins (San Francisco, class of 2015): 10 yr career, Universo De'Longhi Treviso (Active)
-- Kyan Anderson (TCU, class of 2015): 10 yr career, KB Bashkimi Prizren (Active)
-- Matt Lopez (Rider, class of 2015): 10 yr career, Piratas de Quebradillas (Active)
-- Michael Carrera (South Carolina, class of 2016): 10 yr career, Spartans de Districto Captital Caracas (Active)
-- Moussa Kone (Hofstra, class of 2015): 10 yr career, Braga (Active)
-- Negus Webster-Chan (Hawaii, class of 2015): 10 yr career, Piratas de La Guaira (Active)
-- Ricky Tarrant (Memphis, class of 2016): 10 yr career, Piratas de La Guaira (Active)
-- Scott Eatherton (Northeastern, class of 2015): 10 yr career, Nagoya Diamond Dolphins (Active)
-- Stanton Kidd (Colorado State, class of 2015): 10 yr career, Sendai 89ers (Active)
-- Steve Zack (La Salle, class of 2015): 10 yr career, Toyota Alvark (Active)
-- Tavario Miller (Texas A&M, class of 2016): 10 yr career, Guaiqueries (Active)
-- Tyler Kalinoski (Davidson, class of 2015): 10 yr career, Unicaja (Active)
-
-
-# School Rankings
-
-## Top Schools → NBA
-- Kentucky: 41 players
-- Duke: 40 players
-- Arizona: 20 players
-- Kansas: 19 players
-- Gonzaga: 17 players
-- Michigan: 17 players
-- UCLA: 15 players
-- Baylor: 15 players
-- North Carolina: 15 players
-- Tennessee: 13 players
-- Arkansas: 13 players
-- LSU: 13 players
-- Louisville: 13 players
-- Villanova: 13 players
-- Virginia: 13 players
-- Florida State: 13 players
-- Michigan State: 12 players
-- UConn: 12 players
-- Alabama: 12 players
-- Florida: 11 players
-- Oregon: 11 players
-- Auburn: 11 players
-- Texas: 11 players
-- Syracuse: 10 players
-- USC: 10 players
-
-## Top Schools → G-League
-- Georgetown: 13 players
-- LSU: 13 players
-- Texas: 13 players
-- Washington: 13 players
-- Texas Tech: 12 players
-- Oregon: 12 players
-- Villanova: 12 players
-- Memphis: 11 players
-- Arkansas: 11 players
-- UNLV: 11 players
-- West Virginia: 11 players
-- Creighton: 10 players
-- Kentucky: 10 players
-- Ole Miss: 10 players
-- UCLA: 10 players
-- Michigan State: 9 players
-- Maryland: 9 players
-- Virginia: 9 players
-- USC: 9 players
-- Arizona: 9 players
-- Nebraska: 9 players
-- UConn: 9 players
-- Houston: 9 players
-- Indiana: 9 players
-- UCF: 8 players
-
-## Top Schools → Europe
-- Colorado State: 15 players
-- Loyola Marymount: 14 players
-- Gonzaga: 13 players
-- Oklahoma State: 13 players
-- Duquesne: 13 players
-- UC Irvine: 13 players
-- Iona: 12 players
-- Georgia Tech: 12 players
-- Clemson: 12 players
-- Fordham: 12 players
-- Xavier: 12 players
-- Indiana State: 11 players
-- Murray State: 11 players
-- Auburn: 11 players
-- Kent State: 11 players
-- Georgia Southern: 11 players
-- San Francisco: 11 players
-- Georgia State: 11 players
-- Jacksonville State: 11 players
-- Chattanooga: 11 players
-- Tennessee: 11 players
-- Georgia: 10 players
-- NC State: 10 players
-- San Diego: 10 players
-- Morehead State: 10 players
-
-## Top Schools → Other International
-- New Mexico State: 23 players
-- Tennessee State: 22 players
-- Cal State Fullerton: 21 players
-- Prairie View A&M: 21 players
-- Hawaii: 20 players
-- Youngstown State: 20 players
-- Western Kentucky: 19 players
-- Portland State: 19 players
-- St. Francis (NY): 19 players
-- Seattle: 19 players
-- Rhode Island: 18 players
-- Radford: 18 players
-- Montana: 17 players
-- East Tennessee State: 17 players
-- Grand Canyon: 17 players
-- Tennessee-Martin: 17 players
-- Old Dominion: 16 players
-- Kent State: 16 players
-- Southeastern Louisiana: 16 players
-- Jacksonville State: 16 players
-- Southern Utah: 16 players
-- Texas Southern: 15 players
-- Ole Miss: 15 players
-- Detroit-Mercy: 15 players
-- Nebraska: 15 players
-
-
-# All NBA Players
-
-- A.J. Green | Northern Iowa | 2022 | 3yr | Milwaukee Bucks | Active
-- A.J. Griffin, Jr. | Duke | 2022 | 3yr | Houston Rockets | Active
-- A.J. Hammons | Purdue | 2016 | 2yr | Dallas Mavericks | Left basketball
-- A.J. Lawson | South Carolina | 2021 | 4yr | Toronto Raptors | Active
-- Aaron Harrison | Kentucky | 2015 | 10yr | Halcones Ciudad Obregon | Active
-- Aaron Henry | Michigan State | 2021 | 4yr | Nagoya Diamond Dolphins | Active
-- Aaron Holiday | UCLA | 2018 | 7yr | Houston Rockets | Active
-- Aaron Nesmith | Vanderbilt | 2020 | 5yr | Indiana Pacers | Active
-- Aaron Wiggins | Maryland | 2021 | 4yr | Oklahoma City Thunder | Active
-- Ace Bailey | Rutgers | 2025 | 0yr | Utah Jazz | Active
-- Adam Flagler | Baylor | 2023 | 2yr | San Antonio Spurs | Active
-- Adama Sanogo | UConn | 2023 | 2yr | 2B Control Trapani | Active
-- Ade Murkey | Denver | 2020 | 4yr | BC Hallmann Vienna | Active
-- Adem Bona | UCLA | 2024 | 1yr | Philadelphia Sixers | Active
-- Admiral Schofield | Tennessee | 2019 | 6yr | Santeros de Aguada | Active
-- Adou Thiero | Arkansas | 2025 | 0yr | Los Angeles Lakers | Active
-- Ajay Mitchell | UC Santa Barbara | 2024 | 1yr | Oklahoma City Thunder | Active
-- Alan Williams | UC Santa Barbara | 2015 | 10yr | Nagoya Diamond Dolphins | Active
-- Alec Peters | Valparaiso | 2017 | 8yr | Olympiacos | Active
-- Alex Caruso | Texas A&M | 2016 | 9yr | Oklahoma City Thunder | Active
-- Alex Ducas | Saint Mary's | 2024 | 1yr | Brisbane | Active
-- Alex Fudge | Florida | 2023 | 2yr | Sioux Falls Skyforce | Active
-- Alex Poythress | Kentucky | 2016 | 9yr | Zenit Saint Petersburg | Active
-- Alijah Martin | Florida | 2025 | 0yr | Toronto Raptors | Active
-- Alize Johnson | Missouri State | 2018 | 7yr | Minnesota Timberwolves | Active
-- Allonzo Trier | Arizona | 2018 | 4yr | Rio Grande Valley Vipers | Active
-- Alondes Williams | Wake Forest | 2022 | 3yr | Washington Wizards | Active
-- Amari Bailey | UCLA | 2023 | 2yr | Brooklyn Nets | Active
-- Amari Williams | Kentucky | 2025 | 0yr | Boston Celtics | Active
-- Amida Brimah | UConn | 2017 | 8yr | Movistar Estudiantes | Active
-- Amile Jefferson | Duke | 2017 | 4yr | Boston Celtics | Left basketball
-- Amir Coffey | Minnesota | 2019 | 6yr | Milwaukee Bucks | Active
-- Andersson Garcia | Texas A&M | 2025 | 0yr | Utah Jazz | Active
-- Andre Jackson, Jr. | UConn | 2023 | 2yr | Milwaukee Bucks | Active
-- Andrew Funk | Penn State | 2023 | 2yr | Port of Antwerp Giants | Active
-- Andrew Nembhard | Gonzaga | 2022 | 3yr | Indiana Pacers | Active
-- Andrew White | Syracuse | 2017 | 7yr | Panteras | Active
-- Angel Delgado | Seton Hall | 2018 | 7yr | Trabzonspor | Active
-- Anthony Black | Arkansas | 2023 | 2yr | Orlando Magic | Active
-- Anthony Brown | Stanford | 2015 | 10yr | Besiktas Icrypex | Active
-- Anthony Edwards | Georgia | 2020 | 5yr | Minnesota Timberwolves | Active
-- Anthony Lamb | Vermont | 2020 | 5yr | Hapoel Bank Yahav Jerusalem | Active
-- Anton Watson | Gonzaga | 2024 | 1yr | Los Angeles Lakers | Active
-- Antonio Blakeney | LSU | 2017 | 8yr | Hapoel Tel Aviv | Active
-- Antonio Reeves | Kentucky | 2024 | 1yr | New Orleans Pelicans | Active
-- Antonius Cleveland | Southeast Missouri State | 2017 | 8yr | CSKA Moscow | Active
-- Armoni Brooks | Houston | 2019 | 6yr | AX Armani Exchange Milan | Active
-- Asa Newell | Georgia | 2025 | 0yr | Atlanta Hawks | Active
-- Ashton Hagans | Kentucky | 2020 | 5yr | Rip City Remix | Active
-- Austin Reaves | Oklahoma | 2021 | 4yr | Los Angeles Lakers | Active
-- Ayo Dosunmu | Illinois | 2021 | 4yr | Chicago Bulls | Active
-- B.J. Boston, Jr. | Kentucky | 2021 | 4yr | Fenerbahce Beko | Active
-- B.J. Johnson | La Salle | 2018 | 7yr | Lokomotiv Kuban | Active
-- Bam Adebayo | Kentucky | 2017 | 8yr | Miami Heat | Active
-- Baylor Scheierman | Creighton | 2024 | 1yr | Boston Celtics | Active
-- Ben Bentil | Providence | 2016 | 9yr | Mersin BSB | Active
-- Ben Moore | Southern Methodist | 2017 | 8yr | PAOK BC | Active
-- Ben Sheppard | Belmont | 2023 | 2yr | Indiana Pacers | Active
-- Ben Simmons | LSU | 2016 | 9yr | Brooklyn Nets | Active
-- Bennedict Mathurin | Arizona | 2022 | 3yr | Indiana Pacers | Active
-- Bez Mbeng | Yale | 2025 | 0yr | Miami Heat | Active
-- Blake Hinson | Pittsburgh | 2024 | 1yr | Utah Jazz | Active
-- Blake Wesley | Notre Dame | 2022 | 3yr | San Antonio Spurs | Active
-- Bobby Portis | Arkansas | 2015 | 10yr | Milwaukee Bucks | Active
-- Bobi Klintman | Wake Forest | 2023 | 2yr | Detroit Pistons | Active
-- Bol Bol | Oregon | 2019 | 6yr | Talk N Text Tropang Texters | Active
-- Bones Hyland | VCU | 2021 | 4yr | Minnesota Timberwolves | Active
-- Bonzie Colson, Jr. | Notre Dame | 2018 | 7yr | Fenerbahce Beko | Active
-- Branden Carlson | Utah | 2024 | 1yr | Oklahoma City Thunder | Active
-- Branden Dawson | Michigan State | 2015 | 5yr | Correcaminos | Active
-- Brandin Podziemski | Santa Clara | 2023 | 2yr | Golden State Warriors | Active
-- Brandon Clarke | Gonzaga | 2019 | 6yr | Memphis Grizzlies | Active
-- Brandon Goodwin | Florida Gulf Coast | 2018 | 6yr | Shanxi Zhongyu | Active
-- Brandon Ingram | Duke | 2016 | 9yr | Toronto Raptors | Active
-- Brandon Miller | Alabama | 2023 | 2yr | Charlotte Hornets | Active
-- Brandon Sampson | LSU | 2018 | 6yr | Trefl Sopot | Active
-- Brandon Williams | Arizona | 2020 | 4yr | Dallas Mavericks | Active
-- Brian Bowen II | Louisville | 2018 | 7yr | Kozuv Gevgelija | Active
-- Briante Weber | VCU | 2015 | 10yr | Universo De'Longhi Treviso | Active
-- Brice Johnson | North Carolina | 2016 | 8yr | KK Feniks 2010 | Active
-- Brice Sensabaugh | Ohio State | 2023 | 2yr | Utah Jazz | Active
-- Bronny James | USC | 2024 | 1yr | Los Angeles Lakers | Active
-- Brooks Barnhizer | Northwestern | 2025 | 0yr | Oklahoma City Thunder | Active
-- Bruce Brown, Jr. | Miami (FL) | 2018 | 7yr | Denver Nuggets | Active
-- Bruno Fernando | Maryland | 2019 | 6yr | KK Partizan | Active
-- Bryce Dejean-Jones | Iowa State | 2015 | 1yr | New Orleans Pelicans | Left basketball
-- Bryce McGowens | Nebraska | 2022 | 3yr | New Orleans Pelicans | Active
-- Bryn Forbes | Michigan State | 2016 | 8yr | Aris Midea Thessaloniki | Active
-- Bub Carrington | Pittsburgh | 2024 | 1yr | Washington Wizards | Active
-- Buddy Boeheim | Syracuse | 2022 | 3yr | Oklahoma City Thunder | Active
-- Buddy Hield | Oklahoma | 2016 | 9yr | Golden State Warriors | Active
-- C.J. Elleby | Washington State | 2020 | 4yr | Hapoel Beer Sheva | Active
-- C.J. Huntley | Appalachian State | 2025 | 0yr | Phoenix Suns | Active
-- Cade Cunningham | Oklahoma State | 2021 | 4yr | Detroit Pistons | Active
-- Caleb Houstan | Michigan | 2022 | 3yr | Atlanta Hawks | Active
-- Caleb Love | Arizona | 2025 | 0yr | Portland Trail Blazers | Active
-- Caleb Martin | Nevada | 2019 | 6yr | Dallas Mavericks | Active
-- Caleb Swanigan | Purdue | 2017 | 3yr | Sacramento Kings | Left basketball
-- Cam Reddish | Duke | 2019 | 6yr | Austin Spurs | Active
-- Cam Reynolds | Tulane | 2018 | 7yr | Maroussi BC | Active
-- Cam Spencer | UConn | 2024 | 1yr | Memphis Grizzlies | Active
-- Cam Thomas | LSU | 2021 | 4yr | Brooklyn Nets | Active
-- Cam Whitmore | Villanova | 2023 | 2yr | Houston Rockets | Active
-- Cameron Christie | Minnesota | 2024 | 1yr | Los Angeles Clippers | Active
-- Cameron Johnson | North Carolina | 2019 | 6yr | Brooklyn Nets | Active
-- Cameron Payne | Murray State | 2015 | 10yr | Indiana Pacers | Active
-- Caris LeVert | Michigan | 2016 | 9yr | Detroit Pistons | Active
-- Carlik Jones | Louisville | 2021 | 4yr | KK Partizan | Active
-- Carsen Edwards | Purdue | 2019 | 6yr | Virtus Bologna | Active
-- Carter Bryant | Arizona | 2025 | 0yr | San Antonio Spurs | Active
-- Cason Wallace | Kentucky | 2023 | 2yr | Oklahoma City Thunder | Active
-- Cassius Stanley | Duke | 2020 | 5yr | Siauliai | Active
-- Cassius Winston | Michigan State | 2020 | 5yr | Hapoel Bank Yahav Jerusalem | Active
-- Cedric Coward | Washington State | 2025 | 0yr | Memphis Grizzlies | Active
-- Chandler Hutchison | Boise State | 2018 | 6yr | Cleveland Charge | Active
-- Chaney Johnson | Auburn | 2025 | 0yr | Cleveland Cavaliers | Active
-- Charles Bassey | Western Kentucky | 2021 | 4yr | Atlanta Hawks | Active
-- Charles Cooke | Dayton | 2017 | 4yr | Maine Celtics | Left basketball
-- Charlie Brown, Jr. | Saint Joseph's | 2019 | 6yr | Memphis Grizzlies | Active
-- Chasson Randle | Stanford | 2016 | 9yr | NBA G League Ignite | Active
-- Chaundee Brown, Jr. | Michigan | 2021 | 4yr | London Lions | Active
-- Chaz Lanier | Tennessee | 2025 | 0yr | Detroit Pistons | Active
-- Cheick Diallo | Kansas | 2016 | 9yr | Osos de Manati | Active
-- Chet Holmgren | Gonzaga | 2022 | 3yr | Oklahoma City Thunder | Active
-- Chimezie Metu | USC | 2018 | 7yr | Barca | Active
-- Chinanu Onuaku | Louisville | 2016 | 9yr | Bnei Herzelia | Active
-- Chris Boucher | Oregon | 2017 | 8yr | Boston Celtics | Active
-- Chris Chiozza | Florida | 2018 | 7yr | Pinar Karsiyaka | Active
-- Chris Clemons | Campbell | 2019 | 6yr | EWE Baskets Oldenburg | Active
-- Chris Duarte | Oregon | 2021 | 4yr | Unicaja | Active
-- Chris Livingston | Kentucky | 2023 | 2yr | Milwaukee Bucks | Active
-- Chris Manon | Vanderbilt | 2025 | 0yr | Los Angeles Lakers | Active
-- Chris McCullough | Syracuse | 2015 | 6yr | Lietuvos Rytas | Left basketball
-- Chris Silva | South Carolina | 2019 | 6yr | AEK Athens | Active
-- Chris Youngblood | Alabama | 2025 | 0yr | Oklahoma City Thunder | Active
-- Christian Braun | Kansas | 2022 | 3yr | Denver Nuggets | Active
-- Christian Koloko | Arizona | 2022 | 3yr | Los Angeles Lakers | Active
-- Christian Wood | UNLV | 2015 | 10yr | Los Angeles Lakers | Active
-- Chucky Hepburn | Louisville | 2025 | 0yr | Toronto Raptors | Active
-- Chuma Okeke | Auburn | 2019 | 6yr | Real Madrid | Active
-- Cliff Alexander | Kansas | 2015 | 11yr | Guaiqueries | Active
-- Coby White | North Carolina | 2019 | 6yr | Chicago Bulls | Active
-- Cody Martin | Nevada | 2019 | 6yr | Indiana Pacers | Active
-- Cody Williams | Colorado | 2024 | 1yr | Utah Jazz | Active
-- Colby Jones | Xavier | 2023 | 2yr | Detroit Pistons | Active
-- Cole Anthony | North Carolina | 2020 | 5yr | Memphis Grizzlies | Active
-- Cole Swider | Syracuse | 2022 | 3yr | Anadolu Efes | Active
-- Colin Castleton | Florida | 2023 | 2yr | Toronto Raptors | Active
-- Collin Gillespie | Villanova | 2022 | 3yr | Phoenix Suns | Active
-- Collin Murray-Boyles | South Carolina | 2025 | 0yr | Toronto Raptors | Active
-- Collin Sexton | Alabama | 2018 | 7yr | Charlotte Hornets | Active
-- Cooper Flagg | Duke | 2025 | 0yr | Dallas Mavericks | Active
-- Corey Kispert | Gonzaga | 2021 | 4yr | Washington Wizards | Active
-- Cormac Ryan | North Carolina | 2024 | 1yr | Milwaukee Bucks | Active
-- Craig Porter, Jr. | Wichita State | 2023 | 2yr | Cleveland Cavaliers | Active
-- Curtis Jones | Iowa State | 2025 | 0yr | Denver Nuggets | Active
-- D'Angelo Russell | Ohio State | 2015 | 10yr | Dallas Mavericks | Active
-- D'Moi Hodge | Missouri | 2023 | 2yr | Dallas Mavericks | Active
-- D.J. Wilson | Michigan | 2017 | 8yr | Shanghai Dongfang | Active
-- DaQuan Jeffries | Tulsa | 2019 | 6yr | Charlotte Hornets | Active
-- DaRon Holmes II | Dayton | 2024 | 1yr | Denver Nuggets | Active
-- Daeqwon Plowden | Bowling Green | 2022 | 3yr | Atlanta Hawks | Active
-- Dalano Banton | Nebraska | 2021 | 4yr | Dallas Mavericks | Active
-- Dalen Terry | Arizona | 2022 | 3yr | Chicago Bulls | Active
-- Dalton Knecht | Tennessee | 2024 | 1yr | Los Angeles Lakers | Active
-- Damian Jones | Vanderbilt | 2016 | 9yr | Zhejiang Chouzhou | Active
-- Damion Baugh | TCU | 2023 | 2yr | Charlotte Hornets | Active
-- Damion Lee | Louisville | 2016 | 9yr | Ironi Nes Ziona | Active
-- Damyean Dotson | Houston | 2017 | 8yr | Ryukyu Golden Kings | Active
-- Daniel Gafford | Arkansas | 2019 | 6yr | Dallas Mavericks | Active
-- Daniel Ochefu | Villanova | 2016 | 7yr | Blackwater Bossings | Active
-- Daniel Oturu | Minnesota | 2020 | 5yr | Hapoel Tel Aviv | Active
-- Daniss Jenkins | St. John's | 2024 | 1yr | Detroit Pistons | Active
-- Danny Wolf | Michigan | 2025 | 0yr | Brooklyn Nets | Active
-- Danuel House | Texas A&M | 2016 | 8yr | Philadelphia Sixers | Left basketball
-- Dariq Whitehead | Duke | 2023 | 2yr | Brooklyn Nets | Active
-- Darius Brown II | Utah State | 2024 | 1yr | Cleveland Cavaliers | Active
-- Darius Days | LSU | 2022 | 3yr | Sanen Neophoenix | Active
-- Darius Garland | Vanderbilt | 2019 | 6yr | Cleveland Cavaliers | Active
-- Darrun Hilliard | Villanova | 2015 | 10yr | Bilbao Basket | Active
-- Daryl Macon | Arkansas | 2018 | 7yr | Maroussi BC | Active
-- David Duke | Providence | 2021 | 4yr | Phoenix Suns | Active
-- David Johnson | Louisville | 2021 | 4yr | Tasmania | Active
-- David Jones-Garcia | Memphis | 2024 | 1yr | San Antonio Spurs | Active
-- David Nwaba | Cal Poly | 2016 | 9yr | Sanen Neophoenix | Active
-- David Roddy | Colorado State | 2022 | 3yr | Houston Rockets | Active
-- Davion Mitchell | Baylor | 2021 | 4yr | Miami Heat | Active
-- Davon Reed | Miami (FL) | 2017 | 7yr | Koshigaya Alphas | Active
-- Day'Ron Sharpe | North Carolina | 2021 | 4yr | Brooklyn Nets | Active
-- De'Aaron Fox | Kentucky | 2017 | 8yr | San Antonio Spurs | Active
-- De'Andre Hunter | Virginia | 2019 | 6yr | Cleveland Cavaliers | Active
-- De'Anthony Melton | USC | 2017 | 7yr | Golden State Warriors | Active
-- DeAndre' Bembry | Saint Joseph's | 2016 | 6yr | Brooklyn Nets | Left basketball
-- DeJon Jarreau | Houston | 2021 | 3yr | Memphis Grizzlies | Active
-- Dean Wade | Kansas State | 2019 | 6yr | Cleveland Cavaliers | Active
-- Deandre Ayton | Arizona | 2018 | 7yr | Los Angeles Lakers | Active
-- Dejounte Murray | Washington | 2016 | 9yr | New Orleans Pelicans | Active
-- Delon Wright | Utah | 2015 | 10yr | Indiana Pacers | Active
-- Demetrius Jackson | Notre Dame | 2016 | 6yr | Birmingham Squadron | Left basketball
-- Deng Adel | Louisville | 2018 | 7yr | Ottawa Blackjacks | Active
-- Dennis Smith | NC State | 2017 | 8yr | Dallas Mavericks | Active
-- Denzel Valentine | Michigan State | 2016 | 9yr | Umana Venezia | Active
-- Dereck Lively II | Duke | 2023 | 2yr | Dallas Mavericks | Active
-- Dereon Seabron | NC State | 2022 | 3yr | Salt Lake City Stars | Active
-- Derrick Jones | UNLV | 2016 | 9yr | Los Angeles Clippers | Active
-- Derrick Walton, Jr. | Michigan | 2017 | 8yr | Hapoel Unet Holon | Active
-- Derrick White | Colorado | 2017 | 8yr | Boston Celtics | Active
-- Desmond Bane | TCU | 2020 | 5yr | Orlando Magic | Active
-- Devin Booker | Kentucky | 2015 | 10yr | Phoenix Suns | Active
-- Devin Cannady | Princeton | 2019 | 6yr | Mykonos | Active
-- Devin Carter | Providence | 2024 | 1yr | Sacramento Kings | Active
-- Devin Robinson | Florida | 2017 | 8yr | Casademont Zaragoza | Active
-- Devin Vassell | Florida State | 2020 | 5yr | San Antonio Spurs | Active
-- Devon Dotson | Kansas | 2020 | 5yr | Besiktas Icrypex | Active
-- Devontae Cacok | UNC Wilmington | 2019 | 6yr | UCAM Murcia CB | Active
-- Devonte' Graham | Kansas | 2018 | 7yr | KK Crvena Zvezda | Active
-- Dewan Hernandez | Miami (FL) | 2019 | 6yr | Jeonju KCC Egis | Active
-- Dexter Dennis | Texas A&M | 2023 | 2yr | Sacramento Kings | Active
-- Deyonta Davis | Michigan State | 2016 | 5yr | Goyang Sono Skygunners | Left basketball
-- Diamond Stone | Maryland | 2016 | 9yr | Marinos | Active
-- Dillon Brooks | Oregon | 2017 | 8yr | Houston Rockets | Active
-- Dillon Jones | Weber State | 2024 | 1yr | Washington Wizards | Active
-- Domantas Sabonis | Gonzaga | 2016 | 9yr | Sacramento Kings | Active
-- Donovan Clingan | UConn | 2024 | 1yr | Portland Trail Blazers | Active
-- Donovan Mitchell | Louisville | 2017 | 8yr | Cleveland Cavaliers | Active
-- Donovan Williams | UNLV | 2022 | 3yr | Westchester Knicks | Active
-- Donta Hall | Alabama | 2019 | 6yr | Baskonia | Active
-- Donte DiVincenzo | Villanova | 2018 | 7yr | Minnesota Timberwolves | Active
-- Donte Grantham | Clemson | 2018 | 7yr | Hitachi Sun Rockers | Active
-- Dorian Finney-Smith | Florida | 2016 | 9yr | Houston Rockets | Active
-- Drake Powell | North Carolina | 2025 | 0yr | Brooklyn Nets | Active
-- Drew Eubanks | Oregon State | 2018 | 7yr | Sacramento Kings | Active
-- Drew Peterson | USC | 2023 | 2yr | Charlotte Hornets | Active
-- Drew Timme | Gonzaga | 2023 | 2yr | Brooklyn Nets | Active
-- Dru Smith | Missouri | 2021 | 4yr | Miami Heat | Active
-- Duane Washington, Jr. | Ohio State | 2021 | 4yr | KK Partizan | Active
-- Duje Dukan | Wisconsin | 2015 | 9yr | BK Klosterneuburg Dukes | Left basketball
-- Duncan Robinson | Michigan | 2018 | 7yr | Miami Heat | Active
-- Dwayne Bacon | Florida State | 2017 | 8yr | Dubai | Active
-- Dylan Cardwell | Auburn | 2025 | 0yr | Sacramento Kings | Active
-- Dylan Harper | Rutgers | 2025 | 0yr | San Antonio Spurs | Active
-- Dylan Windler | Belmont | 2019 | 6yr | Perth | Active
-- E.J. Liddell | Ohio State | 2022 | 3yr | Brooklyn Nets | Active
-- Edmond Sumner | Xavier | 2017 | 8yr | Guangdong Dongguan | Active
-- Egor Demin | Brigham Young | 2025 | 0yr | Brooklyn Nets | Active
-- Elijah Hughes | Syracuse | 2020 | 5yr | MHP Riesen | Active
-- Emanuel Miller | TCU | 2024 | 1yr | Chicago Bulls | Active
-- Emoni Bates | Eastern Michigan | 2023 | 2yr | Philadelphia Sixers | Active
-- Enrique Freeman | Akron | 2024 | 1yr | Minnesota Timberwolves | Active
-- Eric Paschall | Villanova | 2019 | 5yr | Georgio Tesi Group Pistoia | Active
-- Erik McCree | Louisiana Tech | 2017 | 8yr | Guaiqueries | Active
-- Eugene Omoruyi | Oregon | 2021 | 4yr | Baskonia | Active
-- Evan Mobley | USC | 2021 | 4yr | Cleveland Cavaliers | Active
-- Feron Hunt | Southern Methodist | 2021 | 4yr | Detroit Pistons | Active
-- Frank Jackson | Duke | 2017 | 8yr | Ningbo Rockets | Active
-- Frank Kaminsky | Wisconsin | 2015 | 10yr | Guangzhou Loong Lions | Active
-- Frank Mason | Kansas | 2017 | 8yr | CSP Limoges | Active
-- Franz Wagner | Michigan | 2021 | 4yr | Orlando Magic | Active
-- Fred VanVleet | Wichita State | 2016 | 9yr | Houston Rockets | Active
-- Freddie Gillespie | Baylor | 2020 | 5yr | Galatasaray | Active
-- G.G. Jackson | South Carolina | 2023 | 2yr | Memphis Grizzlies | Active
-- Garrison Mathews | Lipscomb | 2019 | 6yr | New York Knicks | Active
-- Gary Clark | Cincinnati | 2018 | 7yr | Yokohama B-Corsairs | Active
-- Gary Payton II | Oregon State | 2016 | 9yr | Golden State Warriors | Active
-- Gary Trent, Jr. | Duke | 2018 | 7yr | Milwaukee Bucks | Active
-- George King | Colorado | 2018 | 7yr | Guangzhou Loong Lions | Active
-- Georges Niang | Iowa State | 2016 | 9yr | Atlanta Hawks | Active
-- Gradey Dick | Kansas | 2023 | 2yr | Toronto Raptors | Active
-- Grant Nelson | Alabama | 2025 | 0yr | Brooklyn Nets | Active
-- Grant Riller | Charleston | 2020 | 5yr | Beijing BeiKong | Active
-- Grant Williams | Tennessee | 2019 | 6yr | Charlotte Hornets | Active
-- Grayson Allen | Duke | 2018 | 7yr | Phoenix Suns | Active
-- Greg Brown III | Texas | 2021 | 5yr | AEK Athens | Active
-- Hamidou Diallo | Kentucky | 2018 | 7yr | Baskonia | Active
-- Harrison Ingram | North Carolina | 2024 | 1yr | San Antonio Spurs | Active
-- Harry Giles | Duke | 2017 | 7yr | Jiangsu Kendia | Active
-- Henry Ellenson | Marquette | 2016 | 9yr | Wonju Dongbu Promy | Active
-- Herb Jones | Alabama | 2021 | 4yr | New Orleans Pelicans | Active
-- Hunter Dickinson | Kansas | 2025 | 0yr | New Orleans Pelicans | Active
-- Hunter Sallis | Wake Forest | 2025 | 0yr | Philadelphia Sixers | Active
-- Hunter Tyson | Clemson | 2023 | 2yr | Denver Nuggets | Active
-- Ignas Brazdeikis | Michigan | 2019 | 6yr | Zalgiris | Active
-- Ike Anigbogu | UCLA | 2017 | 7yr | Vanoli Cremona | Active
-- Immanuel Quickley | Kentucky | 2020 | 5yr | Toronto Raptors | Active
-- Isaac Humphries | Kentucky | 2017 | 8yr | Adelaide | Active
-- Isaac Jones | Washington State | 2024 | 1yr | Sacramento Kings | Active
-- Isaac Okoro | Auburn | 2020 | 5yr | Cleveland Cavaliers | Active
-- Isaiah Briscoe | Kentucky | 2017 | 7yr | Fujian | Active
-- Isaiah Collier | USC | 2024 | 1yr | Utah Jazz | Active
-- Isaiah Crawford | Louisiana Tech | 2024 | 1yr | Houston Rockets | Active
-- Isaiah Hicks | North Carolina | 2017 | 7yr | Suwon KT Sonicboom | Active
-- Isaiah Jackson | Kentucky | 2021 | 4yr | Indiana Pacers | Active
-- Isaiah Joe | Arkansas | 2020 | 5yr | Oklahoma City Thunder | Active
-- Isaiah Livers | Michigan | 2021 | 3yr | Phoenix Suns | Active
-- Isaiah Mobley | USC | 2022 | 3yr | Manisa Buyuksehir Belediye | Active
-- Isaiah Roby | Nebraska | 2019 | 6yr | Westchester Knicks | Active
-- Isaiah Stevens | Colorado State | 2024 | 1yr | Sacramento Kings | Active
-- Isaiah Stewart II | Washington | 2020 | 5yr | Detroit Pistons | Active
-- Isaiah Taylor | Texas | 2016 | 9yr | Dubai | Active
-- Isaiah Whitehead | Seton Hall | 2016 | 9yr | Ironi Nes Ziona | Active
-- Isaiah Wong | Miami (FL) | 2023 | 2yr | Zalgiris | Active
-- Ivan Rabb | California | 2017 | 4yr | Delaware Blue Coats | Left basketball
-- J.D. Davison | Alabama | 2022 | 3yr | Boston Celtics | Active
-- J.J. O'Brien | San Diego State | 2015 | 9yr | Tofas SC | Active
-- J.P. Macura | Xavier | 2018 | 6yr | ASP Promitheas Patras | Active
-- J.T. Thor | Auburn | 2021 | 4yr | Aris Midea Thessaloniki | Active
-- Ja Morant | Murray State | 2019 | 6yr | Memphis Grizzlies | Active
-- Ja'Kobe Walter | Baylor | 2024 | 1yr | Toronto Raptors | Active
-- JaQuori McLaughlin | UC Santa Barbara | 2021 | 3yr | Valley Suns | Active
-- Jabari Bird | California | 2017 | 3yr | Obera Tenis Club | Active
-- Jabari Smith, Jr. | Auburn | 2022 | 3yr | Houston Rockets | Active
-- Jabari Walker | Colorado | 2022 | 3yr | Philadelphia Sixers | Active
-- Jacob Evans | Cincinnati | 2018 | 6yr | Olomoucko Prostejov | Active
-- Jacob Gilyard | Richmond | 2022 | 3yr | Acqua San Bernardo Cantu | Active
-- Jacob Toppin | Kentucky | 2023 | 2yr | Atlanta Hawks | Active
-- Jaden Ivey | Purdue | 2022 | 3yr | Detroit Pistons | Active
-- Jaden McDaniels | Washington | 2020 | 5yr | Minnesota Timberwolves | Active
-- Jaden Springer | Tennessee | 2021 | 4yr | Utah Jazz | Active
-- Jahlil Okafor | Duke | 2015 | 10yr | Capitanes de Arecibo | Active
-- Jahmai Mashack | Tennessee | 2025 | 0yr | Memphis Grizzlies | Active
-- Jahmi'us Ramsey | Texas Tech | 2020 | 5yr | Pallacanestro Trieste 2004 | Active
-- Jahmir Young | Maryland | 2024 | 1yr | Chicago Bulls | Active
-- Jahmyl Telfort | Butler | 2025 | 0yr | Los Angeles Clippers | Active
-- Jaime Jaquez, Jr. | UCLA | 2023 | 2yr | Miami Heat | Active
-- Jake LaRavia | Wake Forest | 2022 | 3yr | Los Angeles Lakers | Active
-- Jake Layman | Maryland | 2016 | 9yr | Aishin Sea Horses | Active
-- Jake Wiley | Eastern Washington | 2017 | 8yr | CB Granada | Active
-- Jakob Poeltl | Utah | 2016 | 9yr | Toronto Raptors | Active
-- Jalen Bridges | Baylor | 2024 | 1yr | Boston Celtics | Active
-- Jalen Brunson | Villanova | 2018 | 7yr | New York Knicks | Active
-- Jalen Crutcher | Dayton | 2021 | 4yr | Orlando Magic | Active
-- Jalen Duren | Memphis | 2022 | 3yr | Detroit Pistons | Active
-- Jalen Harris | Nevada | 2020 | 5yr | Windy City Bulls | Active
-- Jalen Hood-Schifino | Indiana | 2023 | 2yr | Los Angeles Lakers | Active
-- Jalen Johnson | Duke | 2021 | 4yr | Atlanta Hawks | Active
-- Jalen Jones | Texas A&M | 2016 | 9yr | Spartans de Districto Captital Caracas | Active
-- Jalen McDaniels | San Diego State | 2019 | 6yr | New Orleans Pelicans | Active
-- Jalen Pickett | Penn State | 2023 | 2yr | Denver Nuggets | Active
-- Jalen Slawson | Furman | 2023 | 2yr | Indiana Pacers | Active
-- Jalen Smith | Maryland | 2020 | 5yr | Chicago Bulls | Active
-- Jalen Suggs | Gonzaga | 2021 | 4yr | Orlando Magic | Active
-- Jalen Williams | Santa Clara | 2022 | 3yr | Oklahoma City Thunder | Active
-- Jalen Wilson | Kansas | 2023 | 2yr | Brooklyn Nets | Active
-- Jamal Cain | Oakland | 2022 | 3yr | Orlando Magic | Active
-- Jamal Murray | Kentucky | 2016 | 9yr | Denver Nuggets | Active
-- Jamal Shead | Houston | 2024 | 1yr | Toronto Raptors | Active
-- Jamaree Bouyea | San Francisco | 2022 | 3yr | Milwaukee Bucks | Active
-- Jameel Warney | Stony Brook | 2016 | 9yr | Seoul SK | Active
-- Jamel Artis | Pittsburgh | 2017 | 7yr | Mineros de Zacatecas | Left basketball
-- James Bouknight | UConn | 2021 | 4yr | Mexico City Capitanes | Active
-- James Huff | Virginia | 2021 | 4yr | Memphis Grizzlies | Active
-- James Webb III | Boise State | 2016 | 9yr | Unicaja | Active
-- James Wiseman | Memphis | 2020 | 5yr | Indiana Pacers | Active
-- Jamir Watkins | Florida State | 2025 | 0yr | Washington Wizards | Active
-- Jamison Battle | Ohio State | 2024 | 1yr | Toronto Raptors | Active
-- Jamorko Pickett | Georgetown | 2021 | 4yr | Nagoya Fighting Eagles | Active
-- Jarace Walker | Houston | 2023 | 2yr | Indiana Pacers | Active
-- Jared Butler | Baylor | 2021 | 4yr | Phoenix Suns | Active
-- Jared Harper | Auburn | 2019 | 6yr | Hapoel Bank Yahav Jerusalem | Active
-- Jared McCain | Duke | 2024 | 1yr | Philadelphia Sixers | Active
-- Jared Rhoden | Seton Hall | 2022 | 3yr | Toronto Raptors | Active
-- Jared Terrell | Rhode Island | 2018 | 5yr | Hapoel Eilat | Left basketball
-- Jarell Martin | LSU | 2015 | 10yr | Koshigaya Alphas | Active
-- Jaren Jackson, Jr. | Michigan State | 2018 | 7yr | Memphis Grizzlies | Active
-- Jarred Vanderbilt | Kentucky | 2018 | 7yr | Los Angeles Lakers | Active
-- Jarrell Brantley | Charleston | 2019 | 6yr | Nagasaki Velca | Active
-- Jarrett Allen | Texas | 2017 | 8yr | Cleveland Cavaliers | Active
-- Jarrett Culver | Texas Tech | 2019 | 6yr | Sendai 89ers | Active
-- Jarrod Uthoff | Iowa | 2016 | 9yr | Pallacanestro Trieste 2004 | Active
-- Jase Richardson | Michigan State | 2025 | 0yr | Orlando Magic | Active
-- Jason Preston | Ohio | 2021 | 4yr | Los Angeles Clippers | Active
-- Javin DeLaurier | Duke | 2020 | 5yr | Bursaspor | Active
-- Javon Freeman-Liberty | DePaul | 2022 | 3yr | Long Island Nets | Active
-- Javon Small | West Virginia | 2025 | 0yr | Memphis Grizzlies | Active
-- Javonte Smart | LSU | 2021 | 4yr | Orlando Magic | Active
-- Jawun Evans | Oklahoma State | 2017 | 8yr | Pioneros de Los Mochis | Active
-- Jaxson Hayes | Texas | 2019 | 6yr | Los Angeles Lakers | Active
-- Jaylen Adams | St. Bonaventure | 2018 | 7yr | Brisbane | Active
-- Jaylen Brown | California | 2016 | 9yr | Boston Celtics | Active
-- Jaylen Clark | UCLA | 2023 | 2yr | Minnesota Timberwolves | Active
-- Jaylen Hoard | Wake Forest | 2019 | 6yr | Maccabi FOX Tel Aviv | Active
-- Jaylen Nowell | Washington | 2019 | 6yr | Shanxi Zhongyu | Active
-- Jaylen Sims | UNC Wilmington | 2022 | 3yr | Charlotte Hornets | Active
-- Jaylen Wells | Washington State | 2024 | 1yr | Memphis Grizzlies | Active
-- Jaylin Williams | Arkansas | 2022 | 3yr | Oklahoma City Thunder | Active
-- Jaylon Tyson | California | 2024 | 1yr | Cleveland Cavaliers | Active
-- Jayson Kent | Texas | 2025 | 0yr | Portland Trail Blazers | Active
-- Jayson Tatum | Duke | 2017 | 8yr | Boston Celtics | Active
-- Jemerrio Jones | New Mexico State | 2018 | 6yr | KB Rahoveci | Active
-- Jeremiah Fears | Oklahoma | 2025 | 0yr | New Orleans Pelicans | Active
-- Jeremiah Martin | Memphis | 2019 | 6yr | Lokomotiv Kuban | Active
-- Jeremiah Robinson-Earl | Villanova | 2021 | 4yr | Dallas Mavericks | Active
-- Jeremy Sochan | Baylor | 2022 | 3yr | San Antonio Spurs | Active
-- Jerian Grant | Notre Dame | 2015 | 10yr | Panathinaikos | Active
-- Jericho Sims | Texas | 2021 | 4yr | Milwaukee Bucks | Active
-- Jerome Robinson | Boston College | 2018 | 7yr | Galatasaray | Active
-- Jesse Edwards | West Virginia | 2024 | 1yr | Minnesota Timberwolves | Active
-- Jett Howard | Michigan | 2023 | 2yr | Orlando Magic | Active
-- Jevon Carter | West Virginia | 2018 | 7yr | Chicago Bulls | Active
-- Joe Chealey | Charleston | 2018 | 6yr | Juventus | Active
-- Joe Wieskamp | Iowa | 2021 | 4yr | Science City Jena | Active
-- Joel Ayayi | Gonzaga | 2021 | 4yr | Paris Basketball | Active
-- Joel Bolomboy | Weber State | 2016 | 9yr | KK Crvena Zvezda | Active
-- John Butler | Florida State | 2022 | 3yr | Milwaukee Bucks | Active
-- John Collins | Wake Forest | 2017 | 8yr | Utah Jazz | Active
-- John Konchar | Fort Wayne | 2019 | 6yr | Memphis Grizzlies | Active
-- John Poulakidas | Yale | 2025 | 0yr | Los Angeles Clippers | Active
-- John Tonje | Wisconsin | 2025 | 0yr | Utah Jazz | Active
-- Johnathan Motley | Baylor | 2017 | 9yr | Hapoel Tel Aviv | Active
-- Johnathan Williams | Gonzaga | 2018 | 7yr | London Lions | Active
-- Johni Broome | Auburn | 2025 | 0yr | Philadelphia Sixers | Active
-- Johnny Davis | Wisconsin | 2022 | 3yr | Milwaukee Bucks | Active
-- Johnny Furphy | Kansas | 2024 | 1yr | Indiana Pacers | Active
-- Johnny Juzang | UCLA | 2022 | 3yr | Minnesota Timberwolves | Active
-- Jon Teske | Michigan | 2020 | 2yr | Orlando Magic | Left basketball
-- Jonathan Isaac | Florida State | 2017 | 8yr | Orlando Magic | Active
-- Jonathan Mogbo | San Francisco | 2024 | 1yr | Toronto Raptors | Active
-- Jontay Porter | Missouri | 2019 | 4yr | Detroit Pistons | Left basketball
-- Jordan Bell | Oregon | 2017 | 8yr | Noblesville Boom | Active
-- Jordan Bone | Tennessee | 2019 | 5yr | Hapoel Unet Holon | Active
-- Jordan Goodwin | Saint Louis | 2021 | 4yr | Los Angeles Lakers | Active
-- Jordan Hall | Saint Joseph's | 2022 | 3yr | Texas Legends | Active
-- Jordan Hawkins | UConn | 2023 | 2yr | New Orleans Pelicans | Active
-- Jordan McLaughlin | USC | 2018 | 7yr | San Antonio Spurs | Active
-- Jordan Mickey | LSU | 2015 | 10yr | Qingdao | Active
-- Jordan Miller | Miami (FL) | 2023 | 2yr | Los Angeles Clippers | Active
-- Jordan Nwora | Louisville | 2020 | 5yr | KK Crvena Zvezda | Active
-- Jordan Poole | Michigan | 2019 | 6yr | Washington Wizards | Active
-- Jordan Schakel | San Diego State | 2021 | 4yr | Telenet BC Oostende | Active
-- Jordan Walsh | Arkansas | 2023 | 2yr | Boston Celtics | Active
-- Jose Alvarado | Georgia Tech | 2021 | 4yr | New Orleans Pelicans | Active
-- Josh Christopher | Arizona State | 2021 | 4yr | Sioux Falls Skyforce | Active
-- Josh Green | Arizona | 2020 | 5yr | Charlotte Hornets | Active
-- Josh Hart | Villanova | 2017 | 8yr | New York Knicks | Active
-- Josh Jackson | Kansas | 2017 | 6yr | Toronto Raptors | Left basketball
-- Josh Minott | Memphis | 2022 | 3yr | Boston Celtics | Active
-- Josh Okogie | Georgia Tech | 2018 | 7yr | Charlotte Hornets | Active
-- Josh Reaves | Penn State | 2019 | 6yr | Paisas Basketball Club | Active
-- Josh Richardson | Tennessee | 2015 | 10yr | Casademont Zaragoza | Active
-- Joshua Primo | Alabama | 2021 | 4yr | Chicago Bulls | Active
-- Jules Bernard | UCLA | 2022 | 3yr | Minnesota Timberwolves | Active
-- Julian Champagnie | St. John's | 2022 | 3yr | San Antonio Spurs | Active
-- Julian Phillips | Tennessee | 2023 | 2yr | Chicago Bulls | Active
-- Julian Reese | Maryland | 2025 | 0yr | Toronto Raptors | Active
-- Julian Strawther | Gonzaga | 2023 | 2yr | Denver Nuggets | Active
-- Justin Anderson | Virginia | 2015 | 10yr | Dubai | Active
-- Justin Champagnie | Pittsburgh | 2021 | 4yr | Washington Wizards | Active
-- Justin Edwards | Kentucky | 2024 | 1yr | Philadelphia Sixers | Active
-- Justin Jackson | North Carolina | 2017 | 7yr | Minnesota Timberwolves | Left basketball
-- Justin James | Wyoming | 2019 | 4yr | Cleveland Charge | Left basketball
-- Justin Minaya | Providence | 2022 | 3yr | Orlando Magic | Active
-- Justin Patton | Creighton | 2017 | 8yr | Peristeri Betsson | Active
-- Justin Robinson | Virginia Tech | 2019 | 6yr | Paris Basketball | Active
-- Justin Wright-Foreman | Hofstra | 2019 | 5yr | Iraklis BC | Active
-- Justise Winslow | Duke | 2015 | 10yr | Milwaukee Bucks | Active
-- Juwan Morgan | Indiana | 2019 | 6yr | Buducnost Voli Podgorica | Active
-- K.J. Simpson | Colorado | 2024 | 1yr | Charlotte Hornets | Active
-- KZ Okpala | Stanford | 2019 | 4yr | Sacramento Kings | Left basketball
-- Kadary Richmond | St. John's | 2025 | 0yr | Washington Wizards | Active
-- Kadeem Allen | Arizona | 2017 | 8yr | Unieuro Forli | Active
-- Kai Jones | Texas | 2021 | 5yr | Anadolu Efes | Active
-- Kaiser Gates | Xavier | 2022 | 3yr | UCAM Murcia CB | Active
-- Kam Jones | Marquette | 2025 | 0yr | Indiana Pacers | Active
-- Karl-Anthony Towns | Kentucky | 2015 | 10yr | New York Knicks | Active
-- Kasparas Jakucionis | Illinois | 2025 | 0yr | Miami Heat | Active
-- Kay Felder | Oakland | 2016 | 9yr | Carpegna Prosciutto Basket Pesaro | Active
-- Keegan Murray | Iowa | 2022 | 3yr | Sacramento Kings | Active
-- Keion Brooks, Jr. | Washington | 2024 | 1yr | Birmingham Squadron | Active
-- Keita Bates-Diop | Ohio State | 2018 | 7yr | Brooklyn Nets | Active
-- Kel'el Ware | Indiana | 2024 | 1yr | Miami Heat | Active
-- Keldon Johnson | Kentucky | 2019 | 6yr | San Antonio Spurs | Active
-- Keljin Blevins | Montana State | 2019 | 5yr | Sudbury Five | Left basketball
-- Kelly Oubre, Jr. | Kansas | 2015 | 10yr | Philadelphia Sixers | Active
-- Kendall Brown | Baylor | 2022 | 3yr | Boston Celtics | Active
-- Kendrick Nunn | Oakland | 2018 | 7yr | Panathinaikos | Active
-- Kennedy Chandler | Tennessee | 2022 | 3yr | Philadelphia Sixers | Active
-- Kenny Lofton, Jr. | Louisiana Tech | 2022 | 3yr | Shanghai Dongfang | Active
-- Kenrich Williams | TCU | 2018 | 7yr | Oklahoma City Thunder | Active
-- Keon Ellis | Alabama | 2022 | 3yr | Sacramento Kings | Active
-- Keon Johnson | Tennessee | 2021 | 4yr | Brooklyn Nets | Active
-- Keshad Johnson | Arizona | 2024 | 1yr | Miami Heat | Active
-- Keshon Gilbert | Iowa State | 2025 | 0yr | Washington Wizards | Active
-- Kessler Edwards | Pepperdine | 2021 | 4yr | Denver Nuggets | Active
-- Kevin Huerter | Maryland | 2018 | 7yr | Chicago Bulls | Active
-- Kevin Knox II | Kentucky | 2018 | 7yr | Chicago Bulls | Active
-- Kevin McCullar, Jr. | Kansas | 2024 | 1yr | New York Knicks | Active
-- Kevin Porter, Jr. | USC | 2019 | 6yr | Milwaukee Bucks | Active
-- Kevon Looney | UCLA | 2015 | 10yr | New Orleans Pelicans | Active
-- Keyontae Johnson | Kansas State | 2023 | 2yr | Charlotte Hornets | Active
-- Keyonte George | Baylor | 2023 | 2yr | Utah Jazz | Active
-- Khaman Maluach | Duke | 2025 | 0yr | Phoenix Suns | Active
-- Khyri Thomas | Creighton | 2018 | 7yr | Mitteldeutscher BC | Active
-- Killian Tillie | Gonzaga | 2020 | 4yr | Unicaja | Active
-- Kira Lewis, Jr. | Alabama | 2020 | 5yr | Wisconsin Herd | Active
-- Kobe Brown | Missouri | 2023 | 2yr | Los Angeles Clippers | Active
-- Kobe Bufkin | Michigan | 2023 | 2yr | Atlanta Hawks | Active
-- Kobe Sanders | Nevada | 2025 | 0yr | Los Angeles Clippers | Active
-- Kobi Simmons | Arizona | 2017 | 8yr | Baskonia | Active
-- Koby Brea | Kentucky | 2025 | 0yr | Phoenix Suns | Active
-- Kon Knueppel | Duke | 2025 | 0yr | Charlotte Hornets | Active
-- Kostas Antetokounmpo | Dayton | 2018 | 7yr | Olympiacos | Active
-- Kris Dunn | Providence | 2016 | 9yr | Los Angeles Clippers | Active
-- Kris Murray | Iowa | 2023 | 2yr | Portland Trail Blazers | Active
-- Ky Bowman | Boston College | 2019 | 6yr | Umana Venezia | Active
-- Kyle Alexander | Tennessee | 2019 | 6yr | Turk Telekom | Active
-- Kyle Collinsworth | Brigham Young | 2016 | 7yr | Sanen Neophoenix | Left basketball
-- Kyle Filipowski | Duke | 2024 | 1yr | Utah Jazz | Active
-- Kyle Guy | Virginia | 2019 | 5yr | Indiana Pacers | Active
-- Kyle Kuzma | Utah | 2017 | 8yr | Milwaukee Bucks | Active
-- Kyle Wiltjer | Gonzaga | 2016 | 9yr | Umana Venezia | Active
-- Kyshawn George | Miami (FL) | 2024 | 1yr | Washington Wizards | Active
-- L.J. Cryer | Houston | 2025 | 0yr | Golden State Warriors | Active
-- Lamar Stevens | Penn State | 2020 | 5yr | Paris Basketball | Active
-- Landry Shamet | Wichita State | 2018 | 7yr | New York Knicks | Active
-- Larry Nance, Jr. | Wyoming | 2015 | 10yr | Cleveland Cavaliers | Active
-- Lauri Markkanen | Arizona | 2017 | 8yr | Utah Jazz | Active
-- Lawson Lovering | Utah | 2025 | 0yr | Memphis Grizzlies | Active
-- Leaky Black | North Carolina | 2023 | 2yr | Washington Wizards | Active
-- Lester Quinones | Memphis | 2022 | 3yr | New Orleans Pelicans | Active
-- Liam McNeeley | UConn | 2025 | 0yr | Charlotte Hornets | Active
-- Liam Robbins | Vanderbilt | 2023 | 2yr | Portland Trail Blazers | Active
-- Lindy Waters III | Oklahoma State | 2020 | 4yr | San Antonio Spurs | Active
-- London Perrantes | Virginia | 2017 | 8yr | Maroussi BC | Active
-- Lonnie Walker | Miami (FL) | 2018 | 7yr | Maccabi FOX Tel Aviv | Active
-- Lonzo Ball | UCLA | 2017 | 8yr | Chicago Bulls | Active
-- Louis King | Oregon | 2019 | 6yr | Xinjiang Guanghui | Active
-- Luguentz Dort | Arizona State | 2019 | 6yr | Oklahoma City Thunder | Active
-- Luka Garza | Iowa | 2021 | 4yr | Boston Celtics | Active
-- Luke Kennard | Duke | 2017 | 8yr | Atlanta Hawks | Active
-- Luke Kornet | Vanderbilt | 2017 | 8yr | San Antonio Spurs | Active
-- M.J. Walker | Florida State | 2021 | 4yr | Atlanta Hawks | Active
-- Mac McClung | Texas Tech | 2021 | 4yr | Chicago Bulls | Active
-- Malachi Flynn | San Diego State | 2020 | 5yr | Bahcesehir Koleji | Active
-- Malachi Richardson | Syracuse | 2016 | 8yr | Astros de Jalisco | Active
-- Malaki Branham | Ohio State | 2022 | 3yr | San Antonio Spurs | Active
-- Malcolm Brogdon | Virginia | 2016 | 9yr | New York Knicks | Active
-- Malevy Leons | Bradley | 2024 | 1yr | Oklahoma City Thunder | Active
-- Malik Beasley | Florida State | 2016 | 9yr | KK Partizan | Active
-- Malik Fitts | Saint Mary's | 2020 | 5yr | Boulazac Basket Dordogne | Active
-- Malik Monk | Kentucky | 2017 | 8yr | Sacramento Kings | Active
-- Malik Newman | Kansas | 2018 | 7yr | Avtodor Saratov | Active
-- Mamadi Diakite | Virginia | 2020 | 5yr | Baskonia | Active
-- Mangok Mathiang | Louisville | 2017 | 8yr | Korea Gas Corporation | Active
-- Marcus Derrickson | Georgetown | 2018 | 6yr | Seoul Samsung Thunders | Active
-- Marcus Garrett | Kansas | 2021 | 4yr | Charlotte Hornets | Active
-- Marcus Georges-Hunt | Georgia Tech | 2016 | 7yr | Sichuan Blue Whales | Active
-- Marcus Paige | North Carolina | 2016 | 7yr | Monbus Obradoiro | Left basketball
-- Marcus Sasser | Houston | 2023 | 2yr | Detroit Pistons | Active
-- Marial Shayok | Iowa State | 2019 | 6yr | Altiri Chiba | Active
-- Mark Sears | Alabama | 2025 | 0yr | Milwaukee Bucks | Active
-- Mark Williams | Duke | 2022 | 3yr | Phoenix Suns | Active
-- Markelle Fultz | Washington | 2017 | 8yr | Toronto Raptors | Active
-- Markquis Nowell | Kansas State | 2023 | 2yr | Baskonia | Active
-- Markus Howard | Marquette | 2020 | 5yr | Baskonia | Active
-- Marques Bolden | Duke | 2019 | 6yr | Golden State Warriors | Active
-- Marquese Chriss | Washington | 2016 | 9yr | Shandong | Active
-- Marshall Plumlee | Duke | 2016 | 2yr | New York Knicks | Left basketball
-- Marvin Bagley III | Duke | 2018 | 7yr | Washington Wizards | Active
-- Mason Jones | Arkansas | 2020 | 5yr | Perth | Active
-- Matisse Thybulle | Washington | 2019 | 6yr | Portland Trail Blazers | Active
-- Matt Costello | Michigan State | 2016 | 9yr | Valencia Basket | Active
-- Matt Mooney | Texas Tech | 2019 | 6yr | Leones de Ponce | Active
-- Matt Ryan | Chattanooga | 2020 | 4yr | New York Knicks | Active
-- Matt Williams | UCF | 2017 | 5yr | Supersonicos de Miranda | Left basketball
-- Matthew Hurt | Duke | 2021 | 4yr | 2B Control Trapani | Active
-- Maurice Ndour | Ohio | 2015 | 10yr | Gemani Basket Brescia | Active
-- Max Christie | Michigan State | 2022 | 3yr | Dallas Mavericks | Active
-- Max Shulga | VCU | 2025 | 0yr | Boston Celtics | Active
-- Max Strus | DePaul | 2019 | 6yr | Cleveland Cavaliers | Active
-- Maxime Raynaud | Stanford | 2025 | 0yr | Sacramento Kings | Active
-- Maxwell Lewis | Pepperdine | 2023 | 2yr | Tofas SC | Active
-- McKinley Wright IV | Colorado | 2021 | 4yr | Dubai | Active
-- Melvin Frazier, Jr. | Tulane | 2018 | 6yr | Delaware Blue Coats | Left basketball
-- Mfiondu Kabengele | Florida State | 2019 | 6yr | Dubai | Active
-- Micah Peavy | Georgetown | 2025 | 0yr | New Orleans Pelicans | Active
-- Micah Potter | Wisconsin | 2021 | 4yr | San Antonio Spurs | Active
-- Michael Patrick Gbinije | Syracuse | 2016 | 6yr | Cape Town Tigers | Left basketball
-- Michael Porter, Jr. | Missouri | 2018 | 7yr | Denver Nuggets | Active
-- Mikal Bridges | Villanova | 2018 | 7yr | New York Knicks | Active
-- Mike Tobey | Virginia | 2016 | 9yr | Dreamland Gran Canaria | Active
-- Miles Bridges | Michigan State | 2018 | 6yr | Charlotte Hornets | Active
-- Miles Kelly | Auburn | 2025 | 0yr | Dallas Mavericks | Active
-- Miles McBride | West Virginia | 2021 | 4yr | New York Knicks | Active
-- Miles Norris | UC Santa Barbara | 2023 | 2yr | Boston Celtics | Active
-- Milton Doyle | Loyola (IL) | 2017 | 8yr | Napoli Basket | Active
-- Miye Oni | Yale | 2019 | 6yr | Al Ahly Benghazi | Active
-- Mo Bamba | Texas | 2018 | 7yr | Utah Jazz | Active
-- Moe Wagner | Michigan | 2018 | 7yr | Orlando Magic | Active
-- Monte Morris | Iowa State | 2017 | 8yr | Indiana Pacers | Active
-- Montrezl Harrell | Louisville | 2015 | 10yr | Adelaide | Active
-- Moses Brown | UCLA | 2019 | 6yr | Denver Nuggets | Active
-- Moses Moody | Arkansas | 2021 | 4yr | Golden State Warriors | Active
-- Moses Wright | Georgia Tech | 2021 | 5yr | Barca | Active
-- Mouhamadou Gueye | Pittsburgh | 2022 | 3yr | Chicago Bulls | Active
-- Mouhamed Gueye | Washington State | 2023 | 2yr | Atlanta Hawks | Active
-- Moussa Cisse | Memphis | 2025 | 0yr | Dallas Mavericks | Active
-- Moussa Diabate | Michigan | 2022 | 3yr | Charlotte Hornets | Active
-- Myles Powell | Seton Hall | 2020 | 5yr | Qingdao | Active
-- Myles Turner | Texas | 2015 | 10yr | Milwaukee Bucks | Active
-- N'Faly Dante | Oregon | 2024 | 1yr | Atlanta Hawks | Active
-- Nae'qwan Tomlin | Memphis | 2024 | 1yr | Cleveland Cavaliers | Active
-- Naji Marshall | Xavier | 2020 | 5yr | Dallas Mavericks | Active
-- Nassir Little | North Carolina | 2019 | 6yr | Chiba Jets | Active
-- Nate Darling | Delaware | 2020 | 5yr | Chalon-Sur-Saone | Active
-- Nate Mensah | San Diego State | 2023 | 2yr | U-Banca Transilvania Cluj Napoca | Active
-- Nate Williams, Jr. | Buffalo | 2022 | 3yr | Houston Rockets | Active
-- Nathan Knight | William & Mary | 2020 | 5yr | Goyang Sono Skygunners | Active
-- Nathaniel Hinton | Houston | 2020 | 5yr | Memphis Grizzlies | Active
-- Naz Long | Iowa State | 2017 | 8yr | Napoli Basket | Active
-- Naz Reid | LSU | 2019 | 6yr | Minnesota Timberwolves | Active
-- Neemias Queta | Utah State | 2021 | 4yr | Boston Celtics | Active
-- Nick Richards | Kentucky | 2020 | 5yr | Phoenix Suns | Active
-- Nick Smith, Jr. | Arkansas | 2023 | 2yr | Charlotte Hornets | Active
-- Nickeil Alexander-Walker | Virginia Tech | 2019 | 6yr | Minnesota Timberwolves | Active
-- Nico Mannion | Arizona | 2020 | 5yr | AX Armani Exchange Milan | Active
-- Nicolas Claxton | Georgia | 2019 | 6yr | Brooklyn Nets | Active
-- Nigel Hayes-Davis | Wisconsin | 2017 | 8yr | Phoenix Suns | Active
-- Nique Clifford | Colorado State | 2025 | 0yr | Sacramento Kings | Active
-- Noah Clowney | Alabama | 2023 | 2yr | Brooklyn Nets | Active
-- Norchad Omier | Baylor | 2025 | 0yr | Cleveland Cavaliers | Active
-- Norman Powell | UCLA | 2015 | 10yr | Los Angeles Clippers | Active
-- OG Anunoby | Indiana | 2017 | 8yr | New York Knicks | Active
-- Obi Toppin | Dayton | 2020 | 5yr | Indiana Pacers | Active
-- Ochai Agbaji | Kansas | 2022 | 3yr | Toronto Raptors | Active
-- Olivier Sarr | Kentucky | 2021 | 3yr | Toronto Raptors | Active
-- Olivier-Maxence Prosper | Marquette | 2023 | 2yr | Dallas Mavericks | Active
-- Omari Spellman | Villanova | 2018 | 7yr | Beijing Shougang | Active
-- Onyeka Okongwu | USC | 2020 | 5yr | Atlanta Hawks | Active
-- Orlando Robinson | Fresno State | 2022 | 3yr | Orlando Magic | Active
-- Oscar Tshiebwe | Kentucky | 2023 | 2yr | Utah Jazz | Active
-- Oshae Brissett | Syracuse | 2019 | 6yr | Maccabi FOX Tel Aviv | Active
-- Oso Ighodaro | Marquette | 2024 | 1yr | Phoenix Suns | Active
-- P.J. Dozier | South Carolina | 2017 | 8yr | Anadolu Efes | Active
-- P.J. Hall | Clemson | 2024 | 1yr | Memphis Grizzlies | Active
-- P.J. Washington | Kentucky | 2019 | 6yr | Dallas Mavericks | Active
-- Paolo Banchero | Duke | 2022 | 3yr | Orlando Magic | Active
-- Pascal Siakam | New Mexico State | 2016 | 9yr | Indiana Pacers | Active
-- Pat Connaughton | Notre Dame | 2015 | 10yr | Milwaukee Bucks | Active
-- Patricio Garino | George Washington | 2016 | 9yr | Movistar Estudiantes | Active
-- Patrick Baldwin, Jr. | Milwaukee | 2022 | 3yr | Los Angeles Clippers | Active
-- Patrick McCaw | UNLV | 2016 | 9yr | Raptors 905 | Active
-- Patrick Williams | Florida State | 2020 | 5yr | Chicago Bulls | Active
-- Paul Reed, Jr. | DePaul | 2020 | 5yr | Detroit Pistons | Active
-- Payton Pritchard | Oregon | 2020 | 5yr | Boston Celtics | Active
-- Payton Sandfort | Iowa | 2025 | 0yr | Oklahoma City Thunder | Active
-- Pelle Larsson | Arizona | 2024 | 1yr | Miami Heat | Active
-- Pete Nance | North Carolina | 2023 | 2yr | Milwaukee Bucks | Active
-- Peyton Watson | UCLA | 2022 | 3yr | Denver Nuggets | Active
-- Precious Achiuwa | Memphis | 2020 | 5yr | Miami Heat | Active
-- Quentin Grimes | Houston | 2021 | 4yr | Philadelphia Sixers | Active
-- Quenton Jackson | Texas A&M | 2022 | 3yr | Indiana Pacers | Active
-- Quincy Olivari | Xavier | 2024 | 1yr | Detroit Pistons | Active
-- Quinn Cook | Duke | 2015 | 10yr | Fujian | Active
-- Quinndary Weatherspoon | Mississippi State | 2019 | 6yr | Qingdao | Active
-- Quinten Post | Boston College | 2024 | 1yr | Golden State Warriors | Active
-- R.J. Barrett | Duke | 2019 | 6yr | Toronto Raptors | Active
-- R.J. Hunter | Georgia State | 2015 | 8yr | Charlotte Hornets | Left basketball
-- R.J. Nembhard | TCU | 2021 | 4yr | Chicago Bulls | Active
-- Rakeem Christmas | Syracuse | 2015 | 9yr | Santos de San Luis Potosi | Active
-- Rasheer Fleming | Saint Joseph's | 2025 | 0yr | Phoenix Suns | Active
-- Rawle Alkins | Arizona | 2018 | 7yr | Aris Midea Thessaloniki | Active
-- RayJ Dennis | Baylor | 2024 | 1yr | Indiana Pacers | Active
-- Rayjon Tucker | Little Rock | 2019 | 6yr | Zhejiang Guangsha | Active
-- Raymond Spalding | Louisville | 2018 | 6yr | Indiana Pacers | Active
-- Reece Beekman | Virginia | 2024 | 1yr | Orlando Magic | Active
-- Reed Sheppard | Kentucky | 2024 | 1yr | Houston Rockets | Active
-- Reggie Perry | Mississippi State | 2020 | 5yr | Beijing BeiKong | Active
-- Richaun Holmes | Bowling Green | 2015 | 10yr | Washington Wizards | Active
-- Ricky Council IV | Arkansas | 2023 | 2yr | Philadelphia Sixers | Active
-- Riley Minix | Morehead State | 2024 | 1yr | San Antonio Spurs | Active
-- Rob Dillingham | Kentucky | 2024 | 1yr | Minnesota Timberwolves | Active
-- Robert Franks | Washington State | 2019 | 6yr | Ibaraki Robots | Active
-- Robert Williams | Texas A&M | 2018 | 7yr | Portland Trail Blazers | Active
-- Robert Woodard II | Mississippi State | 2020 | 5yr | Delaware Blue Coats | Active
-- Rodney Purvis | UConn | 2017 | 8yr | Kozuv Gevgelija | Active
-- Romeo Langford | Indiana | 2019 | 6yr | Westchester Knicks | Active
-- Ron Baker | Wichita State | 2016 | 4yr | CSKA Moscow | Left basketball
-- Ron Harper | Rutgers | 2022 | 3yr | Detroit Pistons | Active
-- Rondae Hollis-Jefferson | Arizona | 2015 | 9yr | Talk N Text Tropang Texters | Left basketball
-- Rui Hachimura | Gonzaga | 2019 | 6yr | Los Angeles Lakers | Active
-- Ryan Arcidiacono | Villanova | 2016 | 9yr | 2B Control Trapani | Active
-- Ryan Dunn | Virginia | 2024 | 1yr | Phoenix Suns | Active
-- Ryan Kalkbrenner | Creighton | 2025 | 0yr | Charlotte Hornets | Active
-- Ryan Nembhard | Gonzaga | 2025 | 0yr | Dallas Mavericks | Active
-- Ryan Rollins | Toledo | 2022 | 3yr | Milwaukee Bucks | Active
-- Saben Lee | Vanderbilt | 2020 | 5yr | Olympiacos | Active
-- Saddiq Bey | Villanova | 2020 | 5yr | Washington Wizards | Active
-- Sam Dekker | Wisconsin | 2015 | 10yr | Joventut Badalona | Active
-- Sam Hauser | Virginia | 2021 | 4yr | Boston Celtics | Active
-- Sam Merrill | Utah State | 2020 | 5yr | Cleveland Cavaliers | Active
-- Sandro Mamukelashvili | Seton Hall | 2021 | 4yr | Toronto Raptors | Active
-- Santi Aldama | Loyola (MD) | 2021 | 4yr | Memphis Grizzlies | Active
-- Scottie Barnes | Florida State | 2021 | 4yr | Toronto Raptors | Active
-- Scottie Lewis | Florida | 2021 | 3yr | Mayrouba | Active
-- Scotty Pippen, Jr. | Vanderbilt | 2022 | 3yr | Memphis Grizzlies | Active
-- Sean McDermott | Butler | 2020 | 5yr | Valley Suns | Active
-- Sean Pedulla | Ole Miss | 2025 | 0yr | Los Angeles Clippers | Active
-- Semi Ojeleye | Southern Methodist | 2017 | 8yr | KK Crvena Zvezda | Active
-- Seth Lundy | Penn State | 2023 | 2yr | Los Angeles Clippers | Active
-- Shaedon Sharpe | Kentucky | 2022 | 3yr | Portland Trail Blazers | Active
-- Shai Gilgeous-Alexander | Kentucky | 2018 | 7yr | Oklahoma City Thunder | Active
-- Shake Milton | Southern Methodist | 2018 | 7yr | Los Angeles Lakers | Active
-- Shamorie Ponds | St. John's | 2019 | 5yr | Dorados de Chihuahua | Active
-- Sharife Cooper | Auburn | 2021 | 4yr | Washington Wizards | Active
-- Shawn Long | Louisiana | 2016 | 9yr | Jeonju KCC Egis | Active
-- Sheldon Mac | Miami (FL) | 2016 | 7yr | Gladiadores de Anzoategui | Left basketball
-- Sindarius Thornwell | South Carolina | 2017 | 8yr | Xinjiang Guanghui | Active
-- Sion James | Duke | 2025 | 0yr | Charlotte Hornets | Active
-- Skal Labissiere | Kentucky | 2016 | 9yr | Washington Wizards | Active
-- Skylar Mays | LSU | 2020 | 5yr | Buducnost Voli Podgorica | Active
-- Spencer Jones | Stanford | 2024 | 1yr | Denver Nuggets | Active
-- Stanley Johnson | Arizona | 2015 | 10yr | Nagasaki Velca | Active
-- Stanley Umude | Arkansas | 2022 | 3yr | San Antonio Spurs | Active
-- Stephen Zimmerman | UNLV | 2016 | 7yr | Austin Spurs | Left basketball
-- Stephon Castle | UConn | 2024 | 1yr | San Antonio Spurs | Active
-- Sterling Brown | Southern Methodist | 2017 | 8yr | KK Partizan | Active
-- Svi Mykhailiuk | Kansas | 2018 | 7yr | Utah Jazz | Active
-- T.J. Leaf | UCLA | 2017 | 8yr | Maccabi FOX Tel Aviv | Active
-- T.J. McConnell | Arizona | 2015 | 10yr | Indiana Pacers | Active
-- Tacko Fall | UCF | 2019 | 6yr | New Zealand | Active
-- Taelon Peter | Liberty | 2025 | 0yr | Indiana Pacers | Active
-- Talen Horton-Tucker | Iowa State | 2019 | 6yr | Fenerbahce Beko | Active
-- Tari Eason | LSU | 2022 | 3yr | Houston Rockets | Active
-- Tariq Owens | Texas Tech | 2019 | 5yr | JDA Dijon Basket | Active
-- Taurean Prince | Baylor | 2016 | 9yr | Milwaukee Bucks | Active
-- Taylor Hendricks | UCF | 2023 | 2yr | Utah Jazz | Active
-- Terance Mann | Florida State | 2019 | 6yr | Atlanta Hawks | Active
-- Terence Davis | Ole Miss | 2019 | 6yr | Sacramento Kings | Active
-- Terquavion Smith | NC State | 2023 | 2yr | Shenzhen | Active
-- Terrence Shannon, Jr. | Illinois | 2024 | 1yr | Minnesota Timberwolves | Active
-- Terry Rozier | Louisville | 2015 | 10yr | Miami Heat | Active
-- Terry Taylor | Austin Peay | 2021 | 4yr | Iowa Wolves | Active
-- Thomas Bryant | Indiana | 2017 | 8yr | Cleveland Cavaliers | Active
-- Thomas Welsh | UCLA | 2018 | 5yr | Hitachi Sun Rockers | Active
-- Timmy Allen | Texas | 2023 | 2yr | 2B Control Trapani | Active
-- Tolu Smith | Mississippi State | 2024 | 1yr | Detroit Pistons | Active
-- Tony Bradley | North Carolina | 2017 | 8yr | Indiana Pacers | Active
-- Tosan Evbuomwan | Princeton | 2023 | 2yr | Brooklyn Nets | Active
-- Toumani Camara | Dayton | 2023 | 2yr | Portland Trail Blazers | Active
-- Trae Young | Oklahoma | 2018 | 7yr | Atlanta Hawks | Active
-- Trayce Jackson-Davis | Indiana | 2023 | 2yr | Golden State Warriors | Active
-- Tre Johnson | Texas | 2025 | 0yr | Washington Wizards | Active
-- Tre Jones | Duke | 2020 | 5yr | Chicago Bulls | Active
-- Tre Mann | Florida | 2021 | 4yr | Charlotte Hornets | Active
-- Tremont Waters | LSU | 2019 | 6yr | Shanghai Dongfang | Active
-- Trendon Watford | LSU | 2021 | 4yr | Philadelphia Sixers | Active
-- Trent Forrest | Florida State | 2020 | 5yr | Baskonia | Active
-- Trevelin Queen | New Mexico State | 2020 | 5yr | Guangdong Dongguan | Active
-- Treveon Graham | VCU | 2015 | 9yr | Motor City Cruise | Left basketball
-- Trevon Duval | Duke | 2018 | 7yr | Greensboro Swarm | Active
-- Trevor Keels | Duke | 2022 | 3yr | Miami Heat | Active
-- Trey Alexander | Creighton | 2024 | 1yr | New Orleans Pelicans | Active
-- Trey Jemison | UAB | 2023 | 2yr | Los Angeles Lakers | Active
-- Trey Lyles | Kentucky | 2015 | 10yr | Real Madrid | Active
-- Trey Murphy III | Virginia | 2021 | 4yr | New Orleans Pelicans | Active
-- Tristan Da Silva | Colorado | 2024 | 1yr | Orlando Magic | Active
-- Tristan Enaruna | Cleveland State | 2024 | 1yr | Cleveland Cavaliers | Active
-- Tristen Newton | UConn | 2024 | 1yr | Minnesota Timberwolves | Active
-- Troy Brown, Jr. | Oregon | 2018 | 7yr | Cangrejeros de Santurce | Active
-- Troy Caupain | Cincinnati | 2017 | 8yr | Grissin Bon Reggio Emilia | Active
-- Ty Jerome | Virginia | 2019 | 6yr | Memphis Grizzlies | Active
-- Ty-Shon Alexander | Creighton | 2020 | 5yr | Paisas Basketball Club | Active
-- TyTy Washington, Jr. | Kentucky | 2022 | 3yr | Los Angeles Clippers | Active
-- Tyler Cavanaugh | George Washington | 2017 | 8yr | Bahcesehir Koleji | Active
-- Tyler Cook | Iowa | 2019 | 6yr | Ibaraki Robots | Active
-- Tyler Davis | Texas A&M | 2018 | 6yr | Osos de Manati | Active
-- Tyler Dorsey | Oregon | 2017 | 8yr | Olympiacos | Active
-- Tyler Herro | Kentucky | 2019 | 6yr | Miami Heat | Active
-- Tyler Kolek | Marquette | 2024 | 1yr | New York Knicks | Active
-- Tyler Lydon | Syracuse | 2017 | 3yr | Sacramento Kings | Left basketball
-- Tyler Ulis | Kentucky | 2016 | 5yr | Santa Cruz Warriors | Left basketball
-- Tyrell Terry | Stanford | 2020 | 4yr | CSP Limoges | Active
-- Tyrese Haliburton | Iowa State | 2020 | 5yr | Indiana Pacers | Active
-- Tyrese Martin | UConn | 2022 | 3yr | Brooklyn Nets | Active
-- Tyrese Maxey | Kentucky | 2020 | 5yr | Philadelphia Sixers | Active
-- Tyrese Proctor | Duke | 2025 | 0yr | Cleveland Cavaliers | Active
-- Tyus Jones | Duke | 2015 | 10yr | Orlando Magic | Active
-- Udoka Azubuike | Kansas | 2020 | 5yr | Ironi Nes Ziona | Active
-- V.J. Edgecombe | Baylor | 2025 | 0yr | Philadelphia Sixers | Active
-- Vernon Carey, Jr. | Duke | 2020 | 4yr | Houston Rockets | Active
-- Vic Law | Northwestern | 2019 | 6yr | Ryukyu Golden Kings | Active
-- Vince Edwards | Purdue | 2018 | 7yr | Pioneros de Los Mochis | Active
-- Vince Hunter | UTEP | 2015 | 9yr | Lokomotiv Kuban | Active
-- Vincent Williams, Jr. | VCU | 2022 | 3yr | Memphis Grizzlies | Active
-- Vladislav Goldin | Michigan | 2025 | 0yr | Miami Heat | Active
-- Wade Baldwin IV | Vanderbilt | 2016 | 10yr | Fenerbahce Beko | Active
-- Walker Kessler | Auburn | 2022 | 3yr | Utah Jazz | Active
-- Walter Clayton, Jr. | Florida | 2025 | 0yr | Utah Jazz | Active
-- Wayne Selden | Kansas | 2016 | 8yr | Chorale Roanne Basket | Left basketball
-- Wendell Carter, Jr. | Duke | 2018 | 7yr | Orlando Magic | Active
-- Wendell Moore, Jr. | Duke | 2022 | 3yr | Boston Celtics | Active
-- Wenyen Gabriel | Kentucky | 2018 | 7yr | Bayern Munich | Active
-- Wesley Iwundu | Kansas State | 2017 | 8yr | South East Melbourne | Active
-- Will Richard | Florida | 2025 | 0yr | Golden State Warriors | Active
-- Will Riley | Illinois | 2025 | 0yr | Washington Wizards | Active
-- Willie Cauley-Stein | Kentucky | 2015 | 10yr | Nanjing Tongxi Monkey King | Active
-- Xavier Rathan-Mayes | Florida State | 2017 | 8yr | Bayern Munich | Active
-- Xavier Sneed | Kansas State | 2020 | 5yr | Acqua San Bernardo Cantu | Active
-- Xavier Tillman, Sr. | Michigan State | 2020 | 5yr | Boston Celtics | Active
-- Yanic Konan Niederhauser | Penn State | 2025 | 0yr | Los Angeles Clippers | Active
-- Yante Maten | Georgia | 2018 | 7yr | Sanen Neophoenix | Active
-- Yogi Ferrell | Indiana | 2016 | 9yr | Buducnost Voli Podgorica | Active
-- Yuri Collins | Saint Louis | 2023 | 2yr | Brooklyn Nets | Active
-- Yuta Watanabe | George Washington | 2018 | 7yr | Chiba Jets | Active
-- Yves Missi | Baylor | 2024 | 1yr | New Orleans Pelicans | Active
-- Yves Pons | Tennessee | 2021 | 4yr | MoraBanc Andorra | Active
-- Zach Collins | Gonzaga | 2017 | 8yr | Chicago Bulls | Active
-- Zach Edey | Purdue | 2024 | 1yr | Memphis Grizzlies | Active
-- Zach Lofton | New Mexico State | 2018 | 5yr | Homenetmen Beirut | Active
-- Zach Norvell | Gonzaga | 2019 | 2yr | Chicago Bulls | Left basketball
-- Zeke Nnaji | Arizona | 2020 | 5yr | Denver Nuggets | Active
-- Zhaire Smith | Texas Tech | 2018 | 5yr | Dallas Mavericks | Active
-- Ziaire Williams | Stanford | 2021 | 4yr | Brooklyn Nets | Active
-- Zion Williamson | Duke | 2019 | 6yr | New Orleans Pelicans | Active
-- Zylan Cheatham | Arizona State | 2019 | 6yr | Adelaide | Active
-- Zyon Pullin | Florida | 2024 | 1yr | Memphis Grizzlies | Active
+Q: What does the typical Other International player's college profile look like?
+A: The typical Other International player's final college season: 9.5 PPG, 4.1 RPG, 1.6 APG. Average height: 6-6. EFG%: 49.0%.
+
+Q: How many Europe players had long careers (5+ seasons)?
+A: Of 2,073 Europe-first players, 591 (28.5%) had careers of 5+ pro seasons.
+
+Q: How many Other International players had long careers (5+ seasons)?
+A: Of 3,168 Other International-first players, 737 (23.3%) had careers of 5+ pro seasons.
+
+Q: How does scoring in college correlate with going pro?
+A: Pro rates by college PPG threshold: 5+ PPG: 60.2% went pro, 8.2% NBA (9813 players); 10+ PPG: 72.5% went pro, 13.3% NBA (5414 players); 15+ PPG: 82.6% went pro, 22.6% NBA (1843 players); 20+ PPG: 86.0% went pro, 25.9% NBA (278 players).
+
+Q: How does height correlate with going pro?
+A: Pro rates by height: 6-3+: 42.3% went pro, 5.2% NBA (13735 players); 6-6+: 46.7% went pro, 5.7% NBA (8122 players); 6-9+: 52.4% went pro, 6.7% NBA (2929 players); 7-0+: 55.7% went pro, 11.1% NBA (368 players).
+
+Q: How do one-year pro players compare to multi-year?
+A: Of players who went pro, 2,080 had just 1 season and 5,042 had 2+ seasons. One-year pros averaged 9.6 college PPG vs 11.2 for multi-year pros.
+
+Q: Give me an overview of NBA outcomes.
+A: NBA Overview: 816 players (4.4% of D1 graduates) reached the NBA. 498 (61.0%) had 5+ year careers. 293 transitioned to international basketball after the NBA. Average career: 5.6 seasons.
+
+Q: Give me an overview of G-League outcomes.
+A: G-League Overview: 1065 players (5.7% of D1 graduates). 48 (4.5%) eventually made the NBA. 672 went international. Average career: 4.0 seasons.
+
+Q: Give me an overview of European basketball outcomes.
+A: Europe Overview: 2073 players (11.1% of D1 graduates) went to Europe. 25 (1.2%) eventually made the NBA. Average career: 3.5 seasons. 591 (28.5%) had 5+ year careers.
+
+Q: Give me an overview of Other International outcomes.
+A: Other International Overview: 3168 players (17.0% of D1 graduates). 21 (0.7%) eventually made the NBA. Average career: 3.0 seasons. 737 (23.3%) had 5+ year careers.
+
+Q: What is the average weight for each pro destination?
+A: Average weight by pro destination: NBA 213.2 lbs, G-League 206.4 lbs, Europe 208.0 lbs, Other International 207.9 lbs, No Pro Career 198.7 lbs.
+
+Q: What is the Torvik PPG by destination?
+A: Barttorvik final-year college PPG by pro destination: NBA 14.7, G-League 11.8, Europe 9.7, Other International 8.6, No Pro Career 3.4.
+
+Q: What was the average college FT% by pro destination?
+A: Average final-year college FT% by pro destination: NBA 0%, G-League 0%, Europe 0%, Other International 0%, No Pro Career 0%.
+
+Q: What was the average games played in final college season by destination?
+A: Average games played in final college season by pro destination: NBA 32.1, G-League 29.9, Europe 27.8, Other International 26.4, No Pro Career 16.7.
