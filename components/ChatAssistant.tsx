@@ -244,6 +244,7 @@ export default function ChatAssistant() {
               onChange={e => setInput(e.target.value)}
               onKeyDown={e => {
                 if (e.key === 'Enter') {
+                  e.preventDefault();
                   setIsOpen(true);
                   handleSubmit(input);
                 }

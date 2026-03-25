@@ -72,8 +72,8 @@ export async function POST(req: Request) {
       ? context.substring(0, maxContext) + '\n\n[... additional data truncated for length]'
       : context;
 
-    // Small delay to avoid rate limits on free tier
-    await new Promise(r => setTimeout(r, 500));
+    // Delay to avoid rate limits on Groq free tier
+    await new Promise(r => setTimeout(r, 1000));
 
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
@@ -86,11 +86,29 @@ export async function POST(req: Request) {
         messages: [
           {
             role: 'system',
-            content: `You are a data assistant for a website tracking NCAA D1 men's basketball players from 2015 to present. You answer questions about where players ended up after college (NBA, G-League, Europe, Other International leagues, or no pro career).
+            content: `You are a data assistant for aftercollegeball.xyz — a site tracking what happens to NCAA D1 men's basketball players after college. You have data on 18,688 players from 2015-2025.
 
-Answer concisely using ONLY the stats below. Be specific with numbers. Keep answers to 2-3 sentences max. Do not make up data.
+RULES:
+- Answer concisely (2-3 sentences max)
+- Use specific numbers from the data below
+- If the data doesn't cover the question, say "I don't have individual player-level data for that, but here's what I know about the group..." and give relevant aggregate stats
+- Never make up data or player names
+- You know aggregate stats (averages, percentages, counts) but NOT individual player stats or rankings
 
-DATA:
+KEY FACTS:
+- 18,688 total D1 players tracked (2015-2025)
+- NBA: 816 (4.4%) — avg 14.8 PPG in college
+- G-League: 1,065 (5.7%) — avg 12.1 PPG in college
+- Europe: 2,073 (11.1%) — avg 10.3 PPG in college
+- Other International: 3,168 (17.0%) — avg 9.5 PPG in college
+- No Pro Career: 11,566 (61.9%) — avg 4.8 PPG in college
+- Top NBA schools: Kentucky (41), Duke (40), Arizona (20), Kansas (19), Gonzaga (17)
+- G-League to NBA: only 48 players (4.5% of G-Leaguers)
+- Average G-League career before going overseas: 1.4 years
+- 60% of G-League players go international after
+- Only 1 in 22 D1 players made the NBA
+
+DETAILED DATA:
 ${trimmedContext}`
           },
           {
