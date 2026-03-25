@@ -136,6 +136,7 @@ export default function ChatAssistant() {
   const [statsData, setStatsData] = useState<ChatStatsData | null>(null);
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
+  const messagesContainerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     fetch('/data/chat-stats.json')
@@ -145,7 +146,10 @@ export default function ChatAssistant() {
   }, []);
 
   useEffect(() => {
-    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    // Scroll within the messages container only, not the whole page
+    if (messagesContainerRef.current) {
+      messagesContainerRef.current.scrollTop = messagesContainerRef.current.scrollHeight;
+    }
   }, [messages]);
 
   const handleSubmit = useCallback(
@@ -200,6 +204,7 @@ export default function ChatAssistant() {
           {/* Messages */}
           {messages.length > 0 && (
             <div
+              ref={messagesContainerRef}
               className="max-h-[300px] overflow-y-auto p-4 space-y-4"
               style={{ borderBottom: '1px solid rgba(255,255,255,0.05)' }}
             >
@@ -258,7 +263,8 @@ export default function ChatAssistant() {
               }}
             />
             <button
-              onClick={() => {
+              onClick={(e) => {
+                e.preventDefault();
                 setIsOpen(true);
                 handleSubmit(input);
               }}
