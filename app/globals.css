@@ -1,26 +1,114 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a12;
+  --foreground: #e2e4f0;
+  --surface-2: #10101c;
+  --surface-3: #161628;
+  --text-secondary: #8e90a8;
+  --text-muted: #52526e;
+  --nba: #6cb4ee;
+  --gleague: #a78bfa;
+  --europe: #4ade80;
+  --intl: #f9a857;
+  --nopro: #52526e;
+  --accent: #6cb4ee;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-sans: var(--font-inter);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), system-ui, sans-serif;
 }
+
+/* Sankey diagram styles */
+.sankey-link {
+  fill: none;
+  stroke-opacity: 0.5;
+  transition: stroke-opacity 0.2s ease;
+}
+
+.sankey-link:hover {
+  stroke-opacity: 0.8;
+}
+
+.sankey-link.dimmed {
+  stroke-opacity: 0.06;
+}
+
+.sankey-link.highlighted {
+  stroke-opacity: 0.8;
+}
+
+.sankey-node rect {
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+
+.sankey-node:hover rect {
+  filter: brightness(1.2);
+}
+
+.sankey-node.clickable {
+  cursor: pointer;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Hide scrollbar for horizontal scroll areas on mobile */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Chat input styling */
+.chat-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(108, 180, 238, 0.2);
+}
+
+/* Animated entrance */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.animate-delay-100 { animation-delay: 0.1s; }
+.animate-delay-200 { animation-delay: 0.2s; }
+.animate-delay-300 { animation-delay: 0.3s; }
+.animate-delay-400 { animation-delay: 0.4s; }

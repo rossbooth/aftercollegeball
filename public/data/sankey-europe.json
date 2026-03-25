@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "eu_all",
+      "label": "Europe Players",
+      "count": 2073
+    },
+    {
+      "id": "eu_to_nba",
+      "label": "Made it to NBA",
+      "count": 25,
+      "pct": "1.2%"
+    },
+    {
+      "id": "eu_to_gl",
+      "label": "Came to G-League",
+      "count": 122,
+      "pct": "5.9%"
+    },
+    {
+      "id": "eu_to_other_intl",
+      "label": "Went to Other International League",
+      "count": 1028,
+      "pct": "49.6%"
+    },
+    {
+      "id": "eu_long",
+      "label": "Long European Career (5+ Years)",
+      "count": 48,
+      "pct": "2.3%"
+    },
+    {
+      "id": "eu_left",
+      "label": "Left Pro Basketball",
+      "count": 850,
+      "pct": "41.0%"
+    }
+  ],
+  "links": [
+    {
+      "source": "eu_all",
+      "target": "eu_to_nba",
+      "value": 25
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_to_gl",
+      "value": 122
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_to_other_intl",
+      "value": 1028
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_long",
+      "value": 48
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_left",
+      "value": 850
+    }
+  ]
+}

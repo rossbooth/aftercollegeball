@@ -1,0 +1,232 @@
+{
+  "faqs": [
+    {
+      "patterns": [
+        "ppg",
+        "points",
+        "scoring",
+        "average.*nba"
+      ],
+      "question": "What was the average college PPG for players who made the NBA?",
+      "answer": "Players who made the NBA averaged 14.8 PPG in their final college season, compared to 12.1 for NBA G-League players, 10.3 for Europe players, 9.5 for Other International players, and 4.8 for those with no pro career."
+    },
+    {
+      "patterns": [
+        "rebound",
+        "rpg",
+        "boards"
+      ],
+      "question": "What was the average college RPG for each pro destination?",
+      "answer": "In their final college season, NBA players averaged 5.9 RPG, NBA G-League players 4.7, Europe players 4.3, Other International players 4.1, and no-pro players 2.2."
+    },
+    {
+      "patterns": [
+        "assist",
+        "apg",
+        "passing"
+      ],
+      "question": "What was the average college APG for each pro destination?",
+      "answer": "In their final college season, NBA players averaged 2.6 APG, NBA G-League players 2.1, Europe players 1.8, Other International players 1.6, and no-pro players 0.9."
+    },
+    {
+      "patterns": [
+        "height",
+        "tall",
+        "size"
+      ],
+      "question": "What is the average height for each pro destination?",
+      "answer": "NBA players averaged 6-6, NBA G-League players 6-6, Europe players 6-6, Other International players 6-6, and no-pro players 6-4."
+    },
+    {
+      "patterns": [
+        "how many",
+        "total",
+        "count",
+        "number.*players"
+      ],
+      "question": "How many D1 players were analyzed?",
+      "answer": "We analyzed 18,688 D1 players whose last college season was between 2014-15 and 2023-24. Of these, 816 (4.4%) reached the NBA, 1065 (5.7%) went to the NBA G-League, 2073 (11.1%) played in Europe, 3168 (17.0%) played in other international leagues, and 11566 (61.9%) had no recorded pro career."
+    },
+    {
+      "patterns": [
+        "percent",
+        "chance",
+        "odds",
+        "probability",
+        "likelihood"
+      ],
+      "question": "What percentage of D1 players go pro?",
+      "answer": "38.1% of D1 players in our dataset went on to play some form of professional basketball. Only 4.4% made the NBA with real regular season playing time."
+    },
+    {
+      "patterns": [
+        "transition",
+        "switch",
+        "move.*between",
+        "nba.*international",
+        "g.league.*nba"
+      ],
+      "question": "How many players transitioned between pro levels?",
+      "answer": "Among NBA-first players: 236 transitioned to international leagues and 30 moved to the G-League. Among NBA G-League-first players: 48 made it to the NBA and 640 went international. Among Europe-first players: 25 made it to the NBA, 122 came to the G-League, and 1028 went to other international leagues. Among Other International-first players: 21 made it to the NBA, 158 came to the G-League, and 974 went to Europe."
+    },
+    {
+      "patterns": [
+        "school",
+        "college",
+        "university",
+        "produce",
+        "most nba"
+      ],
+      "question": "Which schools produce the most NBA players?",
+      "answer": "The top NBA-producing schools (2015-2025): Kentucky (41), Duke (40), Arizona (20), Kansas (19), Gonzaga (17)."
+    },
+    {
+      "patterns": [
+        "career.*length",
+        "how long",
+        "years.*pro",
+        "duration"
+      ],
+      "question": "What is the average pro career length by destination?",
+      "answer": "NBA-first players averaged 5.6 pro seasons, NBA G-League-first players averaged 4.0 pro seasons, Europe-first players averaged 3.5 pro seasons, and Other International-first players averaged 3.0 pro seasons."
+    },
+    {
+      "patterns": [
+        "long.*nba",
+        "5.*year",
+        "sustained",
+        "lasting"
+      ],
+      "question": "What percentage of NBA players have long careers (5+ years)?",
+      "answer": "Of 816 players who reached the NBA, 252 (30.9%) had careers of 5 or more seasons. These long-career players averaged 15.1 PPG in their final college season, vs 14.4 for those who left the NBA in under 5 years."
+    },
+    {
+      "patterns": [
+        "g.league.*nba",
+        "made.*nba.*g.league",
+        "g.league.*path"
+      ],
+      "question": "How many NBA G-League players eventually made the NBA?",
+      "answer": "Of 1065 players whose first pro destination was the NBA G-League, 48 (4.5% if gl_count > 0 else 0) eventually earned real NBA playing time. These players averaged 13.7 PPG in their final college season."
+    },
+    {
+      "patterns": [
+        "europe.*nba",
+        "european.*nba"
+      ],
+      "question": "How many European players eventually made the NBA?",
+      "answer": "Of 2073 players who first went to Europe, 25 (1.2%) eventually made it to the NBA. They averaged 14.2 PPG in their final college season."
+    },
+    {
+      "patterns": [
+        "other.*international.*nba",
+        "overseas.*nba",
+        "foreign.*nba"
+      ],
+      "question": "How many Other International players eventually made the NBA?",
+      "answer": "Of 3168 players who first went to other international leagues (non-Europe), 21 (0.7%) eventually made it to the NBA. They averaged 11.7 PPG in their final college season."
+    },
+    {
+      "patterns": [
+        "position",
+        "guard",
+        "forward",
+        "center",
+        "pos"
+      ],
+      "question": "What positions are most common among NBA players?",
+      "answer": "Position breakdown for NBA players: F: 144 (17.6%), G: 133 (16.3%), SG: 118 (14.5%), SF: 110 (13.5%), PF: 103 (12.6%), PG: 97 (11.9%), C: 75 (9.2%), GF: 29 (3.6%), FC: 7 (0.9%)."
+    },
+    {
+      "patterns": [
+        "steal",
+        "spg",
+        "defensive"
+      ],
+      "question": "What were the average steals per game in college by pro destination?",
+      "answer": "NBA players averaged 1.1 SPG in their final college season, NBA G-League 1.0, Europe 0.8, Other International 0.8, and no-pro 0.5."
+    },
+    {
+      "patterns": [
+        "block",
+        "bpg",
+        "shot.block"
+      ],
+      "question": "What were the average blocks per game in college by pro destination?",
+      "answer": "NBA players averaged 0.8 BPG in their final college season, NBA G-League 0.5, Europe 0.5, Other International 0.4, and no-pro 0.2."
+    },
+    {
+      "patterns": [
+        "college.*years",
+        "how.*long.*college",
+        "ncaa.*seasons"
+      ],
+      "question": "How many years did NBA players spend in college on average?",
+      "answer": "NBA players averaged 3.0 NCAA seasons before going pro, compared to 3.7 for players with no pro career."
+    },
+    {
+      "patterns": [
+        "school.*g.league",
+        "g.league.*school",
+        "college.*g.league"
+      ],
+      "question": "Which schools produce the most NBA G-League players?",
+      "answer": "Top NBA G-League-producing schools: Georgetown (13), Texas (13), Washington (13), LSU (13), Villanova (12)."
+    },
+    {
+      "patterns": [
+        "school.*europe",
+        "europe.*school",
+        "college.*europe"
+      ],
+      "question": "Which schools produce the most Europe-bound players?",
+      "answer": "Top Europe-producing schools: Colorado State (15), Loyola Marymount (14), Gonzaga (13), Oklahoma State (13), UC Irvine (13)."
+    },
+    {
+      "patterns": [
+        "school.*international",
+        "international.*school",
+        "overseas.*school"
+      ],
+      "question": "Which schools produce the most Other International players?",
+      "answer": "Top Other International-producing schools: New Mexico State (23), Tennessee State (22), Cal State Fullerton (21), Prairie View A&M (21), Hawaii (20)."
+    },
+    {
+      "patterns": [
+        "no.*pro",
+        "didn.*make",
+        "never.*pro",
+        "end.*career"
+      ],
+      "question": "What are the stats of players who never went pro?",
+      "answer": "Players with no recorded pro career averaged 4.8 PPG, 2.2 RPG, 0.9 APG in their final college season. Their average height was 6-4. This group represents 61.9% of all D1 players."
+    },
+    {
+      "patterns": [
+        "nba.*left",
+        "short.*nba",
+        "brief.*nba",
+        "wash.*out"
+      ],
+      "question": "What happens to NBA players who don't last 5 years?",
+      "answer": "Of NBA players with shorter careers (<5 years): 236 transitioned to international basketball, 30 moved to the NBA G-League, and 298 left professional basketball entirely."
+    },
+    {
+      "patterns": [
+        "europe.*long",
+        "european.*career",
+        "europe.*5"
+      ],
+      "question": "How many Europe players had long careers?",
+      "answer": "Of 2073 Europe-first players, 48 (2.3%) had careers of 5+ international seasons, while 850 (41.0%) left pro basketball relatively quickly."
+    },
+    {
+      "patterns": [
+        "other.*international.*long",
+        "other.*overseas.*career"
+      ],
+      "question": "How many Other International players had long careers?",
+      "answer": "Of 3168 Other International-first players, 146 (4.6%) had careers of 5+ international seasons, while 1869 (59.0%) left pro basketball relatively quickly."
+    }
+  ]
+}

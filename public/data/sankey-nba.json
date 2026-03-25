@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "nba_all",
+      "label": "NBA Players",
+      "count": 816
+    },
+    {
+      "id": "nba_long",
+      "label": "Long NBA Career (5+ Years)",
+      "count": 252,
+      "pct": "30.9%"
+    },
+    {
+      "id": "nba_to_intl",
+      "label": "Transitioned to International",
+      "count": 236,
+      "pct": "28.9%"
+    },
+    {
+      "id": "nba_to_gl",
+      "label": "Transitioned to G-League",
+      "count": 30,
+      "pct": "3.7%"
+    },
+    {
+      "id": "nba_left",
+      "label": "Left Pro Basketball (<5 Years)",
+      "count": 298,
+      "pct": "36.5%"
+    }
+  ],
+  "links": [
+    {
+      "source": "nba_all",
+      "target": "nba_long",
+      "value": 252
+    },
+    {
+      "source": "nba_all",
+      "target": "nba_to_intl",
+      "value": 236
+    },
+    {
+      "source": "nba_all",
+      "target": "nba_to_gl",
+      "value": 30
+    },
+    {
+      "source": "nba_all",
+      "target": "nba_left",
+      "value": 298
+    }
+  ]
+}

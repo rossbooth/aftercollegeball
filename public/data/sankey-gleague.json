@@ -1,0 +1,55 @@
+{
+  "nodes": [
+    {
+      "id": "gl_all",
+      "label": "NBA G-League Players",
+      "count": 1065
+    },
+    {
+      "id": "gl_to_nba",
+      "label": "Made it to NBA",
+      "count": 48,
+      "pct": "4.5%"
+    },
+    {
+      "id": "gl_to_intl",
+      "label": "Went International",
+      "count": 640,
+      "pct": "60.1%"
+    },
+    {
+      "id": "gl_long",
+      "label": "Long G-League Career (3+ Years)",
+      "count": 58,
+      "pct": "5.4%"
+    },
+    {
+      "id": "gl_left",
+      "label": "Left Pro Basketball",
+      "count": 319,
+      "pct": "30.0%"
+    }
+  ],
+  "links": [
+    {
+      "source": "gl_all",
+      "target": "gl_to_nba",
+      "value": 48
+    },
+    {
+      "source": "gl_all",
+      "target": "gl_to_intl",
+      "value": 640
+    },
+    {
+      "source": "gl_all",
+      "target": "gl_long",
+      "value": 58
+    },
+    {
+      "source": "gl_all",
+      "target": "gl_left",
+      "value": 319
+    }
+  ]
+}

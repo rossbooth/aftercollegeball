@@ -1,0 +1,163 @@
+{
+  "nba": [
+    "Markus Howard",
+    "Zach Edey",
+    "Carsen Edwards",
+    "Luka Garza",
+    "Keegan Murray"
+  ],
+  "gleague": [
+    "Eric Dixon",
+    "Peter Jok",
+    "Dedric Lawson",
+    "Rob Gray",
+    "Judah Mintz"
+  ],
+  "europe": [
+    "Kevin Punter",
+    "Andrew Rowsey",
+    "Azuolas Tubelis",
+    "Retin Obasohan",
+    "Filip Petrusev"
+  ],
+  "other_intl": [
+    "Steve Wooten",
+    "Marcus Keene",
+    "Marcus Foster",
+    "Ben Krikke",
+    "Brian Halums"
+  ],
+  "nopro": [
+    "Steven Soukup",
+    "Shaden Knight",
+    "Morris Dunnigan",
+    "Malik Albert",
+    "Mark Gordon"
+  ],
+  "nba_long": [
+    "Luka Garza",
+    "R.J. Barrett",
+    "Zion Williamson",
+    "Marvin Bagley III",
+    "Bol Bol"
+  ],
+  "nba_to_intl": [
+    "Markus Howard",
+    "Carsen Edwards",
+    "Frank Mason",
+    "Kyle Wiltjer",
+    "Chris Clemons"
+  ],
+  "nba_to_gl": [
+    "Johnny Davis",
+    "Kira Lewis, Jr.",
+    "Allonzo Trier",
+    "Vernon Carey, Jr.",
+    "Tyler Ulis"
+  ],
+  "nba_left": [
+    "Zach Edey",
+    "Keegan Murray",
+    "Dalton Knecht",
+    "Drew Timme",
+    "Trayce Jackson-Davis"
+  ],
+  "gl_to_nba": [
+    "Omer Yurtseven",
+    "Gabe York",
+    "Cat Barber",
+    "D.J. Carton",
+    "Zavier Simpson"
+  ],
+  "gl_to_intl": [
+    "Peter Jok",
+    "Dedric Lawson",
+    "Rob Gray",
+    "Judah Mintz",
+    "Phil Booth"
+  ],
+  "gl_long": [
+    "Antoine Davis",
+    "Rodney Pryor",
+    "Jaden Shackelford",
+    "Aminu Mohammed",
+    "James Akinjo"
+  ],
+  "gl_left": [
+    "Eric Dixon",
+    "Kris Wilkes",
+    "R.J. Davis",
+    "Max Abmas",
+    "Samir Doughty"
+  ],
+  "eu_to_nba": [
+    "Filip Petrusev",
+    "Nigel Williams-Goss",
+    "Jae'sean Tate",
+    "Dakota Mathias",
+    "Kevin Pangos"
+  ],
+  "eu_to_gl": [
+    "Andrew Rowsey",
+    "Retin Obasohan",
+    "Jermaine Couisnard",
+    "Jahvon Henry-Blair",
+    "Ryan Anderson"
+  ],
+  "eu_to_other_intl": [
+    "Kevin Punter",
+    "Ethan Happ",
+    "Aaron White",
+    "Marcus Carr",
+    "Antoine Mason"
+  ],
+  "eu_long": [
+    "Jordan Roland",
+    "Jerrick Harding",
+    "Nate Reuvers",
+    "Sandy Cohen III",
+    "Maodo Lo"
+  ],
+  "eu_left": [
+    "Azuolas Tubelis",
+    "Makai Mason",
+    "Olivier Nkamhoua",
+    "Jherrod Stiggers",
+    "David Joplin"
+  ],
+  "oi_to_nba": [
+    "Anthony Gill",
+    "Michael Frazier",
+    "Gian Clavell",
+    "Keifer Sykes",
+    "Aleem Ford"
+  ],
+  "oi_to_gl": [
+    "Marcus Keene",
+    "Marcus Foster",
+    "Dayon Goodman",
+    "Jessie Govan",
+    "Josh Adams"
+  ],
+  "oi_to_europe": [
+    "Ben Krikke",
+    "Corey Davis",
+    "Tray Buchanan",
+    "Mike Daum",
+    "Peter Kiss"
+  ],
+  "oi_long": [
+    "Alec Wintering",
+    "Majok Deng",
+    "Mason Peatling",
+    "John Murry",
+    "Ky Mauras"
+  ],
+  "oi_left": [
+    "Steve Wooten",
+    "Brian Halums",
+    "K.T. Harrell",
+    "Kareem Canty",
+    "Terrence Edwards, Jr."
+  ]
+}

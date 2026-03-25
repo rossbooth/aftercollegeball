@@ -1,0 +1,132 @@
+{
+  "nodes": [
+    {
+      "id": "eu_all",
+      "label": "Europe Players",
+      "count": 3112
+    },
+    {
+      "id": "eu_germany",
+      "label": "Germany",
+      "count": 344,
+      "pct": "11.1%"
+    },
+    {
+      "id": "eu_france",
+      "label": "France",
+      "count": 232,
+      "pct": "7.5%"
+    },
+    {
+      "id": "eu_greece",
+      "label": "Greece",
+      "count": 151,
+      "pct": "4.9%"
+    },
+    {
+      "id": "eu_uk",
+      "label": "UK",
+      "count": 146,
+      "pct": "4.7%"
+    },
+    {
+      "id": "eu_israel",
+      "label": "Israel",
+      "count": 134,
+      "pct": "4.3%"
+    },
+    {
+      "id": "eu_spain",
+      "label": "Spain",
+      "count": 120,
+      "pct": "3.9%"
+    },
+    {
+      "id": "eu_czech_republic",
+      "label": "Czech Republic",
+      "count": 110,
+      "pct": "3.5%"
+    },
+    {
+      "id": "eu_serbia",
+      "label": "Serbia",
+      "count": 110,
+      "pct": "3.5%"
+    },
+    {
+      "id": "eu_lithuania",
+      "label": "Lithuania",
+      "count": 106,
+      "pct": "3.4%"
+    },
+    {
+      "id": "eu_italy",
+      "label": "Italy",
+      "count": 96,
+      "pct": "3.1%"
+    },
+    {
+      "id": "eu_other",
+      "label": "Other European Leagues",
+      "count": 1563,
+      "pct": "50.2%"
+    }
+  ],
+  "links": [
+    {
+      "source": "eu_all",
+      "target": "eu_germany",
+      "value": 344
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_france",
+      "value": 232
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_greece",
+      "value": 151
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_uk",
+      "value": 146
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_israel",
+      "value": 134
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_spain",
+      "value": 120
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_czech_republic",
+      "value": 110
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_serbia",
+      "value": 110
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_lithuania",
+      "value": 106
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_italy",
+      "value": 96
+    },
+    {
+      "source": "eu_all",
+      "target": "eu_other",
+      "value": 1563
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://aftercollegeball.com/sitemap.xml

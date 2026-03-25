@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "all",
+      "label": "All D1 Players (2015-2025)",
+      "count": 18688
+    },
+    {
+      "id": "nba",
+      "label": "NBA",
+      "count": 816,
+      "pct": "4.4%"
+    },
+    {
+      "id": "gleague",
+      "label": "NBA G-League",
+      "count": 1065,
+      "pct": "5.7%"
+    },
+    {
+      "id": "europe",
+      "label": "Europe",
+      "count": 2073,
+      "pct": "11.1%"
+    },
+    {
+      "id": "other_intl",
+      "label": "Other International",
+      "count": 3168,
+      "pct": "17.0%"
+    },
+    {
+      "id": "nopro",
+      "label": "No Pro Career",
+      "count": 11566,
+      "pct": "61.9%"
+    }
+  ],
+  "links": [
+    {
+      "source": "all",
+      "target": "nba",
+      "value": 816
+    },
+    {
+      "source": "all",
+      "target": "gleague",
+      "value": 1065
+    },
+    {
+      "source": "all",
+      "target": "europe",
+      "value": 2073
+    },
+    {
+      "source": "all",
+      "target": "other_intl",
+      "value": 3168
+    },
+    {
+      "source": "all",
+      "target": "nopro",
+      "value": 11566
+    }
+  ]
+}

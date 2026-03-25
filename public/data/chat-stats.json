@@ -1,0 +1,3036 @@
+{
+  "generated": "2026-03-25",
+  "total_players": 18688,
+  "counts": {
+    "nba": 816,
+    "g_league": 1065,
+    "europe": 2073,
+    "other_intl": 3168,
+    "no_pro": 11566
+  },
+  "percentages": {
+    "nba": 4.4,
+    "g_league": 5.7,
+    "europe": 11.1,
+    "other_intl": 17.0,
+    "no_pro": 61.9
+  },
+  "topics": {
+    "ppg_by_destination": {
+      "keywords": [
+        "ppg",
+        "points",
+        "scoring",
+        "average",
+        "ppg by destination",
+        "college points",
+        "nba vs international ppg",
+        "nba vs international",
+        "ppg nba international",
+        "average ppg nba",
+        "college ppg",
+        "ppg comparison",
+        "nba ppg vs",
+        "how many ppg"
+      ],
+      "question": "What was the average college PPG for players by pro destination?",
+      "data": {
+        "nba": 14.8,
+        "g_league": 12.1,
+        "europe": 10.3,
+        "other_intl": 9.5,
+        "no_pro": 4.8
+      },
+      "template": "Average final-year college PPG by pro destination: NBA players averaged 14.8 PPG, G-League 12.1 PPG, Europe 10.3 PPG, Other International 9.5 PPG, and No Pro Career players averaged 4.8 PPG."
+    },
+    "rpg_by_destination": {
+      "keywords": [
+        "rpg",
+        "rebounds",
+        "rebounding",
+        "boards",
+        "rpg by destination"
+      ],
+      "question": "What was the average college RPG for players by pro destination?",
+      "data": {
+        "nba": 5.9,
+        "g_league": 4.7,
+        "europe": 4.3,
+        "other_intl": 4.1,
+        "no_pro": 2.2
+      },
+      "template": "Average final-year college RPG by pro destination: NBA 5.9, G-League 4.7, Europe 4.3, Other International 4.1, No Pro Career 2.2."
+    },
+    "apg_by_destination": {
+      "keywords": [
+        "apg",
+        "assists",
+        "passing",
+        "apg by destination"
+      ],
+      "question": "What was the average college APG for players by pro destination?",
+      "data": {
+        "nba": 2.6,
+        "g_league": 2.1,
+        "europe": 1.8,
+        "other_intl": 1.6,
+        "no_pro": 0.9
+      },
+      "template": "Average final-year college APG by pro destination: NBA 2.6, G-League 2.1, Europe 1.8, Other International 1.6, No Pro Career 0.9."
+    },
+    "spg_by_destination": {
+      "keywords": [
+        "spg",
+        "steals",
+        "steal",
+        "defensive steals"
+      ],
+      "question": "What were the average steals per game in college by pro destination?",
+      "data": {
+        "nba": 1.1,
+        "g_league": 1.0,
+        "europe": 0.8,
+        "other_intl": 0.8,
+        "no_pro": 0.5
+      },
+      "template": "Average final-year college SPG by pro destination: NBA 1.1, G-League 1.0, Europe 0.8, Other International 0.8, No Pro Career 0.5."
+    },
+    "bpg_by_destination": {
+      "keywords": [
+        "bpg",
+        "blocks",
+        "block",
+        "shot blocking"
+      ],
+      "question": "What were the average blocks per game in college by pro destination?",
+      "data": {
+        "nba": 0.8,
+        "g_league": 0.5,
+        "europe": 0.5,
+        "other_intl": 0.4,
+        "no_pro": 0.2
+      },
+      "template": "Average final-year college BPG by pro destination: NBA 0.8, G-League 0.5, Europe 0.5, Other International 0.4, No Pro Career 0.2."
+    },
+    "height_by_destination": {
+      "keywords": [
+        "height",
+        "tall",
+        "size",
+        "inches",
+        "how tall"
+      ],
+      "question": "What is the average height for each pro destination?",
+      "data": {
+        "nba": "6-6",
+        "g_league": "6-6",
+        "europe": "6-6",
+        "other_intl": "6-6",
+        "no_pro": "6-4"
+      },
+      "template": "Average height by pro destination: NBA 6-6, G-League 6-6, Europe 6-6, Other International 6-6, No Pro Career 6-4."
+    },
+    "efg_by_destination": {
+      "keywords": [
+        "efg",
+        "effective field goal",
+        "shooting efficiency",
+        "efg%"
+      ],
+      "question": "What was the average college EFG% by pro destination?",
+      "data": {
+        "nba": 54.4,
+        "g_league": 51.7,
+        "europe": 50.1,
+        "other_intl": 49.0,
+        "no_pro": 39.1
+      },
+      "template": "Average final-year college EFG% by pro destination: NBA 54.4%, G-League 51.7%, Europe 50.1%, Other International 49.0%, No Pro Career 39.1%."
+    },
+    "ts_by_destination": {
+      "keywords": [
+        "ts%",
+        "true shooting",
+        "ts pct",
+        "true shooting percentage"
+      ],
+      "question": "What was the average college TS% by pro destination?",
+      "data": {
+        "nba": 57.9,
+        "g_league": 55.1,
+        "europe": 53.3,
+        "other_intl": 52.2,
+        "no_pro": 42.1
+      },
+      "template": "Average final-year college TS% by pro destination: NBA 57.9%, G-League 55.1%, Europe 53.3%, Other International 52.2%, No Pro Career 42.1%."
+    },
+    "threep_by_destination": {
+      "keywords": [
+        "three point",
+        "3pt",
+        "three pointer",
+        "3 point",
+        "threep",
+        "three%",
+        "3pt%"
+      ],
+      "question": "What was the average college 3PT% by pro destination?",
+      "data": {
+        "nba": 0.3,
+        "g_league": 0.3,
+        "europe": 0.3,
+        "other_intl": 0.3,
+        "no_pro": 0.2
+      },
+      "template": "Average final-year college 3PT% by pro destination: NBA 0.3%, G-League 0.3%, Europe 0.3%, Other International 0.3%, No Pro Career 0.2%."
+    },
+    "bpm_by_destination": {
+      "keywords": [
+        "bpm",
+        "box plus minus",
+        "plus minus",
+        "advanced stats"
+      ],
+      "question": "What was the average college BPM (Box Plus/Minus) by pro destination?",
+      "data": {
+        "nba": 30.6,
+        "g_league": 27.7,
+        "europe": 24.3,
+        "other_intl": 22.4,
+        "no_pro": 11.6
+      },
+      "template": "Average final-year college BPM by pro destination: NBA 30.6, G-League 27.7, Europe 24.3, Other International 22.4, No Pro Career 11.6."
+    },
+    "minutes_by_destination": {
+      "keywords": [
+        "minutes",
+        "playing time",
+        "min pct",
+        "minutes percentage",
+        "usage"
+      ],
+      "question": "What was the average college minutes share by pro destination?",
+      "data": {
+        "nba": 72.4,
+        "g_league": 65.0,
+        "europe": 56.7,
+        "other_intl": 51.3,
+        "no_pro": 22.3
+      },
+      "template": "Average final-year college minutes percentage by pro destination: NBA 72.4%, G-League 65.0%, Europe 56.7%, Other International 51.3%, No Pro Career 22.3%."
+    },
+    "total_players": {
+      "keywords": [
+        "how many",
+        "total",
+        "count",
+        "number",
+        "players",
+        "dataset",
+        "sample size",
+        "analyzed"
+      ],
+      "question": "How many D1 players were analyzed?",
+      "data": {
+        "total": 18688,
+        "counts": {
+          "nba": 816,
+          "g_league": 1065,
+          "europe": 2073,
+          "other_intl": 3168,
+          "no_pro": 11566
+        },
+        "pcts": {
+          "nba": 4.4,
+          "g_league": 5.7,
+          "europe": 11.1,
+          "other_intl": 17.0,
+          "no_pro": 61.9
+        }
+      },
+      "template": "We analyzed 18,688 D1 players whose last college season was between 2014-15 and 2024-25. Of these, 816 (4.4%) reached the NBA, 1,065 (5.7%) went to the G-League, 2,073 (11.1%) played in Europe, 3,168 (17.0%) played in other international leagues, and 11,566 (61.9%) had no recorded pro career."
+    },
+    "pro_percentage": {
+      "keywords": [
+        "percent",
+        "chance",
+        "odds",
+        "probability",
+        "likelihood",
+        "go pro",
+        "make it"
+      ],
+      "question": "What percentage of D1 players go pro?",
+      "data": {
+        "pro_pct": 38.1,
+        "nba_pct": 4.4
+      },
+      "template": "38.1% of D1 players in our dataset went on to play some form of professional basketball. Only 4.4% made the NBA with real regular-season playing time. 5.7% went to the G-League, 11.1% to Europe, and 17.0% to other international leagues."
+    },
+    "top_schools_nba": {
+      "keywords": [
+        "school",
+        "college",
+        "university",
+        "produce",
+        "most nba",
+        "nba school",
+        "top school",
+        "top program",
+        "nba program"
+      ],
+      "question": "Which schools produce the most NBA players?",
+      "data": [
+        {
+          "school": "Kentucky",
+          "count": 41
+        },
+        {
+          "school": "Duke",
+          "count": 40
+        },
+        {
+          "school": "Arizona",
+          "count": 20
+        },
+        {
+          "school": "Kansas",
+          "count": 19
+        },
+        {
+          "school": "Gonzaga",
+          "count": 17
+        },
+        {
+          "school": "Michigan",
+          "count": 17
+        },
+        {
+          "school": "UCLA",
+          "count": 15
+        },
+        {
+          "school": "North Carolina",
+          "count": 15
+        },
+        {
+          "school": "Baylor",
+          "count": 15
+        },
+        {
+          "school": "Virginia",
+          "count": 13
+        },
+        {
+          "school": "Villanova",
+          "count": 13
+        },
+        {
+          "school": "Louisville",
+          "count": 13
+        },
+        {
+          "school": "Florida State",
+          "count": 13
+        },
+        {
+          "school": "LSU",
+          "count": 13
+        },
+        {
+          "school": "Tennessee",
+          "count": 13
+        },
+        {
+          "school": "Arkansas",
+          "count": 13
+        },
+        {
+          "school": "Michigan State",
+          "count": 12
+        },
+        {
+          "school": "UConn",
+          "count": 12
+        },
+        {
+          "school": "Alabama",
+          "count": 12
+        },
+        {
+          "school": "Florida",
+          "count": 11
+        }
+      ],
+      "template": "Top NBA-producing schools (2015-2025): Kentucky (41), Duke (40), Arizona (20), Kansas (19), Gonzaga (17). The top 20 also includes: Michigan (17), UCLA (15), North Carolina (15), Baylor (15), Virginia (13)."
+    },
+    "top_schools_g_league": {
+      "keywords": [
+        "school",
+        "college",
+        "university",
+        "produce",
+        "most g-league",
+        "g-league school",
+        "top school",
+        "top program",
+        "g-league program"
+      ],
+      "question": "Which schools produce the most G-League players?",
+      "data": [
+        {
+          "school": "Georgetown",
+          "count": 13
+        },
+        {
+          "school": "Texas",
+          "count": 13
+        },
+        {
+          "school": "Washington",
+          "count": 13
+        },
+        {
+          "school": "LSU",
+          "count": 13
+        },
+        {
+          "school": "Villanova",
+          "count": 12
+        },
+        {
+          "school": "Oregon",
+          "count": 12
+        },
+        {
+          "school": "Texas Tech",
+          "count": 12
+        },
+        {
+          "school": "West Virginia",
+          "count": 11
+        },
+        {
+          "school": "UNLV",
+          "count": 11
+        },
+        {
+          "school": "Arkansas",
+          "count": 11
+        },
+        {
+          "school": "Memphis",
+          "count": 11
+        },
+        {
+          "school": "UCLA",
+          "count": 10
+        },
+        {
+          "school": "Kentucky",
+          "count": 10
+        },
+        {
+          "school": "Ole Miss",
+          "count": 10
+        },
+        {
+          "school": "Creighton",
+          "count": 10
+        },
+        {
+          "school": "Maryland",
+          "count": 9
+        },
+        {
+          "school": "UConn",
+          "count": 9
+        },
+        {
+          "school": "Arizona",
+          "count": 9
+        },
+        {
+          "school": "Nebraska",
+          "count": 9
+        },
+        {
+          "school": "Indiana",
+          "count": 9
+        }
+      ],
+      "template": "Top G-League-producing schools (2015-2025): Georgetown (13), Texas (13), Washington (13), LSU (13), Villanova (12). The top 20 also includes: Oregon (12), Texas Tech (12), West Virginia (11), UNLV (11), Arkansas (11)."
+    },
+    "top_schools_europe": {
+      "keywords": [
+        "school",
+        "college",
+        "university",
+        "produce",
+        "most europe",
+        "europe school",
+        "top school",
+        "top program",
+        "europe program"
+      ],
+      "question": "Which schools produce the most Europe players?",
+      "data": [
+        {
+          "school": "Colorado State",
+          "count": 15
+        },
+        {
+          "school": "Loyola Marymount",
+          "count": 14
+        },
+        {
+          "school": "Gonzaga",
+          "count": 13
+        },
+        {
+          "school": "Oklahoma State",
+          "count": 13
+        },
+        {
+          "school": "UC Irvine",
+          "count": 13
+        },
+        {
+          "school": "Duquesne",
+          "count": 13
+        },
+        {
+          "school": "Georgia Tech",
+          "count": 12
+        },
+        {
+          "school": "Xavier",
+          "count": 12
+        },
+        {
+          "school": "Iona",
+          "count": 12
+        },
+        {
+          "school": "Fordham",
+          "count": 12
+        },
+        {
+          "school": "Clemson",
+          "count": 12
+        },
+        {
+          "school": "Georgia Southern",
+          "count": 11
+        },
+        {
+          "school": "Auburn",
+          "count": 11
+        },
+        {
+          "school": "Georgia State",
+          "count": 11
+        },
+        {
+          "school": "Kent State",
+          "count": 11
+        },
+        {
+          "school": "Indiana State",
+          "count": 11
+        },
+        {
+          "school": "Jacksonville State",
+          "count": 11
+        },
+        {
+          "school": "Tennessee",
+          "count": 11
+        },
+        {
+          "school": "Murray State",
+          "count": 11
+        },
+        {
+          "school": "Chattanooga",
+          "count": 11
+        }
+      ],
+      "template": "Top Europe-producing schools (2015-2025): Colorado State (15), Loyola Marymount (14), Gonzaga (13), Oklahoma State (13), UC Irvine (13). The top 20 also includes: Duquesne (13), Georgia Tech (12), Xavier (12), Iona (12), Fordham (12)."
+    },
+    "top_schools_other_intl": {
+      "keywords": [
+        "school",
+        "college",
+        "university",
+        "produce",
+        "most other international",
+        "other international school",
+        "top school",
+        "top program",
+        "other international program"
+      ],
+      "question": "Which schools produce the most Other International players?",
+      "data": [
+        {
+          "school": "New Mexico State",
+          "count": 23
+        },
+        {
+          "school": "Tennessee State",
+          "count": 22
+        },
+        {
+          "school": "Cal State Fullerton",
+          "count": 21
+        },
+        {
+          "school": "Prairie View A&M",
+          "count": 21
+        },
+        {
+          "school": "Hawaii",
+          "count": 20
+        },
+        {
+          "school": "Youngstown State",
+          "count": 20
+        },
+        {
+          "school": "Seattle",
+          "count": 19
+        },
+        {
+          "school": "Western Kentucky",
+          "count": 19
+        },
+        {
+          "school": "St. Francis (NY)",
+          "count": 19
+        },
+        {
+          "school": "Portland State",
+          "count": 19
+        },
+        {
+          "school": "Rhode Island",
+          "count": 18
+        },
+        {
+          "school": "Radford",
+          "count": 18
+        },
+        {
+          "school": "Grand Canyon",
+          "count": 17
+        },
+        {
+          "school": "East Tennessee State",
+          "count": 17
+        },
+        {
+          "school": "Tennessee-Martin",
+          "count": 17
+        },
+        {
+          "school": "Montana",
+          "count": 17
+        },
+        {
+          "school": "Kent State",
+          "count": 16
+        },
+        {
+          "school": "Old Dominion",
+          "count": 16
+        },
+        {
+          "school": "Southeastern Louisiana",
+          "count": 16
+        },
+        {
+          "school": "Southern Utah",
+          "count": 16
+        }
+      ],
+      "template": "Top Other International-producing schools (2015-2025): New Mexico State (23), Tennessee State (22), Cal State Fullerton (21), Prairie View A&M (21), Hawaii (20). The top 20 also includes: Youngstown State (20), Seattle (19), Western Kentucky (19), St. Francis (NY) (19), Portland State (19)."
+    },
+    "top_schools_total_pro": {
+      "keywords": [
+        "most pro",
+        "total pro",
+        "pro players school",
+        "most professional",
+        "best schools",
+        "top programs",
+        "all pro"
+      ],
+      "question": "Which schools produce the most total pro players?",
+      "data": [
+        {
+          "school": "Kentucky",
+          "count": 57
+        },
+        {
+          "school": "Duke",
+          "count": 48
+        },
+        {
+          "school": "Arizona",
+          "count": 41
+        },
+        {
+          "school": "Arkansas",
+          "count": 41
+        },
+        {
+          "school": "Gonzaga",
+          "count": 39
+        },
+        {
+          "school": "Texas",
+          "count": 38
+        },
+        {
+          "school": "New Mexico State",
+          "count": 38
+        },
+        {
+          "school": "Iowa State",
+          "count": 36
+        },
+        {
+          "school": "Texas Tech",
+          "count": 36
+        },
+        {
+          "school": "Auburn",
+          "count": 36
+        },
+        {
+          "school": "Nebraska",
+          "count": 36
+        },
+        {
+          "school": "Louisville",
+          "count": 35
+        },
+        {
+          "school": "NC State",
+          "count": 35
+        },
+        {
+          "school": "West Virginia",
+          "count": 35
+        },
+        {
+          "school": "UConn",
+          "count": 34
+        },
+        {
+          "school": "North Carolina",
+          "count": 34
+        },
+        {
+          "school": "Kansas",
+          "count": 34
+        },
+        {
+          "school": "Oregon",
+          "count": 34
+        },
+        {
+          "school": "Creighton",
+          "count": 34
+        },
+        {
+          "school": "Memphis",
+          "count": 34
+        }
+      ],
+      "template": "Top schools by total pro players (any destination, 2015-2025): Kentucky (57), Duke (48), Arizona (41), Arkansas (41), Gonzaga (39), Texas (38), New Mexico State (38), Iowa State (36), Texas Tech (36), Auburn (36)."
+    },
+    "top_conferences_nba": {
+      "keywords": [
+        "conference nba",
+        "best conference",
+        "nba conference",
+        "conference produce nba",
+        "acc",
+        "sec",
+        "big ten",
+        "big 12",
+        "pac 12",
+        "conference ranking"
+      ],
+      "question": "Which conferences produce the most NBA players?",
+      "data": [
+        {
+          "conference": "SEC",
+          "count": 135
+        },
+        {
+          "conference": "ACC",
+          "count": 126
+        },
+        {
+          "conference": "P12",
+          "count": 85
+        },
+        {
+          "conference": "B10",
+          "count": 82
+        },
+        {
+          "conference": "B12",
+          "count": 75
+        },
+        {
+          "conference": "BE",
+          "count": 61
+        },
+        {
+          "conference": "Amer",
+          "count": 28
+        },
+        {
+          "conference": "WCC",
+          "count": 26
+        },
+        {
+          "conference": "A10",
+          "count": 21
+        },
+        {
+          "conference": "MWC",
+          "count": 20
+        },
+        {
+          "conference": "CAA",
+          "count": 8
+        },
+        {
+          "conference": "MAC",
+          "count": 7
+        },
+        {
+          "conference": "MVC",
+          "count": 6
+        },
+        {
+          "conference": "CUSA",
+          "count": 6
+        },
+        {
+          "conference": "OVC",
+          "count": 6
+        }
+      ],
+      "template": "Top conferences by NBA production: SEC (135), ACC (126), P12 (85), B10 (82), B12 (75), BE (61), Amer (28), WCC (26), A10 (21), MWC (20)."
+    },
+    "top_conferences_pro": {
+      "keywords": [
+        "conference pro",
+        "conference total",
+        "pro conference",
+        "conference professional",
+        "conference production"
+      ],
+      "question": "Which conferences produce the most total pro players?",
+      "data": [
+        {
+          "conference": "SEC",
+          "count": 397
+        },
+        {
+          "conference": "ACC",
+          "count": 391
+        },
+        {
+          "conference": "B10",
+          "count": 325
+        },
+        {
+          "conference": "B12",
+          "count": 308
+        },
+        {
+          "conference": "P12",
+          "count": 276
+        },
+        {
+          "conference": "BE",
+          "count": 271
+        },
+        {
+          "conference": "A10",
+          "count": 254
+        },
+        {
+          "conference": "Amer",
+          "count": 238
+        },
+        {
+          "conference": "WCC",
+          "count": 224
+        },
+        {
+          "conference": "SB",
+          "count": 221
+        },
+        {
+          "conference": "MWC",
+          "count": 218
+        },
+        {
+          "conference": "CUSA",
+          "count": 214
+        },
+        {
+          "conference": "MAC",
+          "count": 208
+        },
+        {
+          "conference": "OVC",
+          "count": 202
+        },
+        {
+          "conference": "BSky",
+          "count": 196
+        }
+      ],
+      "template": "Top conferences by total pro production: SEC (397), ACC (391), B10 (325), B12 (308), P12 (276), BE (271), A10 (254), Amer (238), WCC (224), SB (221)."
+    },
+    "conference_pro_rate": {
+      "keywords": [
+        "conference rate",
+        "conference percentage",
+        "pro rate conference",
+        "conference efficiency",
+        "best rate"
+      ],
+      "question": "Which conferences have the highest pro player rate?",
+      "data": [
+        {
+          "conference": "B12",
+          "pro_count": 308,
+          "total": 457,
+          "rate": 67.4
+        },
+        {
+          "conference": "BE",
+          "pro_count": 271,
+          "total": 412,
+          "rate": 65.8
+        },
+        {
+          "conference": "SEC",
+          "pro_count": 397,
+          "total": 631,
+          "rate": 62.9
+        },
+        {
+          "conference": "P12",
+          "pro_count": 276,
+          "total": 462,
+          "rate": 59.7
+        },
+        {
+          "conference": "ACC",
+          "pro_count": 391,
+          "total": 666,
+          "rate": 58.7
+        },
+        {
+          "conference": "B10",
+          "pro_count": 325,
+          "total": 568,
+          "rate": 57.2
+        },
+        {
+          "conference": "Amer",
+          "pro_count": 238,
+          "total": 455,
+          "rate": 52.3
+        },
+        {
+          "conference": "WCC",
+          "pro_count": 224,
+          "total": 456,
+          "rate": 49.1
+        },
+        {
+          "conference": "A10",
+          "pro_count": 254,
+          "total": 544,
+          "rate": 46.7
+        },
+        {
+          "conference": "MWC",
+          "pro_count": 218,
+          "total": 470,
+          "rate": 46.4
+        },
+        {
+          "conference": "MAC",
+          "pro_count": 208,
+          "total": 520,
+          "rate": 40.0
+        },
+        {
+          "conference": "BW",
+          "pro_count": 185,
+          "total": 467,
+          "rate": 39.6
+        },
+        {
+          "conference": "CUSA",
+          "pro_count": 214,
+          "total": 545,
+          "rate": 39.3
+        },
+        {
+          "conference": "SB",
+          "pro_count": 221,
+          "total": 585,
+          "rate": 37.8
+        },
+        {
+          "conference": "MAAC",
+          "pro_count": 178,
+          "total": 484,
+          "rate": 36.8
+        }
+      ],
+      "template": "Top conferences by pro player rate (min 50 players): B12 (67.4%), BE (65.8%), SEC (62.9%), P12 (59.7%), ACC (58.7%), B10 (57.2%), Amer (52.3%), WCC (49.1%)."
+    },
+    "career_transitions": {
+      "keywords": [
+        "transition",
+        "switch",
+        "move between",
+        "path",
+        "nba to international",
+        "g league to nba",
+        "gleague to nba",
+        "career path",
+        "pathway"
+      ],
+      "question": "How many players transitioned between pro levels?",
+      "data": {
+        "nba_to_intl": 293,
+        "nba_to_gleague": 150,
+        "gleague_to_nba": 48,
+        "gleague_to_intl": 672,
+        "europe_to_nba": 25,
+        "europe_to_gleague": 133,
+        "europe_to_other_intl": 0,
+        "other_intl_to_nba": 21,
+        "other_intl_to_gleague": 170,
+        "other_intl_to_europe": 0
+      },
+      "template": "Career transitions: NBA-first players: 293 went international, 150 to G-League. G-League-first: 48 made the NBA, 672 went international. Europe-first: 25 made the NBA, 133 came to G-League. Other International-first: 21 made the NBA, 170 to G-League."
+    },
+    "gleague_to_nba_path": {
+      "keywords": [
+        "g league to nba",
+        "gleague nba",
+        "g league path",
+        "gleague path nba",
+        "made nba from g league",
+        "g league pipeline"
+      ],
+      "question": "How many G-League players eventually made the NBA?",
+      "data": {
+        "count": 48,
+        "total": 1065,
+        "pct": 4.5,
+        "avg_years": 2.8
+      },
+      "template": "Of 1,065 players whose first pro destination was the G-League, 48 (4.5%) eventually earned real NBA playing time, averaging 2.8 years after leaving college to reach the NBA."
+    },
+    "europe_to_nba_path": {
+      "keywords": [
+        "europe to nba",
+        "european nba",
+        "europe nba path",
+        "from europe to nba"
+      ],
+      "question": "How many European players eventually made the NBA?",
+      "data": {
+        "count": 25,
+        "total": 2073,
+        "pct": 1.2
+      },
+      "template": "Of 2,073 players who first went to Europe, 25 (1.2%) eventually made it to the NBA."
+    },
+    "other_intl_to_nba_path": {
+      "keywords": [
+        "other international nba",
+        "overseas nba",
+        "foreign nba",
+        "international to nba path"
+      ],
+      "question": "How many Other International players eventually made the NBA?",
+      "data": {
+        "count": 21,
+        "total": 3168,
+        "pct": 0.7
+      },
+      "template": "Of 3,168 players who first went to other international leagues, 21 (0.7%) eventually made it to the NBA."
+    },
+    "career_length_by_destination": {
+      "keywords": [
+        "career length",
+        "how long",
+        "years pro",
+        "duration",
+        "career duration",
+        "average career",
+        "pro career length",
+        "seasons pro"
+      ],
+      "question": "What is the average pro career length by first destination?",
+      "data": {
+        "nba": {
+          "avg": 5.6,
+          "median": 6,
+          "count": 816
+        },
+        "g_league": {
+          "avg": 4.0,
+          "median": 3,
+          "count": 1065
+        },
+        "europe": {
+          "avg": 3.5,
+          "median": 3,
+          "count": 2073
+        },
+        "other_intl": {
+          "avg": 3.0,
+          "median": 2,
+          "count": 3168
+        }
+      },
+      "template": "Average pro career length by first destination: NBA-first 5.6 seasons, G-League-first 4.0 seasons, Europe-first 3.5 seasons, Other International-first 3.0 seasons."
+    },
+    "career_length_dist_nba": {
+      "keywords": [
+        "nba career distribution",
+        "nba career years",
+        "how long nba",
+        "nba duration",
+        "nba seasons breakdown"
+      ],
+      "question": "What is the career length distribution for NBA-first players?",
+      "data": {
+        "1": 74,
+        "2": 80,
+        "3": 74,
+        "4": 90,
+        "5": 86,
+        "6": 84,
+        "7": 98,
+        "8+": 230
+      },
+      "template": "Career length distribution for NBA-first players: 1 season: 74, 2 seasons: 80, 3 seasons: 74, 4 seasons: 90, 5 seasons: 86, 6 seasons: 84, 7 seasons: 98, 8+ seasons: 230. Average: 5.6 seasons."
+    },
+    "career_length_dist_g_league": {
+      "keywords": [
+        "g-league career distribution",
+        "g-league career years",
+        "how long g-league",
+        "g-league duration",
+        "g-league seasons breakdown"
+      ],
+      "question": "What is the career length distribution for G-League-first players?",
+      "data": {
+        "1": 235,
+        "2": 170,
+        "3": 149,
+        "4": 110,
+        "5": 97,
+        "6": 83,
+        "7": 69,
+        "8+": 152
+      },
+      "template": "Career length distribution for G-League-first players: 1 season: 235, 2 seasons: 170, 3 seasons: 149, 4 seasons: 110, 5 seasons: 97, 6 seasons: 83, 7 seasons: 69, 8+ seasons: 152. Average: 4.0 seasons."
+    },
+    "career_length_dist_europe": {
+      "keywords": [
+        "europe career distribution",
+        "europe career years",
+        "how long europe",
+        "europe duration",
+        "europe seasons breakdown"
+      ],
+      "question": "What is the career length distribution for Europe-first players?",
+      "data": {
+        "1": 620,
+        "2": 364,
+        "3": 289,
+        "4": 209,
+        "5": 137,
+        "6": 133,
+        "7": 104,
+        "8+": 217
+      },
+      "template": "Career length distribution for Europe-first players: 1 season: 620, 2 seasons: 364, 3 seasons: 289, 4 seasons: 209, 5 seasons: 137, 6 seasons: 133, 7 seasons: 104, 8+ seasons: 217. Average: 3.5 seasons."
+    },
+    "career_length_dist_other_intl": {
+      "keywords": [
+        "other international career distribution",
+        "other international career years",
+        "how long other international",
+        "other international duration",
+        "other international seasons breakdown"
+      ],
+      "question": "What is the career length distribution for Other International-first players?",
+      "data": {
+        "1": 1151,
+        "2": 621,
+        "3": 407,
+        "4": 252,
+        "5": 213,
+        "6": 159,
+        "7": 155,
+        "8+": 210
+      },
+      "template": "Career length distribution for Other International-first players: 1 season: 1151, 2 seasons: 621, 3 seasons: 407, 4 seasons: 252, 5 seasons: 213, 6 seasons: 159, 7 seasons: 155, 8+ seasons: 210. Average: 3.0 seasons."
+    },
+    "long_nba_career": {
+      "keywords": [
+        "long nba",
+        "5 year",
+        "sustained",
+        "lasting nba",
+        "nba career 5",
+        "long career nba",
+        "nba longevity"
+      ],
+      "question": "What percentage of NBA players have long careers (5+ years)?",
+      "data": {
+        "long_count": 498,
+        "total": 816,
+        "pct": 61.0,
+        "long_ppg": 15.1,
+        "short_ppg": 14.4
+      },
+      "template": "Of 816 players who reached the NBA, 498 (61.0%) had careers of 5 or more seasons. These long-career players averaged 15.1 PPG in their final college season, vs 14.4 for those with shorter NBA stints."
+    },
+    "short_nba_outcomes": {
+      "keywords": [
+        "nba left",
+        "short nba",
+        "brief nba",
+        "wash out",
+        "nba bust",
+        "nba flameout",
+        "didn't last nba"
+      ],
+      "question": "What happens to NBA players who don't last 5 years?",
+      "data": {
+        "count": 318,
+        "to_intl": 22,
+        "to_gl": 19,
+        "out": 277
+      },
+      "template": "Of NBA players with shorter careers (<5 years): 22 transitioned to international basketball, 19 moved to the G-League, and 277 left professional basketball entirely."
+    },
+    "trend_nba": {
+      "keywords": [
+        "nba trend",
+        "nba year",
+        "nba over time",
+        "nba by year",
+        "trend",
+        "year over year",
+        "nba percentage year"
+      ],
+      "question": "How has the NBA rate changed year over year?",
+      "data": [
+        {
+          "year": 2015,
+          "count": 48,
+          "total": 1410,
+          "pct": 3.4
+        },
+        {
+          "year": 2016,
+          "count": 70,
+          "total": 1610,
+          "pct": 4.3
+        },
+        {
+          "year": 2017,
+          "count": 79,
+          "total": 1757,
+          "pct": 4.5
+        },
+        {
+          "year": 2018,
+          "count": 79,
+          "total": 1801,
+          "pct": 4.4
+        },
+        {
+          "year": 2019,
+          "count": 92,
+          "total": 1764,
+          "pct": 5.2
+        },
+        {
+          "year": 2020,
+          "count": 72,
+          "total": 1731,
+          "pct": 4.2
+        },
+        {
+          "year": 2021,
+          "count": 81,
+          "total": 1103,
+          "pct": 7.3
+        },
+        {
+          "year": 2022,
+          "count": 76,
+          "total": 1852,
+          "pct": 4.1
+        },
+        {
+          "year": 2023,
+          "count": 72,
+          "total": 1740,
+          "pct": 4.1
+        },
+        {
+          "year": 2024,
+          "count": 74,
+          "total": 1746,
+          "pct": 4.2
+        }
+      ],
+      "template": "NBA percentage by graduation year: 2015: 3.4%, 2016: 4.3%, 2017: 4.5%, 2018: 4.4%, 2019: 5.2%, 2020: 4.2%, 2021: 7.3%, 2022: 4.1%, 2023: 4.1%, 2024: 4.2%."
+    },
+    "trend_g_league": {
+      "keywords": [
+        "g-league trend",
+        "g-league year",
+        "g-league over time",
+        "g-league by year",
+        "trend",
+        "year over year",
+        "g-league percentage year"
+      ],
+      "question": "How has the G-League rate changed year over year?",
+      "data": [
+        {
+          "year": 2015,
+          "count": 98,
+          "total": 1410,
+          "pct": 7.0
+        },
+        {
+          "year": 2016,
+          "count": 90,
+          "total": 1610,
+          "pct": 5.6
+        },
+        {
+          "year": 2017,
+          "count": 119,
+          "total": 1757,
+          "pct": 6.8
+        },
+        {
+          "year": 2018,
+          "count": 117,
+          "total": 1801,
+          "pct": 6.5
+        },
+        {
+          "year": 2019,
+          "count": 113,
+          "total": 1764,
+          "pct": 6.4
+        },
+        {
+          "year": 2020,
+          "count": 61,
+          "total": 1731,
+          "pct": 3.5
+        },
+        {
+          "year": 2021,
+          "count": 70,
+          "total": 1103,
+          "pct": 6.3
+        },
+        {
+          "year": 2022,
+          "count": 89,
+          "total": 1852,
+          "pct": 4.8
+        },
+        {
+          "year": 2023,
+          "count": 93,
+          "total": 1740,
+          "pct": 5.3
+        },
+        {
+          "year": 2024,
+          "count": 90,
+          "total": 1746,
+          "pct": 5.2
+        }
+      ],
+      "template": "G-League percentage by graduation year: 2015: 7.0%, 2016: 5.6%, 2017: 6.8%, 2018: 6.5%, 2019: 6.4%, 2020: 3.5%, 2021: 6.3%, 2022: 4.8%, 2023: 5.3%, 2024: 5.2%."
+    },
+    "trend_europe": {
+      "keywords": [
+        "europe trend",
+        "europe year",
+        "europe over time",
+        "europe by year",
+        "trend",
+        "year over year",
+        "europe percentage year"
+      ],
+      "question": "How has the Europe rate changed year over year?",
+      "data": [
+        {
+          "year": 2015,
+          "count": 178,
+          "total": 1410,
+          "pct": 12.6
+        },
+        {
+          "year": 2016,
+          "count": 186,
+          "total": 1610,
+          "pct": 11.6
+        },
+        {
+          "year": 2017,
+          "count": 190,
+          "total": 1757,
+          "pct": 10.8
+        },
+        {
+          "year": 2018,
+          "count": 198,
+          "total": 1801,
+          "pct": 11.0
+        },
+        {
+          "year": 2019,
+          "count": 187,
+          "total": 1764,
+          "pct": 10.6
+        },
+        {
+          "year": 2020,
+          "count": 206,
+          "total": 1731,
+          "pct": 11.9
+        },
+        {
+          "year": 2021,
+          "count": 79,
+          "total": 1103,
+          "pct": 7.2
+        },
+        {
+          "year": 2022,
+          "count": 217,
+          "total": 1852,
+          "pct": 11.7
+        },
+        {
+          "year": 2023,
+          "count": 211,
+          "total": 1740,
+          "pct": 12.1
+        },
+        {
+          "year": 2024,
+          "count": 183,
+          "total": 1746,
+          "pct": 10.5
+        }
+      ],
+      "template": "Europe percentage by graduation year: 2015: 12.6%, 2016: 11.6%, 2017: 10.8%, 2018: 11.0%, 2019: 10.6%, 2020: 11.9%, 2021: 7.2%, 2022: 11.7%, 2023: 12.1%, 2024: 10.5%."
+    },
+    "trend_other_intl": {
+      "keywords": [
+        "other international trend",
+        "other international year",
+        "other international over time",
+        "other international by year",
+        "trend",
+        "year over year",
+        "other international percentage year"
+      ],
+      "question": "How has the Other International rate changed year over year?",
+      "data": [
+        {
+          "year": 2015,
+          "count": 261,
+          "total": 1410,
+          "pct": 18.5
+        },
+        {
+          "year": 2016,
+          "count": 277,
+          "total": 1610,
+          "pct": 17.2
+        },
+        {
+          "year": 2017,
+          "count": 275,
+          "total": 1757,
+          "pct": 15.7
+        },
+        {
+          "year": 2018,
+          "count": 323,
+          "total": 1801,
+          "pct": 17.9
+        },
+        {
+          "year": 2019,
+          "count": 317,
+          "total": 1764,
+          "pct": 18.0
+        },
+        {
+          "year": 2020,
+          "count": 329,
+          "total": 1731,
+          "pct": 19.0
+        },
+        {
+          "year": 2021,
+          "count": 131,
+          "total": 1103,
+          "pct": 11.9
+        },
+        {
+          "year": 2022,
+          "count": 285,
+          "total": 1852,
+          "pct": 15.4
+        },
+        {
+          "year": 2023,
+          "count": 330,
+          "total": 1740,
+          "pct": 19.0
+        },
+        {
+          "year": 2024,
+          "count": 329,
+          "total": 1746,
+          "pct": 18.8
+        }
+      ],
+      "template": "Other International percentage by graduation year: 2015: 18.5%, 2016: 17.2%, 2017: 15.7%, 2018: 17.9%, 2019: 18.0%, 2020: 19.0%, 2021: 11.9%, 2022: 15.4%, 2023: 19.0%, 2024: 18.8%."
+    },
+    "trend_pro_overall": {
+      "keywords": [
+        "pro trend",
+        "overall trend",
+        "pro rate over time",
+        "going pro trend",
+        "pro percentage year"
+      ],
+      "question": "How has the overall pro rate changed year over year?",
+      "data": [
+        {
+          "year": 2015,
+          "pro_pct": 41.5,
+          "total": 1410
+        },
+        {
+          "year": 2016,
+          "pro_pct": 38.7,
+          "total": 1610
+        },
+        {
+          "year": 2017,
+          "pro_pct": 37.7,
+          "total": 1757
+        },
+        {
+          "year": 2018,
+          "pro_pct": 39.8,
+          "total": 1801
+        },
+        {
+          "year": 2019,
+          "pro_pct": 40.2,
+          "total": 1764
+        },
+        {
+          "year": 2020,
+          "pro_pct": 38.6,
+          "total": 1731
+        },
+        {
+          "year": 2021,
+          "pro_pct": 32.7,
+          "total": 1103
+        },
+        {
+          "year": 2022,
+          "pro_pct": 36.0,
+          "total": 1852
+        },
+        {
+          "year": 2023,
+          "pro_pct": 40.6,
+          "total": 1740
+        },
+        {
+          "year": 2024,
+          "pro_pct": 38.7,
+          "total": 1746
+        }
+      ],
+      "template": "Overall pro rate by graduation year: 2015: 41.5%, 2016: 38.7%, 2017: 37.7%, 2018: 39.8%, 2019: 40.2%, 2020: 38.6%, 2021: 32.7%, 2022: 36.0%, 2023: 40.6%, 2024: 38.7%."
+    },
+    "position_nba": {
+      "keywords": [
+        "position",
+        "guard",
+        "forward",
+        "center",
+        "nba position",
+        "pos",
+        "pg",
+        "sg",
+        "sf",
+        "pf"
+      ],
+      "question": "What positions are most common among NBA players?",
+      "data": [
+        {
+          "pos": "F",
+          "count": 144,
+          "pct": 17.6
+        },
+        {
+          "pos": "G",
+          "count": 133,
+          "pct": 16.3
+        },
+        {
+          "pos": "SG",
+          "count": 118,
+          "pct": 14.5
+        },
+        {
+          "pos": "SF",
+          "count": 110,
+          "pct": 13.5
+        },
+        {
+          "pos": "PF",
+          "count": 103,
+          "pct": 12.6
+        },
+        {
+          "pos": "PG",
+          "count": 97,
+          "pct": 11.9
+        },
+        {
+          "pos": "C",
+          "count": 75,
+          "pct": 9.2
+        },
+        {
+          "pos": "GF",
+          "count": 29,
+          "pct": 3.6
+        },
+        {
+          "pos": "FC",
+          "count": 7,
+          "pct": 0.9
+        }
+      ],
+      "template": "Position breakdown for NBA players: F: 144 (17.6%), G: 133 (16.3%), SG: 118 (14.5%), SF: 110 (13.5%), PF: 103 (12.6%), PG: 97 (11.9%), C: 75 (9.2%), GF: 29 (3.6%), FC: 7 (0.9%)."
+    },
+    "position_g_league": {
+      "keywords": [
+        "position",
+        "guard",
+        "forward",
+        "center",
+        "g-league position",
+        "pos",
+        "pg",
+        "sg",
+        "sf",
+        "pf"
+      ],
+      "question": "What positions are most common among G-League players?",
+      "data": [
+        {
+          "pos": "G",
+          "count": 299,
+          "pct": 28.1
+        },
+        {
+          "pos": "F",
+          "count": 175,
+          "pct": 16.4
+        },
+        {
+          "pos": "SG",
+          "count": 146,
+          "pct": 13.7
+        },
+        {
+          "pos": "SF",
+          "count": 120,
+          "pct": 11.3
+        },
+        {
+          "pos": "PG",
+          "count": 88,
+          "pct": 8.3
+        },
+        {
+          "pos": "PF",
+          "count": 87,
+          "pct": 8.2
+        },
+        {
+          "pos": "C",
+          "count": 79,
+          "pct": 7.4
+        },
+        {
+          "pos": "GF",
+          "count": 60,
+          "pct": 5.6
+        },
+        {
+          "pos": "FC",
+          "count": 11,
+          "pct": 1.0
+        }
+      ],
+      "template": "Position breakdown for G-League players: G: 299 (28.1%), F: 175 (16.4%), SG: 146 (13.7%), SF: 120 (11.3%), PG: 88 (8.3%), PF: 87 (8.2%), C: 79 (7.4%), GF: 60 (5.6%), FC: 11 (1.0%)."
+    },
+    "position_europe": {
+      "keywords": [
+        "position",
+        "guard",
+        "forward",
+        "center",
+        "europe position",
+        "pos",
+        "pg",
+        "sg",
+        "sf",
+        "pf"
+      ],
+      "question": "What positions are most common among Europe players?",
+      "data": [
+        {
+          "pos": "G",
+          "count": 577,
+          "pct": 27.8
+        },
+        {
+          "pos": "F",
+          "count": 469,
+          "pct": 22.6
+        },
+        {
+          "pos": "PG",
+          "count": 213,
+          "pct": 10.3
+        },
+        {
+          "pos": "C",
+          "count": 188,
+          "pct": 9.1
+        },
+        {
+          "pos": "PF",
+          "count": 164,
+          "pct": 7.9
+        },
+        {
+          "pos": "SG",
+          "count": 162,
+          "pct": 7.8
+        },
+        {
+          "pos": "SF",
+          "count": 138,
+          "pct": 6.7
+        },
+        {
+          "pos": "GF",
+          "count": 103,
+          "pct": 5.0
+        },
+        {
+          "pos": "FC",
+          "count": 59,
+          "pct": 2.8
+        }
+      ],
+      "template": "Position breakdown for Europe players: G: 577 (27.8%), F: 469 (22.6%), PG: 213 (10.3%), C: 188 (9.1%), PF: 164 (7.9%), SG: 162 (7.8%), SF: 138 (6.7%), GF: 103 (5.0%), FC: 59 (2.8%)."
+    },
+    "position_other_intl": {
+      "keywords": [
+        "position",
+        "guard",
+        "forward",
+        "center",
+        "other international position",
+        "pos",
+        "pg",
+        "sg",
+        "sf",
+        "pf"
+      ],
+      "question": "What positions are most common among Other International players?",
+      "data": [
+        {
+          "pos": "G",
+          "count": 894,
+          "pct": 28.2
+        },
+        {
+          "pos": "F",
+          "count": 802,
+          "pct": 25.3
+        },
+        {
+          "pos": "C",
+          "count": 272,
+          "pct": 8.6
+        },
+        {
+          "pos": "PF",
+          "count": 269,
+          "pct": 8.5
+        },
+        {
+          "pos": "SG",
+          "count": 247,
+          "pct": 7.8
+        },
+        {
+          "pos": "PG",
+          "count": 226,
+          "pct": 7.1
+        },
+        {
+          "pos": "SF",
+          "count": 219,
+          "pct": 6.9
+        },
+        {
+          "pos": "GF",
+          "count": 157,
+          "pct": 5.0
+        },
+        {
+          "pos": "FC",
+          "count": 82,
+          "pct": 2.6
+        }
+      ],
+      "template": "Position breakdown for Other International players: G: 894 (28.2%), F: 802 (25.3%), C: 272 (8.6%), PF: 269 (8.5%), SG: 247 (7.8%), PG: 226 (7.1%), SF: 219 (6.9%), GF: 157 (5.0%), FC: 82 (2.6%)."
+    },
+    "position_no_pro": {
+      "keywords": [
+        "position",
+        "guard",
+        "forward",
+        "center",
+        "no pro career position",
+        "pos",
+        "pg",
+        "sg",
+        "sf",
+        "pf"
+      ],
+      "question": "What positions are most common among No Pro Career players?",
+      "data": [
+        {
+          "pos": "G",
+          "count": 5173,
+          "pct": 44.7
+        },
+        {
+          "pos": "F",
+          "count": 2655,
+          "pct": 23.0
+        },
+        {
+          "pos": "C",
+          "count": 728,
+          "pct": 6.3
+        },
+        {
+          "pos": "SG",
+          "count": 660,
+          "pct": 5.7
+        },
+        {
+          "pos": "PG",
+          "count": 656,
+          "pct": 5.7
+        },
+        {
+          "pos": "GF",
+          "count": 585,
+          "pct": 5.1
+        },
+        {
+          "pos": "PF",
+          "count": 491,
+          "pct": 4.2
+        },
+        {
+          "pos": "SF",
+          "count": 444,
+          "pct": 3.8
+        },
+        {
+          "pos": "FC",
+          "count": 170,
+          "pct": 1.5
+        }
+      ],
+      "template": "Position breakdown for No Pro Career players: G: 5173 (44.7%), F: 2655 (23.0%), C: 728 (6.3%), SG: 660 (5.7%), PG: 656 (5.7%), GF: 585 (5.1%), PF: 491 (4.2%), SF: 444 (3.8%), FC: 170 (1.5%)."
+    },
+    "ncaa_seasons_before_pro": {
+      "keywords": [
+        "college years",
+        "how long college",
+        "ncaa seasons",
+        "years in college",
+        "one and done",
+        "early entry",
+        "college career length"
+      ],
+      "question": "How many years did players spend in college before going pro?",
+      "data": {
+        "nba": 3.0,
+        "g_league": 4.3,
+        "europe": 4.3,
+        "other_intl": 4.3,
+        "no_pro": 3.7
+      },
+      "template": "Average NCAA seasons before turning pro: NBA 3.0, G-League 4.3, Europe 4.3, Other International 4.3, No Pro Career 3.7."
+    },
+    "class_year_nba": {
+      "keywords": [
+        "nba class",
+        "freshman",
+        "sophomore",
+        "junior",
+        "senior",
+        "class year",
+        "class year nba"
+      ],
+      "question": "What class year are most NBA players when they leave college?",
+      "data": [
+        {
+          "class_year": "Sr",
+          "count": 365
+        },
+        {
+          "class_year": "Fr",
+          "count": 192
+        },
+        {
+          "class_year": "Jr",
+          "count": 131
+        },
+        {
+          "class_year": "So",
+          "count": 124
+        },
+        {
+          "class_year": "Fr (Ineligible)",
+          "count": 1
+        },
+        {
+          "class_year": "RS-So",
+          "count": 1
+        }
+      ],
+      "template": "Class year breakdown for NBA players: Sr: 365 (44.8%), Fr: 192 (23.6%), Jr: 131 (16.1%), So: 124 (15.2%), Fr (Ineligible): 1 (0.1%), RS-So: 1 (0.1%)."
+    },
+    "class_year_g_league": {
+      "keywords": [
+        "g-league class",
+        "freshman",
+        "sophomore",
+        "junior",
+        "senior",
+        "class year",
+        "class year g-league"
+      ],
+      "question": "What class year are most G-League players when they leave college?",
+      "data": [
+        {
+          "class_year": "Sr",
+          "count": 924
+        },
+        {
+          "class_year": "Jr",
+          "count": 79
+        },
+        {
+          "class_year": "So",
+          "count": 49
+        },
+        {
+          "class_year": "Fr",
+          "count": 7
+        },
+        {
+          "class_year": "RS-So",
+          "count": 3
+        },
+        {
+          "class_year": "RS-Sr",
+          "count": 2
+        }
+      ],
+      "template": "Class year breakdown for G-League players: Sr: 924 (86.8%), Jr: 79 (7.4%), So: 49 (4.6%), Fr: 7 (0.7%), RS-So: 3 (0.3%), RS-Sr: 2 (0.2%)."
+    },
+    "class_year_europe": {
+      "keywords": [
+        "europe class",
+        "freshman",
+        "sophomore",
+        "junior",
+        "senior",
+        "class year",
+        "class year europe"
+      ],
+      "question": "What class year are most Europe players when they leave college?",
+      "data": [
+        {
+          "class_year": "Sr",
+          "count": 1767
+        },
+        {
+          "class_year": "Jr",
+          "count": 129
+        },
+        {
+          "class_year": "Fr",
+          "count": 79
+        },
+        {
+          "class_year": "So",
+          "count": 79
+        },
+        {
+          "class_year": "RS-Sr",
+          "count": 6
+        },
+        {
+          "class_year": "RS-So",
+          "count": 6
+        }
+      ],
+      "template": "Class year breakdown for Europe players: Sr: 1767 (85.5%), Jr: 129 (6.2%), Fr: 79 (3.8%), So: 79 (3.8%), RS-Sr: 6 (0.3%), RS-So: 6 (0.3%)."
+    },
+    "class_year_other_intl": {
+      "keywords": [
+        "other international class",
+        "freshman",
+        "sophomore",
+        "junior",
+        "senior",
+        "class year",
+        "class year other international"
+      ],
+      "question": "What class year are most Other International players when they leave college?",
+      "data": [
+        {
+          "class_year": "Sr",
+          "count": 2545
+        },
+        {
+          "class_year": "Jr",
+          "count": 284
+        },
+        {
+          "class_year": "So",
+          "count": 166
+        },
+        {
+          "class_year": "Fr",
+          "count": 116
+        },
+        {
+          "class_year": "RS-Jr",
+          "count": 20
+        },
+        {
+          "class_year": "RS-Sr",
+          "count": 13
+        }
+      ],
+      "template": "Class year breakdown for Other International players: Sr: 2545 (80.9%), Jr: 284 (9.0%), So: 166 (5.3%), Fr: 116 (3.7%), RS-Jr: 20 (0.6%), RS-Sr: 13 (0.4%)."
+    },
+    "longest_careers": {
+      "keywords": [
+        "longest career",
+        "most seasons",
+        "longest pro",
+        "most pro seasons",
+        "longest playing",
+        "veteran"
+      ],
+      "question": "Which players had the longest pro careers?",
+      "data": [
+        {
+          "name": "Wesley Saunders",
+          "school": "Harvard",
+          "seasons": 12,
+          "dest": "g_league"
+        },
+        {
+          "name": "Cliff Alexander",
+          "school": "Kansas",
+          "seasons": 12,
+          "dest": "nba"
+        },
+        {
+          "name": "Anthony Brown",
+          "school": "Stanford",
+          "seasons": 11,
+          "dest": "nba"
+        },
+        {
+          "name": "Jerian Grant",
+          "school": "Notre Dame",
+          "seasons": 11,
+          "dest": "nba"
+        },
+        {
+          "name": "Scott Eatherton",
+          "school": "Northeastern",
+          "seasons": 11,
+          "dest": "other_intl"
+        },
+        {
+          "name": "Matt Lopez",
+          "school": "Rider",
+          "seasons": 11,
+          "dest": "other_intl"
+        },
+        {
+          "name": "T.J. McConnell",
+          "school": "Arizona",
+          "seasons": 11,
+          "dest": "nba"
+        },
+        {
+          "name": "Corey Walden",
+          "school": "Eastern Kentucky",
+          "seasons": 11,
+          "dest": "g_league"
+        },
+        {
+          "name": "J.J. Avila",
+          "school": "Colorado State",
+          "seasons": 11,
+          "dest": "europe"
+        },
+        {
+          "name": "D.J. Newbill",
+          "school": "Penn State",
+          "seasons": 11,
+          "dest": "other_intl"
+        },
+        {
+          "name": "Auston Barnes",
+          "school": "Bradley",
+          "seasons": 11,
+          "dest": "europe"
+        },
+        {
+          "name": "Levi Randolph",
+          "school": "Alabama",
+          "seasons": 11,
+          "dest": "g_league"
+        },
+        {
+          "name": "Amir Williams",
+          "school": "Ohio State",
+          "seasons": 11,
+          "dest": "g_league"
+        },
+        {
+          "name": "Quinn Cook",
+          "school": "Duke",
+          "seasons": 11,
+          "dest": "nba"
+        },
+        {
+          "name": "Dez Wells",
+          "school": "Maryland",
+          "seasons": 11,
+          "dest": "g_league"
+        },
+        {
+          "name": "Norman Powell",
+          "school": "UCLA",
+          "seasons": 11,
+          "dest": "nba"
+        },
+        {
+          "name": "D'Angelo Harrison",
+          "school": "St. John's",
+          "seasons": 11,
+          "dest": "other_intl"
+        },
+        {
+          "name": "Ryan Boatright",
+          "school": "UConn",
+          "seasons": 11,
+          "dest": "g_league"
+        },
+        {
+          "name": "Pat Connaughton",
+          "school": "Notre Dame",
+          "seasons": 11,
+          "dest": "nba"
+        },
+        {
+          "name": "J.P. Tokoto",
+          "school": "North Carolina",
+          "seasons": 11,
+          "dest": "g_league"
+        }
+      ],
+      "template": "Players with the longest pro careers in our dataset: Wesley Saunders (Harvard, 12 seasons), Cliff Alexander (Kansas, 12 seasons), Anthony Brown (Stanford, 11 seasons), Jerian Grant (Notre Dame, 11 seasons), Scott Eatherton (Northeastern, 11 seasons)."
+    },
+    "top_international_destinations": {
+      "keywords": [
+        "international destination",
+        "country",
+        "league",
+        "overseas",
+        "where play",
+        "international league",
+        "foreign league",
+        "most common country"
+      ],
+      "question": "What are the most common international destinations?",
+      "data": [
+        {
+          "destination": "MHP Riesen",
+          "count": 84
+        },
+        {
+          "destination": "Leicester Riders",
+          "count": 83
+        },
+        {
+          "destination": "London Lightning",
+          "count": 78
+        },
+        {
+          "destination": "New Zealand",
+          "count": 78
+        },
+        {
+          "destination": "Veolia Towers Hamburg",
+          "count": 77
+        },
+        {
+          "destination": "Canada",
+          "count": 75
+        },
+        {
+          "destination": "Pioneros de Los Mochis",
+          "count": 72
+        },
+        {
+          "destination": "Puerto Rico",
+          "count": 71
+        },
+        {
+          "destination": "Atleticos de San German",
+          "count": 69
+        },
+        {
+          "destination": "Golden Eagle YLLI",
+          "count": 68
+        },
+        {
+          "destination": "Brampton Honey Badgers",
+          "count": 67
+        },
+        {
+          "destination": "GS Lavrio",
+          "count": 67
+        },
+        {
+          "destination": "KW Titans",
+          "count": 66
+        },
+        {
+          "destination": "Cheshire Phoenix",
+          "count": 66
+        },
+        {
+          "destination": "Astros de Jalisco",
+          "count": 65
+        },
+        {
+          "destination": "Sheffield Sharks",
+          "count": 64
+        },
+        {
+          "destination": "Cairns",
+          "count": 64
+        },
+        {
+          "destination": "Sydney",
+          "count": 64
+        },
+        {
+          "destination": "Windsor Express",
+          "count": 64
+        },
+        {
+          "destination": "Hapoel Beer Sheva",
+          "count": 63
+        }
+      ],
+      "template": "Most common international team/league destinations: MHP Riesen (84), Leicester Riders (83), London Lightning (78), New Zealand (78), Veolia Towers Hamburg (77), Canada (75), Pioneros de Los Mochis (72), Puerto Rico (71), Atleticos de San German (69), Golden Eagle YLLI (68)."
+    },
+    "school_comparison": {
+      "keywords": [
+        "compare school",
+        "duke vs",
+        "kentucky vs",
+        "school comparison",
+        "compare program",
+        "which school better",
+        "school matchup",
+        "head to head"
+      ],
+      "question": "How do top schools compare in pro production?",
+      "data": {
+        "Kentucky": {
+          "total": 234,
+          "nba": 42,
+          "g_league": 13,
+          "europe": 18,
+          "other_intl": 41,
+          "no_pro": 120,
+          "nba_pct": 17.9,
+          "pro_pct": 48.7,
+          "avg_ppg": 8.1
+        },
+        "Duke": {
+          "total": 60,
+          "nba": 40,
+          "g_league": 3,
+          "europe": 3,
+          "other_intl": 2,
+          "no_pro": 12,
+          "nba_pct": 66.7,
+          "pro_pct": 80.0,
+          "avg_ppg": 9.9
+        },
+        "Kansas": {
+          "total": 328,
+          "nba": 37,
+          "g_league": 21,
+          "europe": 38,
+          "other_intl": 43,
+          "no_pro": 189,
+          "nba_pct": 11.3,
+          "pro_pct": 42.4,
+          "avg_ppg": 7.0
+        },
+        "North Carolina": {
+          "total": 204,
+          "nba": 15,
+          "g_league": 9,
+          "europe": 21,
+          "other_intl": 25,
+          "no_pro": 134,
+          "nba_pct": 7.4,
+          "pro_pct": 34.3,
+          "avg_ppg": 6.6
+        },
+        "Gonzaga": {
+          "total": 54,
+          "nba": 17,
+          "g_league": 6,
+          "europe": 13,
+          "other_intl": 3,
+          "no_pro": 15,
+          "nba_pct": 31.5,
+          "pro_pct": 72.2,
+          "avg_ppg": 10.1
+        },
+        "Virginia": {
+          "total": 178,
+          "nba": 19,
+          "g_league": 23,
+          "europe": 19,
+          "other_intl": 28,
+          "no_pro": 89,
+          "nba_pct": 10.7,
+          "pro_pct": 50.0,
+          "avg_ppg": 6.9
+        },
+        "Villanova": {
+          "total": 44,
+          "nba": 13,
+          "g_league": 12,
+          "europe": 2,
+          "other_intl": 3,
+          "no_pro": 14,
+          "nba_pct": 29.5,
+          "pro_pct": 68.2,
+          "avg_ppg": 8.9
+        },
+        "Arizona": {
+          "total": 173,
+          "nba": 23,
+          "g_league": 15,
+          "europe": 17,
+          "other_intl": 30,
+          "no_pro": 88,
+          "nba_pct": 13.3,
+          "pro_pct": 49.1,
+          "avg_ppg": 7.6
+        },
+        "Michigan State": {
+          "total": 44,
+          "nba": 12,
+          "g_league": 9,
+          "europe": 5,
+          "other_intl": 2,
+          "no_pro": 16,
+          "nba_pct": 27.3,
+          "pro_pct": 63.6,
+          "avg_ppg": 8.3
+        },
+        "UCLA": {
+          "total": 48,
+          "nba": 15,
+          "g_league": 10,
+          "europe": 6,
+          "other_intl": 1,
+          "no_pro": 16,
+          "nba_pct": 31.2,
+          "pro_pct": 66.7,
+          "avg_ppg": 8.4
+        }
+      },
+      "template": "Top school comparison (NBA count / total players / NBA rate): Kentucky: 42/234 (17.9%); Duke: 40/60 (66.7%); Kansas: 37/328 (11.3%); Arizona: 23/173 (13.3%); Virginia: 19/178 (10.7%); Gonzaga: 17/54 (31.5%); North Carolina: 15/204 (7.4%); UCLA: 15/48 (31.2%); Villanova: 13/44 (29.5%); Michigan State: 12/44 (27.3%)."
+    },
+    "school_kentucky": {
+      "keywords": [
+        "kentucky",
+        "kentucky",
+        "kentucky players",
+        "kentucky nba",
+        "kentucky pro"
+      ],
+      "question": "What are the pro outcomes for Kentucky players?",
+      "data": {
+        "total": 234,
+        "nba": 42,
+        "g_league": 13,
+        "europe": 18,
+        "other_intl": 41,
+        "no_pro": 120,
+        "nba_pct": 17.9,
+        "pro_pct": 48.7,
+        "avg_ppg": 8.1
+      },
+      "template": "Kentucky pro outcomes (2015-2025): 234 players total. 42 NBA (17.9%), 13 G-League, 18 Europe, 41 Other International, 120 No Pro. Average final-year PPG: 8.1. Overall pro rate: 48.7%."
+    },
+    "school_duke": {
+      "keywords": [
+        "duke",
+        "duke",
+        "duke players",
+        "duke nba",
+        "duke pro"
+      ],
+      "question": "What are the pro outcomes for Duke players?",
+      "data": {
+        "total": 60,
+        "nba": 40,
+        "g_league": 3,
+        "europe": 3,
+        "other_intl": 2,
+        "no_pro": 12,
+        "nba_pct": 66.7,
+        "pro_pct": 80.0,
+        "avg_ppg": 9.9
+      },
+      "template": "Duke pro outcomes (2015-2025): 60 players total. 40 NBA (66.7%), 3 G-League, 3 Europe, 2 Other International, 12 No Pro. Average final-year PPG: 9.9. Overall pro rate: 80.0%."
+    },
+    "school_kansas": {
+      "keywords": [
+        "kansas",
+        "kansas",
+        "kansas players",
+        "kansas nba",
+        "kansas pro"
+      ],
+      "question": "What are the pro outcomes for Kansas players?",
+      "data": {
+        "total": 328,
+        "nba": 37,
+        "g_league": 21,
+        "europe": 38,
+        "other_intl": 43,
+        "no_pro": 189,
+        "nba_pct": 11.3,
+        "pro_pct": 42.4,
+        "avg_ppg": 7.0
+      },
+      "template": "Kansas pro outcomes (2015-2025): 328 players total. 37 NBA (11.3%), 21 G-League, 38 Europe, 43 Other International, 189 No Pro. Average final-year PPG: 7.0. Overall pro rate: 42.4%."
+    },
+    "school_north_carolina": {
+      "keywords": [
+        "north carolina",
+        "north_carolina",
+        "north carolina players",
+        "north carolina nba",
+        "north carolina pro"
+      ],
+      "question": "What are the pro outcomes for North Carolina players?",
+      "data": {
+        "total": 204,
+        "nba": 15,
+        "g_league": 9,
+        "europe": 21,
+        "other_intl": 25,
+        "no_pro": 134,
+        "nba_pct": 7.4,
+        "pro_pct": 34.3,
+        "avg_ppg": 6.6
+      },
+      "template": "North Carolina pro outcomes (2015-2025): 204 players total. 15 NBA (7.4%), 9 G-League, 21 Europe, 25 Other International, 134 No Pro. Average final-year PPG: 6.6. Overall pro rate: 34.3%."
+    },
+    "school_gonzaga": {
+      "keywords": [
+        "gonzaga",
+        "gonzaga",
+        "gonzaga players",
+        "gonzaga nba",
+        "gonzaga pro"
+      ],
+      "question": "What are the pro outcomes for Gonzaga players?",
+      "data": {
+        "total": 54,
+        "nba": 17,
+        "g_league": 6,
+        "europe": 13,
+        "other_intl": 3,
+        "no_pro": 15,
+        "nba_pct": 31.5,
+        "pro_pct": 72.2,
+        "avg_ppg": 10.1
+      },
+      "template": "Gonzaga pro outcomes (2015-2025): 54 players total. 17 NBA (31.5%), 6 G-League, 13 Europe, 3 Other International, 15 No Pro. Average final-year PPG: 10.1. Overall pro rate: 72.2%."
+    },
+    "school_virginia": {
+      "keywords": [
+        "virginia",
+        "virginia",
+        "virginia players",
+        "virginia nba",
+        "virginia pro"
+      ],
+      "question": "What are the pro outcomes for Virginia players?",
+      "data": {
+        "total": 178,
+        "nba": 19,
+        "g_league": 23,
+        "europe": 19,
+        "other_intl": 28,
+        "no_pro": 89,
+        "nba_pct": 10.7,
+        "pro_pct": 50.0,
+        "avg_ppg": 6.9
+      },
+      "template": "Virginia pro outcomes (2015-2025): 178 players total. 19 NBA (10.7%), 23 G-League, 19 Europe, 28 Other International, 89 No Pro. Average final-year PPG: 6.9. Overall pro rate: 50.0%."
+    },
+    "school_villanova": {
+      "keywords": [
+        "villanova",
+        "villanova",
+        "villanova players",
+        "villanova nba",
+        "villanova pro"
+      ],
+      "question": "What are the pro outcomes for Villanova players?",
+      "data": {
+        "total": 44,
+        "nba": 13,
+        "g_league": 12,
+        "europe": 2,
+        "other_intl": 3,
+        "no_pro": 14,
+        "nba_pct": 29.5,
+        "pro_pct": 68.2,
+        "avg_ppg": 8.9
+      },
+      "template": "Villanova pro outcomes (2015-2025): 44 players total. 13 NBA (29.5%), 12 G-League, 2 Europe, 3 Other International, 14 No Pro. Average final-year PPG: 8.9. Overall pro rate: 68.2%."
+    },
+    "school_arizona": {
+      "keywords": [
+        "arizona",
+        "arizona",
+        "arizona players",
+        "arizona nba",
+        "arizona pro"
+      ],
+      "question": "What are the pro outcomes for Arizona players?",
+      "data": {
+        "total": 173,
+        "nba": 23,
+        "g_league": 15,
+        "europe": 17,
+        "other_intl": 30,
+        "no_pro": 88,
+        "nba_pct": 13.3,
+        "pro_pct": 49.1,
+        "avg_ppg": 7.6
+      },
+      "template": "Arizona pro outcomes (2015-2025): 173 players total. 23 NBA (13.3%), 15 G-League, 17 Europe, 30 Other International, 88 No Pro. Average final-year PPG: 7.6. Overall pro rate: 49.1%."
+    },
+    "school_michigan_state": {
+      "keywords": [
+        "michigan state",
+        "michigan_state",
+        "michigan state players",
+        "michigan state nba",
+        "michigan state pro"
+      ],
+      "question": "What are the pro outcomes for Michigan State players?",
+      "data": {
+        "total": 44,
+        "nba": 12,
+        "g_league": 9,
+        "europe": 5,
+        "other_intl": 2,
+        "no_pro": 16,
+        "nba_pct": 27.3,
+        "pro_pct": 63.6,
+        "avg_ppg": 8.3
+      },
+      "template": "Michigan State pro outcomes (2015-2025): 44 players total. 12 NBA (27.3%), 9 G-League, 5 Europe, 2 Other International, 16 No Pro. Average final-year PPG: 8.3. Overall pro rate: 63.6%."
+    },
+    "school_ucla": {
+      "keywords": [
+        "ucla",
+        "ucla",
+        "ucla players",
+        "ucla nba",
+        "ucla pro"
+      ],
+      "question": "What are the pro outcomes for UCLA players?",
+      "data": {
+        "total": 48,
+        "nba": 15,
+        "g_league": 10,
+        "europe": 6,
+        "other_intl": 1,
+        "no_pro": 16,
+        "nba_pct": 31.2,
+        "pro_pct": 66.7,
+        "avg_ppg": 8.4
+      },
+      "template": "UCLA pro outcomes (2015-2025): 48 players total. 15 NBA (31.2%), 10 G-League, 6 Europe, 1 Other International, 16 No Pro. Average final-year PPG: 8.4. Overall pro rate: 66.7%."
+    },
+    "no_pro_stats": {
+      "keywords": [
+        "no pro",
+        "didn't make",
+        "never pro",
+        "end career",
+        "no professional",
+        "undrafted",
+        "not drafted"
+      ],
+      "question": "What are the stats of players who never went pro?",
+      "data": {
+        "ppg": 4.8,
+        "rpg": 2.2,
+        "apg": 0.9,
+        "count": 11566,
+        "pct": 61.9,
+        "height": "6-4"
+      },
+      "template": "Players with no recorded pro career averaged 4.8 PPG, 2.2 RPG, 0.9 APG in their final college season. Average height: 6-4. This group represents 61.9% of all D1 players (11,566 players)."
+    },
+    "nba_player_profile": {
+      "keywords": [
+        "nba player",
+        "nba average",
+        "nba profile",
+        "typical nba",
+        "nba stats",
+        "what does nba player look like",
+        "nba college stats"
+      ],
+      "question": "What does the typical NBA player's college profile look like?",
+      "data": {
+        "ppg": 14.8,
+        "rpg": 5.9,
+        "apg": 2.6,
+        "height": "6-6",
+        "efg": 54.4,
+        "ts": 57.9,
+        "ncaa_years": 3.0
+      },
+      "template": "The typical NBA player's final college season: 14.8 PPG, 5.9 RPG, 2.6 APG. Average height: 6-6. EFG%: 54.4%, TS%: 57.9%. They spent an average of 3.0 seasons in college."
+    },
+    "gleague_player_profile": {
+      "keywords": [
+        "g league player",
+        "g league average",
+        "g league profile",
+        "typical g league",
+        "g league stats",
+        "gleague"
+      ],
+      "question": "What does the typical G-League player's college profile look like?",
+      "data": {
+        "ppg": 12.1,
+        "rpg": 4.7,
+        "apg": 2.1,
+        "height": "6-6",
+        "efg": 51.7
+      },
+      "template": "The typical G-League player's final college season: 12.1 PPG, 4.7 RPG, 2.1 APG. Average height: 6-6. EFG%: 51.7%. They spent 4.3 seasons in college."
+    },
+    "europe_player_profile": {
+      "keywords": [
+        "europe player",
+        "european player",
+        "europe average",
+        "europe profile",
+        "typical europe",
+        "play in europe",
+        "european basketball"
+      ],
+      "question": "What does the typical Europe-bound player's college profile look like?",
+      "data": {
+        "ppg": 10.3,
+        "rpg": 4.3,
+        "apg": 1.8,
+        "height": "6-6",
+        "efg": 50.1
+      },
+      "template": "The typical Europe-bound player's final college season: 10.3 PPG, 4.3 RPG, 1.8 APG. Average height: 6-6. EFG%: 50.1%. They spent 4.3 seasons in college."
+    },
+    "other_intl_player_profile": {
+      "keywords": [
+        "other international player",
+        "international player",
+        "overseas player",
+        "international profile",
+        "play overseas",
+        "international basketball"
+      ],
+      "question": "What does the typical Other International player's college profile look like?",
+      "data": {
+        "ppg": 9.5,
+        "rpg": 4.1,
+        "apg": 1.6,
+        "height": "6-6",
+        "efg": 49.0
+      },
+      "template": "The typical Other International player's final college season: 9.5 PPG, 4.1 RPG, 1.6 APG. Average height: 6-6. EFG%: 49.0%."
+    },
+    "long_europe_career": {
+      "keywords": [
+        "europe long",
+        "european career",
+        "europe 5",
+        "long europe",
+        "europe career length"
+      ],
+      "question": "How many Europe players had long careers (5+ seasons)?",
+      "data": {
+        "long_count": 591,
+        "total": 2073,
+        "pct": 28.5
+      },
+      "template": "Of 2,073 Europe-first players, 591 (28.5%) had careers of 5+ pro seasons."
+    },
+    "long_other_intl_career": {
+      "keywords": [
+        "other international long",
+        "overseas career",
+        "international 5",
+        "long international",
+        "other intl career length"
+      ],
+      "question": "How many Other International players had long careers (5+ seasons)?",
+      "data": {
+        "long_count": 737,
+        "total": 3168,
+        "pct": 23.3
+      },
+      "template": "Of 3,168 Other International-first players, 737 (23.3%) had careers of 5+ pro seasons."
+    },
+    "ppg_threshold": {
+      "keywords": [
+        "ppg threshold",
+        "scoring threshold",
+        "minimum ppg",
+        "how many points need",
+        "points to go pro",
+        "scoring requirement",
+        "need to score"
+      ],
+      "question": "How does scoring in college correlate with going pro?",
+      "data": {
+        "5": {
+          "total": 9813,
+          "pro_count": 5907,
+          "nba_count": 801,
+          "pro_pct": 60.2,
+          "nba_pct": 8.2
+        },
+        "10": {
+          "total": 5414,
+          "pro_count": 3923,
+          "nba_count": 718,
+          "pro_pct": 72.5,
+          "nba_pct": 13.3
+        },
+        "15": {
+          "total": 1843,
+          "pro_count": 1522,
+          "nba_count": 416,
+          "pro_pct": 82.6,
+          "nba_pct": 22.6
+        },
+        "20": {
+          "total": 278,
+          "pro_count": 239,
+          "nba_count": 72,
+          "pro_pct": 86.0,
+          "nba_pct": 25.9
+        }
+      },
+      "template": "Pro rates by college PPG threshold: 5+ PPG: 60.2% went pro, 8.2% NBA (9813 players); 10+ PPG: 72.5% went pro, 13.3% NBA (5414 players); 15+ PPG: 82.6% went pro, 22.6% NBA (1843 players); 20+ PPG: 86.0% went pro, 25.9% NBA (278 players)."
+    },
+    "height_threshold": {
+      "keywords": [
+        "height threshold",
+        "minimum height",
+        "how tall need",
+        "height requirement",
+        "tall enough",
+        "height to go pro",
+        "height nba"
+      ],
+      "question": "How does height correlate with going pro?",
+      "data": {
+        "6-3": {
+          "total": 13735,
+          "pro_pct": 42.3,
+          "nba_pct": 5.2
+        },
+        "6-6": {
+          "total": 8122,
+          "pro_pct": 46.7,
+          "nba_pct": 5.7
+        },
+        "6-9": {
+          "total": 2929,
+          "pro_pct": 52.4,
+          "nba_pct": 6.7
+        },
+        "7-0": {
+          "total": 368,
+          "pro_pct": 55.7,
+          "nba_pct": 11.1
+        }
+      },
+      "template": "Pro rates by height: 6-3+: 42.3% went pro, 5.2% NBA (13735 players); 6-6+: 46.7% went pro, 5.7% NBA (8122 players); 6-9+: 52.4% went pro, 6.7% NBA (2929 players); 7-0+: 55.7% went pro, 11.1% NBA (368 players)."
+    },
+    "one_vs_multi_year": {
+      "keywords": [
+        "one year pro",
+        "single season",
+        "one and done pro",
+        "flash in pan",
+        "sustained career",
+        "multi year"
+      ],
+      "question": "How do one-year pro players compare to multi-year?",
+      "data": {
+        "one_year_count": 2080,
+        "multi_year_count": 5042,
+        "one_year_ppg": 9.6,
+        "multi_year_ppg": 11.2
+      },
+      "template": "Of players who went pro, 2,080 had just 1 season and 5,042 had 2+ seasons. One-year pros averaged 9.6 college PPG vs 11.2 for multi-year pros."
+    },
+    "nba_overview": {
+      "keywords": [
+        "nba overview",
+        "nba summary",
+        "nba breakdown",
+        "about nba players"
+      ],
+      "question": "Give me an overview of NBA outcomes.",
+      "data": {
+        "count": 816,
+        "pct": 4.4,
+        "long_count": 498,
+        "long_pct": 61.0,
+        "to_intl": 293
+      },
+      "template": "NBA Overview: 816 players (4.4% of D1 graduates) reached the NBA. 498 (61.0%) had 5+ year careers. 293 transitioned to international basketball after the NBA. Average career: 5.6 seasons."
+    },
+    "gleague_overview": {
+      "keywords": [
+        "g league overview",
+        "g league summary",
+        "gleague breakdown",
+        "about g league"
+      ],
+      "question": "Give me an overview of G-League outcomes.",
+      "data": {
+        "count": 1065,
+        "pct": 5.7,
+        "to_nba": 48,
+        "to_intl": 672
+      },
+      "template": "G-League Overview: 1065 players (5.7% of D1 graduates). 48 (4.5%) eventually made the NBA. 672 went international. Average career: 4.0 seasons."
+    },
+    "europe_overview": {
+      "keywords": [
+        "europe overview",
+        "europe summary",
+        "european breakdown",
+        "about europe",
+        "european basketball overview"
+      ],
+      "question": "Give me an overview of European basketball outcomes.",
+      "data": {
+        "count": 2073,
+        "pct": 11.1,
+        "to_nba": 25
+      },
+      "template": "Europe Overview: 2073 players (11.1% of D1 graduates) went to Europe. 25 (1.2%) eventually made the NBA. Average career: 3.5 seasons. 591 (28.5%) had 5+ year careers."
+    },
+    "other_intl_overview": {
+      "keywords": [
+        "other international overview",
+        "international summary",
+        "overseas breakdown",
+        "about international",
+        "non-european international"
+      ],
+      "question": "Give me an overview of Other International outcomes.",
+      "data": {
+        "count": 3168,
+        "pct": 17.0,
+        "to_nba": 21
+      },
+      "template": "Other International Overview: 3168 players (17.0% of D1 graduates). 21 (0.7%) eventually made the NBA. Average career: 3.0 seasons. 737 (23.3%) had 5+ year careers."
+    },
+    "weight_by_destination": {
+      "keywords": [
+        "weight",
+        "heavy",
+        "lbs",
+        "pounds",
+        "how much weigh"
+      ],
+      "question": "What is the average weight for each pro destination?",
+      "data": {
+        "nba": 213.2,
+        "g_league": 206.4,
+        "europe": 208.0,
+        "other_intl": 207.9,
+        "no_pro": 198.7
+      },
+      "template": "Average weight by pro destination: NBA 213.2 lbs, G-League 206.4 lbs, Europe 208.0 lbs, Other International 207.9 lbs, No Pro Career 198.7 lbs."
+    },
+    "torvik_ppg_by_destination": {
+      "keywords": [
+        "torvik ppg",
+        "barttorvik",
+        "torvik scoring",
+        "college stats ppg"
+      ],
+      "question": "What is the Torvik PPG by destination?",
+      "data": {
+        "nba": 14.7,
+        "g_league": 11.8,
+        "europe": 9.7,
+        "other_intl": 8.6,
+        "no_pro": 3.4
+      },
+      "template": "Barttorvik final-year college PPG by pro destination: NBA 14.7, G-League 11.8, Europe 9.7, Other International 8.6, No Pro Career 3.4."
+    },
+    "ft_by_destination": {
+      "keywords": [
+        "free throw",
+        "ft%",
+        "free throw percentage",
+        "ft pct",
+        "foul shot"
+      ],
+      "question": "What was the average college FT% by pro destination?",
+      "data": {
+        "nba": 0,
+        "g_league": 0,
+        "europe": 0,
+        "other_intl": 0,
+        "no_pro": 0
+      },
+      "template": "Average final-year college FT% by pro destination: NBA 0%, G-League 0%, Europe 0%, Other International 0%, No Pro Career 0%."
+    },
+    "games_played_by_destination": {
+      "keywords": [
+        "games played",
+        "games",
+        "gp",
+        "how many games"
+      ],
+      "question": "What was the average games played in final college season by destination?",
+      "data": {
+        "nba": 32.1,
+        "g_league": 29.9,
+        "europe": 27.8,
+        "other_intl": 26.4,
+        "no_pro": 16.7
+      },
+      "template": "Average games played in final college season by pro destination: NBA 32.1, G-League 29.9, Europe 27.8, Other International 26.4, No Pro Career 16.7."
+    }
+  }
+}

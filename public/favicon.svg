@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Ball fill -->
+  <circle cx="32" cy="32" r="30" fill="#d4a04a"/>
+  <!-- Darker shading on bottom-right -->
+  <circle cx="32" cy="32" r="30" fill="url(#shade)"/>
+  <defs>
+    <radialGradient id="shade" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.15)"/>
+      <stop offset="60%" stop-color="transparent"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.3)"/>
+    </radialGradient>
+  </defs>
+  <!-- Seam lines - dark brown -->
+  <path d="M 32 2 C 34 20, 30 44, 32 62" stroke="#8b5e1a" stroke-width="2" fill="none"/>
+  <path d="M 2 32 C 20 30, 44 34, 62 32" stroke="#8b5e1a" stroke-width="2" fill="none"/>
+  <path d="M 7 13 Q 32 22, 57 13" stroke="#8b5e1a" stroke-width="1.5" fill="none"/>
+  <path d="M 7 51 Q 32 42, 57 51" stroke="#8b5e1a" stroke-width="1.5" fill="none"/>
+</svg>

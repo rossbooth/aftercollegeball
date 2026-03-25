@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "oi_all",
+      "label": "Other International Players",
+      "count": 3168
+    },
+    {
+      "id": "oi_to_nba",
+      "label": "Made it to NBA",
+      "count": 21,
+      "pct": "0.7%"
+    },
+    {
+      "id": "oi_to_gl",
+      "label": "Came to G-League",
+      "count": 158,
+      "pct": "5.0%"
+    },
+    {
+      "id": "oi_to_europe",
+      "label": "Went to Europe",
+      "count": 974,
+      "pct": "30.7%"
+    },
+    {
+      "id": "oi_long",
+      "label": "Long International Career (5+ Years)",
+      "count": 146,
+      "pct": "4.6%"
+    },
+    {
+      "id": "oi_left",
+      "label": "Left Pro Basketball",
+      "count": 1869,
+      "pct": "59.0%"
+    }
+  ],
+  "links": [
+    {
+      "source": "oi_all",
+      "target": "oi_to_nba",
+      "value": 21
+    },
+    {
+      "source": "oi_all",
+      "target": "oi_to_gl",
+      "value": 158
+    },
+    {
+      "source": "oi_all",
+      "target": "oi_to_europe",
+      "value": 974
+    },
+    {
+      "source": "oi_all",
+      "target": "oi_long",
+      "value": 146
+    },
+    {
+      "source": "oi_all",
+      "target": "oi_left",
+      "value": 1869
+    }
+  ]
+}
