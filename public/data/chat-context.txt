@@ -3,207 +3,207 @@ NBA:816(4.4%) avg14.8PPG | G-League:1065(5.7%) avg12.1PPG | Europe:2073(11.1%) a
 Top NBA schools: Kentucky(41) Duke(40) Arizona(20) Kansas(19) Gonzaga(17)
 G-League→NBA:48(4.5%) | G-League→Intl:640(60%) | Europe→NBA:25 | Other Intl→NBA:21
 
-# Top 200 College Scorers (final season PPG)
-1. Steve Wooten (Tennessee-Martin, 2020-2021): 31.4PPG 11.9RPG 2.6APG
-2. Chris Clemons (Campbell, 2018-2019): 30.1PPG 5.1RPG 2.8APG
-3. Marcus Keene (Central Michigan, 2016-2017): 30.0PPG 4.5RPG 4.9APG
-4. Shaden Knight (Long Beach State, 2024-2025): 29.5PPG 3.5RPG 3.3APG
-5. Brian Halums (Ole Miss, 2019-2020): 28.8PPG 8.6RPG 1.9APG
-6. Deshawn Munson (Jackson State, 2019-2020): 28.5PPG 11.4RPG 8.1APG
-7. Antoine Davis (Detroit-Mercy, 2022-2023): 28.2PPG 3.0RPG 3.6APG
-8. Markus Howard (Marquette, 2019-2020): 27.8PPG 3.5RPG 3.3APG
-9. Dayon Goodman (Utah Valley, 2017-2018): 27.7PPG 8.5RPG 3.2APG
-10. Trae Young (Oklahoma, 2017-2018): 27.4PPG 3.9RPG 8.7APG
-11. Mark Gordon (Bethune-Cookman, 2019-2020): 27.4PPG 6.6RPG 3.0APG
-12. Marquill Smith (San Francisco, 2018-2019): 27.3PPG 8.7RPG 1.6APG
-13. Justin Wright-Foreman (Hofstra, 2018-2019): 27.1PPG 4.0RPG 2.9APG
-14. Alex Vargo (North Florida, 2023-2024): 26.7PPG 6.1RPG 3.1APG
-15. Steven Soukup (Iowa, 2016-2017): 26.4PPG 6.3RPG 2.6APG
-16. Jalen Adams (St. Bonaventure, 2017-2018): 26.2PPG 10.7RPG 1.4APG
-17. Tiwian Kendley (Morgan State, 2017-2018): 26.1PPG 4.0RPG 2.2APG
-18. Gage Davis (Fort Wayne, 2018-2019): 26.0PPG 7.5RPG 3.3APG
-19. Kendrick Nunn (Oakland, 2017-2018): 25.9PPG 4.7RPG 3.8APG
-20. Lamine Diane (Cal State Northridge, 2019-2020): 25.6PPG 10.2RPG 2.8APG
-21. Tray Buchanan (South Dakota State, 2021-2022): 25.6PPG 3.9RPG 3.1APG
-22. A.J. Dybantsa (Brigham Young, 2025-2026): 25.5PPG 6.8RPG 3.7APG
-23. Mike Daum (South Dakota State, 2018-2019): 25.3PPG 11.7RPG 1.8APG
-24. Peter Kiss (Bryant, 2021-2022): 25.2PPG 5.8RPG 3.2APG
-25. Zach Edey (Purdue, 2023-2024): 25.2PPG 12.2RPG 2.0APG
-26. Antwan Kimmons (Northern Iowa, 2024-2025): 25.2PPG 6.4RPG 5.7APG
-27. Jordan Howard (Central Arkansas, 2017-2018): 25.1PPG 3.6RPG 2.7APG
-28. Buddy Hield (Oklahoma, 2015-2016): 25.0PPG 5.7RPG 2.0APG
-29. Jermaine Marrow (Hampton, 2019-2020): 24.8PPG 3.2RPG 6.5APG
-30. Ja Morant (Murray State, 2018-2019): 24.5PPG 5.7RPG 10.0APG
-31. Dante Moses (Radford, 2022-2023): 24.5PPG 6.6RPG 2.1APG
-32. Drew Lutz (Incarnate Word, 2023-2024): 24.5PPG 3.9RPG 3.8APG
-33. Kay Felder (Oakland, 2015-2016): 24.4PPG 4.3RPG 9.3APG
-34. Suki Wiggs (Idaho, 2016-2017): 24.4PPG 5.6RPG 2.8APG
-35. Charlie Yoder (Abilene Christian, 2024-2025): 24.4PPG 7.9RPG 3.5APG
-36. Raysean Scott, Jr. (Florida Gulf Coast, 2019-2020): 24.3PPG 8.0RPG 2.7APG
-37. Tre Evans (Fordham, 2018-2019): 24.3PPG 7.4RPG 4.0APG
-38. Carsen Edwards (Purdue, 2018-2019): 24.3PPG 3.6RPG 2.9APG
-39. Josh Adams (Wyoming, 2015-2016): 24.2PPG 5.6RPG 4.3APG
-40. Javonte Douglas (Old Dominion, 2016-2017): 24.2PPG 11.3RPG 1.1APG
-41. Luka Garza (Iowa, 2020-2021): 24.1PPG 8.7RPG 1.7APG
-42. Dakari Johnson (Campbell, 2019-2020): 24.1PPG 5.1RPG 3.5APG
-43. Taylor Currie (Akron, 2022-2023): 24.0PPG 9.7RPG 0.7APG
-44. Tommy Bruner (Denver, 2023-2024): 24.0PPG 2.8RPG 4.2APG
-45. Terion Moss (Maine, 2022-2023): 24.0PPG 5.8RPG 4.8APG
-46. Dior Johnson (Tarleton State, 2025-2026): 24.0PPG 3.3RPG 1.6APG
-47. Dallas Moore (North Florida, 2016-2017): 23.9PPG 3.1RPG 4.0APG
-48. Keshawn Liggins (Idaho State, 2017-2018): 23.8PPG 10.4RPG 3.2APG
-49. Joe Liedel (Detroit-Mercy, 2024-2025): 23.8PPG 6.6RPG 2.8APG
-50. Nick Mayo (Eastern Kentucky, 2018-2019): 23.7PPG 8.7RPG 2.3APG
-51. Nate Webb (Brigham Young, 2021-2022): 23.7PPG 7.5RPG 1.2APG
-52. Stefan Moody (Ole Miss, 2015-2016): 23.6PPG 3.2RPG 4.3APG
-53. Jordan Riley (East Carolina, 2025-2026): 23.6PPG 6.0RPG 2.5APG
-54. Cat Barber (NC State, 2015-2016): 23.5PPG 4.6RPG 4.5APG
-55. Jamil Hood (Long Island, 2021-2022): 23.5PPG 6.0RPG 2.1APG
-56. Jordan Davis (Northern Colorado, 2018-2019): 23.5PPG 4.7RPG 4.7APG
-57. Cameron Young (Quinnipiac, 2018-2019): 23.5PPG 5.1RPG 1.9APG
-58. Keegan Murray (Iowa, 2021-2022): 23.5PPG 8.7RPG 1.5APG
-59. P.J. Haggerty (Kansas State, 2025-2026): 23.4PPG 5.3RPG 3.8APG
-60. Demontrae Jefferson (Texas Southern, 2017-2018): 23.3PPG 3.1RPG 4.6APG
-61. Tra'Quan Knight (Detroit-Mercy, 2019-2020): 23.3PPG 7.7RPG 3.4APG
-62. Eric Dixon (Villanova, 2024-2025): 23.3PPG 5.1RPG 1.9APG
-63. Cobie Barnes (SIU-Edwardsville, 2023-2024): 23.3PPG 7.2RPG 2.4APG
-64. Daeshun Ruffin (Jackson State, 2025-2026): 23.3PPG 2.8RPG 5.3APG
-65. Darius Acuff, Jr. (Arkansas, 2025-2026): 23.3PPG 3.1RPG 6.5APG
-66. Markelle Fultz (Washington, 2016-2017): 23.2PPG 5.7RPG 5.9APG
-67. Dominique Daniels, Jr. (California Baptist, 2025-2026): 23.2PPG 3.8RPG 3.2APG
-68. Tyler Harvey (Eastern Washington, 2014-2015): 23.1PPG 3.6RPG 2.6APG
-69. Obi Emegano (Oral Roberts, 2015-2016): 23.1PPG 5.1RPG 1.8APG
-70. Wayne Arnold (Cal State Fullerton, 2021-2022): 23.1PPG 4.4RPG 1.1APG
-71. Raquan Mitchell (Colorado State, 2019-2020): 23.1PPG 4.6RPG 3.6APG
-72. Alec Peters (Valparaiso, 2016-2017): 23.0PPG 10.1RPG 2.2APG
-73. Aaron Nesmith (Vanderbilt, 2019-2020): 23.0PPG 4.9RPG 0.9APG
-74. Cam Thomas (LSU, 2020-2021): 23.0PPG 3.4RPG 1.4APG
-75. Terrence Shannon, Jr. (Illinois, 2023-2024): 23.0PPG 4.0RPG 2.3APG
-76. Nick Martinelli (Northwestern, 2025-2026): 23.0PPG 6.2RPG 2.0APG
-77. Jaizec Lottie (Little Rock, 2021-2022): 22.9PPG 6.6RPG 4.8APG
-78. Terryonte Thomas (Sam Houston State, 2021-2022): 22.9PPG 8.0RPG 3.4APG
-79. Taylor Stafford (Evansville, 2016-2017): 22.8PPG 5.0RPG 3.5APG
-80. Ronnie Rousseau III (Missouri State, 2019-2020): 22.8PPG 2.4RPG 2.7APG
-81. Darius McGhee (Liberty, 2022-2023): 22.8PPG 3.3RPG 3.0APG
-82. Ebuka Okorie (Stanford, 2025-2026): 22.8PPG 3.7RPG 3.5APG
-83. Kami Young (Rider, 2024-2025): 22.7PPG 3.3RPG 4.9APG
-84. A.J. English III (Iona, 2015-2016): 22.6PPG 5.0RPG 6.2APG
-85. Bryson Scott (Fort Wayne, 2017-2018): 22.6PPG 4.5RPG 2.6APG
-86. R.J. Barrett (Duke, 2018-2019): 22.6PPG 7.6RPG 4.3APG
-87. Zion Williamson (Duke, 2018-2019): 22.6PPG 8.9RPG 2.1APG
-88. Rashawn Thomas (Texas A&M-CC, 2016-2017): 22.5PPG 9.0RPG 2.7APG
-89. Andre Spight (Northern Colorado, 2017-2018): 22.5PPG 3.9RPG 3.7APG
-90. Tyler Thomas (Hofstra, 2023-2024): 22.5PPG 5.2RPG 3.3APG
-91. Grant Lozoya (Stetson, 2018-2019): 22.4PPG 6.3RPG 3.6APG
-92. Ty Cockfield (Arkansas State, 2018-2019): 22.4PPG 3.6RPG 3.2APG
-93. Cameron Boozer (Duke, 2025-2026): 22.4PPG 10.3RPG 4.2APG
-94. Keon Johnson (Winthrop, 2016-2017): 22.3PPG 4.0RPG 2.6APG
-95. Loren Cristian Jackson (Akron, 2020-2021): 22.3PPG 3.1RPG 6.1APG
-96. Jordan Walker (UAB, 2022-2023): 22.3PPG 2.7RPG 4.2APG
-97. Justin Jones (South Carolina State, 2019-2020): 22.3PPG 3.6RPG 1.8APG
-98. Tyrone Nesby IV (Wagner, 2023-2024): 22.3PPG 5.5RPG 0.6APG
-99. Tyler Haws (Brigham Young, 2014-2015): 22.2PPG 4.5RPG 2.4APG
-100. Tyler Nelson (Fairfield, 2017-2018): 22.2PPG 4.2RPG 3.3APG
-101. Kevin Punter (Tennessee, 2015-2016): 22.2PPG 3.5RPG 3.5APG
-102. Matt Morgan (Cornell, 2018-2019): 22.2PPG 4.5RPG 3.0APG
-103. Yoeli Childs (Brigham Young, 2019-2020): 22.2PPG 9.0RPG 2.1APG
-104. Xavier Johnson (Southern Illinois, 2023-2024): 22.2PPG 4.1RPG 6.1APG
-105. Trey Freeman (Old Dominion, 2015-2016): 22.1PPG 4.2RPG 3.0APG
-106. Jack Gibbs (Davidson, 2016-2017): 22.1PPG 4.0RPG 4.1APG
-107. Justin James (Wyoming, 2018-2019): 22.1PPG 8.5RPG 4.4APG
-108. Justin Brown (UNC Asheville, 2019-2020): 22.1PPG 4.3RPG 1.9APG
-109. Taevion Kinsey (Marshall, 2022-2023): 22.1PPG 4.9RPG 5.4APG
-110. Trenton McLaughlin (Northern Arizona, 2024-2025): 22.1PPG 3.6RPG 3.4APG
-111. Josh Hubbard (Mississippi State, 2025-2026): 22.1PPG 2.5RPG 3.6APG
-112. Shaun Stewart (Youngstown State, 2016-2017): 22.0PPG 4.7RPG 3.2APG
-113. Junior Robinson (Mount St. Mary's, 2017-2018): 22.0PPG 2.9RPG 4.8APG
-114. Mark Matthews (UNC Wilmington, 2019-2020): 22.0PPG 7.1RPG 5.2APG
-115. Adarius Avery (Loyola (IL), 2018-2019): 22.0PPG 10.4RPG 2.4APG
-116. Tavon Jones (Merrimack College, 2023-2024): 22.0PPG 8.6RPG 4.0APG
-117. Jamal Mashburn, Jr. (Temple, 2024-2025): 22.0PPG 3.0RPG 2.2APG
-118. Mason Jones (Arkansas, 2019-2020): 22.0PPG 5.5RPG 3.4APG
-119. Jake Stephens (Chattanooga, 2022-2023): 22.0PPG 9.8RPG 3.4APG
-120. Bryce Lausier (Maine, 2024-2025): 22.0PPG 11.6RPG 3.4APG
-121. Justice Ellison (Central Connecticut State, 2024-2025): 22.0PPG 5.2RPG 2.4APG
-122. Keenan Palmore (Old Dominion, 2015-2016): 21.9PPG 9.2RPG 6.3APG
-123. Daeshon Francis (Green Bay, 2017-2018): 21.9PPG 8.0RPG 4.0APG
-124. Jordan Roland (Northeastern, 2019-2020): 21.9PPG 3.3RPG 1.8APG
-125. Grant Riller (Charleston, 2019-2020): 21.9PPG 5.1RPG 3.9APG
-126. Jordan Ford (Saint Mary's, 2019-2020): 21.9PPG 3.0RPG 2.4APG
-127. Kendric Davis (Memphis, 2022-2023): 21.9PPG 3.7RPG 5.4APG
-128. Pat Dembley (Boise State, 2019-2020): 21.9PPG 3.6RPG 4.9APG
-129. Bryce Hamilton (UNLV, 2021-2022): 21.8PPG 5.0RPG 2.2APG
-130. David Jones-Garcia (Memphis, 2023-2024): 21.8PPG 7.6RPG 1.8APG
-131. J.T. Toppin (Texas Tech, 2025-2026): 21.8PPG 10.8RPG 2.1APG
-132. Niksha Federico (San Diego State, 2017-2018): 21.7PPG 10.4RPG 1.6APG
-133. Jon Davis (Charlotte, 2018-2019): 21.7PPG 4.5RPG 3.7APG
-134. Xavier Castaneda (Akron, 2022-2023): 21.7PPG 4.3RPG 2.9APG
-135. Marcus Burk (IU Indy, 2020-2021): 21.7PPG 3.7RPG 2.2APG
-136. Terrell Brown, Jr. (Washington, 2021-2022): 21.7PPG 4.2RPG 4.3APG
-137. T.J. Starks (Cal State Northridge, 2020-2021): 21.7PPG 3.0RPG 3.0APG
-138. Javon Freeman-Liberty (DePaul, 2021-2022): 21.7PPG 7.3RPG 3.2APG
-139. Delor Johnson (Southern, 2023-2024): 21.7PPG 4.5RPG 2.0APG
-140. Dalton Knecht (Tennessee, 2023-2024): 21.7PPG 4.9RPG 1.8APG
-141. Jack Karasinski (Bellarmine, 2025-2026): 21.7PPG 4.7RPG 1.2APG
-142. Robert Franks (Washington State, 2018-2019): 21.6PPG 7.2RPG 2.6APG
-143. Jaylin Walker (Kent State, 2018-2019): 21.6PPG 5.7RPG 2.1APG
-144. Tre'von Allen (Idaho, 2019-2020): 21.6PPG 4.9RPG 1.7APG
-145. Jalen Harris (Nevada, 2019-2020): 21.6PPG 6.4RPG 3.9APG
-146. Terry Taylor (Austin Peay, 2020-2021): 21.6PPG 11.1RPG 1.6APG
-147. Fah'Mir Ali (Charleston, 2022-2023): 21.6PPG 3.9RPG 5.8APG
-148. Jadin Booth (Samford, 2025-2026): 21.6PPG 3.7RPG 2.2APG
-149. Malik Brooks (Canisius, 2024-2025): 21.6PPG 5.2RPG 3.5APG
-150. Labaron Philon, Jr. (Alabama, 2025-2026): 21.6PPG 3.4RPG 5.0APG
-151. Denzel Livingston (Incarnate Word, 2014-2015): 21.5PPG 5.9RPG 2.9APG
-152. Cameron Williams (Eastern Kentucky, 2017-2018): 21.5PPG 3.1RPG 2.6APG
-153. Jordon Varnado (Troy, 2018-2019): 21.5PPG 7.8RPG 2.5APG
-154. Justin Jaworski (Lafayette, 2020-2021): 21.5PPG 3.7RPG 2.3APG
-155. Saah Nimley (Charleston Southern, 2014-2015): 21.4PPG 4.1RPG 4.1APG
-156. Sindarius Thornwell (South Carolina, 2016-2017): 21.4PPG 7.1RPG 2.8APG
-157. Jonathan Stark (Murray State, 2017-2018): 21.4PPG 2.7RPG 3.9APG
-158. Lamond Murray, Jr. (Pepperdine, 2016-2017): 21.4PPG 5.7RPG 1.3APG
-159. T.J. Williams (Northeastern, 2016-2017): 21.4PPG 4.7RPG 5.3APG
-160. Cam Shelton (Loyola Marymount, 2022-2023): 21.4PPG 5.4RPG 4.3APG
-161. Jaedon LeDee (San Diego State, 2023-2024): 21.4PPG 8.4RPG 1.3APG
-162. Jerrick Harding (Weber State, 2018-2019): 21.4PPG 3.4RPG 1.4APG
-163. Tavian Dunn-Martin (Florida Gulf Coast, 2021-2022): 21.4PPG 3.1RPG 6.0APG
-164. Tyshaun Crawford (Georgia Southern, 2022-2023): 21.4PPG 8.0RPG 1.8APG
-165. Trey Arland (Idaho State, 2024-2025): 21.4PPG 6.1RPG 5.1APG
-166. Juke Harris (Wake Forest, 2025-2026): 21.4PPG 6.5RPG 1.9APG
-167. Michael James (Mississippi Valley State, 2025-2026): 21.4PPG 3.4RPG 2.8APG
-168. Dylan Windler (Belmont, 2018-2019): 21.3PPG 10.8RPG 2.5APG
-169. Jordan Johnson (New Orleans, 2023-2024): 21.3PPG 3.2RPG 3.8APG
-170. Kollin Tolbert (East Texas A&M, 2024-2025): 21.3PPG 6.6RPG 3.4APG
-171. Dewayne Russell (Grand Canyon, 2016-2017): 21.2PPG 3.8RPG 5.4APG
-172. Kendrick Ray (Kennesaw State, 2016-2017): 21.2PPG 3.7RPG 3.1APG
-173. Braylon Rayson (Central Michigan, 2016-2017): 21.2PPG 4.4RPG 3.2APG
-174. Peyton Aldridge (Davidson, 2017-2018): 21.2PPG 7.6RPG 2.5APG
-175. Bogdan Bliznyuk (Eastern Washington, 2017-2018): 21.2PPG 6.8RPG 3.9APG
-176. Kelan Martin (Butler, 2017-2018): 21.2PPG 6.3RPG 2.0APG
-177. Drew Timme (Gonzaga, 2022-2023): 21.2PPG 7.5RPG 3.2APG
-178. Santi Aldama (Loyola (MD), 2020-2021): 21.2PPG 10.1RPG 2.3APG
-179. Jahad Thomas (UMass Lowell, 2017-2018): 21.1PPG 8.4RPG 4.0APG
-180. Jeremy Senglin (Weber State, 2016-2017): 21.1PPG 3.9RPG 2.8APG
-181. Ben Bentil (Providence, 2015-2016): 21.1PPG 7.7RPG 1.1APG
-182. Deontae North (Portland State, 2017-2018): 21.1PPG 4.9RPG 2.4APG
-183. Jock Landale (Saint Mary's, 2017-2018): 21.1PPG 10.2RPG 2.0APG
-184. Donovan Franklin (Indiana State, 2018-2019): 21.1PPG 5.9RPG 2.0APG
-185. Keion Brooks, Jr. (Washington, 2023-2024): 21.1PPG 6.8RPG 1.4APG
-186. Tristan Jarrett (Jackson State, 2020-2021): 21.1PPG 5.3RPG 1.4APG
-187. Ty Johnson (UC Davis, 2024-2025): 21.1PPG 4.1RPG 3.0APG
-188. Vonterius Woolbright (Western Carolina, 2023-2024): 21.1PPG 12.0RPG 5.6APG
-189. Amere May (Delaware State, 2014-2015): 21.0PPG 4.2RPG 2.7APG
-190. Nicholas King (Middle Tennessee State, 2017-2018): 21.0PPG 8.4RPG 2.0APG
-191. Austin McBroom (Eastern Washington, 2015-2016): 21.0PPG 2.5RPG 3.7APG
-192. Kahlil Dukes (Niagara, 2017-2018): 21.0PPG 2.2RPG 3.3APG
-193. Marvin Bagley III (Duke, 2017-2018): 21.0PPG 11.1RPG 1.5APG
-194. Keith Hayes (UMass Lowell, 2018-2019): 21.0PPG 2.7RPG 2.6APG
-195. Bol Bol (Oregon, 2018-2019): 21.0PPG 9.6RPG 1.0APG
-196. Myles Powell (Seton Hall, 2019-2020): 21.0PPG 4.3RPG 2.9APG
-197. Daishon Smith (Louisiana-Monroe, 2018-2019): 21.0PPG 4.5RPG 3.9APG
-198. Nate Darling (Delaware, 2019-2020): 21.0PPG 3.9RPG 2.8APG
-199. Trey Phipps (Oral Roberts, 2024-2025): 21.0PPG 3.9RPG 2.5APG
-200. Jimmy Yfantopulos (Colgate, 2018-2019): 21.0PPG 6.0RPG 2.0APG
+# Top 200 College Scorers (final season) with Pro Destination
+1. Steve Wooten (Tennessee-Martin, 2020-2021): 31.4PPG 11.9RPG 2.6APG → went pro: International, first team: Pioneros del Avila
+2. Chris Clemons (Campbell, 2018-2019): 30.1PPG 5.1RPG 2.8APG → went pro: nba, first team: Houston Rockets
+3. Marcus Keene (Central Michigan, 2016-2017): 30.0PPG 4.5RPG 4.9APG → went pro: International, first team: Reale Mutua Torino
+4. Shaden Knight (Long Beach State, 2024-2025): 29.5PPG 3.5RPG 3.3APG → no pro career
+5. Brian Halums (Ole Miss, 2019-2020): 28.8PPG 8.6RPG 1.9APG → went pro: International, first team: Nadim Souaid Academy
+6. Deshawn Munson (Jackson State, 2019-2020): 28.5PPG 11.4RPG 8.1APG → no pro career
+7. Antoine Davis (Detroit-Mercy, 2022-2023): 28.2PPG 3.0RPG 3.6APG → went pro: G-League, first team: Portland Trail Blazers
+8. Markus Howard (Marquette, 2019-2020): 27.8PPG 3.5RPG 3.3APG → went pro: nba, first team: Denver Nuggets
+9. Dayon Goodman (Utah Valley, 2017-2018): 27.7PPG 8.5RPG 3.2APG → went pro: International, first team: MBK Rieker Komarno
+10. Trae Young (Oklahoma, 2017-2018): 27.4PPG 3.9RPG 8.7APG → went pro: nba, first team: Atlanta Hawks
+11. Mark Gordon (Bethune-Cookman, 2019-2020): 27.4PPG 6.6RPG 3.0APG → no pro career
+12. Marquill Smith (San Francisco, 2018-2019): 27.3PPG 8.7RPG 1.6APG → went pro: G-League, first team: Sioux Falls Skyforce
+13. Justin Wright-Foreman (Hofstra, 2018-2019): 27.1PPG 4.0RPG 2.9APG → went pro: nba, first team: Utah Jazz
+14. Alex Vargo (North Florida, 2023-2024): 26.7PPG 6.1RPG 3.1APG → no pro career
+15. Steven Soukup (Iowa, 2016-2017): 26.4PPG 6.3RPG 2.6APG → no pro career
+16. Jalen Adams (St. Bonaventure, 2017-2018): 26.2PPG 10.7RPG 1.4APG → no pro career
+17. Tiwian Kendley (Morgan State, 2017-2018): 26.1PPG 4.0RPG 2.2APG → went pro: G-League, first team: Washington Wizards
+18. Gage Davis (Fort Wayne, 2018-2019): 26.0PPG 7.5RPG 3.3APG → went pro: G-League, first team: Windy City Bulls
+19. Kendrick Nunn (Oakland, 2017-2018): 25.9PPG 4.7RPG 3.8APG → went pro: nba, first team: Golden State Warriors
+20. Lamine Diane (Cal State Northridge, 2019-2020): 25.6PPG 10.2RPG 2.8APG → went pro: G-League, first team: Philadelphia Sixers
+21. Tray Buchanan (South Dakota State, 2021-2022): 25.6PPG 3.9RPG 3.1APG → went pro: International, first team: Proteas EKA AEL
+22. A.J. Dybantsa (Brigham Young, 2025-2026): 25.5PPG 6.8RPG 3.7APG → went pro: International, first team: Expressions Elite (MA)
+23. Mike Daum (South Dakota State, 2018-2019): 25.3PPG 11.7RPG 1.8APG → went pro: International, first team: Monbus Obradoiro
+24. Peter Kiss (Bryant, 2021-2022): 25.2PPG 5.8RPG 3.2APG → went pro: International, first team: Soles
+25. Zach Edey (Purdue, 2023-2024): 25.2PPG 12.2RPG 2.0APG → went pro: nba, first team: Memphis Grizzlies
+26. Antwan Kimmons (Northern Iowa, 2024-2025): 25.2PPG 6.4RPG 5.7APG → went pro: International, first team: Grand Rapids Gold
+27. Jordan Howard (Central Arkansas, 2017-2018): 25.1PPG 3.6RPG 2.7APG → went pro: G-League, first team: Santa Cruz Warriors
+28. Buddy Hield (Oklahoma, 2015-2016): 25.0PPG 5.7RPG 2.0APG → went pro: nba, first team: New Orleans Pelicans
+29. Jermaine Marrow (Hampton, 2019-2020): 24.8PPG 3.2RPG 6.5APG → went pro: International, first team: Hestia Menorca
+30. Ja Morant (Murray State, 2018-2019): 24.5PPG 5.7RPG 10.0APG → went pro: nba, first team: Memphis Grizzlies
+31. Dante Moses (Radford, 2022-2023): 24.5PPG 6.6RPG 2.1APG → went pro: International, first team: BK Inter Bratislava
+32. Drew Lutz (Incarnate Word, 2023-2024): 24.5PPG 3.9RPG 3.8APG → no pro career
+33. Kay Felder (Oakland, 2015-2016): 24.4PPG 4.3RPG 9.3APG → went pro: nba, first team: Cleveland Cavaliers
+34. Suki Wiggs (Idaho, 2016-2017): 24.4PPG 5.6RPG 2.8APG → went pro: G-League, first team: Westchester Knicks
+35. Charlie Yoder (Abilene Christian, 2024-2025): 24.4PPG 7.9RPG 3.5APG → no pro career
+36. Raysean Scott, Jr. (Florida Gulf Coast, 2019-2020): 24.3PPG 8.0RPG 2.7APG → no pro career
+37. Tre Evans (Fordham, 2018-2019): 24.3PPG 7.4RPG 4.0APG → no pro career
+38. Carsen Edwards (Purdue, 2018-2019): 24.3PPG 3.6RPG 2.9APG → went pro: nba, first team: Boston Celtics
+39. Josh Adams (Wyoming, 2015-2016): 24.2PPG 5.6RPG 4.3APG → went pro: International, first team: Avtodor Saratov
+40. Javonte Douglas (Old Dominion, 2016-2017): 24.2PPG 11.3RPG 1.1APG → went pro: International, first team: Taranaki Mountain Airs
+41. Luka Garza (Iowa, 2020-2021): 24.1PPG 8.7RPG 1.7APG → went pro: nba, first team: Detroit Pistons
+42. Dakari Johnson (Campbell, 2019-2020): 24.1PPG 5.1RPG 3.5APG → no pro career
+43. Taylor Currie (Akron, 2022-2023): 24.0PPG 9.7RPG 0.7APG → went pro: International, first team: Tundja Yambol
+44. Tommy Bruner (Denver, 2023-2024): 24.0PPG 2.8RPG 4.2APG → went pro: G-League, first team: Rip City Remix
+45. Terion Moss (Maine, 2022-2023): 24.0PPG 5.8RPG 4.8APG → no pro career
+46. Dior Johnson (Tarleton State, 2025-2026): 24.0PPG 3.3RPG 1.6APG → no pro career
+47. Dallas Moore (North Florida, 2016-2017): 23.9PPG 3.1RPG 4.0APG → went pro: International, first team: Carpegna Prosciutto Basket Pesaro
+48. Keshawn Liggins (Idaho State, 2017-2018): 23.8PPG 10.4RPG 3.2APG → went pro: International, first team: Grand Rapids Drive
+49. Joe Liedel (Detroit-Mercy, 2024-2025): 23.8PPG 6.6RPG 2.8APG → no pro career
+50. Nick Mayo (Eastern Kentucky, 2018-2019): 23.7PPG 8.7RPG 2.3APG → went pro: International, first team: Chiba Jets
+51. Nate Webb (Brigham Young, 2021-2022): 23.7PPG 7.5RPG 1.2APG → no pro career
+52. Stefan Moody (Ole Miss, 2015-2016): 23.6PPG 3.2RPG 4.3APG → went pro: International, first team: Trabzonspor
+53. Jordan Riley (East Carolina, 2025-2026): 23.6PPG 6.0RPG 2.5APG → no pro career
+54. Cat Barber (NC State, 2015-2016): 23.5PPG 4.6RPG 4.5APG → went pro: nba, first team: Philadelphia Sixers
+55. Jamil Hood (Long Island, 2021-2022): 23.5PPG 6.0RPG 2.1APG → went pro: International, first team: LTHCast Skofja
+56. Jordan Davis (Northern Colorado, 2018-2019): 23.5PPG 4.7RPG 4.7APG → went pro: International, first team: BAXI Manresa
+57. Cameron Young (Quinnipiac, 2018-2019): 23.5PPG 5.1RPG 1.9APG → went pro: International, first team: Acqua San Bernardo Cantu
+58. Keegan Murray (Iowa, 2021-2022): 23.5PPG 8.7RPG 1.5APG → went pro: nba, first team: Sacramento Kings
+59. P.J. Haggerty (Kansas State, 2025-2026): 23.4PPG 5.3RPG 3.8APG → no pro career
+60. Demontrae Jefferson (Texas Southern, 2017-2018): 23.3PPG 3.1RPG 4.6APG → no pro career
+61. Tra'Quan Knight (Detroit-Mercy, 2019-2020): 23.3PPG 7.7RPG 3.4APG → no pro career
+62. Eric Dixon (Villanova, 2024-2025): 23.3PPG 5.1RPG 1.9APG → went pro: G-League, first team: Los Angeles Lakers
+63. Cobie Barnes (SIU-Edwardsville, 2023-2024): 23.3PPG 7.2RPG 2.4APG → no pro career
+64. Daeshun Ruffin (Jackson State, 2025-2026): 23.3PPG 2.8RPG 5.3APG → no pro career
+65. Darius Acuff, Jr. (Arkansas, 2025-2026): 23.3PPG 3.1RPG 6.5APG → went pro: International, first team: The Family (MI)
+66. Markelle Fultz (Washington, 2016-2017): 23.2PPG 5.7RPG 5.9APG → went pro: nba, first team: Philadelphia Sixers
+67. Dominique Daniels, Jr. (California Baptist, 2025-2026): 23.2PPG 3.8RPG 3.2APG → no pro career
+68. Tyler Harvey (Eastern Washington, 2014-2015): 23.1PPG 3.6RPG 2.6APG → went pro: G-League, first team: Erie BayHawks (2008)
+69. Obi Emegano (Oral Roberts, 2015-2016): 23.1PPG 5.1RPG 1.8APG → went pro: International, first team: Novipiu Casale Monferrato
+70. Wayne Arnold (Cal State Fullerton, 2021-2022): 23.1PPG 4.4RPG 1.1APG → went pro: International, first team: KB Kalaja Prizren
+71. Raquan Mitchell (Colorado State, 2019-2020): 23.1PPG 4.6RPG 3.6APG → went pro: International, first team: BC Levski Lukoil
+72. Alec Peters (Valparaiso, 2016-2017): 23.0PPG 10.1RPG 2.2APG → went pro: nba, first team: Phoenix Suns
+73. Aaron Nesmith (Vanderbilt, 2019-2020): 23.0PPG 4.9RPG 0.9APG → went pro: nba, first team: Boston Celtics
+74. Cam Thomas (LSU, 2020-2021): 23.0PPG 3.4RPG 1.4APG → went pro: nba, first team: Brooklyn Nets
+75. Terrence Shannon, Jr. (Illinois, 2023-2024): 23.0PPG 4.0RPG 2.3APG → went pro: nba, first team: Minnesota Timberwolves
+76. Nick Martinelli (Northwestern, 2025-2026): 23.0PPG 6.2RPG 2.0APG → no pro career
+77. Jaizec Lottie (Little Rock, 2021-2022): 22.9PPG 6.6RPG 4.8APG → went pro: International, first team: BBC Monthey
+78. Terryonte Thomas (Sam Houston State, 2021-2022): 22.9PPG 8.0RPG 3.4APG → no pro career
+79. Taylor Stafford (Evansville, 2016-2017): 22.8PPG 5.0RPG 3.5APG → went pro: International, first team: Hottur Egilsstadir
+80. Ronnie Rousseau III (Missouri State, 2019-2020): 22.8PPG 2.4RPG 2.7APG → went pro: International, first team: Mega Tbilisi
+81. Darius McGhee (Liberty, 2022-2023): 22.8PPG 3.3RPG 3.0APG → went pro: G-League, first team: Indiana Pacers
+82. Ebuka Okorie (Stanford, 2025-2026): 22.8PPG 3.7RPG 3.5APG → went pro: International, first team: Rivals Basketball (MA)
+83. Kami Young (Rider, 2024-2025): 22.7PPG 3.3RPG 4.9APG → no pro career
+84. A.J. English III (Iona, 2015-2016): 22.6PPG 5.0RPG 6.2APG → went pro: International, first team: Fraport Skyliners
+85. Bryson Scott (Fort Wayne, 2017-2018): 22.6PPG 4.5RPG 2.6APG → went pro: G-League, first team: Raptors 905
+86. R.J. Barrett (Duke, 2018-2019): 22.6PPG 7.6RPG 4.3APG → went pro: nba, first team: New York Knicks
+87. Zion Williamson (Duke, 2018-2019): 22.6PPG 8.9RPG 2.1APG → went pro: nba, first team: New Orleans Pelicans
+88. Rashawn Thomas (Texas A&M-CC, 2016-2017): 22.5PPG 9.0RPG 2.7APG → went pro: G-League, first team: Oklahoma City Thunder
+89. Andre Spight (Northern Colorado, 2017-2018): 22.5PPG 3.9RPG 3.7APG → went pro: G-League, first team: Wisconsin Herd
+90. Tyler Thomas (Hofstra, 2023-2024): 22.5PPG 5.2RPG 3.3APG → went pro: International, first team: Alba Fehervar
+91. Grant Lozoya (Stetson, 2018-2019): 22.4PPG 6.3RPG 3.6APG → went pro: International, first team: CB L'Hospitalet
+92. Ty Cockfield (Arkansas State, 2018-2019): 22.4PPG 3.6RPG 3.2APG → went pro: International, first team: Charilaos Trikoupis Mesologiou
+93. Cameron Boozer (Duke, 2025-2026): 22.4PPG 10.3RPG 4.2APG → no pro career
+94. Keon Johnson (Winthrop, 2016-2017): 22.3PPG 4.0RPG 2.6APG → went pro: International, first team: Sigal Prishtina
+95. Loren Cristian Jackson (Akron, 2020-2021): 22.3PPG 3.1RPG 6.1APG → went pro: International, first team: Chorale Roanne Basket
+96. Jordan Walker (UAB, 2022-2023): 22.3PPG 2.7RPG 4.2APG → went pro: G-League, first team: Dallas Mavericks
+97. Justin Jones (South Carolina State, 2019-2020): 22.3PPG 3.6RPG 1.8APG → went pro: International, first team: KB Kalaja Prizren
+98. Tyrone Nesby IV (Wagner, 2023-2024): 22.3PPG 5.5RPG 0.6APG → no pro career
+99. Tyler Haws (Brigham Young, 2014-2015): 22.2PPG 4.5RPG 2.4APG → went pro: International, first team: Monbus Obradoiro
+100. Tyler Nelson (Fairfield, 2017-2018): 22.2PPG 4.2RPG 3.3APG → went pro: G-League, first team: Greensboro Swarm
+101. Kevin Punter (Tennessee, 2015-2016): 22.2PPG 3.5RPG 3.5APG → went pro: International, first team: Port of Antwerp Giants
+102. Matt Morgan (Cornell, 2018-2019): 22.2PPG 4.5RPG 3.0APG → went pro: G-League, first team: Toronto Raptors
+103. Yoeli Childs (Brigham Young, 2019-2020): 22.2PPG 9.0RPG 2.1APG → went pro: G-League, first team: Washington Wizards
+104. Xavier Johnson (Southern Illinois, 2023-2024): 22.2PPG 4.1RPG 6.1APG → went pro: International, first team: Gipuzkoa Basket
+105. Trey Freeman (Old Dominion, 2015-2016): 22.1PPG 4.2RPG 3.0APG → went pro: G-League, first team: Detroit Pistons
+106. Jack Gibbs (Davidson, 2016-2017): 22.1PPG 4.0RPG 4.1APG → went pro: International, first team: Proximus Spirou Charleroi
+107. Justin James (Wyoming, 2018-2019): 22.1PPG 8.5RPG 4.4APG → went pro: nba, first team: Sacramento Kings
+108. Justin Brown (UNC Asheville, 2019-2020): 22.1PPG 4.3RPG 1.9APG → no pro career
+109. Taevion Kinsey (Marshall, 2022-2023): 22.1PPG 4.9RPG 5.4APG → went pro: G-League, first team: Utah Jazz
+110. Trenton McLaughlin (Northern Arizona, 2024-2025): 22.1PPG 3.6RPG 3.4APG → went pro: International, first team: Kedainiai Nevezis
+111. Josh Hubbard (Mississippi State, 2025-2026): 22.1PPG 2.5RPG 3.6APG → went pro: International, first team: Team Thad (TN)
+112. Shaun Stewart (Youngstown State, 2016-2017): 22.0PPG 4.7RPG 3.2APG → went pro: International, first team: ADO Basquetebol Sad Ovarense
+113. Junior Robinson (Mount St. Mary's, 2017-2018): 22.0PPG 2.9RPG 4.8APG → went pro: International, first team: Saenz Horeca Araberri
+114. Mark Matthews (UNC Wilmington, 2019-2020): 22.0PPG 7.1RPG 5.2APG → no pro career
+115. Adarius Avery (Loyola (IL), 2018-2019): 22.0PPG 10.4RPG 2.4APG → went pro: International, first team: Arantia Larochette
+116. Tavon Jones (Merrimack College, 2023-2024): 22.0PPG 8.6RPG 4.0APG → no pro career
+117. Jamal Mashburn, Jr. (Temple, 2024-2025): 22.0PPG 3.0RPG 2.2APG → went pro: G-League, first team: Grand Rapids Gold
+118. Mason Jones (Arkansas, 2019-2020): 22.0PPG 5.5RPG 3.4APG → went pro: nba, first team: Houston Rockets
+119. Jake Stephens (Chattanooga, 2022-2023): 22.0PPG 9.8RPG 3.4APG → went pro: G-League, first team: Sacramento Kings
+120. Bryce Lausier (Maine, 2024-2025): 22.0PPG 11.6RPG 3.4APG → no pro career
+121. Justice Ellison (Central Connecticut State, 2024-2025): 22.0PPG 5.2RPG 2.4APG → no pro career
+122. Keenan Palmore (Old Dominion, 2015-2016): 21.9PPG 9.2RPG 6.3APG → went pro: International, first team: Island Storm
+123. Daeshon Francis (Green Bay, 2017-2018): 21.9PPG 8.0RPG 4.0APG → went pro: International, first team: Iowa Wolves
+124. Jordan Roland (Northeastern, 2019-2020): 21.9PPG 3.3RPG 1.8APG → went pro: International, first team: SC Rasta Vechta
+125. Grant Riller (Charleston, 2019-2020): 21.9PPG 5.1RPG 3.9APG → went pro: nba, first team: Charlotte Hornets
+126. Jordan Ford (Saint Mary's, 2019-2020): 21.9PPG 3.0RPG 2.4APG → went pro: nba, first team: Los Angeles Clippers
+127. Kendric Davis (Memphis, 2022-2023): 21.9PPG 3.7RPG 5.4APG → went pro: G-League, first team: Golden State Warriors
+128. Pat Dembley (Boise State, 2019-2020): 21.9PPG 3.6RPG 4.9APG → no pro career
+129. Bryce Hamilton (UNLV, 2021-2022): 21.8PPG 5.0RPG 2.2APG → went pro: G-League, first team: Los Angeles Lakers
+130. David Jones-Garcia (Memphis, 2023-2024): 21.8PPG 7.6RPG 1.8APG → went pro: nba, first team: Philadelphia Sixers
+131. J.T. Toppin (Texas Tech, 2025-2026): 21.8PPG 10.8RPG 2.1APG → no pro career
+132. Niksha Federico (San Diego State, 2017-2018): 21.7PPG 10.4RPG 1.6APG → went pro: International, first team: Saenz Horeca Araberri
+133. Jon Davis (Charlotte, 2018-2019): 21.7PPG 4.5RPG 3.7APG → went pro: G-League, first team: Orlando Magic
+134. Xavier Castaneda (Akron, 2022-2023): 21.7PPG 4.3RPG 2.9APG → went pro: International, first team: GS Lavrio
+135. Marcus Burk (IU Indy, 2020-2021): 21.7PPG 3.7RPG 2.2APG → went pro: G-League, first team: Grand Rapids Gold
+136. Terrell Brown, Jr. (Washington, 2021-2022): 21.7PPG 4.2RPG 4.3APG → went pro: G-League, first team: College Park Skyhawks
+137. T.J. Starks (Cal State Northridge, 2020-2021): 21.7PPG 3.0RPG 3.0APG → went pro: International, first team: Wisconsin Herd
+138. Javon Freeman-Liberty (DePaul, 2021-2022): 21.7PPG 7.3RPG 3.2APG → went pro: nba, first team: Chicago Bulls
+139. Delor Johnson (Southern, 2023-2024): 21.7PPG 4.5RPG 2.0APG → no pro career
+140. Dalton Knecht (Tennessee, 2023-2024): 21.7PPG 4.9RPG 1.8APG → went pro: nba, first team: Los Angeles Lakers
+141. Jack Karasinski (Bellarmine, 2025-2026): 21.7PPG 4.7RPG 1.2APG → no pro career
+142. Robert Franks (Washington State, 2018-2019): 21.6PPG 7.2RPG 2.6APG → went pro: nba, first team: Charlotte Hornets
+143. Jaylin Walker (Kent State, 2018-2019): 21.6PPG 5.7RPG 2.1APG → went pro: International, first team: Riviera Basket
+144. Tre'von Allen (Idaho, 2019-2020): 21.6PPG 4.9RPG 1.7APG → went pro: International, first team: Polpharma Starogard Gdanski
+145. Jalen Harris (Nevada, 2019-2020): 21.6PPG 6.4RPG 3.9APG → went pro: nba, first team: Toronto Raptors
+146. Terry Taylor (Austin Peay, 2020-2021): 21.6PPG 11.1RPG 1.6APG → went pro: nba, first team: Indiana Pacers
+147. Fah'Mir Ali (Charleston, 2022-2023): 21.6PPG 3.9RPG 5.8APG → no pro career
+148. Jadin Booth (Samford, 2025-2026): 21.6PPG 3.7RPG 2.2APG → went pro: International, first team: Omaha Sports (NE)
+149. Malik Brooks (Canisius, 2024-2025): 21.6PPG 5.2RPG 3.5APG → no pro career
+150. Labaron Philon, Jr. (Alabama, 2025-2026): 21.6PPG 3.4RPG 5.0APG → went pro: International, first team: Team Thad (TN)
+151. Denzel Livingston (Incarnate Word, 2014-2015): 21.5PPG 5.9RPG 2.9APG → went pro: G-League, first team: Houston Rockets
+152. Cameron Williams (Eastern Kentucky, 2017-2018): 21.5PPG 3.1RPG 2.6APG → went pro: International, first team: BK Spisska Rytieri
+153. Jordon Varnado (Troy, 2018-2019): 21.5PPG 7.8RPG 2.5APG → went pro: International, first team: Egis Kormend
+154. Justin Jaworski (Lafayette, 2020-2021): 21.5PPG 3.7RPG 2.3APG → went pro: G-League, first team: Oklahoma City Thunder
+155. Saah Nimley (Charleston Southern, 2014-2015): 21.4PPG 4.1RPG 4.1APG → went pro: International, first team: Kedainiai Nevezis
+156. Sindarius Thornwell (South Carolina, 2016-2017): 21.4PPG 7.1RPG 2.8APG → went pro: nba, first team: Los Angeles Clippers
+157. Jonathan Stark (Murray State, 2017-2018): 21.4PPG 2.7RPG 3.9APG → went pro: G-League, first team: Minnesota Timberwolves
+158. Lamond Murray, Jr. (Pepperdine, 2016-2017): 21.4PPG 5.7RPG 1.3APG → went pro: G-League, first team: Maine Red Claws
+159. T.J. Williams (Northeastern, 2016-2017): 21.4PPG 4.7RPG 5.3APG → went pro: G-League, first team: Charlotte Hornets
+160. Cam Shelton (Loyola Marymount, 2022-2023): 21.4PPG 5.4RPG 4.3APG → went pro: International, first team: KK Split
+161. Jaedon LeDee (San Diego State, 2023-2024): 21.4PPG 8.4RPG 1.3APG → went pro: G-League, first team: Minnesota Timberwolves
+162. Jerrick Harding (Weber State, 2018-2019): 21.4PPG 3.4RPG 1.4APG → went pro: International, first team: Weber State
+163. Tavian Dunn-Martin (Florida Gulf Coast, 2021-2022): 21.4PPG 3.1RPG 6.0APG → went pro: International, first team: KK Tajfun Sentjur
+164. Tyshaun Crawford (Georgia Southern, 2022-2023): 21.4PPG 8.0RPG 1.8APG → went pro: International, first team: Mega Tbilisi
+165. Trey Arland (Idaho State, 2024-2025): 21.4PPG 6.1RPG 5.1APG → no pro career
+166. Juke Harris (Wake Forest, 2025-2026): 21.4PPG 6.5RPG 1.9APG → no pro career
+167. Michael James (Mississippi Valley State, 2025-2026): 21.4PPG 3.4RPG 2.8APG → no pro career
+168. Dylan Windler (Belmont, 2018-2019): 21.3PPG 10.8RPG 2.5APG → went pro: nba, first team: Cleveland Cavaliers
+169. Jordan Johnson (New Orleans, 2023-2024): 21.3PPG 3.2RPG 3.8APG → went pro: International, first team: KB Kalaja Prizren
+170. Kollin Tolbert (East Texas A&M, 2024-2025): 21.3PPG 6.6RPG 3.4APG → no pro career
+171. Dewayne Russell (Grand Canyon, 2016-2017): 21.2PPG 3.8RPG 5.4APG → went pro: International, first team: Nancy Basket
+172. Kendrick Ray (Kennesaw State, 2016-2017): 21.2PPG 3.7RPG 3.1APG → went pro: International, first team: CEZ Nymburk
+173. Braylon Rayson (Central Michigan, 2016-2017): 21.2PPG 4.4RPG 3.2APG → went pro: International, first team: Windsor Express
+174. Peyton Aldridge (Davidson, 2017-2018): 21.2PPG 7.6RPG 2.5APG → went pro: International, first team: Vanoli Cremona
+175. Bogdan Bliznyuk (Eastern Washington, 2017-2018): 21.2PPG 6.8RPG 3.9APG → went pro: International, first team: Bnei Herzelia
+176. Kelan Martin (Butler, 2017-2018): 21.2PPG 6.3RPG 2.0APG → went pro: International, first team: MHP Riesen
+177. Drew Timme (Gonzaga, 2022-2023): 21.2PPG 7.5RPG 3.2APG → went pro: nba, first team: Milwaukee Bucks
+178. Santi Aldama (Loyola (MD), 2020-2021): 21.2PPG 10.1RPG 2.3APG → went pro: International, first team: FC Barcelona Regal U18
+179. Jahad Thomas (UMass Lowell, 2017-2018): 21.1PPG 8.4RPG 4.0APG → no pro career
+180. Jeremy Senglin (Weber State, 2016-2017): 21.1PPG 3.9RPG 2.8APG → went pro: G-League, first team: Brooklyn Nets
+181. Ben Bentil (Providence, 2015-2016): 21.1PPG 7.7RPG 1.1APG → went pro: nba, first team: Boston Celtics
+182. Deontae North (Portland State, 2017-2018): 21.1PPG 4.9RPG 2.4APG → went pro: International, first team: UBSC Raiffeisen Graz
+183. Jock Landale (Saint Mary's, 2017-2018): 21.1PPG 10.2RPG 2.0APG → went pro: International, first team: KK Partizan
+184. Donovan Franklin (Indiana State, 2018-2019): 21.1PPG 5.9RPG 2.0APG → no pro career
+185. Keion Brooks, Jr. (Washington, 2023-2024): 21.1PPG 6.8RPG 1.4APG → went pro: nba, first team: New Orleans Pelicans
+186. Tristan Jarrett (Jackson State, 2020-2021): 21.1PPG 5.3RPG 1.4APG → went pro: G-League, first team: Raptors 905
+187. Ty Johnson (UC Davis, 2024-2025): 21.1PPG 4.1RPG 3.0APG → went pro: International, first team: Salon Vilpas
+188. Vonterius Woolbright (Western Carolina, 2023-2024): 21.1PPG 12.0RPG 5.6APG → went pro: International, first team: Delaware Blue Coats
+189. Amere May (Delaware State, 2014-2015): 21.0PPG 4.2RPG 2.7APG → went pro: International, first team: Ferrocarril Oeste Buenos Aires
+190. Nicholas King (Middle Tennessee State, 2017-2018): 21.0PPG 8.4RPG 2.0APG → went pro: G-League, first team: Boston Celtics
+191. Austin McBroom (Eastern Washington, 2015-2016): 21.0PPG 2.5RPG 3.7APG → no pro career
+192. Kahlil Dukes (Niagara, 2017-2018): 21.0PPG 2.2RPG 3.3APG → went pro: International, first team: Veolia Towers Hamburg
+193. Marvin Bagley III (Duke, 2017-2018): 21.0PPG 11.1RPG 1.5APG → went pro: nba, first team: Sacramento Kings
+194. Keith Hayes (UMass Lowell, 2018-2019): 21.0PPG 2.7RPG 2.6APG → no pro career
+195. Bol Bol (Oregon, 2018-2019): 21.0PPG 9.6RPG 1.0APG → went pro: nba, first team: Denver Nuggets
+196. Myles Powell (Seton Hall, 2019-2020): 21.0PPG 4.3RPG 2.9APG → went pro: nba, first team: New York Knicks
+197. Daishon Smith (Louisiana-Monroe, 2018-2019): 21.0PPG 4.5RPG 3.9APG → went pro: G-League, first team: South Bay Lakers
+198. Nate Darling (Delaware, 2019-2020): 21.0PPG 3.9RPG 2.8APG → went pro: nba, first team: Charlotte Hornets
+199. Trey Phipps (Oral Roberts, 2024-2025): 21.0PPG 3.9RPG 2.5APG → went pro: International, first team: Frayles de Guasave
+200. Jimmy Yfantopulos (Colgate, 2018-2019): 21.0PPG 6.0RPG 2.0APG → no pro career
 
 Q: What was the average college PPG for players by pro destination?
 A: Average final-year college PPG by pro destination: NBA players averaged 14.8 PPG, G-League 12.1 PPG, Europe 10.3 PPG, Other International 9.5 PPG, and No Pro Career players averaged 4.8 PPG.
