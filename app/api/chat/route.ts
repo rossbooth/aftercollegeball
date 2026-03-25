@@ -27,9 +27,16 @@ function getStatsContext(): string {
   return statsContext;
 }
 
+interface ChatMessage {
+  role: 'user' | 'assistant';
+  content: string;
+}
+
 export async function POST(req: Request) {
   try {
-    const { message } = await req.json();
+    const body = await req.json();
+    const message = body.message as string;
+    const history = (body.history || []) as ChatMessage[];
 
     if (!message || typeof message !== 'string') {
       return NextResponse.json({ error: 'Missing message' }, { status: 400 });
@@ -47,12 +54,34 @@ export async function POST(req: Request) {
 RULES:
 - Answer concisely (2-3 sentences max unless listing players)
 - Use specific numbers from the data
-- Never make up data
+- Never make up data or guess
 - For player lists, include school and career length
 - If someone asks about a player not in the data, say so
+- Use your general basketball knowledge for questions about team locations, countries, etc. — you don't need data for common facts
+- Always complete your sentences fully
+- Remember the conversation context — if someone says "he" or "that team", refer back to the previous messages
 
 DATA:
 ${context}`;
+
+    // Build conversation history for Gemini
+    // Gemini uses alternating user/model roles
+    const contents: { role: string; parts: { text: string }[] }[] = [];
+
+    // Include last 10 messages of history for context
+    const recentHistory = history.slice(-10);
+    for (const msg of recentHistory) {
+      contents.push({
+        role: msg.role === 'user' ? 'user' : 'model',
+        parts: [{ text: msg.content }],
+      });
+    }
+
+    // Add current message
+    contents.push({
+      role: 'user',
+      parts: [{ text: message }],
+    });
 
     const response = await fetch(
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
@@ -61,10 +90,10 @@ ${context}`;
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           system_instruction: { parts: [{ text: systemPrompt }] },
-          contents: [{ parts: [{ text: message }] }],
+          contents,
           generationConfig: {
             temperature: 0.3,
-            maxOutputTokens: 400,
+            maxOutputTokens: 800,
           },
         }),
       }

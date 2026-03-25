@@ -167,7 +167,10 @@ export default function ChatAssistant() {
         const res = await fetch('/api/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ message: query.trim() }),
+          body: JSON.stringify({
+            message: trimmed,
+            history: messages, // Send conversation history for context
+          }),
         });
         const data = await res.json();
         const answer = data.answer || data.error || 'Sorry, something went wrong.';
