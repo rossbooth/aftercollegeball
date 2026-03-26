@@ -103,15 +103,55 @@ export default function SankeyDiagram() {
   const [dimensions, setDimensions] = useState({ width: 1000, height: 550 });
   const [isVertical, setIsVertical] = useState(false);
   const navGuardRef = useRef(false);
+  const isTouchRef = useRef(false);
 
-  // Block clicks for 500ms after any view change to prevent touch event bleed
+  // Detect touch device
+  useEffect(() => {
+    isTouchRef.current = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+  }, []);
+
+  // Block clicks for 800ms after any view change to prevent touch event bleed
   const safeSetView = useCallback((id: ViewLevel) => {
     navGuardRef.current = true;
     setTappedId(null);
     setTooltip(null);
     setCurrentView(id);
-    setTimeout(() => { navGuardRef.current = false; }, 500);
+    setTimeout(() => { navGuardRef.current = false; }, 800);
   }, []);
+
+  // Unified tap handler: first tap = tooltip, second tap on same = navigate
+  const handleTapOrClick = useCallback((id: string, tooltipData: { x: number; y: number; label: string; pct: string; count: number; subtitle?: string }) => {
+    if (navGuardRef.current) return;
+    if (currentView !== 'level1' || !CLICKABLE_IDS.has(id)) return;
+
+    if (isTouchRef.current) {
+      if (tappedId === id) {
+        // Second tap — navigate
+        trackCategoryClick(id);
+        safeSetView(id as ViewLevel);
+      } else {
+        // First tap — show tooltip
+        setTappedId(id);
+        setTooltip(tooltipData);
+      }
+    } else {
+      // Desktop click — navigate immediately
+      trackCategoryClick(id);
+      safeSetView(id as ViewLevel);
+    }
+  }, [currentView, tappedId, safeSetView]);
+
+  // Clear tapped state when tapping outside
+  useEffect(() => {
+    const handleTouchOutside = () => {
+      if (tappedId) {
+        setTappedId(null);
+        setTooltip(null);
+      }
+    };
+    document.addEventListener('touchstart', handleTouchOutside, { passive: true });
+    return () => document.removeEventListener('touchstart', handleTouchOutside);
+  }, [tappedId]);
 
   // Load data based on current view
   useEffect(() => {
@@ -267,7 +307,7 @@ export default function SankeyDiagram() {
           .attr('fill-opacity', 0.35)
           .attr('stroke', 'none')
           .style('cursor', (currentView === 'level1' && CLICKABLE_IDS.has(targetId)) ? 'pointer' : 'default')
-          .on('mouseenter touchstart', function (event) {
+          .on('mouseenter', function (event) {
             event.preventDefault();
             const isNoPro = targetId === 'nopro';
             setTooltip({
@@ -279,15 +319,18 @@ export default function SankeyDiagram() {
               subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
             });
           })
-          .on('mouseleave touchend', function () {
+          .on('mouseleave', function () {
             setTooltip(null);
           })
-          .on('click', function () {
-            if (currentView === 'level1' && CLICKABLE_IDS.has(targetId)) {
-              if (navGuardRef.current) return;
-              trackCategoryClick(targetId);
-              safeSetView(targetId as ViewLevel);
-            }
+          .on('click', function (event) {
+            event.stopPropagation();
+            const isNoPro = targetId === 'nopro';
+            handleTapOrClick(targetId, {
+              x: event.clientX, y: event.clientY,
+              label: targetNode.label, pct: targetNode.pct || '',
+              count: targetNode.count || link.value,
+              subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
+            });
           });
       });
 
@@ -321,7 +364,7 @@ export default function SankeyDiagram() {
             safeSetView(d.id as ViewLevel);
           }
         })
-        .on('mouseenter touchstart', function (event, d) {
+        .on('mouseenter', function (event, d) {
           if (d.id === 'all' || (!d.targetLinks || d.targetLinks.length === 0)) return;
           const isNoPro = d.id === 'nopro';
           setTooltip({
@@ -333,7 +376,7 @@ export default function SankeyDiagram() {
             subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
           });
         })
-        .on('mouseleave touchend', function () {
+        .on('mouseleave', function () {
           setTooltip(null);
         });
 
@@ -361,22 +404,7 @@ export default function SankeyDiagram() {
             safeSetView(d.id as ViewLevel);
           }
         })
-        .on('touchstart', function (event, d) {
-          if (d.id === 'all' || (!d.targetLinks || d.targetLinks.length === 0)) return;
-          event.preventDefault();
-          const isNoPro = d.id === 'nopro';
-          setTooltip({
-            x: event.touches[0].clientX,
-            y: event.touches[0].clientY,
-            label: d.label,
-            pct: d.pct || '',
-            count: d.count,
-            subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
-          });
-        })
-        .on('touchend', function () {
-          setTooltip(null);
-        });
+        ;
 
       // Labels — above source nodes, below destination nodes
       nodeGroup
@@ -567,13 +595,17 @@ export default function SankeyDiagram() {
           linkGroup.style('stroke-opacity', 0.45);
           setTooltip(null);
         })
-        .on('click', function (_, d) {
+        .on('click', function (event, d) {
           const targetNode = d.target as SNode;
-          if (currentView === 'level1' && CLICKABLE_IDS.has(targetNode.id)) {
-            trackCategoryClick(targetNode.id);
-            if (navGuardRef.current) return;
-            safeSetView(targetNode.id as ViewLevel);
-          }
+          const isNoPro = targetNode.id === 'nopro';
+          handleTapOrClick(targetNode.id, {
+            x: event.clientX,
+            y: event.clientY,
+            label: targetNode.label,
+            pct: targetNode.pct || '',
+            count: targetNode.count || d.value,
+            subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
+          });
         });
 
       // Draw nodes
@@ -781,23 +813,23 @@ export default function SankeyDiagram() {
         {/* Tooltip */}
         {tooltip && (
           <div
-            className="fixed z-50 pointer-events-none px-4 py-3 rounded-xl border"
+            className="fixed z-50 pointer-events-none px-2 py-1.5 sm:px-4 sm:py-3 rounded-lg sm:rounded-xl border"
             style={{
-              left: Math.min(tooltip.x + 16, (typeof window !== 'undefined' ? window.innerWidth - 200 : tooltip.x + 16)),
-              top: tooltip.y + 12,
-              background: 'rgba(10, 10, 15, 0.92)',
+              left: Math.min(tooltip.x + 8, (typeof window !== 'undefined' ? window.innerWidth - 160 : tooltip.x + 8)),
+              top: tooltip.y - 60,
+              background: 'rgba(10, 10, 15, 0.95)',
               borderColor: 'rgba(255,255,255,0.1)',
               backdropFilter: 'blur(16px)',
-              maxWidth: 260,
+              maxWidth: typeof window !== 'undefined' && window.innerWidth < 640 ? 160 : 260,
             }}
           >
-            <div className="text-sm font-semibold" style={{ color: colors.text.primary }}>
+            <div className="text-xs sm:text-sm font-semibold" style={{ color: colors.text.primary }}>
               {tooltip.label}
             </div>
-            <div className="text-lg font-bold mt-0.5" style={{ color: colors.text.primary }}>
+            <div className="text-sm sm:text-lg font-bold" style={{ color: colors.text.primary }}>
               {tooltip.pct}
             </div>
-            <div className="text-xs mt-0.5" style={{ color: colors.text.muted }}>
+            <div className="text-[10px] sm:text-xs" style={{ color: colors.text.muted }}>
               {tooltip.count.toLocaleString()} players
             </div>
             {tooltip.subtitle && (
