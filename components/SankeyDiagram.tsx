@@ -91,6 +91,7 @@ export default function SankeyDiagram() {
   const containerRef = useRef<HTMLDivElement>(null);
   const [currentView, setCurrentView] = useState<ViewLevel>('level1');
   const [data, setData] = useState<SankeyData | null>(null);
+  const [tappedId, setTappedId] = useState<string | null>(null);
   const [tooltip, setTooltip] = useState<{
     x: number;
     y: number;
@@ -101,6 +102,16 @@ export default function SankeyDiagram() {
   } | null>(null);
   const [dimensions, setDimensions] = useState({ width: 1000, height: 550 });
   const [isVertical, setIsVertical] = useState(false);
+  const navGuardRef = useRef(false);
+
+  // Block clicks for 500ms after any view change to prevent touch event bleed
+  const safeSetView = useCallback((id: ViewLevel) => {
+    navGuardRef.current = true;
+    setTappedId(null);
+    setTooltip(null);
+    setCurrentView(id);
+    setTimeout(() => { navGuardRef.current = false; }, 500);
+  }, []);
 
   // Load data based on current view
   useEffect(() => {
@@ -273,8 +284,9 @@ export default function SankeyDiagram() {
           })
           .on('click', function () {
             if (currentView === 'level1' && CLICKABLE_IDS.has(targetId)) {
+              if (navGuardRef.current) return;
               trackCategoryClick(targetId);
-              setCurrentView(targetId as ViewLevel);
+              safeSetView(targetId as ViewLevel);
             }
           });
       });
@@ -305,7 +317,8 @@ export default function SankeyDiagram() {
         .style('cursor', d => (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) ? 'pointer' : 'default')
         .on('click', (_, d) => {
           if (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) {
-            setCurrentView(d.id as ViewLevel);
+            if (navGuardRef.current) return;
+            safeSetView(d.id as ViewLevel);
           }
         })
         .on('mouseenter touchstart', function (event, d) {
@@ -344,7 +357,8 @@ export default function SankeyDiagram() {
         .on('click', (_, d) => {
           if (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) {
             trackCategoryClick(d.id);
-            setCurrentView(d.id as ViewLevel);
+            if (navGuardRef.current) return;
+            safeSetView(d.id as ViewLevel);
           }
         })
         .on('touchstart', function (event, d) {
@@ -557,7 +571,8 @@ export default function SankeyDiagram() {
           const targetNode = d.target as SNode;
           if (currentView === 'level1' && CLICKABLE_IDS.has(targetNode.id)) {
             trackCategoryClick(targetNode.id);
-            setCurrentView(targetNode.id as ViewLevel);
+            if (navGuardRef.current) return;
+            safeSetView(targetNode.id as ViewLevel);
           }
         });
 
@@ -587,7 +602,8 @@ export default function SankeyDiagram() {
         .style('cursor', d => (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) ? 'pointer' : 'default')
         .on('click', (_, d) => {
           if (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) {
-            setCurrentView(d.id as ViewLevel);
+            if (navGuardRef.current) return;
+            safeSetView(d.id as ViewLevel);
           }
         })
         .on('mouseenter', function (event, d) {
@@ -695,8 +711,8 @@ export default function SankeyDiagram() {
 
   const handleBack = useCallback(() => {
     trackBackToOverview();
-    setCurrentView('level1');
-  }, []);
+    safeSetView('level1');
+  }, [safeSetView]);
 
   const breadcrumbLabel = currentView !== 'level1'
     ? (bucketLabels[currentView] || currentView)
