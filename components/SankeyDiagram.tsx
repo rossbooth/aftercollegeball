@@ -141,13 +141,15 @@ export default function SankeyDiagram() {
     }
   }, [currentView, tappedId, safeSetView]);
 
-  // Clear tapped state when tapping outside
+  // Clear tapped state when tapping outside the SVG
   useEffect(() => {
-    const handleTouchOutside = () => {
-      if (tappedId) {
-        setTappedId(null);
-        setTooltip(null);
-      }
+    const handleTouchOutside = (e: TouchEvent) => {
+      if (!tappedId) return;
+      // Don't clear if tapping inside the SVG
+      const svg = svgRef.current;
+      if (svg && svg.contains(e.target as Node)) return;
+      setTappedId(null);
+      setTooltip(null);
     };
     document.addEventListener('touchstart', handleTouchOutside, { passive: true });
     return () => document.removeEventListener('touchstart', handleTouchOutside);
@@ -835,6 +837,11 @@ export default function SankeyDiagram() {
             {tooltip.subtitle && (
               <div className="text-xs mt-2 italic" style={{ color: colors.accent }}>
                 {tooltip.subtitle}
+              </div>
+            )}
+            {tappedId && !tooltip.subtitle && (
+              <div className="text-[10px] sm:text-xs mt-1" style={{ color: colors.accent }}>
+                Tap again to explore →
               </div>
             )}
           </div>
