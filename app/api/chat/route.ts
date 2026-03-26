@@ -83,26 +83,36 @@ ${context}`;
       parts: [{ text: message }],
     });
 
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
-      {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          system_instruction: { parts: [{ text: systemPrompt }] },
-          contents,
-          generationConfig: {
-            temperature: 0.3,
-            maxOutputTokens: 800,
-          },
-        }),
-      }
-    );
+    const requestBody = JSON.stringify({
+      system_instruction: { parts: [{ text: systemPrompt }] },
+      contents,
+      generationConfig: {
+        temperature: 0.3,
+        maxOutputTokens: 800,
+      },
+    });
 
-    if (!response.ok) {
-      const err = await response.text();
-      console.error('Gemini API error:', response.status, err);
-      return NextResponse.json({ answer: 'Sorry, the AI service is temporarily unavailable. Please try again.' });
+    // Retry up to 3 times with backoff for rate limits
+    let response: Response | null = null;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      if (attempt > 0) {
+        await new Promise(r => setTimeout(r, 2000 * attempt));
+      }
+      response = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
+        {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: requestBody,
+        }
+      );
+      if (response.ok || response.status !== 429) break;
+    }
+
+    if (!response || !response.ok) {
+      const err = response ? await response.text() : 'No response';
+      console.error('Gemini API error:', response?.status, err);
+      return NextResponse.json({ answer: 'Sorry, the AI service is temporarily unavailable. Please try again in a moment.' });
     }
 
     const result = await response.json();
