@@ -68,8 +68,8 @@ ${context}`;
     // Gemini uses alternating user/model roles
     const contents: { role: string; parts: { text: string }[] }[] = [];
 
-    // Include last 10 messages of history for context
-    const recentHistory = history.slice(-10);
+    // Include last 6 messages (3 exchanges) to stay under token limit
+    const recentHistory = history.slice(-6);
     for (const msg of recentHistory) {
       contents.push({
         role: msg.role === 'user' ? 'user' : 'model',
