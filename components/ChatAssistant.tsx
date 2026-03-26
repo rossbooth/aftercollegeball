@@ -133,6 +133,7 @@ export default function ChatAssistant() {
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState('');
   const [isOpen, setIsOpen] = useState(false);
+  const [mobileExpanded, setMobileExpanded] = useState(false);
   const [statsData, setStatsData] = useState<ChatStatsData | null>(null);
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -149,6 +150,13 @@ export default function ChatAssistant() {
     // Scroll within the messages container only, not the whole page
     if (messagesContainerRef.current) {
       messagesContainerRef.current.scrollTop = messagesContainerRef.current.scrollHeight;
+    }
+  }, [messages]);
+
+  // Auto-expand mobile sheet when messages arrive
+  useEffect(() => {
+    if (messages.length > 0) {
+      setMobileExpanded(true);
     }
   }, [messages]);
 
@@ -199,10 +207,10 @@ export default function ChatAssistant() {
     [statsData]
   );
 
-  return (
-    <section className="px-2 sm:px-6 pt-2 pb-0">
+  // ----- Desktop (md+): inline layout (unchanged) -----
+  const desktopChat = (
+    <section className="hidden md:block px-2 sm:px-6 pt-2 pb-0">
       <div className="max-w-4xl mx-auto">
-        {/* Chat container */}
         <div
           className="rounded-2xl border overflow-hidden"
           style={{
@@ -251,7 +259,7 @@ export default function ChatAssistant() {
           )}
 
           {/* Input */}
-          <div className="p-2 sm:p-3 flex flex-col sm:flex-row gap-2">
+          <div className="p-3 flex flex-row gap-2">
             <input
               type="text"
               value={input}
@@ -265,7 +273,7 @@ export default function ChatAssistant() {
               }}
               onFocus={() => setIsOpen(true)}
               placeholder='Ask about stats, careers, or destinations...'
-              className="chat-input flex-1 bg-transparent px-3 sm:px-4 py-2.5 rounded-xl text-sm border min-w-0 w-full"
+              className="chat-input flex-1 bg-transparent px-4 py-2.5 rounded-xl text-sm border min-w-0 w-full"
               style={{
                 color: colors.text.primary,
                 borderColor: 'rgba(255,255,255,0.08)',
@@ -277,7 +285,7 @@ export default function ChatAssistant() {
                 setIsOpen(true);
                 handleSubmit(input);
               }}
-              className="px-4 py-2.5 rounded-xl text-sm font-medium transition-all hover:opacity-80 flex-shrink-0 w-full sm:w-auto"
+              className="px-4 py-2.5 rounded-xl text-sm font-medium transition-all hover:opacity-80 flex-shrink-0"
               style={{ background: '#d4a04a', color: '#fff' }}
             >
               Ask
@@ -286,5 +294,135 @@ export default function ChatAssistant() {
         </div>
       </div>
     </section>
+  );
+
+  // ----- Mobile (< md): sticky bottom bar -----
+  const mobileChat = (
+    <div
+      className="md:hidden fixed bottom-0 left-0 right-0 z-50"
+      style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}
+    >
+      {/* Bottom sheet with messages (slides up when expanded) */}
+      <div
+        className="flex flex-col rounded-t-2xl border-t border-x overflow-hidden"
+        style={{
+          background: colors.bg.secondary,
+          borderColor: 'rgba(255,255,255,0.08)',
+          maxHeight: mobileExpanded && messages.length > 0 ? '60vh' : 'auto',
+        }}
+      >
+        {/* Collapse button + messages area */}
+        {mobileExpanded && messages.length > 0 && (
+          <>
+            <div className="flex items-center justify-between px-3 pt-2 pb-1">
+              <span className="text-xs font-medium" style={{ color: colors.text.muted }}>
+                Chat
+              </span>
+              <button
+                onClick={() => setMobileExpanded(false)}
+                className="w-8 h-8 flex items-center justify-center rounded-full min-h-[44px] min-w-[44px]"
+                style={{ color: colors.text.muted }}
+                aria-label="Collapse chat"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <div
+              ref={messagesContainerRef}
+              className="flex-1 overflow-y-auto px-3 pb-2 space-y-3"
+              style={{ maxHeight: 'calc(60vh - 120px)' }}
+            >
+              {messages.map((msg, i) => (
+                <div
+                  key={i}
+                  className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}
+                >
+                  <div
+                    className="max-w-[85%] px-3 py-2.5 rounded-2xl text-sm leading-relaxed whitespace-pre-line"
+                    style={{
+                      background:
+                        msg.role === 'user'
+                          ? 'rgba(124, 92, 252, 0.15)'
+                          : 'rgba(255,255,255,0.05)',
+                      color: msg.role === 'user' ? colors.text.primary : colors.text.secondary,
+                    }}
+                  >
+                    {msg.content}
+                  </div>
+                </div>
+              ))}
+              {isTyping && (
+                <div className="flex justify-start">
+                  <div
+                    className="px-3 py-2.5 rounded-2xl text-sm"
+                    style={{ background: 'rgba(255,255,255,0.05)', color: colors.text.muted }}
+                  >
+                    <span className="animate-pulse">Thinking...</span>
+                  </div>
+                </div>
+              )}
+              <div ref={messagesEndRef} />
+            </div>
+          </>
+        )}
+
+        {/* Collapsed state: show tap to expand if there are messages but sheet is collapsed */}
+        {!mobileExpanded && messages.length > 0 && (
+          <button
+            onClick={() => setMobileExpanded(true)}
+            className="flex items-center justify-center gap-1.5 px-3 py-2 text-xs min-h-[36px]"
+            style={{ color: colors.text.muted, borderBottom: '1px solid rgba(255,255,255,0.05)' }}
+          >
+            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
+            </svg>
+            Show chat ({messages.filter(m => m.role === 'assistant').length} {messages.filter(m => m.role === 'assistant').length === 1 ? 'reply' : 'replies'})
+          </button>
+        )}
+
+        {/* Input bar — always visible */}
+        <div className="p-2 flex flex-row gap-2">
+          <input
+            type="text"
+            value={input}
+            onChange={e => setInput(e.target.value)}
+            onKeyDown={e => {
+              if (e.key === 'Enter') {
+                e.preventDefault();
+                setIsOpen(true);
+                handleSubmit(input);
+              }
+            }}
+            onFocus={() => setIsOpen(true)}
+            placeholder='Ask about stats, careers, or destinations...'
+            className="chat-input flex-1 bg-transparent px-3 py-2.5 rounded-xl text-sm border min-w-0 w-full min-h-[44px]"
+            style={{
+              color: colors.text.primary,
+              borderColor: 'rgba(255,255,255,0.08)',
+            }}
+          />
+          <button
+            onClick={(e) => {
+              e.preventDefault();
+              setIsOpen(true);
+              handleSubmit(input);
+            }}
+            className="px-4 py-2.5 rounded-xl text-sm font-medium transition-all hover:opacity-80 flex-shrink-0 min-h-[44px]"
+            style={{ background: '#d4a04a', color: '#fff' }}
+          >
+            Ask
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+
+  return (
+    <>
+      {desktopChat}
+      {mobileChat}
+    </>
   );
 }

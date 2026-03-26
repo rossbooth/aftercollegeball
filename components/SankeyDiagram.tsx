@@ -100,6 +100,7 @@ export default function SankeyDiagram() {
     subtitle?: string;
   } | null>(null);
   const [dimensions, setDimensions] = useState({ width: 1000, height: 550 });
+  const [isVertical, setIsVertical] = useState(false);
 
   // Load data based on current view
   useEffect(() => {
@@ -121,14 +122,24 @@ export default function SankeyDiagram() {
     if (!containerRef.current) return;
     const observer = new ResizeObserver(entries => {
       const containerWidth = entries[0].contentRect.width;
-      // On small screens, fit the diagram within the container width (no scroll)
-      const svgWidth = containerWidth < 600
-        ? Math.max(320, containerWidth)
-        : Math.max(700, containerWidth);
-      const svgHeight = containerWidth < 600
-        ? Math.max(260, containerWidth * 0.75)
-        : Math.max(320, Math.min(550, containerWidth * 0.5));
-      setDimensions({ width: svgWidth, height: svgHeight });
+      const vertical = containerWidth < 640;
+      setIsVertical(vertical);
+
+      if (vertical) {
+        // Vertical layout: use full container width, tall height
+        const svgWidth = Math.max(300, containerWidth);
+        const svgHeight = 700;
+        setDimensions({ width: svgWidth, height: svgHeight });
+      } else {
+        // Horizontal layout (original)
+        const svgWidth = containerWidth < 768
+          ? Math.max(320, containerWidth)
+          : Math.max(700, containerWidth);
+        const svgHeight = containerWidth < 768
+          ? Math.max(260, containerWidth * 0.75)
+          : Math.max(320, Math.min(550, containerWidth * 0.5));
+        setDimensions({ width: svgWidth, height: svgHeight });
+      }
     });
     observer.observe(containerRef.current);
     return () => observer.disconnect();
@@ -140,278 +151,551 @@ export default function SankeyDiagram() {
     const svg = d3.select(svgRef.current);
     const { width, height } = dimensions;
 
-    // Responsive margins
-    const isMobile = width < 600;
-    const MARGIN = isMobile
-      ? { top: 15, right: 90, bottom: 10, left: 8 }
-      : DEFAULT_MARGIN;
-
     svg.selectAll('*').remove();
 
-    const sankeyNodes: SankeyNodeExtra[] = data.nodes.map(n => ({ ...n }));
-    const sankeyLinks: SankeyLinkExtra[] = data.links.map(l => ({
-      source: l.source,
-      target: l.target,
-      value: l.value,
-    }));
+    if (isVertical) {
+      // ===== VERTICAL SANKEY (mobile < 640px) =====
+      // Strategy: run d3-sankey in a transposed space (swap width/height),
+      // then swap x/y when rendering so flows go top-to-bottom.
+      const vMargin = { top: 60, right: 10, bottom: 60, left: 10 };
+      // The sankey layout will think width = our height, height = our width
+      const layoutWidth = height - vMargin.top - vMargin.bottom;
+      const layoutHeight = width - vMargin.left - vMargin.right;
 
-    const graph = sankey<SankeyNodeExtra, SankeyLinkExtra>()
-      .nodeId(d => d.id)
-      .nodeWidth(NODE_WIDTH)
-      .nodePadding(NODE_PADDING)
-      .extent([
-        [MARGIN.left, MARGIN.top],
-        [width - MARGIN.right, height - MARGIN.bottom],
-      ])({
-        nodes: sankeyNodes,
-        links: sankeyLinks,
-      });
+      const sankeyNodes: SankeyNodeExtra[] = data.nodes.map(n => ({ ...n }));
+      const sankeyLinks: SankeyLinkExtra[] = data.links.map(l => ({
+        source: l.source,
+        target: l.target,
+        value: l.value,
+      }));
 
-    // Cap the "No Pro Career" node so it's not proportionally huge
-    // and clamp source node to match
-    const noProNode = graph.nodes.find(n => (n as SNode).id === 'nopro') as SNode | undefined;
-    const otherDestNodes = graph.nodes.filter(n => {
-      const sn = n as SNode;
-      return sn.targetLinks && sn.targetLinks.length > 0 && sn.id !== 'nopro';
-    });
-
-    if (noProNode && otherDestNodes.length > 0) {
-      // Make no-pro node about 1.5x the height of the largest pro destination
-      const maxProHeight = Math.max(...otherDestNodes.map(n => ((n as SNode).y1 || 0) - ((n as SNode).y0 || 0)));
-      const cappedHeight = maxProHeight * 1.5;
-      const currentHeight = (noProNode.y1 || 0) - (noProNode.y0 || 0);
-      if (currentHeight > cappedHeight) {
-        noProNode.y1 = (noProNode.y0 || 0) + cappedHeight;
-      }
-    }
-
-    // Find the actual bottom of all destination nodes after capping
-    const allDestNodes = graph.nodes.filter(n => {
-      const sn = n as SNode;
-      return sn.targetLinks && sn.targetLinks.length > 0;
-    });
-    const maxDestY = allDestNodes.length > 0
-      ? Math.max(...allDestNodes.map(n => (n as SNode).y1 || 0))
-      : Math.max(...graph.nodes.map(n => (n as SNode).y1 || 0));
-
-    // Clamp source nodes to not extend below the last destination
-    graph.nodes.forEach(n => {
-      const sn = n as SNode;
-      const isSource = sn.sourceLinks && sn.sourceLinks.length > 0 && (!sn.targetLinks || sn.targetLinks.length === 0);
-      if (isSource && (sn.y1 || 0) > maxDestY) {
-        sn.y1 = maxDestY;
-      }
-    });
-
-    const actualHeight = maxDestY;
-    svg.attr('height', actualHeight).attr('viewBox', `0 0 ${width} ${actualHeight}`);
-
-    const defs = svg.append('defs');
-
-    // Create gradient for each link
-    graph.links.forEach((link, i) => {
-      const targetNode = link.target as SNode;
-      const targetId = targetNode.id || '';
-      const gradient = defs
-        .append('linearGradient')
-        .attr('id', `link-gradient-${i}`)
-        .attr('gradientUnits', 'userSpaceOnUse')
-        .attr('x1', (link.source as SNode).x1 || 0)
-        .attr('x2', (link.target as SNode).x0 || 0);
-
-      gradient.append('stop').attr('offset', '0%').attr('stop-color', getLinkColor(targetId));
-      gradient.append('stop').attr('offset', '100%').attr('stop-color', getLinkColor(targetId));
-    });
-
-    // Glow filter for the whole diagram
-    const glowFilter = defs.append('filter').attr('id', 'sankey-glow').attr('x', '-20%').attr('y', '-20%').attr('width', '140%').attr('height', '140%');
-    glowFilter.append('feGaussianBlur').attr('stdDeviation', '6').attr('in', 'SourceGraphic').attr('result', 'blur');
-    glowFilter.append('feColorMatrix').attr('in', 'blur').attr('type', 'saturate').attr('values', '1.5').attr('result', 'saturated');
-    const glowMerge = glowFilter.append('feMerge');
-    glowMerge.append('feMergeNode').attr('in', 'saturated');
-    glowMerge.append('feMergeNode').attr('in', 'SourceGraphic');
-
-    // Draw links — single layer, no overlapping glow
-    const linkGroup = svg
-      .append('g')
-      .attr('class', 'sankey-links')
-      .style('filter', 'url(#sankey-glow)')
-      .selectAll('path')
-      .data(graph.links)
-      .join('path')
-      .attr('class', d => {
-        const targetNode = d.target as SNode;
-        const clickable = currentView === 'level1' && CLICKABLE_IDS.has(targetNode.id);
-        return `sankey-link ${clickable ? 'clickable' : ''}`;
-      })
-      .attr('d', sankeyLinkHorizontal())
-      .attr('stroke', (_, i) => `url(#link-gradient-${i})`)
-      .attr('stroke-width', d => Math.max(2, d.width || 0))
-      .style('stroke-opacity', 0.45)
-      .style('cursor', d => {
-        const targetNode = d.target as SNode;
-        return (currentView === 'level1' && CLICKABLE_IDS.has(targetNode.id)) ? 'pointer' : 'default';
-      })
-      .on('mouseenter', function (event, d) {
-        const targetNode = d.target as SNode;
-        linkGroup.style('stroke-opacity', 0.06);
-        d3.select(this).style('stroke-opacity', 0.7);
-
-        const isNoPro = targetNode.id === 'nopro';
-        setTooltip({
-          x: event.clientX,
-          y: event.clientY,
-          label: targetNode.label,
-          pct: targetNode.pct || '',
-          count: targetNode.count || d.value,
-          subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
+      const graph = sankey<SankeyNodeExtra, SankeyLinkExtra>()
+        .nodeId(d => d.id)
+        .nodeWidth(NODE_WIDTH)
+        .nodePadding(14)
+        .extent([
+          [0, 0],
+          [layoutWidth, layoutHeight],
+        ])({
+          nodes: sankeyNodes,
+          links: sankeyLinks,
         });
-      })
-      .on('mousemove', function (event) {
-        setTooltip(prev => prev ? { ...prev, x: event.clientX, y: event.clientY } : null);
-      })
-      .on('mouseleave', function () {
-        linkGroup.style('stroke-opacity', 0.45);
-        setTooltip(null);
-      })
-      .on('click', function (_, d) {
-        const targetNode = d.target as SNode;
-        if (currentView === 'level1' && CLICKABLE_IDS.has(targetNode.id)) {
-          trackCategoryClick(targetNode.id);
-          setCurrentView(targetNode.id as ViewLevel);
+
+      // Cap "No Pro Career" node
+      const noProNode = graph.nodes.find(n => (n as SNode).id === 'nopro') as SNode | undefined;
+      const otherDestNodes = graph.nodes.filter(n => {
+        const sn = n as SNode;
+        return sn.targetLinks && sn.targetLinks.length > 0 && sn.id !== 'nopro';
+      });
+      if (noProNode && otherDestNodes.length > 0) {
+        const maxProHeight = Math.max(...otherDestNodes.map(n => ((n as SNode).y1 || 0) - ((n as SNode).y0 || 0)));
+        const cappedHeight = maxProHeight * 1.5;
+        const currentHeight = (noProNode.y1 || 0) - (noProNode.y0 || 0);
+        if (currentHeight > cappedHeight) {
+          noProNode.y1 = (noProNode.y0 || 0) + cappedHeight;
         }
+      }
+
+      // Now swap coordinates: layout x -> render y, layout y -> render x
+      // After swap, add margins
+      const swapX = (layoutY: number) => layoutY + vMargin.left;
+      const swapY = (layoutX: number) => layoutX + vMargin.top;
+
+      const defs = svg.append('defs');
+
+      // Glow filter
+      const glowFilter = defs.append('filter').attr('id', 'sankey-glow').attr('x', '-20%').attr('y', '-20%').attr('width', '140%').attr('height', '140%');
+      glowFilter.append('feGaussianBlur').attr('stdDeviation', '6').attr('in', 'SourceGraphic').attr('result', 'blur');
+      glowFilter.append('feColorMatrix').attr('in', 'blur').attr('type', 'saturate').attr('values', '1.5').attr('result', 'saturated');
+      const glowMerge = glowFilter.append('feMerge');
+      glowMerge.append('feMergeNode').attr('in', 'saturated');
+      glowMerge.append('feMergeNode').attr('in', 'SourceGraphic');
+
+      // Draw vertical links using custom paths
+      // For each link, we need to draw a path from source node (top) to target node (bottom)
+      // In the transposed space: source x0,x1,y0,y1 -> rendered positions
+      const linkGroup = svg
+        .append('g')
+        .attr('class', 'sankey-links')
+        .style('filter', 'url(#sankey-glow)');
+
+      graph.links.forEach((link, i) => {
+        const sourceNode = link.source as SNode;
+        const targetNode = link.target as SNode;
+        const targetId = targetNode.id || '';
+
+        // Create gradient for vertical flow (top to bottom)
+        const gradient = defs
+          .append('linearGradient')
+          .attr('id', `link-gradient-${i}`)
+          .attr('gradientUnits', 'userSpaceOnUse')
+          .attr('x1', 0)
+          .attr('y1', swapY(sourceNode.x1 || 0))
+          .attr('x2', 0)
+          .attr('y2', swapY(targetNode.x0 || 0));
+
+        gradient.append('stop').attr('offset', '0%').attr('stop-color', getLinkColor(targetId));
+        gradient.append('stop').attr('offset', '100%').attr('stop-color', getLinkColor(targetId));
+
+        // Build a vertical bezier path
+        // Source: horizontal band from swapX(link.y0) to swapX(link.y0 + link.width)
+        // at vertical position swapY(sourceNode.x1)
+        // Target: horizontal band at swapY(targetNode.x0)
+        const sy = swapY(sourceNode.x1 || 0);
+        const ty = swapY(targetNode.x0 || 0);
+        const sx = swapX(link.y0 as number || 0);
+        const sw = link.width || 0;
+        const tx = swapX(link.y1 as number || 0) - sw; // target x position
+        const midY = (sy + ty) / 2;
+
+        const path = `M ${sx},${sy}
+          L ${sx + sw},${sy}
+          C ${sx + sw},${midY} ${tx + sw},${midY} ${tx + sw},${ty}
+          L ${tx},${ty}
+          C ${tx},${midY} ${sx},${midY} ${sx},${sy}`;
+
+        linkGroup.append('path')
+          .attr('d', path)
+          .attr('fill', `url(#link-gradient-${i})`)
+          .attr('fill-opacity', 0.35)
+          .attr('stroke', 'none')
+          .style('cursor', (currentView === 'level1' && CLICKABLE_IDS.has(targetId)) ? 'pointer' : 'default')
+          .on('mouseenter touchstart', function (event) {
+            event.preventDefault();
+            const isNoPro = targetId === 'nopro';
+            setTooltip({
+              x: event.touches ? event.touches[0].clientX : event.clientX,
+              y: event.touches ? event.touches[0].clientY : event.clientY,
+              label: targetNode.label,
+              pct: targetNode.pct || '',
+              count: targetNode.count || link.value,
+              subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
+            });
+          })
+          .on('mouseleave touchend', function () {
+            setTooltip(null);
+          })
+          .on('click', function () {
+            if (currentView === 'level1' && CLICKABLE_IDS.has(targetId)) {
+              trackCategoryClick(targetId);
+              setCurrentView(targetId as ViewLevel);
+            }
+          });
       });
 
-    // Draw nodes
-    const nodeGroup = svg
-      .append('g')
-      .attr('class', 'sankey-nodes')
-      .selectAll('g')
-      .data(graph.nodes)
-      .join('g')
-      .attr('class', d => {
-        const clickable = currentView === 'level1' && CLICKABLE_IDS.has(d.id);
-        return `sankey-node ${clickable ? 'clickable' : ''}`;
-      });
-
-    // Node rectangles
-    nodeGroup
-      .append('rect')
-      .attr('x', d => d.x0 || 0)
-      .attr('y', d => d.y0 || 0)
-      .attr('height', d => Math.max(2, (d.y1 || 0) - (d.y0 || 0)))
-      .attr('width', d => (d.x1 || 0) - (d.x0 || 0))
-      .attr('fill', d => getBucketColor(d.id))
-      .attr('rx', 5)
-      .attr('ry', 5)
-      .style('opacity', 1)
-      .style('cursor', d => (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) ? 'pointer' : 'default')
-      .on('click', (_, d) => {
-        if (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) {
-          setCurrentView(d.id as ViewLevel);
-        }
-      })
-      .on('mouseenter', function (event, d) {
-        if (d.id === 'all' || (!d.targetLinks || d.targetLinks.length === 0)) return;
-        const isNoPro = d.id === 'nopro';
-        setTooltip({
-          x: event.clientX,
-          y: event.clientY,
-          label: d.label,
-          pct: d.pct || '',
-          count: d.count,
-          subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
+      // Draw nodes (swapped coordinates)
+      const nodeGroup = svg
+        .append('g')
+        .attr('class', 'sankey-nodes')
+        .selectAll('g')
+        .data(graph.nodes)
+        .join('g')
+        .attr('class', d => {
+          const clickable = currentView === 'level1' && CLICKABLE_IDS.has(d.id);
+          return `sankey-node ${clickable ? 'clickable' : ''}`;
         });
-      })
-      .on('mousemove', function (event) {
-        setTooltip(prev => prev ? { ...prev, x: event.clientX, y: event.clientY } : null);
-      })
-      .on('mouseleave', function () {
-        setTooltip(null);
-      });
 
-    // Node labels
-    nodeGroup
-      .append('text')
-      .attr('x', d => {
-        const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
-        return isSource ? (d.x0 || 0) - 14 : (d.x1 || 0) + 14;
-      })
-      .attr('y', d => ((d.y0 || 0) + (d.y1 || 0)) / 2)
-      .attr('dy', '-0.15em')
-      .attr('text-anchor', d => {
-        const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
-        return isSource ? 'end' : 'start';
-      })
-      .style('fill', colors.text.primary)
-      .style('font-size', isMobile ? '8px' : '13px')
-      .style('font-weight', '600')
-      .style('pointer-events', 'none')
-      .each(function (d) {
-        const el = d3.select(this);
-        const label = isMobile ? (d.label.length > 14 ? d.label.slice(0, 12) + '…' : d.label) : d.label;
-        // Split source node labels with parenthetical onto two lines
-        const match = label.match(/^(.+?)(\s*\(.+\))$/);
-        if (match) {
-          el.text('');
-          el.append('tspan').text(match[1]);
-          el.append('tspan')
-            .attr('x', el.attr('x'))
-            .attr('dy', '1.2em')
-            .text(match[2].trim())
-            .style('font-weight', '400')
-            .style('font-size', isMobile ? '7px' : '11px');
-        } else {
-          el.text(label);
-        }
-      });
+      // Node rectangles (swapped: x->y, y->x, width->height, height->width)
+      nodeGroup
+        .append('rect')
+        .attr('x', d => swapX(d.y0 || 0))
+        .attr('y', d => swapY(d.x0 || 0))
+        .attr('width', d => Math.max(2, (d.y1 || 0) - (d.y0 || 0)))
+        .attr('height', d => Math.max(2, (d.x1 || 0) - (d.x0 || 0)))
+        .attr('fill', d => getBucketColor(d.id))
+        .attr('rx', 5)
+        .attr('ry', 5)
+        .style('opacity', 1)
+        .style('cursor', d => (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) ? 'pointer' : 'default')
+        .on('click', (_, d) => {
+          if (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) {
+            setCurrentView(d.id as ViewLevel);
+          }
+        })
+        .on('mouseenter touchstart', function (event, d) {
+          if (d.id === 'all' || (!d.targetLinks || d.targetLinks.length === 0)) return;
+          const isNoPro = d.id === 'nopro';
+          setTooltip({
+            x: event.touches ? event.touches[0].clientX : event.clientX,
+            y: event.touches ? event.touches[0].clientY : event.clientY,
+            label: d.label,
+            pct: d.pct || '',
+            count: d.count,
+            subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
+          });
+        })
+        .on('mouseleave touchend', function () {
+          setTooltip(null);
+        });
 
-    // Count + percentage labels (hide on mobile for source nodes to save space)
-    nodeGroup
-      .append('text')
-      .attr('x', d => {
-        const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
-        return isSource ? (d.x0 || 0) - 14 : (d.x1 || 0) + 14;
-      })
-      .attr('y', d => ((d.y0 || 0) + (d.y1 || 0)) / 2)
-      .attr('dy', d => {
-        const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
-        // Source nodes with two-line labels need more offset
-        const hasParen = d.label.includes('(');
-        return (isSource && hasParen) ? '2.5em' : '1.1em';
-      })
-      .attr('text-anchor', d => {
-        const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
-        return isSource ? 'end' : 'start';
-      })
-      .text(d => {
-        if (isMobile) {
+      // Invisible expanded hit areas for tap targets (min 44px)
+      nodeGroup
+        .append('rect')
+        .attr('x', d => swapX(d.y0 || 0) - 10)
+        .attr('y', d => {
+          const nodeHeight = (d.x1 || 0) - (d.x0 || 0);
+          const minHeight = 44;
+          const extra = Math.max(0, minHeight - nodeHeight) / 2;
+          return swapY(d.x0 || 0) - extra;
+        })
+        .attr('width', d => Math.max(44, (d.y1 || 0) - (d.y0 || 0) + 20))
+        .attr('height', d => {
+          const nodeHeight = (d.x1 || 0) - (d.x0 || 0);
+          return Math.max(44, nodeHeight);
+        })
+        .attr('fill', 'transparent')
+        .style('cursor', d => (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) ? 'pointer' : 'default')
+        .on('click', (_, d) => {
+          if (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) {
+            trackCategoryClick(d.id);
+            setCurrentView(d.id as ViewLevel);
+          }
+        })
+        .on('touchstart', function (event, d) {
+          if (d.id === 'all' || (!d.targetLinks || d.targetLinks.length === 0)) return;
+          event.preventDefault();
+          const isNoPro = d.id === 'nopro';
+          setTooltip({
+            x: event.touches[0].clientX,
+            y: event.touches[0].clientY,
+            label: d.label,
+            pct: d.pct || '',
+            count: d.count,
+            subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
+          });
+        })
+        .on('touchend', function () {
+          setTooltip(null);
+        });
+
+      // Labels — above source nodes, below destination nodes
+      nodeGroup
+        .append('text')
+        .attr('x', d => {
+          const nodeWidth = (d.y1 || 0) - (d.y0 || 0);
+          return swapX(d.y0 || 0) + nodeWidth / 2;
+        })
+        .attr('y', d => {
+          const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
+          return isSource ? swapY(d.x0 || 0) - 10 : swapY(d.x1 || 0) + 14;
+        })
+        .attr('text-anchor', 'middle')
+        .style('fill', colors.text.primary)
+        .style('font-size', '10px')
+        .style('font-weight', '600')
+        .style('pointer-events', 'none')
+        .each(function (d) {
+          const el = d3.select(this);
+          const label = d.label.length > 16 ? d.label.slice(0, 14) + '...' : d.label;
+          const match = label.match(/^(.+?)(\s*\(.+\))$/);
+          if (match) {
+            el.text('');
+            el.append('tspan').text(match[1]);
+            el.append('tspan')
+              .attr('x', el.attr('x'))
+              .attr('dy', '1.2em')
+              .text(match[2].trim())
+              .style('font-weight', '400')
+              .style('font-size', '8px');
+          } else {
+            el.text(label);
+          }
+        });
+
+      // Count / percentage labels
+      nodeGroup
+        .append('text')
+        .attr('x', d => {
+          const nodeWidth = (d.y1 || 0) - (d.y0 || 0);
+          return swapX(d.y0 || 0) + nodeWidth / 2;
+        })
+        .attr('y', d => {
+          const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
+          if (isSource) return swapY(d.x0 || 0) - 24;
+          const hasLabel = d.label.includes('(');
+          return swapY(d.x1 || 0) + (hasLabel ? 36 : 28);
+        })
+        .attr('text-anchor', 'middle')
+        .text(d => {
           const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
           if (isSource) return '';
           return d.pct || '';
-        }
-        const pct = d.pct ? ` (${d.pct})` : '';
-        return `${d.count.toLocaleString()} players${pct}`;
-      })
-      .style('fill', colors.text.muted)
-      .style('font-size', isMobile ? '7px' : '11px')
-      .style('font-weight', '400')
-      .style('pointer-events', 'none');
+        })
+        .style('fill', colors.text.muted)
+        .style('font-size', '9px')
+        .style('font-weight', '400')
+        .style('pointer-events', 'none');
 
-    // "More Data Coming Soon" for nopro node
-    nodeGroup
-      .filter(d => d.id === 'nopro')
-      .append('text')
-      .attr('x', d => (d.x1 || 0) + 14)
-      .attr('y', d => ((d.y0 || 0) + (d.y1 || 0)) / 2)
-      .attr('dy', '2.3em')
-      .attr('text-anchor', 'start')
-      .text('More Data Coming Soon')
-      .style('fill', colors.text.muted)
-      .style('font-size', '10px')
-      .style('font-style', 'italic')
-      .style('pointer-events', 'none');
-  }, [data, dimensions, currentView]);
+    } else {
+      // ===== HORIZONTAL SANKEY (desktop / tablet) =====
+      const isMedium = width < 768;
+      const MARGIN = isMedium
+        ? { top: 15, right: 90, bottom: 10, left: 8 }
+        : DEFAULT_MARGIN;
+
+      const sankeyNodes: SankeyNodeExtra[] = data.nodes.map(n => ({ ...n }));
+      const sankeyLinks: SankeyLinkExtra[] = data.links.map(l => ({
+        source: l.source,
+        target: l.target,
+        value: l.value,
+      }));
+
+      const graph = sankey<SankeyNodeExtra, SankeyLinkExtra>()
+        .nodeId(d => d.id)
+        .nodeWidth(NODE_WIDTH)
+        .nodePadding(NODE_PADDING)
+        .extent([
+          [MARGIN.left, MARGIN.top],
+          [width - MARGIN.right, height - MARGIN.bottom],
+        ])({
+          nodes: sankeyNodes,
+          links: sankeyLinks,
+        });
+
+      // Cap the "No Pro Career" node so it's not proportionally huge
+      const noProNode = graph.nodes.find(n => (n as SNode).id === 'nopro') as SNode | undefined;
+      const otherDestNodes = graph.nodes.filter(n => {
+        const sn = n as SNode;
+        return sn.targetLinks && sn.targetLinks.length > 0 && sn.id !== 'nopro';
+      });
+
+      if (noProNode && otherDestNodes.length > 0) {
+        const maxProHeight = Math.max(...otherDestNodes.map(n => ((n as SNode).y1 || 0) - ((n as SNode).y0 || 0)));
+        const cappedHeight = maxProHeight * 1.5;
+        const currentHeight = (noProNode.y1 || 0) - (noProNode.y0 || 0);
+        if (currentHeight > cappedHeight) {
+          noProNode.y1 = (noProNode.y0 || 0) + cappedHeight;
+        }
+      }
+
+      // Find the actual bottom of all destination nodes after capping
+      const allDestNodes = graph.nodes.filter(n => {
+        const sn = n as SNode;
+        return sn.targetLinks && sn.targetLinks.length > 0;
+      });
+      const maxDestY = allDestNodes.length > 0
+        ? Math.max(...allDestNodes.map(n => (n as SNode).y1 || 0))
+        : Math.max(...graph.nodes.map(n => (n as SNode).y1 || 0));
+
+      // Clamp source nodes to not extend below the last destination
+      graph.nodes.forEach(n => {
+        const sn = n as SNode;
+        const isSource = sn.sourceLinks && sn.sourceLinks.length > 0 && (!sn.targetLinks || sn.targetLinks.length === 0);
+        if (isSource && (sn.y1 || 0) > maxDestY) {
+          sn.y1 = maxDestY;
+        }
+      });
+
+      const actualHeight = maxDestY;
+      svg.attr('height', actualHeight).attr('viewBox', `0 0 ${width} ${actualHeight}`);
+
+      const defs = svg.append('defs');
+
+      // Create gradient for each link
+      graph.links.forEach((link, i) => {
+        const targetNode = link.target as SNode;
+        const targetId = targetNode.id || '';
+        const gradient = defs
+          .append('linearGradient')
+          .attr('id', `link-gradient-${i}`)
+          .attr('gradientUnits', 'userSpaceOnUse')
+          .attr('x1', (link.source as SNode).x1 || 0)
+          .attr('x2', (link.target as SNode).x0 || 0);
+
+        gradient.append('stop').attr('offset', '0%').attr('stop-color', getLinkColor(targetId));
+        gradient.append('stop').attr('offset', '100%').attr('stop-color', getLinkColor(targetId));
+      });
+
+      // Glow filter for the whole diagram
+      const glowFilter = defs.append('filter').attr('id', 'sankey-glow').attr('x', '-20%').attr('y', '-20%').attr('width', '140%').attr('height', '140%');
+      glowFilter.append('feGaussianBlur').attr('stdDeviation', '6').attr('in', 'SourceGraphic').attr('result', 'blur');
+      glowFilter.append('feColorMatrix').attr('in', 'blur').attr('type', 'saturate').attr('values', '1.5').attr('result', 'saturated');
+      const glowMerge = glowFilter.append('feMerge');
+      glowMerge.append('feMergeNode').attr('in', 'saturated');
+      glowMerge.append('feMergeNode').attr('in', 'SourceGraphic');
+
+      // Draw links — single layer, no overlapping glow
+      const linkGroup = svg
+        .append('g')
+        .attr('class', 'sankey-links')
+        .style('filter', 'url(#sankey-glow)')
+        .selectAll('path')
+        .data(graph.links)
+        .join('path')
+        .attr('class', d => {
+          const targetNode = d.target as SNode;
+          const clickable = currentView === 'level1' && CLICKABLE_IDS.has(targetNode.id);
+          return `sankey-link ${clickable ? 'clickable' : ''}`;
+        })
+        .attr('d', sankeyLinkHorizontal())
+        .attr('stroke', (_, i) => `url(#link-gradient-${i})`)
+        .attr('stroke-width', d => Math.max(2, d.width || 0))
+        .style('stroke-opacity', 0.45)
+        .style('cursor', d => {
+          const targetNode = d.target as SNode;
+          return (currentView === 'level1' && CLICKABLE_IDS.has(targetNode.id)) ? 'pointer' : 'default';
+        })
+        .on('mouseenter', function (event, d) {
+          const targetNode = d.target as SNode;
+          linkGroup.style('stroke-opacity', 0.06);
+          d3.select(this).style('stroke-opacity', 0.7);
+
+          const isNoPro = targetNode.id === 'nopro';
+          setTooltip({
+            x: event.clientX,
+            y: event.clientY,
+            label: targetNode.label,
+            pct: targetNode.pct || '',
+            count: targetNode.count || d.value,
+            subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
+          });
+        })
+        .on('mousemove', function (event) {
+          setTooltip(prev => prev ? { ...prev, x: event.clientX, y: event.clientY } : null);
+        })
+        .on('mouseleave', function () {
+          linkGroup.style('stroke-opacity', 0.45);
+          setTooltip(null);
+        })
+        .on('click', function (_, d) {
+          const targetNode = d.target as SNode;
+          if (currentView === 'level1' && CLICKABLE_IDS.has(targetNode.id)) {
+            trackCategoryClick(targetNode.id);
+            setCurrentView(targetNode.id as ViewLevel);
+          }
+        });
+
+      // Draw nodes
+      const nodeGroup = svg
+        .append('g')
+        .attr('class', 'sankey-nodes')
+        .selectAll('g')
+        .data(graph.nodes)
+        .join('g')
+        .attr('class', d => {
+          const clickable = currentView === 'level1' && CLICKABLE_IDS.has(d.id);
+          return `sankey-node ${clickable ? 'clickable' : ''}`;
+        });
+
+      // Node rectangles
+      nodeGroup
+        .append('rect')
+        .attr('x', d => d.x0 || 0)
+        .attr('y', d => d.y0 || 0)
+        .attr('height', d => Math.max(2, (d.y1 || 0) - (d.y0 || 0)))
+        .attr('width', d => (d.x1 || 0) - (d.x0 || 0))
+        .attr('fill', d => getBucketColor(d.id))
+        .attr('rx', 5)
+        .attr('ry', 5)
+        .style('opacity', 1)
+        .style('cursor', d => (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) ? 'pointer' : 'default')
+        .on('click', (_, d) => {
+          if (currentView === 'level1' && CLICKABLE_IDS.has(d.id)) {
+            setCurrentView(d.id as ViewLevel);
+          }
+        })
+        .on('mouseenter', function (event, d) {
+          if (d.id === 'all' || (!d.targetLinks || d.targetLinks.length === 0)) return;
+          const isNoPro = d.id === 'nopro';
+          setTooltip({
+            x: event.clientX,
+            y: event.clientY,
+            label: d.label,
+            pct: d.pct || '',
+            count: d.count,
+            subtitle: isNoPro ? 'More Data Coming Soon' : undefined,
+          });
+        })
+        .on('mousemove', function (event) {
+          setTooltip(prev => prev ? { ...prev, x: event.clientX, y: event.clientY } : null);
+        })
+        .on('mouseleave', function () {
+          setTooltip(null);
+        });
+
+      // Node labels
+      nodeGroup
+        .append('text')
+        .attr('x', d => {
+          const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
+          return isSource ? (d.x0 || 0) - 14 : (d.x1 || 0) + 14;
+        })
+        .attr('y', d => ((d.y0 || 0) + (d.y1 || 0)) / 2)
+        .attr('dy', '-0.15em')
+        .attr('text-anchor', d => {
+          const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
+          return isSource ? 'end' : 'start';
+        })
+        .style('fill', colors.text.primary)
+        .style('font-size', isMedium ? '8px' : '13px')
+        .style('font-weight', '600')
+        .style('pointer-events', 'none')
+        .each(function (d) {
+          const el = d3.select(this);
+          const label = isMedium ? (d.label.length > 14 ? d.label.slice(0, 12) + '\u2026' : d.label) : d.label;
+          // Split source node labels with parenthetical onto two lines
+          const match = label.match(/^(.+?)(\s*\(.+\))$/);
+          if (match) {
+            el.text('');
+            el.append('tspan').text(match[1]);
+            el.append('tspan')
+              .attr('x', el.attr('x'))
+              .attr('dy', '1.2em')
+              .text(match[2].trim())
+              .style('font-weight', '400')
+              .style('font-size', isMedium ? '7px' : '11px');
+          } else {
+            el.text(label);
+          }
+        });
+
+      // Count + percentage labels (hide on mobile for source nodes to save space)
+      nodeGroup
+        .append('text')
+        .attr('x', d => {
+          const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
+          return isSource ? (d.x0 || 0) - 14 : (d.x1 || 0) + 14;
+        })
+        .attr('y', d => ((d.y0 || 0) + (d.y1 || 0)) / 2)
+        .attr('dy', d => {
+          const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
+          // Source nodes with two-line labels need more offset
+          const hasParen = d.label.includes('(');
+          return (isSource && hasParen) ? '2.5em' : '1.1em';
+        })
+        .attr('text-anchor', d => {
+          const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
+          return isSource ? 'end' : 'start';
+        })
+        .text(d => {
+          if (isMedium) {
+            const isSource = d.sourceLinks && d.sourceLinks.length > 0 && (!d.targetLinks || d.targetLinks.length === 0);
+            if (isSource) return '';
+            return d.pct || '';
+          }
+          const pct = d.pct ? ` (${d.pct})` : '';
+          return `${d.count.toLocaleString()} players${pct}`;
+        })
+        .style('fill', colors.text.muted)
+        .style('font-size', isMedium ? '7px' : '11px')
+        .style('font-weight', '400')
+        .style('pointer-events', 'none');
+
+      // "More Data Coming Soon" for nopro node
+      nodeGroup
+        .filter(d => d.id === 'nopro')
+        .append('text')
+        .attr('x', d => (d.x1 || 0) + 14)
+        .attr('y', d => ((d.y0 || 0) + (d.y1 || 0)) / 2)
+        .attr('dy', '2.3em')
+        .attr('text-anchor', 'start')
+        .text('More Data Coming Soon')
+        .style('fill', colors.text.muted)
+        .style('font-size', '10px')
+        .style('font-style', 'italic')
+        .style('pointer-events', 'none');
+    }
+  }, [data, dimensions, currentView, isVertical]);
 
   const handleBack = useCallback(() => {
     trackBackToOverview();
@@ -429,12 +713,12 @@ export default function SankeyDiagram() {
         <ChatAssistant />
 
         {/* Instruction or breadcrumb */}
-        <div className="flex items-center justify-center gap-2 mt-3 mb-2 min-h-[44px] sm:min-h-[32px]">
+        <div className="flex items-center justify-center gap-2 mt-3 mb-2 min-h-[44px]">
           {breadcrumbLabel ? (
             <>
               <button
                 onClick={handleBack}
-                className="flex items-center gap-1.5 text-sm transition-colors hover:opacity-80 py-2"
+                className="flex items-center gap-1.5 text-sm transition-colors hover:opacity-80 py-2 min-h-[44px]"
                 style={{ color: colors.accent }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -448,8 +732,10 @@ export default function SankeyDiagram() {
               </span>
             </>
           ) : (
-            <span className="text-sm flex items-center gap-1.5" style={{ color: colors.text.muted }}>
-              Or click a category to explore further
+            <span className="text-xs sm:text-sm flex items-center gap-1.5" style={{ color: colors.text.muted }}>
+              <span className="hidden sm:inline">Or click</span>
+              <span className="sm:hidden">Tap</span>
+              {' '}a category to explore further
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7" />
               </svg>
@@ -485,7 +771,7 @@ export default function SankeyDiagram() {
           <div
             className="fixed z-50 pointer-events-none px-4 py-3 rounded-xl border"
             style={{
-              left: tooltip.x + 16,
+              left: Math.min(tooltip.x + 16, (typeof window !== 'undefined' ? window.innerWidth - 200 : tooltip.x + 16)),
               top: tooltip.y + 12,
               background: 'rgba(10, 10, 15, 0.92)',
               borderColor: 'rgba(255,255,255,0.1)',

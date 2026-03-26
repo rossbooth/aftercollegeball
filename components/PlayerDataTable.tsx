@@ -294,7 +294,8 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
           {/* Table */}
           {!loading && !error && (
             <>
-              <div className="overflow-x-auto" style={{ WebkitOverflowScrolling: 'touch' }}>
+              {/* Desktop table (md+) */}
+              <div className="hidden md:block overflow-x-auto" style={{ WebkitOverflowScrolling: 'touch' }}>
                 <table className="w-full text-sm min-w-[600px]">
                   <thead>
                     <tr
@@ -427,21 +428,21 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
                         {/* Expanded timeline row */}
                         {expandedPlayer === playerKey && player.timeline.length > 0 && (
                           <tr>
-                            <td colSpan={4} className="px-2 sm:px-6 py-4 sm:py-6" style={{ background: 'rgba(255,255,255,0.02)', borderBottom: '1px solid rgba(255,255,255,0.03)' }}>
-                              <div className="flex items-start gap-0 overflow-x-auto pb-2 justify-start sm:justify-center" style={{ WebkitOverflowScrolling: 'touch' }}>
+                            <td colSpan={4} className="px-6 py-6" style={{ background: 'rgba(255,255,255,0.02)', borderBottom: '1px solid rgba(255,255,255,0.03)' }}>
+                              <div className="flex items-start gap-0 overflow-x-auto pb-2 justify-center" style={{ WebkitOverflowScrolling: 'touch' }}>
                                 {/* College */}
-                                <div className="flex flex-col items-center min-w-[80px] sm:min-w-[100px]">
-                                  <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-xs sm:text-sm font-bold" style={{ background: 'rgba(255,255,255,0.1)', color: colors.text.secondary }}>
+                                <div className="flex flex-col items-center min-w-[100px]">
+                                  <div className="w-10 h-10 rounded-full flex items-center justify-center text-sm font-bold" style={{ background: 'rgba(255,255,255,0.1)', color: colors.text.secondary }}>
                                     🎓
                                   </div>
-                                  <div className="text-xs sm:text-sm mt-1.5 text-center font-medium" style={{ color: colors.text.muted }}>{player.school}</div>
+                                  <div className="text-sm mt-1.5 text-center font-medium" style={{ color: colors.text.muted }}>{player.school}</div>
                                   <div className="text-xs" style={{ color: colors.text.muted }}>{player.lastCollegeSeason}</div>
                                 </div>
                                 {player.timeline.map((entry, idx) => (
                                   <div key={idx} className="flex items-start">
                                     {/* Arrow connector */}
-                                    <div className="flex items-center h-8 sm:h-10">
-                                      <div className="w-6 sm:w-10 h-[2px]" style={{ background: LEVEL_COLORS[entry.lvl] || '#5a5a6e' }} />
+                                    <div className="flex items-center h-10">
+                                      <div className="w-10 h-[2px]" style={{ background: LEVEL_COLORS[entry.lvl] || '#5a5a6e' }} />
                                       <div className="w-0 h-0" style={{
                                         borderTop: '5px solid transparent',
                                         borderBottom: '5px solid transparent',
@@ -449,9 +450,9 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
                                       }} />
                                     </div>
                                     {/* Node */}
-                                    <div className="flex flex-col items-center min-w-[80px] sm:min-w-[100px]">
+                                    <div className="flex flex-col items-center min-w-[100px]">
                                       <div
-                                        className="w-8 h-8 sm:w-10 sm:h-10 rounded-full flex items-center justify-center text-xs font-bold"
+                                        className="w-10 h-10 rounded-full flex items-center justify-center text-xs font-bold"
                                         style={{ background: LEVEL_COLORS[entry.lvl] || '#5a5a6e', color: '#fff' }}
                                       >
                                         {`'${entry.yr.slice(2)}`}
@@ -476,6 +477,172 @@ export default function PlayerDataTable({ currentView }: PlayerDataTableProps) {
                     )}
                   </tbody>
                 </table>
+              </div>
+
+              {/* Mobile card list (< md) */}
+              <div className="md:hidden">
+                {pagedPlayers.length === 0 ? (
+                  <div
+                    className="px-4 py-8 text-center text-sm"
+                    style={{ color: colors.text.muted }}
+                  >
+                    No players found for this selection.
+                  </div>
+                ) : (
+                  pagedPlayers.map((player, i) => {
+                    const playerKey = `${player.name}-${player.school}-${i}`;
+                    const isExpanded = expandedPlayer === playerKey;
+                    return (
+                      <div
+                        key={playerKey}
+                        style={{ borderBottom: '1px solid rgba(255,255,255,0.04)' }}
+                      >
+                        {/* Compact row: Player name + Status tag */}
+                        <button
+                          className="w-full flex items-center justify-between gap-2 px-3 py-3 min-h-[52px] text-left"
+                          style={{ background: isExpanded ? 'rgba(255,255,255,0.02)' : 'transparent' }}
+                          onClick={() => {
+                            const next = isExpanded ? null : playerKey;
+                            if (next) trackPlayerExpand(player.name);
+                            setExpandedPlayer(next);
+                          }}
+                        >
+                          {/* Left: player name with chevron */}
+                          <div className="flex items-center gap-2 min-w-0 flex-1">
+                            <svg
+                              className="w-3 h-3 flex-shrink-0 transition-transform"
+                              style={{
+                                transform: isExpanded ? 'rotate(90deg)' : 'rotate(0deg)',
+                                color: colors.text.muted,
+                              }}
+                              fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            >
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                            <span className="text-sm font-medium truncate" style={{ color: colors.text.primary }}>
+                              {player.name}
+                            </span>
+                          </div>
+
+                          {/* Right: current status tag */}
+                          <div className="flex items-center gap-1.5 flex-shrink-0">
+                            <span
+                              className="inline-block w-2 h-2 rounded-full"
+                              style={{ background: LEVEL_COLORS[player.currentLevel] || '#5a5a6e' }}
+                            />
+                            <span className="text-xs font-medium" style={{ color: LEVEL_COLORS[player.currentLevel] || '#5a5a6e' }}>
+                              {LEVEL_LABELS[player.currentLevel] || player.currentLevel}
+                            </span>
+                            {player.active && player.currentTeam && (
+                              <span className="text-xs truncate max-w-[80px]" style={{ color: colors.text.muted }}>
+                                {player.currentTeam}
+                              </span>
+                            )}
+                          </div>
+                        </button>
+
+                        {/* Expanded detail view */}
+                        {isExpanded && (
+                          <div className="px-3 pb-4 pt-1" style={{ background: 'rgba(255,255,255,0.02)' }}>
+                            {/* Info grid */}
+                            <div className="grid grid-cols-2 gap-x-4 gap-y-2 mb-3">
+                              <div>
+                                <div className="text-xs font-medium mb-0.5" style={{ color: colors.text.muted }}>School</div>
+                                <div className="text-sm" style={{ color: colors.text.secondary }}>{player.school}</div>
+                              </div>
+                              <div>
+                                <div className="text-xs font-medium mb-0.5" style={{ color: colors.text.muted }}>Last College Season</div>
+                                <div className="text-sm" style={{ color: colors.text.secondary }}>{player.lastCollegeSeason}</div>
+                              </div>
+                              <div>
+                                <div className="text-xs font-medium mb-0.5" style={{ color: colors.text.muted }}>First Pro Dest.</div>
+                                <div className="flex items-center gap-1.5">
+                                  <span
+                                    className="w-1.5 h-1.5 rounded-full inline-block"
+                                    style={{ background: DEST_COLORS[player.firstProDest] }}
+                                  />
+                                  <span className="text-sm" style={{ color: DEST_COLORS[player.firstProDest] }}>
+                                    {DEST_LABELS[player.firstProDest]}
+                                  </span>
+                                  {player.firstProTeam && (
+                                    <span className="text-xs" style={{ color: colors.text.muted }}>
+                                      {player.firstProTeam}
+                                    </span>
+                                  )}
+                                </div>
+                              </div>
+                              <div>
+                                <div className="text-xs font-medium mb-0.5" style={{ color: colors.text.muted }}>Current Status</div>
+                                <div className="flex items-center gap-1.5">
+                                  <span
+                                    className="w-2 h-2 rounded-full inline-block"
+                                    style={{ background: LEVEL_COLORS[player.currentLevel] || '#5a5a6e' }}
+                                  />
+                                  <span className="text-sm" style={{ color: LEVEL_COLORS[player.currentLevel] || '#5a5a6e' }}>
+                                    {LEVEL_LABELS[player.currentLevel] || player.currentLevel}
+                                  </span>
+                                </div>
+                                {player.active && player.currentTeam && (
+                                  <div className="text-xs mt-0.5" style={{ color: colors.text.muted }}>{player.currentTeam}</div>
+                                )}
+                                {player.proYears > 0 && (
+                                  <div className="text-xs mt-0.5" style={{ color: colors.text.muted }}>{player.proYears} yr career</div>
+                                )}
+                              </div>
+                            </div>
+
+                            {/* Career timeline */}
+                            {player.timeline.length > 0 && (
+                              <div className="mt-2">
+                                <div className="text-xs font-medium mb-2" style={{ color: colors.text.muted }}>Career Timeline</div>
+                                <div className="flex items-start gap-0 overflow-x-auto pb-2" style={{ WebkitOverflowScrolling: 'touch' }}>
+                                  {/* College */}
+                                  <div className="flex flex-col items-center min-w-[70px]">
+                                    <div className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold" style={{ background: 'rgba(255,255,255,0.1)', color: colors.text.secondary }}>
+                                      🎓
+                                    </div>
+                                    <div className="text-xs mt-1 text-center font-medium max-w-[70px] truncate" style={{ color: colors.text.muted }}>{player.school}</div>
+                                    <div className="text-xs" style={{ color: colors.text.muted }}>{player.lastCollegeSeason}</div>
+                                  </div>
+                                  {player.timeline.map((entry, idx) => (
+                                    <div key={idx} className="flex items-start">
+                                      {/* Arrow connector */}
+                                      <div className="flex items-center h-8">
+                                        <div className="w-4 h-[2px]" style={{ background: LEVEL_COLORS[entry.lvl] || '#5a5a6e' }} />
+                                        <div className="w-0 h-0" style={{
+                                          borderTop: '4px solid transparent',
+                                          borderBottom: '4px solid transparent',
+                                          borderLeft: `5px solid ${LEVEL_COLORS[entry.lvl] || '#5a5a6e'}`,
+                                        }} />
+                                      </div>
+                                      {/* Node */}
+                                      <div className="flex flex-col items-center min-w-[70px]">
+                                        <div
+                                          className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold"
+                                          style={{ background: LEVEL_COLORS[entry.lvl] || '#5a5a6e', color: '#fff' }}
+                                        >
+                                          {`'${entry.yr.slice(2)}`}
+                                        </div>
+                                        <div className="text-xs mt-1 font-medium text-center" style={{ color: LEVEL_COLORS[entry.lvl] || '#5a5a6e' }}>
+                                          {LEVEL_LABELS[entry.lvl] || entry.lvl}
+                                        </div>
+                                        {entry.tm && (
+                                          <div className="text-xs text-center max-w-[70px] truncate" style={{ color: colors.text.muted }}>
+                                            {entry.tm}
+                                          </div>
+                                        )}
+                                      </div>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })
+                )}
               </div>
 
               {/* Pagination */}
