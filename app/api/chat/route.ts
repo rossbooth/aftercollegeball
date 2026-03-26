@@ -92,11 +92,12 @@ ${context}`;
       },
     });
 
-    // Retry up to 3 times with backoff for rate limits
+    // Retry up to 4 times with longer backoff for rate limits
     let response: Response | null = null;
-    for (let attempt = 0; attempt < 3; attempt++) {
+    const delays = [0, 5000, 15000, 30000];
+    for (let attempt = 0; attempt < 4; attempt++) {
       if (attempt > 0) {
-        await new Promise(r => setTimeout(r, 2000 * attempt));
+        await new Promise(r => setTimeout(r, delays[attempt]));
       }
       response = await fetch(
         `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent?key=${apiKey}`,
@@ -106,7 +107,7 @@ ${context}`;
           body: requestBody,
         }
       );
-      if (response.ok || response.status !== 429) break;
+      if (response.ok || (response.status !== 429 && response.status !== 503)) break;
     }
 
     if (!response || !response.ok) {
