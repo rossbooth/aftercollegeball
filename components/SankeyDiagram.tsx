@@ -750,19 +750,7 @@ export default function SankeyDiagram() {
         .style('font-weight', '400')
         .style('pointer-events', 'none');
 
-      // "More Data Coming Soon" for nopro node
-      nodeGroup
-        .filter(d => d.id === 'nopro')
-        .append('text')
-        .attr('x', d => (d.x1 || 0) + 14)
-        .attr('y', d => ((d.y0 || 0) + (d.y1 || 0)) / 2)
-        .attr('dy', '2.3em')
-        .attr('text-anchor', 'start')
-        .text('More Data Coming Soon')
-        .style('fill', colors.text.muted)
-        .style('font-size', '10px')
-        .style('font-style', 'italic')
-        .style('pointer-events', 'none');
+      // "More Data Coming Soon" only in tooltip for nopro, not on diagram
     }
   }, [data, dimensions, currentView, isVertical]);
 
