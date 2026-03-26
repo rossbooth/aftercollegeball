@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/* Prevent iOS Safari from zooming on input focus */
+@supports (-webkit-touch-callout: none) {
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+}
+
 :root {
   --background: #0a0a12;
   --foreground: #e2e4f0;
