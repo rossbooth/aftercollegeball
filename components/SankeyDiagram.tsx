@@ -114,14 +114,26 @@ export default function SankeyDiagram() {
     isTouchRef.current = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
   }, []);
 
-  // Block clicks for 800ms after any view change
+  const tooltipSuppressRef = useRef(false);
+
+  // Guarded tooltip setter — ignores calls during suppression period
+  const safeSetTooltip = useCallback((val: typeof tooltip) => {
+    if (tooltipSuppressRef.current) return;
+    setTooltip(val);
+  }, []);
+
+  // Block clicks AND tooltips for 800ms after any view change
   const safeSetView = useCallback((id: ViewLevel) => {
     navGuardRef.current = true;
+    tooltipSuppressRef.current = true;
     tappedIdRef.current = null;
     setTappedId(null);
     setTooltip(null);
     setCurrentView(id);
-    setTimeout(() => { navGuardRef.current = false; }, 800);
+    setTimeout(() => {
+      navGuardRef.current = false;
+      tooltipSuppressRef.current = false;
+    }, 800);
   }, []);
 
   // Unified tap handler: first tap = tooltip, second tap on same = navigate
@@ -319,6 +331,7 @@ export default function SankeyDiagram() {
           .on('mouseenter', function (event) {
             event.preventDefault();
             const isNoPro = targetId === 'nopro';
+            if (tooltipSuppressRef.current) return;
             setTooltip({
               x: event.touches ? event.touches[0].clientX : event.clientX,
               y: event.touches ? event.touches[0].clientY : event.clientY,
@@ -374,6 +387,7 @@ export default function SankeyDiagram() {
           }
         })
         .on('mouseenter', function (event, d) {
+          if (tooltipSuppressRef.current) return;
           if (d.id === 'all' || (!d.targetLinks || d.targetLinks.length === 0)) return;
           const isNoPro = d.id === 'nopro';
           setTooltip({
@@ -584,6 +598,7 @@ export default function SankeyDiagram() {
         })
         .on('mouseenter', function (event, d) {
           const targetNode = d.target as SNode;
+          if (tooltipSuppressRef.current) return;
           linkGroup.style('stroke-opacity', 0.06);
           d3.select(this).style('stroke-opacity', 0.7);
 
@@ -648,6 +663,7 @@ export default function SankeyDiagram() {
           }
         })
         .on('mouseenter', function (event, d) {
+          if (tooltipSuppressRef.current) return;
           if (d.id === 'all' || (!d.targetLinks || d.targetLinks.length === 0)) return;
           const isNoPro = d.id === 'nopro';
           setTooltip({
