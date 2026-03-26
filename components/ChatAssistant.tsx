@@ -383,7 +383,7 @@ export default function ChatAssistant() {
         )}
 
         {/* Input bar — always visible */}
-        <div className="p-2 flex flex-row gap-2">
+        <div className="p-2 flex flex-row gap-2" style={{ maxWidth: '100vw', overflow: 'hidden' }}>
           <input
             type="text"
             value={input}
@@ -396,11 +396,13 @@ export default function ChatAssistant() {
               }
             }}
             onFocus={() => setIsOpen(true)}
-            placeholder='Ask about stats, careers, or destinations...'
-            className="chat-input flex-1 bg-transparent px-3 py-2.5 rounded-xl text-sm border min-w-0 w-full min-h-[44px]"
+            placeholder='Ask a question...'
+            className="chat-input flex-1 bg-transparent px-3 py-2.5 rounded-xl text-sm border min-h-[44px]"
             style={{
               color: colors.text.primary,
               borderColor: 'rgba(255,255,255,0.08)',
+              minWidth: 0,
+              width: '100%',
             }}
           />
           <button
@@ -409,8 +411,8 @@ export default function ChatAssistant() {
               setIsOpen(true);
               handleSubmit(input);
             }}
-            className="px-4 py-2.5 rounded-xl text-sm font-medium transition-all hover:opacity-80 flex-shrink-0 min-h-[44px]"
-            style={{ background: '#d4a04a', color: '#fff' }}
+            className="px-4 py-2.5 rounded-xl text-sm font-medium transition-all hover:opacity-80 min-h-[44px]"
+            style={{ background: '#d4a04a', color: '#fff', flexShrink: 0 }}
           >
             Ask
           </button>

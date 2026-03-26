@@ -122,17 +122,13 @@ export default function SankeyDiagram() {
     if (!containerRef.current) return;
     const observer = new ResizeObserver(entries => {
       const containerWidth = entries[0].contentRect.width;
-      const vertical = containerWidth < 640;
-      setIsVertical(vertical);
+      setIsVertical(false); // Always horizontal
 
-      if (vertical) {
-        // Vertical layout: use full container width, tall height
-        const svgWidth = Math.max(300, containerWidth);
-        const svgHeight = 700;
-        setDimensions({ width: svgWidth, height: svgHeight });
-      } else {
-        // Horizontal layout (original)
-        const svgWidth = containerWidth < 768
+      {
+        // Horizontal layout — scale to fit container
+        const svgWidth = containerWidth < 640
+          ? Math.max(300, containerWidth)
+          : containerWidth < 768
           ? Math.max(320, containerWidth)
           : Math.max(700, containerWidth);
         const svgHeight = containerWidth < 768
