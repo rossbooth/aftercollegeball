@@ -104,15 +104,20 @@ export default function SankeyDiagram() {
   const [isVertical, setIsVertical] = useState(false);
   const navGuardRef = useRef(false);
   const isTouchRef = useRef(false);
+  const tappedIdRef = useRef<string | null>(null);
+
+  // Keep ref in sync with state
+  useEffect(() => { tappedIdRef.current = tappedId; }, [tappedId]);
 
   // Detect touch device
   useEffect(() => {
     isTouchRef.current = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
   }, []);
 
-  // Block clicks for 800ms after any view change to prevent touch event bleed
+  // Block clicks for 800ms after any view change
   const safeSetView = useCallback((id: ViewLevel) => {
     navGuardRef.current = true;
+    tappedIdRef.current = null;
     setTappedId(null);
     setTooltip(null);
     setCurrentView(id);
@@ -125,12 +130,14 @@ export default function SankeyDiagram() {
     if (currentView !== 'level1' || !CLICKABLE_IDS.has(id)) return;
 
     if (isTouchRef.current) {
-      if (tappedId === id) {
+      // Use ref for immediate read (state may be stale in closure)
+      if (tappedIdRef.current === id) {
         // Second tap — navigate
         trackCategoryClick(id);
         safeSetView(id as ViewLevel);
       } else {
         // First tap — show tooltip
+        tappedIdRef.current = id;
         setTappedId(id);
         setTooltip(tooltipData);
       }
@@ -139,21 +146,21 @@ export default function SankeyDiagram() {
       trackCategoryClick(id);
       safeSetView(id as ViewLevel);
     }
-  }, [currentView, tappedId, safeSetView]);
+  }, [currentView, safeSetView]);
 
   // Clear tapped state when tapping outside the SVG
   useEffect(() => {
     const handleTouchOutside = (e: TouchEvent) => {
-      if (!tappedId) return;
-      // Don't clear if tapping inside the SVG
+      if (!tappedIdRef.current) return;
       const svg = svgRef.current;
       if (svg && svg.contains(e.target as Node)) return;
+      tappedIdRef.current = null;
       setTappedId(null);
       setTooltip(null);
     };
     document.addEventListener('touchstart', handleTouchOutside, { passive: true });
     return () => document.removeEventListener('touchstart', handleTouchOutside);
-  }, [tappedId]);
+  }, []);
 
   // Load data based on current view
   useEffect(() => {
